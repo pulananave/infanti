@@ -8,6 +8,8 @@
   "characters": [
     {
       "id": "rafog",
+      "icon": "assets/images/characters/Rafog/Icon/ICONE_RAFOG.svg",
+      "iconActive": "assets/images/characters/Rafog/Icon/ICONE_RAFOG_ATIVO.svg",
       "boxDirection": "right",
       "instruments": [
         {
@@ -54,6 +56,8 @@
     },
     {
       "id": "zoem",
+      "icon": "assets/images/characters/Zoem/Icon/ICONE_ZOEM.svg",
+      "iconActive": "assets/images/characters/Zoem/Icon/ICONE_ZOEM_ATIVO.svg",
       "boxDirection": "middle",
       "instruments": [
         {
@@ -90,6 +94,8 @@
     },
     {
       "id": "teewong",
+      "icon": "assets/images/characters/Teewong/Icon/ICONE_TEEWONG.svg",
+      "iconActive": "assets/images/characters/Teewong/Icon/ICONE-TEEWONG-ATIVO.svg",
       "boxDirection": "left",
       "instruments": [
         {

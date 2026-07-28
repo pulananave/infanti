@@ -11,6 +11,8 @@ export interface InstrumentConfig {
 
 export interface CharacterConfig {
   id: string;
+  icon: string;
+  iconActive: string;
   boxDirection: 'left' | 'middle' | 'right';
   instruments: InstrumentConfig[];
 }

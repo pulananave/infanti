@@ -144,14 +144,14 @@ async function startStage(pack: PackConfig): Promise<void> {
   app.innerHTML = '';
 
   const stageLayout = el('div', { style: `
-    display: grid; grid-template-columns: 1fr 200px;
+    display: flex; flex-direction: column;
     width: 100%; height: 100%; background: #e6e6e6;
     font-family: 'Nunito', sans-serif;
   `});
 
-  // Stage area (left)
+  // Stage area (top, fills remaining space)
   const stageArea = el('div', { class: 'stage-area', style: `
-    position: relative; overflow: hidden;
+    flex: 1; position: relative; overflow: hidden;
     background: linear-gradient(180deg, #f0f0f0 0%, #ddd 100%);
   `});
 
@@ -167,29 +167,29 @@ async function startStage(pack: PackConfig): Promise<void> {
   };
   dragSystem.registerDropTarget(stageTarget);
 
-  // Timeline bar
-  const timeline = createTimeline();
-  stageArea.appendChild(timeline);
-
-  // Control buttons
+  // Control buttons (top-right of stage, stays in place)
   const controls = createControlButtons(pack, stageArea);
-  stageLayout.appendChild(stageArea);
-  stageLayout.appendChild(controls);
+  stageArea.appendChild(controls);
 
-  // Character sidebar (right)
-  const sidebar = el('div', { style: `
-    display: flex; flex-direction: column; align-items: center;
-    background: #d0d0d0; padding: 10px; gap: 10px; overflow-y: auto;
-    border-left: 2px solid #bbb;
+  // Character shelf (bottom)
+  const shelf = el('div', { style: `
+    display: flex; flex-direction: row; align-items: center; justify-content: center;
+    background: #c0c0c0; padding: 8px 16px; gap: 16px;
+    border-top: 2px solid #aaa; min-height: 100px; flex-shrink: 0;
+    overflow-x: auto;
   `});
 
   for (const charConfig of pack.characters) {
     const charInstance = await createCharacter(charConfig, stageArea);
     characters.push(charInstance);
-    sidebar.appendChild(charInstance.element);
+    shelf.appendChild(charInstance.element);
   }
 
-  stageLayout.appendChild(sidebar);
+  // Timeline bar (above shelf)
+  const timeline = createTimeline();
+  stageLayout.appendChild(stageArea);
+  stageLayout.appendChild(timeline);
+  stageLayout.appendChild(shelf);
   app.appendChild(stageLayout);
 
   // Pointer events for drag
@@ -257,16 +257,29 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
     allInstruments.set(inst.id, inst);
   }
 
-  // Character button
+  // Character button with monster icon
   const charBtn = el('div', { style: `
     width: 80px; height: 80px; border-radius: 50%;
     background: #475af3; color: white;
     display: flex; align-items: center; justify-content: center;
-    font-size: 14px; font-weight: bold; cursor: pointer;
+    cursor: pointer;
     box-shadow: 0 4px 12px rgba(71,90,243,0.4);
     transition: transform 0.2s;
-    text-transform: capitalize;
-  ` }, config.id);
+    overflow: hidden;
+  ` });
+
+  const charImg = el('img', {
+    src: config.icon,
+    style: 'width: 70px; height: 70px; object-fit: contain; pointer-events: none;',
+    draggable: 'false',
+  });
+  charImg.onerror = () => {
+    charImg.style.display = 'none';
+    charBtn.textContent = config.id.charAt(0).toUpperCase();
+    charBtn.style.fontSize = '24px';
+    charBtn.style.fontWeight = 'bold';
+  };
+  charBtn.appendChild(charImg);
 
   const instrumentBox = el('div', { style: `
     display: none; position: absolute; z-index: 100;
@@ -338,7 +351,7 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
       instrumentBox.style.display = 'none';
       charInstance.instrumentsVisible = false;
     } else {
-      // Position box above character
+      // Position box above character (opens upward since shelf is at bottom)
       const rect = charBtn.getBoundingClientRect();
       instrumentBox.style.display = 'flex';
       instrumentBox.style.bottom = '90px';
