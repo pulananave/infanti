@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "teewong_orgao-0.png",
+			"size": {
+				"w": 1190,
+				"h": 592
+			},
+			"sprites": [
+				{
+					"filename": "TEEWONG_ORGAO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 230,
+						"h": 294
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "TEEWONG_ORGAO_00002.png",
+					"region": {
+						"x": 239,
+						"y": 1,
+						"w": 234,
+						"h": 289
+					},
+					"margin": {
+						"x": 0,
+						"y": 5,
+						"w": 12,
+						"h": 21
+					}
+				},
+				{
+					"filename": "TEEWONG_ORGAO_00004.png",
+					"region": {
+						"x": 477,
+						"y": 1,
+						"w": 236,
+						"h": 279
+					},
+					"margin": {
+						"x": 4,
+						"y": 15,
+						"w": 10,
+						"h": 31
+					}
+				},
+				{
+					"filename": "TEEWONG_ORGAO_00006.png",
+					"region": {
+						"x": 715,
+						"y": 1,
+						"w": 234,
+						"h": 279
+					},
+					"margin": {
+						"x": 7,
+						"y": 15,
+						"w": 12,
+						"h": 31
+					}
+				},
+				{
+					"filename": "TEEWONG_ORGAO_00008.png",
+					"region": {
+						"x": 953,
+						"y": 1,
+						"w": 222,
+						"h": 289
+					},
+					"margin": {
+						"x": 17,
+						"y": 5,
+						"w": 24,
+						"h": 21
+					}
+				},
+				{
+					"filename": "TEEWONG_ORGAO_00010.png",
+					"region": {
+						"x": 1,
+						"y": 297,
+						"w": 219,
+						"h": 294
+					},
+					"margin": {
+						"x": 20,
+						"y": 0,
+						"w": 27,
+						"h": 16
+					}
+				},
+				{
+					"filename": "TEEWONG_ORGAO_00012.png",
+					"region": {
+						"x": 239,
+						"y": 297,
+						"w": 221,
+						"h": 288
+					},
+					"margin": {
+						"x": 18,
+						"y": 5,
+						"w": 25,
+						"h": 22
+					}
+				},
+				{
+					"filename": "TEEWONG_ORGAO_00014.png",
+					"region": {
+						"x": 477,
+						"y": 297,
+						"w": 234,
+						"h": 278
+					},
+					"margin": {
+						"x": 7,
+						"y": 15,
+						"w": 12,
+						"h": 32
+					}
+				},
+				{
+					"filename": "TEEWONG_ORGAO_00016.png",
+					"region": {
+						"x": 715,
+						"y": 297,
+						"w": 236,
+						"h": 279
+					},
+					"margin": {
+						"x": 4,
+						"y": 15,
+						"w": 10,
+						"h": 31
+					}
+				},
+				{
+					"filename": "TEEWONG_ORGAO_00018.png",
+					"region": {
+						"x": 953,
+						"y": 297,
+						"w": 234,
+						"h": 289
+					},
+					"margin": {
+						"x": 0,
+						"y": 5,
+						"w": 12,
+						"h": 21
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:011a4624d3fb7ea5f017b1c759408311:9d0a50176442db4a6ec55b4f8efa0c72:30acd5dc57c8509864b60834622c0178$"
+	}
+}

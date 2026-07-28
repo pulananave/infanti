@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "rafog_violino-0.png",
+			"size": {
+				"w": 1520,
+				"h": 1480
+			},
+			"sprites": [
+				{
+					"filename": "RAFOG_VIOLINO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 301,
+						"h": 350
+					},
+					"margin": {
+						"x": 78,
+						"y": 43,
+						"w": 89,
+						"h": 53
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00002.png",
+					"region": {
+						"x": 305,
+						"y": 1,
+						"w": 300,
+						"h": 351
+					},
+					"margin": {
+						"x": 76,
+						"y": 41,
+						"w": 90,
+						"h": 52
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00004.png",
+					"region": {
+						"x": 609,
+						"y": 1,
+						"w": 296,
+						"h": 356
+					},
+					"margin": {
+						"x": 73,
+						"y": 36,
+						"w": 94,
+						"h": 47
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00006.png",
+					"region": {
+						"x": 913,
+						"y": 1,
+						"w": 292,
+						"h": 361
+					},
+					"margin": {
+						"x": 68,
+						"y": 30,
+						"w": 98,
+						"h": 42
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00008.png",
+					"region": {
+						"x": 1217,
+						"y": 1,
+						"w": 287,
+						"h": 367
+					},
+					"margin": {
+						"x": 65,
+						"y": 25,
+						"w": 103,
+						"h": 36
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00010.png",
+					"region": {
+						"x": 1,
+						"y": 371,
+						"w": 285,
+						"h": 368
+					},
+					"margin": {
+						"x": 64,
+						"y": 24,
+						"w": 105,
+						"h": 35
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00012.png",
+					"region": {
+						"x": 305,
+						"y": 371,
+						"w": 286,
+						"h": 366
+					},
+					"margin": {
+						"x": 66,
+						"y": 25,
+						"w": 104,
+						"h": 37
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00014.png",
+					"region": {
+						"x": 609,
+						"y": 371,
+						"w": 293,
+						"h": 362
+					},
+					"margin": {
+						"x": 67,
+						"y": 30,
+						"w": 97,
+						"h": 41
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00016.png",
+					"region": {
+						"x": 913,
+						"y": 371,
+						"w": 297,
+						"h": 356
+					},
+					"margin": {
+						"x": 72,
+						"y": 36,
+						"w": 93,
+						"h": 47
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00018.png",
+					"region": {
+						"x": 1217,
+						"y": 371,
+						"w": 300,
+						"h": 351
+					},
+					"margin": {
+						"x": 76,
+						"y": 41,
+						"w": 90,
+						"h": 52
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00020.png",
+					"region": {
+						"x": 1,
+						"y": 741,
+						"w": 301,
+						"h": 349
+					},
+					"margin": {
+						"x": 78,
+						"y": 43,
+						"w": 89,
+						"h": 54
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00022.png",
+					"region": {
+						"x": 305,
+						"y": 741,
+						"w": 301,
+						"h": 351
+					},
+					"margin": {
+						"x": 79,
+						"y": 41,
+						"w": 89,
+						"h": 52
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00024.png",
+					"region": {
+						"x": 609,
+						"y": 741,
+						"w": 301,
+						"h": 357
+					},
+					"margin": {
+						"x": 82,
+						"y": 36,
+						"w": 89,
+						"h": 46
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00026.png",
+					"region": {
+						"x": 913,
+						"y": 741,
+						"w": 300,
+						"h": 362
+					},
+					"margin": {
+						"x": 87,
+						"y": 30,
+						"w": 90,
+						"h": 41
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00028.png",
+					"region": {
+						"x": 1217,
+						"y": 741,
+						"w": 299,
+						"h": 367
+					},
+					"margin": {
+						"x": 90,
+						"y": 25,
+						"w": 91,
+						"h": 36
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00030.png",
+					"region": {
+						"x": 1,
+						"y": 1111,
+						"w": 299,
+						"h": 368
+					},
+					"margin": {
+						"x": 91,
+						"y": 24,
+						"w": 91,
+						"h": 35
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00032.png",
+					"region": {
+						"x": 305,
+						"y": 1111,
+						"w": 299,
+						"h": 368
+					},
+					"margin": {
+						"x": 90,
+						"y": 25,
+						"w": 91,
+						"h": 35
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00034.png",
+					"region": {
+						"x": 609,
+						"y": 1111,
+						"w": 301,
+						"h": 362
+					},
+					"margin": {
+						"x": 86,
+						"y": 30,
+						"w": 89,
+						"h": 41
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00036.png",
+					"region": {
+						"x": 913,
+						"y": 1111,
+						"w": 301,
+						"h": 356
+					},
+					"margin": {
+						"x": 82,
+						"y": 36,
+						"w": 89,
+						"h": 47
+					}
+				},
+				{
+					"filename": "RAFOG_VIOLINO_00038.png",
+					"region": {
+						"x": 1217,
+						"y": 1111,
+						"w": 302,
+						"h": 351
+					},
+					"margin": {
+						"x": 78,
+						"y": 41,
+						"w": 88,
+						"h": 52
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:18cc1de8b734d1f4449ef089041a34b0:5d1e971af567b618f36572b305c2f095:43b716ace7bb147d5a7b515d62fb9c41$"
+	}
+}

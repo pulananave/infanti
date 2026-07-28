@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "esper_trompete-0.png",
+			"size": {
+				"w": 1670,
+				"h": 540
+			},
+			"sprites": [
+				{
+					"filename": "ESPER_TROMPETE_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 290,
+						"h": 240
+					},
+					"margin": {
+						"x": 24,
+						"y": 29,
+						"w": 42,
+						"h": 29
+					}
+				},
+				{
+					"filename": "ESPER_TROMPETE_00002.png",
+					"region": {
+						"x": 335,
+						"y": 1,
+						"w": 317,
+						"h": 233
+					},
+					"margin": {
+						"x": 11,
+						"y": 36,
+						"w": 15,
+						"h": 36
+					}
+				},
+				{
+					"filename": "ESPER_TROMPETE_00004.png",
+					"region": {
+						"x": 669,
+						"y": 1,
+						"w": 324,
+						"h": 223
+					},
+					"margin": {
+						"x": 8,
+						"y": 46,
+						"w": 8,
+						"h": 46
+					}
+				},
+				{
+					"filename": "ESPER_TROMPETE_00006.png",
+					"region": {
+						"x": 1003,
+						"y": 1,
+						"w": 325,
+						"h": 225
+					},
+					"margin": {
+						"x": 7,
+						"y": 44,
+						"w": 7,
+						"h": 44
+					}
+				},
+				{
+					"filename": "ESPER_TROMPETE_00008.png",
+					"region": {
+						"x": 1337,
+						"y": 1,
+						"w": 290,
+						"h": 245
+					},
+					"margin": {
+						"x": 23,
+						"y": 24,
+						"w": 42,
+						"h": 24
+					}
+				},
+				{
+					"filename": "ESPER_TROMPETE_00010.png",
+					"region": {
+						"x": 1,
+						"y": 271,
+						"w": 270,
+						"h": 268
+					},
+					"margin": {
+						"x": 28,
+						"y": 1,
+						"w": 62,
+						"h": 1
+					}
+				},
+				{
+					"filename": "ESPER_TROMPETE_00012.png",
+					"region": {
+						"x": 335,
+						"y": 271,
+						"w": 298,
+						"h": 246
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 34,
+						"h": 23
+					}
+				},
+				{
+					"filename": "ESPER_TROMPETE_00014.png",
+					"region": {
+						"x": 669,
+						"y": 271,
+						"w": 332,
+						"h": 225
+					},
+					"margin": {
+						"x": 0,
+						"y": 44,
+						"w": 0,
+						"h": 44
+					}
+				},
+				{
+					"filename": "ESPER_TROMPETE_00016.png",
+					"region": {
+						"x": 1003,
+						"y": 271,
+						"w": 332,
+						"h": 223
+					},
+					"margin": {
+						"x": 0,
+						"y": 46,
+						"w": 0,
+						"h": 46
+					}
+				},
+				{
+					"filename": "ESPER_TROMPETE_00018.png",
+					"region": {
+						"x": 1337,
+						"y": 271,
+						"w": 314,
+						"h": 233
+					},
+					"margin": {
+						"x": 9,
+						"y": 36,
+						"w": 18,
+						"h": 36
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:6e7718d1d014f34ce884696a4053e71b:32d678d2255ff47f506965c8590778ed:834a6504985aaa68c602e17e36fe3aae$"
+	}
+}

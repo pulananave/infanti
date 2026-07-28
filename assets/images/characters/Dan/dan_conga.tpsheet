@@ -1,0 +1,258 @@
+{
+	"textures": [
+		{
+			"image": "dan_conga-0.png",
+			"size": {
+				"w": 1560,
+				"h": 960
+			},
+			"sprites": [
+				{
+					"filename": "DAN_CONGA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 302,
+						"h": 310
+					},
+					"margin": {
+						"x": 82,
+						"y": 9,
+						"w": 164,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00016.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 302,
+						"h": 310
+					},
+					"margin": {
+						"x": 82,
+						"y": 9,
+						"w": 164,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00002.png",
+					"region": {
+						"x": 313,
+						"y": 1,
+						"w": 299,
+						"h": 314
+					},
+					"margin": {
+						"x": 86,
+						"y": 5,
+						"w": 167,
+						"h": 5
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00004.png",
+					"region": {
+						"x": 625,
+						"y": 1,
+						"w": 297,
+						"h": 318
+					},
+					"margin": {
+						"x": 89,
+						"y": 1,
+						"w": 169,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00006.png",
+					"region": {
+						"x": 937,
+						"y": 1,
+						"w": 303,
+						"h": 311
+					},
+					"margin": {
+						"x": 84,
+						"y": 8,
+						"w": 163,
+						"h": 8
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00008.png",
+					"region": {
+						"x": 1249,
+						"y": 1,
+						"w": 310,
+						"h": 305
+					},
+					"margin": {
+						"x": 79,
+						"y": 14,
+						"w": 156,
+						"h": 14
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00024.png",
+					"region": {
+						"x": 1249,
+						"y": 1,
+						"w": 310,
+						"h": 305
+					},
+					"margin": {
+						"x": 79,
+						"y": 14,
+						"w": 156,
+						"h": 14
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00010.png",
+					"region": {
+						"x": 1,
+						"y": 321,
+						"w": 302,
+						"h": 311
+					},
+					"margin": {
+						"x": 80,
+						"y": 8,
+						"w": 164,
+						"h": 8
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00012.png",
+					"region": {
+						"x": 313,
+						"y": 321,
+						"w": 297,
+						"h": 318
+					},
+					"margin": {
+						"x": 80,
+						"y": 1,
+						"w": 169,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00014.png",
+					"region": {
+						"x": 625,
+						"y": 321,
+						"w": 299,
+						"h": 314
+					},
+					"margin": {
+						"x": 81,
+						"y": 5,
+						"w": 167,
+						"h": 5
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00018.png",
+					"region": {
+						"x": 937,
+						"y": 321,
+						"w": 299,
+						"h": 314
+					},
+					"margin": {
+						"x": 86,
+						"y": 5,
+						"w": 167,
+						"h": 5
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00020.png",
+					"region": {
+						"x": 1249,
+						"y": 321,
+						"w": 297,
+						"h": 318
+					},
+					"margin": {
+						"x": 89,
+						"y": 1,
+						"w": 169,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00022.png",
+					"region": {
+						"x": 1,
+						"y": 641,
+						"w": 303,
+						"h": 311
+					},
+					"margin": {
+						"x": 84,
+						"y": 8,
+						"w": 163,
+						"h": 8
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00026.png",
+					"region": {
+						"x": 313,
+						"y": 641,
+						"w": 302,
+						"h": 311
+					},
+					"margin": {
+						"x": 80,
+						"y": 8,
+						"w": 164,
+						"h": 8
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00028.png",
+					"region": {
+						"x": 625,
+						"y": 641,
+						"w": 297,
+						"h": 318
+					},
+					"margin": {
+						"x": 80,
+						"y": 1,
+						"w": 169,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_CONGA_00030.png",
+					"region": {
+						"x": 937,
+						"y": 641,
+						"w": 299,
+						"h": 314
+					},
+					"margin": {
+						"x": 81,
+						"y": 5,
+						"w": 167,
+						"h": 5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:210bb27f4debe766dcdfed1d46fdb340:b988562eeb4a4555dd886a062cf04dd3:3126293373a9aaaee580997b7fca2c9e$"
+	}
+}

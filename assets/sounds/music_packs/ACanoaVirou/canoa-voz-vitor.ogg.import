@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-voz-vitor.ogg-ca3c329330fb819cf67f91d03a062ba2.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-voz-vitor.ogg"
+dest_files=[ "res://.import/canoa-voz-vitor.ogg-ca3c329330fb819cf67f91d03a062ba2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

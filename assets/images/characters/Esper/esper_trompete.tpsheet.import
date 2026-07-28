@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/esper_trompete.tpsheet-85dd8e76206f7303d15d694e5e4ce907.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00000.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00002.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00004.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00006.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00008.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00010.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00012.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00014.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00016.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00018.tres" ]
+
+source_file="res://assets/images/characters/Esper/esper_trompete.tpsheet"
+dest_files=[ "res://.import/esper_trompete.tpsheet-85dd8e76206f7303d15d694e5e4ce907.res", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00000.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00002.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00004.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00006.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00008.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00010.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00012.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00014.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00016.tres", "res://assets/images/characters/Esper/esper_trompete.sprites/ESPER_TROMPETE_00018.tres" ]
+
+[params]
+

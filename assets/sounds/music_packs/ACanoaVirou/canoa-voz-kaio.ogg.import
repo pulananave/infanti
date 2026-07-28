@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-voz-kaio.ogg-0d3d66b10c84101ead808b894c143a8c.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-voz-kaio.ogg"
+dest_files=[ "res://.import/canoa-voz-kaio.ogg-0d3d66b10c84101ead808b894c143a8c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

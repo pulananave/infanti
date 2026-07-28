@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "ohle_sanfona-0.png",
+			"size": {
+				"w": 1960,
+				"h": 668
+			},
+			"sprites": [
+				{
+					"filename": "OHLE_SANFONA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 157,
+						"h": 313
+					},
+					"margin": {
+						"x": 34,
+						"y": 26,
+						"w": 64,
+						"h": 26
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00020.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 157,
+						"h": 313
+					},
+					"margin": {
+						"x": 34,
+						"y": 26,
+						"w": 64,
+						"h": 26
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00002.png",
+					"region": {
+						"x": 197,
+						"y": 1,
+						"w": 160,
+						"h": 302
+					},
+					"margin": {
+						"x": 29,
+						"y": 37,
+						"w": 61,
+						"h": 37
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00004.png",
+					"region": {
+						"x": 393,
+						"y": 1,
+						"w": 166,
+						"h": 284
+					},
+					"margin": {
+						"x": 22,
+						"y": 55,
+						"w": 55,
+						"h": 55
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00006.png",
+					"region": {
+						"x": 589,
+						"y": 1,
+						"w": 166,
+						"h": 286
+					},
+					"margin": {
+						"x": 24,
+						"y": 53,
+						"w": 55,
+						"h": 53
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00008.png",
+					"region": {
+						"x": 785,
+						"y": 1,
+						"w": 160,
+						"h": 315
+					},
+					"margin": {
+						"x": 37,
+						"y": 24,
+						"w": 61,
+						"h": 24
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00010.png",
+					"region": {
+						"x": 981,
+						"y": 1,
+						"w": 156,
+						"h": 332
+					},
+					"margin": {
+						"x": 45,
+						"y": 7,
+						"w": 65,
+						"h": 7
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00012.png",
+					"region": {
+						"x": 1177,
+						"y": 1,
+						"w": 169,
+						"h": 315
+					},
+					"margin": {
+						"x": 38,
+						"y": 24,
+						"w": 52,
+						"h": 24
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00014.png",
+					"region": {
+						"x": 1373,
+						"y": 1,
+						"w": 191,
+						"h": 286
+					},
+					"margin": {
+						"x": 24,
+						"y": 53,
+						"w": 30,
+						"h": 53
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00016.png",
+					"region": {
+						"x": 1569,
+						"y": 1,
+						"w": 192,
+						"h": 284
+					},
+					"margin": {
+						"x": 23,
+						"y": 55,
+						"w": 29,
+						"h": 55
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00018.png",
+					"region": {
+						"x": 1765,
+						"y": 1,
+						"w": 170,
+						"h": 302
+					},
+					"margin": {
+						"x": 30,
+						"y": 37,
+						"w": 51,
+						"h": 37
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00022.png",
+					"region": {
+						"x": 1,
+						"y": 335,
+						"w": 161,
+						"h": 302
+					},
+					"margin": {
+						"x": 29,
+						"y": 37,
+						"w": 60,
+						"h": 37
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00024.png",
+					"region": {
+						"x": 197,
+						"y": 335,
+						"w": 166,
+						"h": 284
+					},
+					"margin": {
+						"x": 23,
+						"y": 55,
+						"w": 55,
+						"h": 55
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00026.png",
+					"region": {
+						"x": 393,
+						"y": 335,
+						"w": 168,
+						"h": 285
+					},
+					"margin": {
+						"x": 20,
+						"y": 54,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00028.png",
+					"region": {
+						"x": 589,
+						"y": 335,
+						"w": 176,
+						"h": 312
+					},
+					"margin": {
+						"x": 10,
+						"y": 27,
+						"w": 45,
+						"h": 27
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00030.png",
+					"region": {
+						"x": 785,
+						"y": 335,
+						"w": 180,
+						"h": 331
+					},
+					"margin": {
+						"x": 5,
+						"y": 8,
+						"w": 41,
+						"h": 8
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00032.png",
+					"region": {
+						"x": 981,
+						"y": 335,
+						"w": 185,
+						"h": 312
+					},
+					"margin": {
+						"x": 11,
+						"y": 27,
+						"w": 36,
+						"h": 27
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00034.png",
+					"region": {
+						"x": 1177,
+						"y": 335,
+						"w": 194,
+						"h": 285
+					},
+					"margin": {
+						"x": 20,
+						"y": 54,
+						"w": 27,
+						"h": 54
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00036.png",
+					"region": {
+						"x": 1373,
+						"y": 335,
+						"w": 192,
+						"h": 284
+					},
+					"margin": {
+						"x": 23,
+						"y": 55,
+						"w": 29,
+						"h": 55
+					}
+				},
+				{
+					"filename": "OHLE_SANFONA_00038.png",
+					"region": {
+						"x": 1569,
+						"y": 335,
+						"w": 170,
+						"h": 302
+					},
+					"margin": {
+						"x": 30,
+						"y": 37,
+						"w": 51,
+						"h": 37
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a883822ce6c30c45a338bfcea1ab0730:6ddc5a5f605fcdfea90ee6d2cf2ba249:0ef53b76a6e3163369adf9337f600090$"
+	}
+}

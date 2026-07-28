@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "esper_recoreco-0.png",
+			"size": {
+				"w": 1545,
+				"h": 518
+			},
+			"sprites": [
+				{
+					"filename": "ESPER_RECORECO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 304,
+						"h": 231
+					},
+					"margin": {
+						"x": 14,
+						"y": 38,
+						"w": 28,
+						"h": 38
+					}
+				},
+				{
+					"filename": "ESPER_RECORECO_00002.png",
+					"region": {
+						"x": 310,
+						"y": 1,
+						"w": 296,
+						"h": 239
+					},
+					"margin": {
+						"x": 13,
+						"y": 30,
+						"w": 36,
+						"h": 30
+					}
+				},
+				{
+					"filename": "ESPER_RECORECO_00004.png",
+					"region": {
+						"x": 619,
+						"y": 1,
+						"w": 287,
+						"h": 257
+					},
+					"margin": {
+						"x": 8,
+						"y": 12,
+						"w": 45,
+						"h": 12
+					}
+				},
+				{
+					"filename": "ESPER_RECORECO_00006.png",
+					"region": {
+						"x": 928,
+						"y": 1,
+						"w": 294,
+						"h": 257
+					},
+					"margin": {
+						"x": 3,
+						"y": 12,
+						"w": 38,
+						"h": 12
+					}
+				},
+				{
+					"filename": "ESPER_RECORECO_00008.png",
+					"region": {
+						"x": 1237,
+						"y": 1,
+						"w": 307,
+						"h": 239
+					},
+					"margin": {
+						"x": 4,
+						"y": 30,
+						"w": 25,
+						"h": 30
+					}
+				},
+				{
+					"filename": "ESPER_RECORECO_00010.png",
+					"region": {
+						"x": 1,
+						"y": 260,
+						"w": 306,
+						"h": 231
+					},
+					"margin": {
+						"x": 12,
+						"y": 38,
+						"w": 26,
+						"h": 38
+					}
+				},
+				{
+					"filename": "ESPER_RECORECO_00012.png",
+					"region": {
+						"x": 310,
+						"y": 260,
+						"w": 295,
+						"h": 239
+					},
+					"margin": {
+						"x": 23,
+						"y": 30,
+						"w": 37,
+						"h": 30
+					}
+				},
+				{
+					"filename": "ESPER_RECORECO_00014.png",
+					"region": {
+						"x": 619,
+						"y": 260,
+						"w": 287,
+						"h": 257
+					},
+					"margin": {
+						"x": 37,
+						"y": 12,
+						"w": 45,
+						"h": 12
+					}
+				},
+				{
+					"filename": "ESPER_RECORECO_00016.png",
+					"region": {
+						"x": 928,
+						"y": 260,
+						"w": 292,
+						"h": 257
+					},
+					"margin": {
+						"x": 36,
+						"y": 12,
+						"w": 40,
+						"h": 12
+					}
+				},
+				{
+					"filename": "ESPER_RECORECO_00018.png",
+					"region": {
+						"x": 1237,
+						"y": 260,
+						"w": 306,
+						"h": 239
+					},
+					"margin": {
+						"x": 21,
+						"y": 30,
+						"w": 26,
+						"h": 30
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a5f02c742f297b4189347e8ca58bcf06:3b9944c5829a3b5ef701272197add47a:a0caa607226e262855111e9877fd4229$"
+	}
+}

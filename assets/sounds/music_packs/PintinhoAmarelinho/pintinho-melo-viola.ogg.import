@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-melo-viola.ogg-6b0f9a20cb1cacba3b0305e390d82e98.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-melo-viola.ogg"
+dest_files=[ "res://.import/pintinho-melo-viola.ogg-6b0f9a20cb1cacba3b0305e390d82e98.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

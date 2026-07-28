@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-marcial-tuba.ogg-b10cf5980d4e1c4530526a6e0db0ed10.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-marcial-tuba.ogg"
+dest_files=[ "res://.import/pintinho-marcial-tuba.ogg-b10cf5980d4e1c4530526a6e0db0ed10.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

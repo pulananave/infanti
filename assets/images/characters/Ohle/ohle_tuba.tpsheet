@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "ohle_tuba-0.png",
+			"size": {
+				"w": 1830,
+				"h": 1110
+			},
+			"sprites": [
+				{
+					"filename": "OHLE_TUBA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 364,
+						"h": 368
+					},
+					"margin": {
+						"x": 14,
+						"y": 1,
+						"w": 14,
+						"h": 1
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00002.png",
+					"region": {
+						"x": 367,
+						"y": 1,
+						"w": 363,
+						"h": 346
+					},
+					"margin": {
+						"x": 9,
+						"y": 23,
+						"w": 15,
+						"h": 23
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00004.png",
+					"region": {
+						"x": 733,
+						"y": 1,
+						"w": 362,
+						"h": 322
+					},
+					"margin": {
+						"x": 1,
+						"y": 47,
+						"w": 16,
+						"h": 47
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00006.png",
+					"region": {
+						"x": 1099,
+						"y": 1,
+						"w": 356,
+						"h": 318
+					},
+					"margin": {
+						"x": 0,
+						"y": 51,
+						"w": 22,
+						"h": 51
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00026.png",
+					"region": {
+						"x": 1099,
+						"y": 1,
+						"w": 356,
+						"h": 318
+					},
+					"margin": {
+						"x": 0,
+						"y": 51,
+						"w": 22,
+						"h": 51
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00008.png",
+					"region": {
+						"x": 1465,
+						"y": 1,
+						"w": 340,
+						"h": 330
+					},
+					"margin": {
+						"x": 0,
+						"y": 39,
+						"w": 38,
+						"h": 39
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00028.png",
+					"region": {
+						"x": 1465,
+						"y": 1,
+						"w": 340,
+						"h": 330
+					},
+					"margin": {
+						"x": 0,
+						"y": 39,
+						"w": 38,
+						"h": 39
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00010.png",
+					"region": {
+						"x": 1,
+						"y": 371,
+						"w": 330,
+						"h": 337
+					},
+					"margin": {
+						"x": 0,
+						"y": 32,
+						"w": 48,
+						"h": 32
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00030.png",
+					"region": {
+						"x": 1,
+						"y": 371,
+						"w": 330,
+						"h": 337
+					},
+					"margin": {
+						"x": 0,
+						"y": 32,
+						"w": 48,
+						"h": 32
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00012.png",
+					"region": {
+						"x": 367,
+						"y": 371,
+						"w": 336,
+						"h": 330
+					},
+					"margin": {
+						"x": 0,
+						"y": 39,
+						"w": 42,
+						"h": 39
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00032.png",
+					"region": {
+						"x": 367,
+						"y": 371,
+						"w": 336,
+						"h": 330
+					},
+					"margin": {
+						"x": 0,
+						"y": 39,
+						"w": 42,
+						"h": 39
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00014.png",
+					"region": {
+						"x": 733,
+						"y": 371,
+						"w": 350,
+						"h": 318
+					},
+					"margin": {
+						"x": 0,
+						"y": 51,
+						"w": 28,
+						"h": 51
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00034.png",
+					"region": {
+						"x": 733,
+						"y": 371,
+						"w": 350,
+						"h": 318
+					},
+					"margin": {
+						"x": 0,
+						"y": 51,
+						"w": 28,
+						"h": 51
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00016.png",
+					"region": {
+						"x": 1099,
+						"y": 371,
+						"w": 362,
+						"h": 322
+					},
+					"margin": {
+						"x": 1,
+						"y": 47,
+						"w": 16,
+						"h": 47
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00018.png",
+					"region": {
+						"x": 1465,
+						"y": 371,
+						"w": 362,
+						"h": 346
+					},
+					"margin": {
+						"x": 10,
+						"y": 23,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00020.png",
+					"region": {
+						"x": 1,
+						"y": 741,
+						"w": 364,
+						"h": 368
+					},
+					"margin": {
+						"x": 14,
+						"y": 1,
+						"w": 14,
+						"h": 1
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00022.png",
+					"region": {
+						"x": 367,
+						"y": 741,
+						"w": 363,
+						"h": 346
+					},
+					"margin": {
+						"x": 9,
+						"y": 23,
+						"w": 15,
+						"h": 23
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00024.png",
+					"region": {
+						"x": 733,
+						"y": 741,
+						"w": 361,
+						"h": 322
+					},
+					"margin": {
+						"x": 2,
+						"y": 47,
+						"w": 17,
+						"h": 47
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00036.png",
+					"region": {
+						"x": 1099,
+						"y": 741,
+						"w": 362,
+						"h": 322
+					},
+					"margin": {
+						"x": 1,
+						"y": 47,
+						"w": 16,
+						"h": 47
+					}
+				},
+				{
+					"filename": "OHLE_TUBA_00038.png",
+					"region": {
+						"x": 1465,
+						"y": 741,
+						"w": 363,
+						"h": 346
+					},
+					"margin": {
+						"x": 9,
+						"y": 23,
+						"w": 15,
+						"h": 23
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:6aa751c79fa1acb62ded7a66d743dbcd:e68d3da18c4aae6d50a2b83b2bc47af6:9436c242f2499009ef01b9fde8f88373$"
+	}
+}

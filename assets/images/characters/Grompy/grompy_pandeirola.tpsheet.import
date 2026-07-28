@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/grompy_pandeirola.tpsheet-293d85469e57f19269e28b5f26de30ae.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00000.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00002.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00004.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00006.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00008.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00010.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00012.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00014.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00016.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00018.tres" ]
+
+source_file="res://assets/images/characters/Grompy/grompy_pandeirola.tpsheet"
+dest_files=[ "res://.import/grompy_pandeirola.tpsheet-293d85469e57f19269e28b5f26de30ae.res", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00000.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00002.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00004.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00006.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00008.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00010.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00012.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00014.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00016.tres", "res://assets/images/characters/Grompy/grompy_pandeirola.sprites/GROMPY_PANDEIROLA_00018.tres" ]
+
+[params]
+

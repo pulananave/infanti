@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-pop-orgao.ogg-3beb998eb266948ed0bad398baf7f94c.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-pop-orgao.ogg"
+dest_files=[ "res://.import/canoa-pop-orgao.ogg-3beb998eb266948ed0bad398baf7f94c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-marcial-bombo.ogg-0f346ea8729aa764d84ea3bc187b3689.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-marcial-bombo.ogg"
+dest_files=[ "res://.import/aranha-marcial-bombo.ogg-0f346ea8729aa764d84ea3bc187b3689.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "ohle_synth-0.png",
+			"size": {
+				"w": 1670,
+				"h": 646
+			},
+			"sprites": [
+				{
+					"filename": "OHLE_SYNTH_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 154,
+						"h": 309
+					},
+					"margin": {
+						"x": 22,
+						"y": 11,
+						"w": 42,
+						"h": 12
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00002.png",
+					"region": {
+						"x": 168,
+						"y": 1,
+						"w": 158,
+						"h": 305
+					},
+					"margin": {
+						"x": 22,
+						"y": 15,
+						"w": 38,
+						"h": 16
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00004.png",
+					"region": {
+						"x": 335,
+						"y": 1,
+						"w": 165,
+						"h": 299
+					},
+					"margin": {
+						"x": 22,
+						"y": 21,
+						"w": 31,
+						"h": 22
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00006.png",
+					"region": {
+						"x": 502,
+						"y": 1,
+						"w": 165,
+						"h": 300
+					},
+					"margin": {
+						"x": 22,
+						"y": 20,
+						"w": 31,
+						"h": 21
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00008.png",
+					"region": {
+						"x": 669,
+						"y": 1,
+						"w": 152,
+						"h": 314
+					},
+					"margin": {
+						"x": 25,
+						"y": 7,
+						"w": 44,
+						"h": 7
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00010.png",
+					"region": {
+						"x": 836,
+						"y": 1,
+						"w": 144,
+						"h": 321
+					},
+					"margin": {
+						"x": 27,
+						"y": 0,
+						"w": 52,
+						"h": 0
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00012.png",
+					"region": {
+						"x": 1003,
+						"y": 1,
+						"w": 152,
+						"h": 313
+					},
+					"margin": {
+						"x": 25,
+						"y": 7,
+						"w": 44,
+						"h": 8
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00014.png",
+					"region": {
+						"x": 1170,
+						"y": 1,
+						"w": 165,
+						"h": 301
+					},
+					"margin": {
+						"x": 22,
+						"y": 20,
+						"w": 31,
+						"h": 20
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00016.png",
+					"region": {
+						"x": 1337,
+						"y": 1,
+						"w": 165,
+						"h": 300
+					},
+					"margin": {
+						"x": 22,
+						"y": 21,
+						"w": 31,
+						"h": 21
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00018.png",
+					"region": {
+						"x": 1504,
+						"y": 1,
+						"w": 158,
+						"h": 306
+					},
+					"margin": {
+						"x": 22,
+						"y": 15,
+						"w": 38,
+						"h": 15
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00020.png",
+					"region": {
+						"x": 1,
+						"y": 324,
+						"w": 154,
+						"h": 309
+					},
+					"margin": {
+						"x": 22,
+						"y": 11,
+						"w": 42,
+						"h": 12
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00022.png",
+					"region": {
+						"x": 168,
+						"y": 324,
+						"w": 157,
+						"h": 306
+					},
+					"margin": {
+						"x": 23,
+						"y": 15,
+						"w": 39,
+						"h": 15
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00024.png",
+					"region": {
+						"x": 335,
+						"y": 324,
+						"w": 163,
+						"h": 299
+					},
+					"margin": {
+						"x": 23,
+						"y": 21,
+						"w": 33,
+						"h": 22
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00026.png",
+					"region": {
+						"x": 502,
+						"y": 324,
+						"w": 161,
+						"h": 301
+					},
+					"margin": {
+						"x": 25,
+						"y": 19,
+						"w": 35,
+						"h": 20
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00028.png",
+					"region": {
+						"x": 669,
+						"y": 324,
+						"w": 149,
+						"h": 315
+					},
+					"margin": {
+						"x": 33,
+						"y": 6,
+						"w": 47,
+						"h": 6
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00030.png",
+					"region": {
+						"x": 836,
+						"y": 324,
+						"w": 141,
+						"h": 321
+					},
+					"margin": {
+						"x": 38,
+						"y": 0,
+						"w": 55,
+						"h": 0
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00032.png",
+					"region": {
+						"x": 1003,
+						"y": 324,
+						"w": 149,
+						"h": 315
+					},
+					"margin": {
+						"x": 33,
+						"y": 6,
+						"w": 47,
+						"h": 6
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00034.png",
+					"region": {
+						"x": 1170,
+						"y": 324,
+						"w": 161,
+						"h": 301
+					},
+					"margin": {
+						"x": 25,
+						"y": 19,
+						"w": 35,
+						"h": 20
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00036.png",
+					"region": {
+						"x": 1337,
+						"y": 324,
+						"w": 163,
+						"h": 300
+					},
+					"margin": {
+						"x": 23,
+						"y": 21,
+						"w": 33,
+						"h": 21
+					}
+				},
+				{
+					"filename": "OHLE_SYNTH_00038.png",
+					"region": {
+						"x": 1504,
+						"y": 324,
+						"w": 157,
+						"h": 305
+					},
+					"margin": {
+						"x": 23,
+						"y": 15,
+						"w": 39,
+						"h": 16
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b799ba1d453808207e6a9a6829694ba5:b78de35096be2cca36d55293b44e7963:8f91caedc0f2c50a4c29b21df798099d$"
+	}
+}

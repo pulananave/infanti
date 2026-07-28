@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-melo-marimba.ogg-30e550b0640399dea544a9d2d8933ae4.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-melo-marimba.ogg"
+dest_files=[ "res://.import/canoa-melo-marimba.ogg-30e550b0640399dea544a9d2d8933ae4.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

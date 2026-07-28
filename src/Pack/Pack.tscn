@@ -1,0 +1,59 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://src/Character/Rafog/Rafog.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Pack/Pack.gd" type="Script" id=2]
+[ext_resource path="res://src/Character/Teewong/Teewong.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/Character/Ceval/Ceval.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/Character/Boogar/Boogar.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/Character/Ohle/Ohle.tscn" type="PackedScene" id=6]
+[ext_resource path="res://src/Character/Gobu/Gobu.tscn" type="PackedScene" id=7]
+[ext_resource path="res://src/Character/Dan/Dan.tscn" type="PackedScene" id=8]
+[ext_resource path="res://src/Character/Esper/Esper.tscn" type="PackedScene" id=9]
+[ext_resource path="res://src/Character/Grompy/Grompy.tscn" type="PackedScene" id=10]
+[ext_resource path="res://src/Character/Zoem/Zoem.tscn" type="PackedScene" id=11]
+[ext_resource path="res://src/classes/IconSpreader.tres.gd" type="Script" id=12]
+
+[node name="Pack" type="Node2D"]
+script = ExtResource( 2 )
+pack_sounds_folder = "res://assets/sounds/music_packs/ACanoaAfundou"
+pack_icons_folder = "res://assets/images/instruments"
+
+[node name="IconSpreader" type="Node" parent="."]
+script = ExtResource( 12 )
+
+[node name="Esper" parent="." instance=ExtResource( 9 )]
+position = Vector2( -580, 0 )
+
+[node name="Gobu" parent="." instance=ExtResource( 7 )]
+position = Vector2( -450, 0 )
+
+[node name="Teewong" parent="." instance=ExtResource( 3 )]
+position = Vector2( -320, 0 )
+
+[node name="Ohle" parent="." instance=ExtResource( 6 )]
+position = Vector2( -190, 0 )
+box_direction = "MIDDLE"
+
+[node name="Boogar" parent="." instance=ExtResource( 5 )]
+position = Vector2( -60, 0 )
+box_direction = "MIDDLE"
+
+[node name="Zoem" parent="." instance=ExtResource( 11 )]
+position = Vector2( 70, 0 )
+box_direction = "MIDDLE"
+
+[node name="Ceval" parent="." instance=ExtResource( 4 )]
+position = Vector2( 200, 0 )
+box_direction = "MIDDLE"
+
+[node name="Rafog" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 0 )
+box_direction = "LEFT"
+
+[node name="Dan" parent="." instance=ExtResource( 8 )]
+position = Vector2( 460, 0 )
+box_direction = "LEFT"
+
+[node name="Grompy" parent="." instance=ExtResource( 10 )]
+position = Vector2( 590, 0 )
+box_direction = "LEFT"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-marcial-caixa.ogg-accafae13d48ac4ab6d12d425c4a0873.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-marcial-caixa.ogg"
+dest_files=[ "res://.import/sapo-marcial-caixa.ogg-accafae13d48ac4ab6d12d425c4a0873.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

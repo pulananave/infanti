@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/coelho-marcial-picolo.ogg-d8ff245493dfb16596f197194c5ef825.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/CoelhoDaPascoa/coelho-marcial-picolo.ogg"
+dest_files=[ "res://.import/coelho-marcial-picolo.ogg-d8ff245493dfb16596f197194c5ef825.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

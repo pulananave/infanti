@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "rafog_baixo_acustico-0.png",
+			"size": {
+				"w": 1200,
+				"h": 1616
+			},
+			"sprites": [
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 226,
+						"h": 392
+					},
+					"margin": {
+						"x": 77,
+						"y": 11,
+						"w": 164,
+						"h": 11
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00002.png",
+					"region": {
+						"x": 241,
+						"y": 1,
+						"w": 227,
+						"h": 396
+					},
+					"margin": {
+						"x": 74,
+						"y": 7,
+						"w": 163,
+						"h": 7
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00004.png",
+					"region": {
+						"x": 481,
+						"y": 1,
+						"w": 228,
+						"h": 402
+					},
+					"margin": {
+						"x": 71,
+						"y": 1,
+						"w": 162,
+						"h": 1
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00006.png",
+					"region": {
+						"x": 721,
+						"y": 1,
+						"w": 229,
+						"h": 401
+					},
+					"margin": {
+						"x": 70,
+						"y": 2,
+						"w": 161,
+						"h": 2
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00008.png",
+					"region": {
+						"x": 961,
+						"y": 1,
+						"w": 235,
+						"h": 393
+					},
+					"margin": {
+						"x": 67,
+						"y": 10,
+						"w": 155,
+						"h": 10
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00010.png",
+					"region": {
+						"x": 1,
+						"y": 405,
+						"w": 238,
+						"h": 387
+					},
+					"margin": {
+						"x": 65,
+						"y": 16,
+						"w": 152,
+						"h": 16
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00012.png",
+					"region": {
+						"x": 241,
+						"y": 405,
+						"w": 235,
+						"h": 392
+					},
+					"margin": {
+						"x": 70,
+						"y": 11,
+						"w": 155,
+						"h": 11
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00014.png",
+					"region": {
+						"x": 481,
+						"y": 405,
+						"w": 229,
+						"h": 398
+					},
+					"margin": {
+						"x": 78,
+						"y": 5,
+						"w": 161,
+						"h": 5
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00016.png",
+					"region": {
+						"x": 721,
+						"y": 405,
+						"w": 228,
+						"h": 399
+					},
+					"margin": {
+						"x": 80,
+						"y": 4,
+						"w": 162,
+						"h": 4
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00018.png",
+					"region": {
+						"x": 961,
+						"y": 405,
+						"w": 226,
+						"h": 394
+					},
+					"margin": {
+						"x": 79,
+						"y": 9,
+						"w": 164,
+						"h": 9
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00020.png",
+					"region": {
+						"x": 1,
+						"y": 809,
+						"w": 224,
+						"h": 392
+					},
+					"margin": {
+						"x": 79,
+						"y": 11,
+						"w": 166,
+						"h": 11
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00022.png",
+					"region": {
+						"x": 241,
+						"y": 809,
+						"w": 226,
+						"h": 396
+					},
+					"margin": {
+						"x": 76,
+						"y": 7,
+						"w": 164,
+						"h": 7
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00024.png",
+					"region": {
+						"x": 481,
+						"y": 809,
+						"w": 228,
+						"h": 402
+					},
+					"margin": {
+						"x": 71,
+						"y": 1,
+						"w": 162,
+						"h": 1
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00026.png",
+					"region": {
+						"x": 721,
+						"y": 809,
+						"w": 230,
+						"h": 401
+					},
+					"margin": {
+						"x": 69,
+						"y": 2,
+						"w": 160,
+						"h": 2
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00028.png",
+					"region": {
+						"x": 961,
+						"y": 809,
+						"w": 235,
+						"h": 393
+					},
+					"margin": {
+						"x": 67,
+						"y": 10,
+						"w": 155,
+						"h": 10
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00030.png",
+					"region": {
+						"x": 1,
+						"y": 1213,
+						"w": 238,
+						"h": 387
+					},
+					"margin": {
+						"x": 65,
+						"y": 16,
+						"w": 152,
+						"h": 16
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00032.png",
+					"region": {
+						"x": 241,
+						"y": 1213,
+						"w": 234,
+						"h": 392
+					},
+					"margin": {
+						"x": 71,
+						"y": 11,
+						"w": 156,
+						"h": 11
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00034.png",
+					"region": {
+						"x": 481,
+						"y": 1213,
+						"w": 229,
+						"h": 398
+					},
+					"margin": {
+						"x": 78,
+						"y": 5,
+						"w": 161,
+						"h": 5
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00036.png",
+					"region": {
+						"x": 721,
+						"y": 1213,
+						"w": 228,
+						"h": 399
+					},
+					"margin": {
+						"x": 79,
+						"y": 4,
+						"w": 162,
+						"h": 4
+					}
+				},
+				{
+					"filename": "RAFOG_BAIXO_ACUSTICO_00038.png",
+					"region": {
+						"x": 961,
+						"y": 1213,
+						"w": 226,
+						"h": 394
+					},
+					"margin": {
+						"x": 78,
+						"y": 9,
+						"w": 164,
+						"h": 9
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:009b864a7c7478e47a857011e753bdc7:e11cc297399dc20819aeb72a54b354a2:3cb16e7188cece2a8c47c80e5c00ed59$"
+	}
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-melo-violino.ogg-87247323b0cc421429498635eb2122de.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-melo-violino.ogg"
+dest_files=[ "res://.import/sapo-melo-violino.ogg-87247323b0cc421429498635eb2122de.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

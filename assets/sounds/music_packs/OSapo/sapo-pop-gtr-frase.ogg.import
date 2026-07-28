@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-pop-gtr-frase.ogg-c9de3255b8213ee63746e1137ed59431.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-pop-gtr-frase.ogg"
+dest_files=[ "res://.import/sapo-pop-gtr-frase.ogg-c9de3255b8213ee63746e1137ed59431.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

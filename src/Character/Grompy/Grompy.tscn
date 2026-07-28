@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://src/Character/Character.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/images/characters/Grompy/Icon/ICONE_GROMPY_ATIVO.svg" type="Texture" id=2]
+[ext_resource path="res://assets/images/characters/Grompy/Icon/ICONE_GROMPY.svg" type="Texture" id=3]
+[ext_resource path="res://src/Instrument/GrompyInstrument/GrompyInstrument.tscn" type="PackedScene" id=4]
+
+[node name="Grompy" instance=ExtResource( 1 )]
+instrument_scene = ExtResource( 4 )
+
+[node name="InstrumentsBox" parent="BoxZIndex" index="0"]
+margin_left = -1128.0
+margin_right = -395.0
+rect_scale = Vector2( 1, 1 )
+
+[node name="Icon" parent="." index="4"]
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 2 )

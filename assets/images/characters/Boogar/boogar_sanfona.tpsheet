@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "boogar_sanfona-0.png",
+			"size": {
+				"w": 1800,
+				"h": 1024
+			},
+			"sprites": [
+				{
+					"filename": "BOOGAR_SANFONA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 342,
+						"h": 247
+					},
+					"margin": {
+						"x": 78,
+						"y": 33,
+						"w": 156,
+						"h": 33
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00002.png",
+					"region": {
+						"x": 361,
+						"y": 1,
+						"w": 336,
+						"h": 244
+					},
+					"margin": {
+						"x": 77,
+						"y": 36,
+						"w": 162,
+						"h": 36
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00004.png",
+					"region": {
+						"x": 721,
+						"y": 1,
+						"w": 327,
+						"h": 241
+					},
+					"margin": {
+						"x": 76,
+						"y": 39,
+						"w": 171,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00006.png",
+					"region": {
+						"x": 1081,
+						"y": 1,
+						"w": 325,
+						"h": 241
+					},
+					"margin": {
+						"x": 78,
+						"y": 39,
+						"w": 173,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00008.png",
+					"region": {
+						"x": 1441,
+						"y": 1,
+						"w": 331,
+						"h": 249
+					},
+					"margin": {
+						"x": 86,
+						"y": 31,
+						"w": 167,
+						"h": 31
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00010.png",
+					"region": {
+						"x": 1,
+						"y": 257,
+						"w": 334,
+						"h": 253
+					},
+					"margin": {
+						"x": 91,
+						"y": 27,
+						"w": 164,
+						"h": 27
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00012.png",
+					"region": {
+						"x": 361,
+						"y": 257,
+						"w": 342,
+						"h": 249
+					},
+					"margin": {
+						"x": 86,
+						"y": 31,
+						"w": 156,
+						"h": 31
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00014.png",
+					"region": {
+						"x": 721,
+						"y": 257,
+						"w": 357,
+						"h": 241
+					},
+					"margin": {
+						"x": 78,
+						"y": 39,
+						"w": 141,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00016.png",
+					"region": {
+						"x": 1081,
+						"y": 257,
+						"w": 358,
+						"h": 241
+					},
+					"margin": {
+						"x": 76,
+						"y": 39,
+						"w": 140,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00018.png",
+					"region": {
+						"x": 1441,
+						"y": 257,
+						"w": 348,
+						"h": 244
+					},
+					"margin": {
+						"x": 77,
+						"y": 36,
+						"w": 150,
+						"h": 36
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00020.png",
+					"region": {
+						"x": 1,
+						"y": 513,
+						"w": 342,
+						"h": 247
+					},
+					"margin": {
+						"x": 78,
+						"y": 33,
+						"w": 156,
+						"h": 33
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00022.png",
+					"region": {
+						"x": 361,
+						"y": 513,
+						"w": 336,
+						"h": 244
+					},
+					"margin": {
+						"x": 77,
+						"y": 36,
+						"w": 162,
+						"h": 36
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00024.png",
+					"region": {
+						"x": 721,
+						"y": 513,
+						"w": 326,
+						"h": 241
+					},
+					"margin": {
+						"x": 77,
+						"y": 39,
+						"w": 172,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00026.png",
+					"region": {
+						"x": 1081,
+						"y": 513,
+						"w": 327,
+						"h": 241
+					},
+					"margin": {
+						"x": 75,
+						"y": 39,
+						"w": 171,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00028.png",
+					"region": {
+						"x": 1441,
+						"y": 513,
+						"w": 331,
+						"h": 249
+					},
+					"margin": {
+						"x": 76,
+						"y": 31,
+						"w": 167,
+						"h": 31
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00030.png",
+					"region": {
+						"x": 1,
+						"y": 769,
+						"w": 333,
+						"h": 254
+					},
+					"margin": {
+						"x": 76,
+						"y": 26,
+						"w": 165,
+						"h": 26
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00032.png",
+					"region": {
+						"x": 361,
+						"y": 769,
+						"w": 343,
+						"h": 249
+					},
+					"margin": {
+						"x": 76,
+						"y": 31,
+						"w": 155,
+						"h": 31
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00034.png",
+					"region": {
+						"x": 721,
+						"y": 769,
+						"w": 358,
+						"h": 241
+					},
+					"margin": {
+						"x": 76,
+						"y": 39,
+						"w": 140,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00036.png",
+					"region": {
+						"x": 1081,
+						"y": 769,
+						"w": 358,
+						"h": 241
+					},
+					"margin": {
+						"x": 76,
+						"y": 39,
+						"w": 140,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SANFONA_00038.png",
+					"region": {
+						"x": 1441,
+						"y": 769,
+						"w": 348,
+						"h": 244
+					},
+					"margin": {
+						"x": 77,
+						"y": 36,
+						"w": 150,
+						"h": 36
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:e794a7b147a56804f0992065abbef498:5910b5378c4cad759f98e0b8272b4982:65236bb12958b899e1a084ba082be0ae$"
+	}
+}

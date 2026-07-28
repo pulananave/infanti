@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-latin-agogo.ogg-3441f93dd760880ca0748b7058404267.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-latin-agogo.ogg"
+dest_files=[ "res://.import/canoa-latin-agogo.ogg-3441f93dd760880ca0748b7058404267.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

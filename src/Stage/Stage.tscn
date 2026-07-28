@@ -1,0 +1,571 @@
+[gd_scene load_steps=40 format=2]
+
+[ext_resource path="res://main_theme.tres" type="Theme" id=1]
+[ext_resource path="res://assets/images/menu/BOTAO_MIC_NULL.svg" type="Texture" id=2]
+[ext_resource path="res://src/Stage/Stage.gd" type="Script" id=4]
+[ext_resource path="res://assets/images/menu/left_buttons.png" type="Texture" id=5]
+[ext_resource path="res://src/Stage/ControllButtons.gd" type="Script" id=7]
+[ext_resource path="res://src/Stage/TimeLine.gd" type="Script" id=8]
+[ext_resource path="res://src/classes/PositionEffects.gd" type="Script" id=11]
+[ext_resource path="res://src/classes/Recorder.gd" type="Script" id=12]
+[ext_resource path="res://src/Stage/Overlay.gd" type="Script" id=13]
+[ext_resource path="res://assets/images/menu/BOTAO_HOME_ATIVO.svg" type="Texture" id=14]
+[ext_resource path="res://assets/images/menu/BOTAO_HOME.svg" type="Texture" id=17]
+[ext_resource path="res://assets/images/menu/BOTAO_RESET.svg" type="Texture" id=18]
+[ext_resource path="res://src/Stage/Recordings.gd" type="Script" id=19]
+[ext_resource path="res://src/Stage/LeftBar.gd" type="Script" id=20]
+[ext_resource path="res://assets/images/stage_background/BACKGROUND_LINHA_BAIXO.svg" type="Texture" id=21]
+[ext_resource path="res://assets/images/menu/BOTAO_REC.svg" type="Texture" id=22]
+[ext_resource path="res://assets/images/menu/BOTAO_REC_ATIVO.svg" type="Texture" id=23]
+[ext_resource path="res://assets/images/timeline/TIMELINE_FUNDO.svg" type="Texture" id=24]
+[ext_resource path="res://assets/images/menu/BOTAO_MIC_ATIVO.svg" type="Texture" id=25]
+[ext_resource path="res://assets/images/menu/BOTAO_RESET_ATIVO.svg" type="Texture" id=26]
+[ext_resource path="res://assets/images/menu/BOTAO_MIC.svg" type="Texture" id=27]
+[ext_resource path="res://assets/images/stage_background/BACKGROUND_LINHA_CIMA.svg" type="Texture" id=28]
+[ext_resource path="res://assets/icons/BOTAO_X.svg" type="Texture" id=30]
+[ext_resource path="res://assets/images/menu/BOTAO_BIBLIOTECA_.svg" type="Texture" id=33]
+[ext_resource path="res://assets/images/menu/BOTAO_BIBLIOTECA_ATIVO_.svg" type="Texture" id=34]
+[ext_resource path="res://src/Stage/RecordingIndicator.gd" type="Script" id=35]
+[ext_resource path="res://assets/fonts/Nunito-Bold.ttf" type="DynamicFontData" id=36]
+[ext_resource path="res://src/Stage/PlayingIndicator.gd" type="Script" id=37]
+[ext_resource path="res://assets/images/timeline/BOTAO_PLAY.svg" type="Texture" id=38]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.905882, 0.905882, 0.905882, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.501961, 0.631373, 0.596078, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0.8, 0.8, 0.8, 0 )
+corner_radius_top_left = 1024
+corner_radius_top_right = 1024
+corner_radius_bottom_right = 1024
+corner_radius_bottom_left = 1024
+
+[sub_resource type="DynamicFont" id=3]
+size = 46
+font_data = ExtResource( 36 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.886275, 0.352941, 0.482353, 1 )
+corner_radius_top_left = 1024
+corner_radius_top_right = 1024
+corner_radius_bottom_right = 1024
+corner_radius_bottom_left = 1024
+corner_detail = 16
+
+[sub_resource type="Animation" id=5]
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("RedBall:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "recording"
+loop = true
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("GreenTriangle:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1.51572, 1 ),
+"update": 0,
+"values": [ Vector2( 2, 0 ), Vector2( 2, 5 ), Vector2( 2, 0 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+length = 0.5
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 0.366022, 0.329877 ),
+"update": 0,
+"values": [ Color( 0.4, 0.235294, 0.364706, 0 ), Color( 0.4, 0.235294, 0.364706, 0.839216 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.00705449 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=8]
+length = 0.5
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 0.366021, 1 ),
+"update": 0,
+"values": [ Color( 0.4, 0.235294, 0.364706, 0.839216 ), Color( 0.4, 0.235294, 0.364706, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.847059, 0.847059, 0.847059, 1 )
+border_color = Color( 0.847059, 0.847059, 0.847059, 1 )
+corner_radius_top_left = 45
+corner_radius_top_right = 45
+corner_radius_bottom_right = 45
+corner_radius_bottom_left = 45
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0.784314, 0.74902, 0.784314, 1 )
+corner_radius_top_left = 45
+corner_radius_top_right = 45
+corner_radius_bottom_right = 45
+corner_radius_bottom_left = 45
+
+[node name="Stage" type="Node2D" groups=[
+"DSContainer",
+]]
+position = Vector2( 960, 540 )
+script = ExtResource( 4 )
+
+[node name="Background" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Color" type="ColorRect" parent="Background"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color( 0.847059, 0.847059, 0.847059, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TopLine" type="TextureRect" parent="Background/Color"]
+anchor_right = 1.0
+margin_left = 230.0
+margin_top = 179.0
+margin_right = -370.0
+margin_bottom = 189.0
+texture = ExtResource( 28 )
+expand = true
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="BottomLine" type="TextureRect" parent="Background/Color"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 230.0
+margin_top = -190.0
+margin_right = -370.0
+margin_bottom = -180.0
+texture = ExtResource( 21 )
+expand = true
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GUI" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Control" type="Control" parent="GUI"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LeftBar" type="Panel" parent="GUI/Control"]
+anchor_bottom = 1.0
+margin_right = 180.0
+custom_styles/panel = SubResource( 1 )
+script = ExtResource( 20 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="left_buttons" type="TextureRect" parent="GUI/Control/LeftBar"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -90.0
+margin_top = -540.0
+margin_right = 90.0
+margin_bottom = 540.0
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TimeLine" type="TextureRect" parent="GUI/Control"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -730.0
+margin_top = 53.0
+margin_right = 593.0
+margin_bottom = 125.0
+texture = ExtResource( 24 )
+stretch_mode = 1
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Fill" type="Panel" parent="GUI/Control/TimeLine"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_min_size = Vector2( 74, 0 )
+mouse_filter = 2
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Time" type="Label" parent="GUI/Control/TimeLine"]
+margin_left = 1100.0
+margin_top = 65.0
+margin_right = 1284.0
+margin_bottom = 129.0
+grow_horizontal = 2
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0.501961, 0.631373, 0.596078, 1 )
+custom_colors/font_outline_modulate = Color( 0.501961, 0.631373, 0.596078, 1 )
+text = "0.00"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RecordingIndicator" type="Control" parent="GUI/Control/TimeLine"]
+visible = false
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = 389.5
+margin_top = 7.0
+margin_right = 618.5
+margin_bottom = 47.0
+script = ExtResource( 35 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RedBall" type="Panel" parent="GUI/Control/TimeLine/RecordingIndicator"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": "q"
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GUI/Control/TimeLine/RecordingIndicator"]
+autoplay = "recording"
+anims/recording = SubResource( 5 )
+
+[node name="PlayingIndicator" type="Control" parent="GUI/Control/TimeLine"]
+visible = false
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = 389.5
+margin_top = 7.0
+margin_right = 618.5
+margin_bottom = 47.0
+script = ExtResource( 37 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GreenTriangle" type="TextureRect" parent="GUI/Control/TimeLine/PlayingIndicator"]
+modulate = Color( 0.501961, 0.631373, 0.596078, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -112.5
+margin_top = -18.4681
+margin_right = -73.5
+margin_bottom = 18.5319
+texture = ExtResource( 38 )
+expand = true
+stretch_mode = 6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GUI/Control/TimeLine/PlayingIndicator"]
+autoplay = "recording"
+anims/recording = SubResource( 6 )
+
+[node name="ControllButtons" type="VBoxContainer" parent="GUI/Control"]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -258.0
+margin_right = 0.00012207
+mouse_filter = 2
+custom_constants/separation = 0
+alignment = 1
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": true
+}
+gui_recordings_path = NodePath("../../../Overlay/Recordings")
+
+[node name="Back" type="TextureButton" parent="GUI/Control/ControllButtons"]
+margin_right = 258.0
+margin_bottom = 216.0
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource( 17 )
+texture_pressed = ExtResource( 14 )
+texture_disabled = ExtResource( 14 )
+expand = true
+stretch_mode = 6
+
+[node name="StartRecording" type="TextureButton" parent="GUI/Control/ControllButtons"]
+margin_top = 216.0
+margin_right = 258.0
+margin_bottom = 432.0
+rect_pivot_offset = Vector2( 75, 75 )
+focus_mode = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+toggle_mode = true
+texture_normal = ExtResource( 22 )
+texture_pressed = ExtResource( 23 )
+texture_disabled = ExtResource( 23 )
+expand = true
+stretch_mode = 6
+
+[node name="Mic" type="TextureButton" parent="GUI/Control/ControllButtons"]
+margin_top = 432.0
+margin_right = 258.0
+margin_bottom = 648.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+disabled = true
+texture_normal = ExtResource( 27 )
+texture_pressed = ExtResource( 25 )
+texture_disabled = ExtResource( 2 )
+expand = true
+stretch_mode = 6
+
+[node name="Library" type="TextureButton" parent="GUI/Control/ControllButtons"]
+margin_top = 648.0
+margin_right = 258.0
+margin_bottom = 864.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource( 34 )
+texture_pressed = ExtResource( 33 )
+texture_disabled = ExtResource( 33 )
+expand = true
+stretch_mode = 6
+
+[node name="Clear" type="TextureButton" parent="GUI/Control/ControllButtons"]
+margin_top = 864.0
+margin_right = 258.0
+margin_bottom = 1080.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource( 18 )
+texture_pressed = ExtResource( 26 )
+texture_disabled = ExtResource( 26 )
+expand = true
+stretch_mode = 6
+
+[node name="ReferenceRect" type="ReferenceRect" parent="GUI/Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 231.0
+margin_top = 183.0
+margin_right = -369.0
+margin_bottom = -183.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="GUI/Control/ReferenceRect"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color( 1, 1, 1, 0.462745 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="GUI/Control/ReferenceRect"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_top = 84.0
+margin_bottom = 84.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PackPosition" type="Position2D" parent="GUI/Control/ReferenceRect/Control"]
+
+[node name="ColorRect" type="ColorRect" parent="GUI/Control/ReferenceRect/Control"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -9.0
+margin_top = -9.0
+margin_right = 9.0
+margin_bottom = 9.0
+mouse_filter = 2
+color = Color( 1, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Overlay" type="CanvasLayer" parent="."]
+layer = 13
+script = ExtResource( 13 )
+
+[node name="Fade" type="ColorRect" parent="Overlay"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.4, 0.235294, 0.364706, 0 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Overlay/Fade"]
+anims/fade_in = SubResource( 7 )
+anims/fade_out = SubResource( 8 )
+
+[node name="Recordings" type="Popup" parent="Overlay"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -641.0
+margin_top = -376.0
+margin_right = 501.0
+margin_bottom = 376.0
+script = ExtResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+fade_animation_player_path = NodePath("../Fade/AnimationPlayer")
+
+[node name="Panel" type="Panel" parent="Overlay/Recordings"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RightStripe" type="Panel" parent="Overlay/Recordings"]
+visible = false
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -100.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="Overlay/Recordings"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 22.0
+margin_top = 24.0
+margin_right = -22.0
+margin_bottom = -24.0
+custom_constants/vseparation = 20
+custom_constants/hseparation = 40
+columns = 4
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Close" type="TextureButton" parent="Overlay/Recordings"]
+modulate = Color( 0.415686, 0.294118, 0.384314, 1 )
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -95.0
+margin_top = 5.0
+margin_right = -5.0
+margin_bottom = 95.0
+texture_normal = ExtResource( 30 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Recorder" type="Node" parent="."]
+script = ExtResource( 12 )
+gui_recordings_path = NodePath("../Overlay/Recordings")
+
+[node name="PositionEffects" type="Node" parent="."]
+script = ExtResource( 11 )
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="PackPosition" type="Position2D" parent="."]
+position = Vector2( -69, 441 )

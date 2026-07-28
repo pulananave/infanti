@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/images/characters/Esper/esper_agogo-0.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 1313, 1, 303, 239 )
+margin = Rect2( 21, 30, 29, 30 )

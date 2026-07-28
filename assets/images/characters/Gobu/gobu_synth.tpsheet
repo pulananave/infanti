@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "gobu_synth-0.png",
+			"size": {
+				"w": 1075,
+				"h": 1304
+			},
+			"sprites": [
+				{
+					"filename": "GOBU_SYNTH_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 212,
+						"h": 317
+					},
+					"margin": {
+						"x": 1,
+						"y": 7,
+						"w": 2,
+						"h": 7
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00002.png",
+					"region": {
+						"x": 216,
+						"y": 1,
+						"w": 212,
+						"h": 315
+					},
+					"margin": {
+						"x": 1,
+						"y": 9,
+						"w": 2,
+						"h": 9
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00004.png",
+					"region": {
+						"x": 431,
+						"y": 1,
+						"w": 212,
+						"h": 311
+					},
+					"margin": {
+						"x": 1,
+						"y": 13,
+						"w": 2,
+						"h": 13
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00006.png",
+					"region": {
+						"x": 646,
+						"y": 1,
+						"w": 212,
+						"h": 312
+					},
+					"margin": {
+						"x": 1,
+						"y": 12,
+						"w": 2,
+						"h": 12
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00008.png",
+					"region": {
+						"x": 861,
+						"y": 1,
+						"w": 212,
+						"h": 320
+					},
+					"margin": {
+						"x": 1,
+						"y": 4,
+						"w": 2,
+						"h": 4
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00010.png",
+					"region": {
+						"x": 1,
+						"y": 327,
+						"w": 212,
+						"h": 324
+					},
+					"margin": {
+						"x": 1,
+						"y": 0,
+						"w": 2,
+						"h": 0
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00012.png",
+					"region": {
+						"x": 216,
+						"y": 327,
+						"w": 212,
+						"h": 320
+					},
+					"margin": {
+						"x": 1,
+						"y": 4,
+						"w": 2,
+						"h": 4
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00014.png",
+					"region": {
+						"x": 431,
+						"y": 327,
+						"w": 212,
+						"h": 310
+					},
+					"margin": {
+						"x": 1,
+						"y": 14,
+						"w": 2,
+						"h": 14
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00016.png",
+					"region": {
+						"x": 646,
+						"y": 327,
+						"w": 212,
+						"h": 309
+					},
+					"margin": {
+						"x": 1,
+						"y": 15,
+						"w": 2,
+						"h": 15
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00018.png",
+					"region": {
+						"x": 861,
+						"y": 327,
+						"w": 212,
+						"h": 314
+					},
+					"margin": {
+						"x": 1,
+						"y": 10,
+						"w": 2,
+						"h": 10
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00020.png",
+					"region": {
+						"x": 1,
+						"y": 653,
+						"w": 212,
+						"h": 317
+					},
+					"margin": {
+						"x": 1,
+						"y": 7,
+						"w": 2,
+						"h": 7
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00022.png",
+					"region": {
+						"x": 216,
+						"y": 653,
+						"w": 212,
+						"h": 315
+					},
+					"margin": {
+						"x": 1,
+						"y": 9,
+						"w": 2,
+						"h": 9
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00024.png",
+					"region": {
+						"x": 431,
+						"y": 653,
+						"w": 213,
+						"h": 311
+					},
+					"margin": {
+						"x": 0,
+						"y": 13,
+						"w": 1,
+						"h": 13
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00026.png",
+					"region": {
+						"x": 646,
+						"y": 653,
+						"w": 212,
+						"h": 312
+					},
+					"margin": {
+						"x": 1,
+						"y": 12,
+						"w": 2,
+						"h": 12
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00028.png",
+					"region": {
+						"x": 861,
+						"y": 653,
+						"w": 212,
+						"h": 319
+					},
+					"margin": {
+						"x": 1,
+						"y": 5,
+						"w": 2,
+						"h": 5
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00030.png",
+					"region": {
+						"x": 1,
+						"y": 979,
+						"w": 213,
+						"h": 323
+					},
+					"margin": {
+						"x": 0,
+						"y": 1,
+						"w": 1,
+						"h": 1
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00032.png",
+					"region": {
+						"x": 216,
+						"y": 979,
+						"w": 213,
+						"h": 318
+					},
+					"margin": {
+						"x": 0,
+						"y": 6,
+						"w": 1,
+						"h": 6
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00034.png",
+					"region": {
+						"x": 431,
+						"y": 979,
+						"w": 212,
+						"h": 310
+					},
+					"margin": {
+						"x": 1,
+						"y": 14,
+						"w": 2,
+						"h": 14
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00036.png",
+					"region": {
+						"x": 646,
+						"y": 979,
+						"w": 212,
+						"h": 309
+					},
+					"margin": {
+						"x": 1,
+						"y": 15,
+						"w": 2,
+						"h": 15
+					}
+				},
+				{
+					"filename": "GOBU_SYNTH_00038.png",
+					"region": {
+						"x": 861,
+						"y": 979,
+						"w": 212,
+						"h": 314
+					},
+					"margin": {
+						"x": 1,
+						"y": 10,
+						"w": 2,
+						"h": 10
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:917bc643dff77681ed67ef33349ae8e5:7bbb9ca9a8513e1fa5dce8d105291d05:0864a9a54423ece464bf94c50829cdad$"
+	}
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 153.78 73.27"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="CONGA.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata35">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="779"
+     inkscape:window-height="480"
+     id="namedview33"
+     showgrid="false"
+     inkscape:zoom="2.7506828"
+     inkscape:cx="76.889999"
+     inkscape:cy="35.907906"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg31" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:none;stroke:#a62e3e;stroke-miterlimit:10;stroke-width:5px;}.cls-2{fill:#390830;}.cls-3{fill:#cf5539;}.cls-4{fill:#dd976b;}.cls-5{fill:#efd753;}</style>
+  </defs>
+  <title
+     id="title6">BACKGROUNDAsset 76</title>
+  <g
+     id="INSTRUMENTOS">
+    <g
+       id="conga">
+      <path
+         style="fill:none;stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         inkscape:connector-curvature="0"
+         id="path8"
+         d="M 151.28,9.24 A 6.74,6.74 0 0 0 144.54,2.5 H 86 a 6.74,6.74 0 0 0 -2,13.19 l 3.32,12.63 h -21 L 69.64,15.69 A 6.74,6.74 0 0 0 67.64,2.5 H 9.24 a 6.74,6.74 0 0 0 -2,13.19 l 3.66,13.92 a 5,5 0 0 0 2.29,8.71 L 15.77,48 A 18.34,18.34 0 0 0 33.5,61.68 h 10 A 18.34,18.34 0 0 0 61.23,48 l 2.5,-9.54 H 74.8 v 21.37 h -7 A 5.14,5.14 0 0 0 62.65,65 v 0.67 a 5.14,5.14 0 0 0 5.14,5.14 H 86 a 5.14,5.14 0 0 0 5.14,-5.14 V 65 A 5.14,5.14 0 0 0 86,59.83 H 79 V 38.47 H 90 L 92.55,48 a 18.34,18.34 0 0 0 17.73,13.67 h 10 A 18.32,18.32 0 0 0 138,48 l 2.56,-9.69 a 5,5 0 0 0 2.29,-8.71 l 3.66,-13.92 a 6.74,6.74 0 0 0 4.77,-6.44 z"
+         class="cls-1" />
+      <rect
+         style="fill:#390830"
+         id="rect10"
+         height="10.15"
+         width="30.43"
+         y="28.32"
+         x="61.68"
+         class="cls-2" />
+      <rect
+         style="fill:#390830"
+         id="rect12"
+         height="28.74"
+         width="4.1900001"
+         y="37.48"
+         x="74.800003"
+         class="cls-2" />
+      <rect
+         style="fill:#390830"
+         id="rect14"
+         rx="5.1300001"
+         height="10.94"
+         width="28.469999"
+         y="59.830002"
+         x="62.650002"
+         class="cls-2" />
+      <path
+         style="fill:#cf5539"
+         inkscape:connector-curvature="0"
+         id="path16"
+         d="m 120.28,61.68 h -10 A 18.34,18.34 0 0 1 92.55,48 L 83.94,15.27 h 62.68 L 138,48 a 18.32,18.32 0 0 1 -17.72,13.68 z"
+         class="cls-3" />
+      <rect
+         style="fill:#dd976b"
+         id="rect18"
+         rx="6.7399998"
+         height="13.48"
+         width="72"
+         y="2.5"
+         x="79.279999"
+         class="cls-4" />
+      <rect
+         style="fill:#efd753"
+         id="rect20"
+         rx="5.0599999"
+         height="10.11"
+         width="58.560001"
+         y="28.32"
+         x="86"
+         class="cls-5" />
+      <path
+         style="fill:#cf5539"
+         inkscape:connector-curvature="0"
+         id="path22"
+         d="m 43.5,61.68 h -10 A 18.34,18.34 0 0 1 15.77,48 L 7.16,15.27 H 69.84 L 61.23,48 A 18.34,18.34 0 0 1 43.5,61.68 Z"
+         class="cls-3" />
+      <rect
+         style="fill:#dd976b"
+         id="rect24"
+         rx="6.7399998"
+         height="13.48"
+         width="72"
+         y="2.5"
+         x="2.5"
+         class="cls-4" />
+      <rect
+         style="fill:#efd753"
+         id="rect26"
+         rx="5.0599999"
+         height="10.11"
+         width="58.560001"
+         y="28.32"
+         x="9.2200003"
+         class="cls-5" />
+    </g>
+  </g>
+</svg>

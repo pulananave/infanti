@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-latin-pandeirola.ogg-09037de91393aba095d48a442d7ff42e.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-latin-pandeirola.ogg"
+dest_files=[ "res://.import/canoa-latin-pandeirola.ogg-09037de91393aba095d48a442d7ff42e.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

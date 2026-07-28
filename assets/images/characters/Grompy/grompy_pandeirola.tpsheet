@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "grompy_pandeirola-0.png",
+			"size": {
+				"w": 1235,
+				"h": 572
+			},
+			"sprites": [
+				{
+					"filename": "GROMPY_PANDEIROLA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 245,
+						"h": 267
+					},
+					"margin": {
+						"x": 21,
+						"y": 26,
+						"w": 40,
+						"h": 26
+					}
+				},
+				{
+					"filename": "GROMPY_PANDEIROLA_00002.png",
+					"region": {
+						"x": 248,
+						"y": 1,
+						"w": 234,
+						"h": 274
+					},
+					"margin": {
+						"x": 40,
+						"y": 19,
+						"w": 51,
+						"h": 19
+					}
+				},
+				{
+					"filename": "GROMPY_PANDEIROLA_00004.png",
+					"region": {
+						"x": 495,
+						"y": 1,
+						"w": 218,
+						"h": 283
+					},
+					"margin": {
+						"x": 67,
+						"y": 10,
+						"w": 67,
+						"h": 10
+					}
+				},
+				{
+					"filename": "GROMPY_PANDEIROLA_00006.png",
+					"region": {
+						"x": 742,
+						"y": 1,
+						"w": 218,
+						"h": 283
+					},
+					"margin": {
+						"x": 67,
+						"y": 10,
+						"w": 67,
+						"h": 10
+					}
+				},
+				{
+					"filename": "GROMPY_PANDEIROLA_00008.png",
+					"region": {
+						"x": 989,
+						"y": 1,
+						"w": 234,
+						"h": 271
+					},
+					"margin": {
+						"x": 39,
+						"y": 22,
+						"w": 51,
+						"h": 22
+					}
+				},
+				{
+					"filename": "GROMPY_PANDEIROLA_00010.png",
+					"region": {
+						"x": 1,
+						"y": 287,
+						"w": 244,
+						"h": 264
+					},
+					"margin": {
+						"x": 22,
+						"y": 29,
+						"w": 41,
+						"h": 29
+					}
+				},
+				{
+					"filename": "GROMPY_PANDEIROLA_00012.png",
+					"region": {
+						"x": 248,
+						"y": 287,
+						"w": 215,
+						"h": 272
+					},
+					"margin": {
+						"x": 45,
+						"y": 21,
+						"w": 70,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GROMPY_PANDEIROLA_00014.png",
+					"region": {
+						"x": 495,
+						"y": 287,
+						"w": 170,
+						"h": 284
+					},
+					"margin": {
+						"x": 81,
+						"y": 9,
+						"w": 115,
+						"h": 9
+					}
+				},
+				{
+					"filename": "GROMPY_PANDEIROLA_00016.png",
+					"region": {
+						"x": 742,
+						"y": 287,
+						"w": 170,
+						"h": 284
+					},
+					"margin": {
+						"x": 81,
+						"y": 9,
+						"w": 115,
+						"h": 9
+					}
+				},
+				{
+					"filename": "GROMPY_PANDEIROLA_00018.png",
+					"region": {
+						"x": 989,
+						"y": 287,
+						"w": 214,
+						"h": 274
+					},
+					"margin": {
+						"x": 46,
+						"y": 19,
+						"w": 71,
+						"h": 19
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ef5d0451a39e6ec32a55e35b4d4f7fe0:b6275cfaf5aea9af44dfc68f4c998956:09cc0addfd121511d9c028f229b12bad$"
+	}
+}

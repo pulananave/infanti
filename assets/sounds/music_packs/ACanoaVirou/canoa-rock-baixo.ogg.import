@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-rock-baixo.ogg-d96430ddbd22fcb003d2ab8c8358dd6d.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-rock-baixo.ogg"
+dest_files=[ "res://.import/canoa-rock-baixo.ogg-d96430ddbd22fcb003d2ab8c8358dd6d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

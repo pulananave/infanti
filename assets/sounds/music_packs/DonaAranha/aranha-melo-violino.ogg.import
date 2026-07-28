@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-melo-violino.ogg-d302ccb02b0ffc2e8a3611a7a9fd6571.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-melo-violino.ogg"
+dest_files=[ "res://.import/aranha-melo-violino.ogg-d302ccb02b0ffc2e8a3611a7a9fd6571.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

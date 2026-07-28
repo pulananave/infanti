@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/coelho-marcial-bombo.ogg-2249597f528a16b3c11fa11c58242571.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/CoelhoDaPascoa/coelho-marcial-bombo.ogg"
+dest_files=[ "res://.import/coelho-marcial-bombo.ogg-2249597f528a16b3c11fa11c58242571.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

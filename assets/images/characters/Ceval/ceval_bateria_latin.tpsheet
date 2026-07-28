@@ -1,0 +1,627 @@
+{
+	"textures": [
+		{
+			"image": "ceval_bateria_latin-0.png",
+			"size": {
+				"w": 1876,
+				"h": 1960
+			},
+			"sprites": [
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 231,
+						"h": 353
+					},
+					"margin": {
+						"x": 16,
+						"y": 56,
+						"w": 37,
+						"h": 56
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00040.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 231,
+						"h": 353
+					},
+					"margin": {
+						"x": 16,
+						"y": 56,
+						"w": 37,
+						"h": 56
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00002.png",
+					"region": {
+						"x": 269,
+						"y": 1,
+						"w": 246,
+						"h": 361
+					},
+					"margin": {
+						"x": 6,
+						"y": 48,
+						"w": 22,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00004.png",
+					"region": {
+						"x": 537,
+						"y": 1,
+						"w": 266,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 2,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00006.png",
+					"region": {
+						"x": 805,
+						"y": 1,
+						"w": 266,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 2,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00008.png",
+					"region": {
+						"x": 1073,
+						"y": 1,
+						"w": 248,
+						"h": 386
+					},
+					"margin": {
+						"x": 13,
+						"y": 23,
+						"w": 20,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00010.png",
+					"region": {
+						"x": 1341,
+						"y": 1,
+						"w": 238,
+						"h": 390
+					},
+					"margin": {
+						"x": 20,
+						"y": 19,
+						"w": 30,
+						"h": 19
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00012.png",
+					"region": {
+						"x": 1609,
+						"y": 1,
+						"w": 248,
+						"h": 386
+					},
+					"margin": {
+						"x": 13,
+						"y": 23,
+						"w": 20,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00014.png",
+					"region": {
+						"x": 1,
+						"y": 393,
+						"w": 266,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 2,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00016.png",
+					"region": {
+						"x": 269,
+						"y": 393,
+						"w": 266,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 2,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00018.png",
+					"region": {
+						"x": 537,
+						"y": 393,
+						"w": 246,
+						"h": 361
+					},
+					"margin": {
+						"x": 6,
+						"y": 48,
+						"w": 22,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00020.png",
+					"region": {
+						"x": 805,
+						"y": 393,
+						"w": 231,
+						"h": 353
+					},
+					"margin": {
+						"x": 16,
+						"y": 56,
+						"w": 37,
+						"h": 56
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00022.png",
+					"region": {
+						"x": 1073,
+						"y": 393,
+						"w": 243,
+						"h": 361
+					},
+					"margin": {
+						"x": 6,
+						"y": 48,
+						"w": 25,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00024.png",
+					"region": {
+						"x": 1341,
+						"y": 393,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00026.png",
+					"region": {
+						"x": 1609,
+						"y": 393,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00028.png",
+					"region": {
+						"x": 1,
+						"y": 785,
+						"w": 241,
+						"h": 386
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00030.png",
+					"region": {
+						"x": 269,
+						"y": 785,
+						"w": 227,
+						"h": 390
+					},
+					"margin": {
+						"x": 23,
+						"y": 19,
+						"w": 41,
+						"h": 19
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00032.png",
+					"region": {
+						"x": 537,
+						"y": 785,
+						"w": 241,
+						"h": 386
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00034.png",
+					"region": {
+						"x": 805,
+						"y": 785,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00036.png",
+					"region": {
+						"x": 1073,
+						"y": 785,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00038.png",
+					"region": {
+						"x": 1341,
+						"y": 785,
+						"w": 243,
+						"h": 361
+					},
+					"margin": {
+						"x": 6,
+						"y": 48,
+						"w": 25,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00042.png",
+					"region": {
+						"x": 1609,
+						"y": 785,
+						"w": 242,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 26,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00044.png",
+					"region": {
+						"x": 1,
+						"y": 1177,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00046.png",
+					"region": {
+						"x": 269,
+						"y": 1177,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00048.png",
+					"region": {
+						"x": 537,
+						"y": 1177,
+						"w": 242,
+						"h": 386
+					},
+					"margin": {
+						"x": 13,
+						"y": 23,
+						"w": 26,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00050.png",
+					"region": {
+						"x": 805,
+						"y": 1177,
+						"w": 229,
+						"h": 390
+					},
+					"margin": {
+						"x": 21,
+						"y": 19,
+						"w": 39,
+						"h": 19
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00052.png",
+					"region": {
+						"x": 1073,
+						"y": 1177,
+						"w": 242,
+						"h": 386
+					},
+					"margin": {
+						"x": 13,
+						"y": 23,
+						"w": 26,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00054.png",
+					"region": {
+						"x": 1341,
+						"y": 1177,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00056.png",
+					"region": {
+						"x": 1609,
+						"y": 1177,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00058.png",
+					"region": {
+						"x": 1,
+						"y": 1569,
+						"w": 242,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 26,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00060.png",
+					"region": {
+						"x": 269,
+						"y": 1569,
+						"w": 232,
+						"h": 353
+					},
+					"margin": {
+						"x": 15,
+						"y": 56,
+						"w": 36,
+						"h": 56
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00062.png",
+					"region": {
+						"x": 537,
+						"y": 1569,
+						"w": 242,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 26,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00064.png",
+					"region": {
+						"x": 805,
+						"y": 1569,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00066.png",
+					"region": {
+						"x": 1073,
+						"y": 1569,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00068.png",
+					"region": {
+						"x": 1341,
+						"y": 1569,
+						"w": 241,
+						"h": 386
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00070.png",
+					"region": {
+						"x": 1609,
+						"y": 1569,
+						"w": 227,
+						"h": 390
+					},
+					"margin": {
+						"x": 23,
+						"y": 19,
+						"w": 41,
+						"h": 19
+					}
+				}
+			]
+		},
+		{
+			"image": "ceval_bateria_latin-1.png",
+			"size": {
+				"w": 1072,
+				"h": 392
+			},
+			"sprites": [
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00072.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 242,
+						"h": 386
+					},
+					"margin": {
+						"x": 13,
+						"y": 23,
+						"w": 26,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00074.png",
+					"region": {
+						"x": 269,
+						"y": 1,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00076.png",
+					"region": {
+						"x": 537,
+						"y": 1,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_AZUL_00078.png",
+					"region": {
+						"x": 805,
+						"y": 1,
+						"w": 243,
+						"h": 361
+					},
+					"margin": {
+						"x": 6,
+						"y": 48,
+						"w": 25,
+						"h": 48
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1d6d5115a280c5c9f0f372ebb941ccdb:98e2475a15984fa3fe8e0dc24e06bafd:4d0670f0434dfcef2d7be8d3a09ceec9$"
+	}
+}

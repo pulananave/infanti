@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-marcial-trombone.ogg-08cd11c778308c98e113ecd194b9fe05.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-marcial-trombone.ogg"
+dest_files=[ "res://.import/sapo-marcial-trombone.ogg-08cd11c778308c98e113ecd194b9fe05.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

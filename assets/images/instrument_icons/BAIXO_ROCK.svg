@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 78 225"
+   version="1.1"
+   id="svg33"
+   sodipodi:docname="BAIXO_ROCK.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="779"
+     inkscape:window-height="480"
+     id="namedview35"
+     showgrid="false"
+     inkscape:zoom="1.0488889"
+     inkscape:cx="-65.396186"
+     inkscape:cy="112.5"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg33" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1,.cls-4{fill:#663156;}.cls-1{stroke:#a62e3e;stroke-miterlimit:10;stroke-width:5px;}.cls-2{fill:#485f3a;}.cls-3{fill:#3b0b32;}.cls-5{fill:none;}</style>
+  </defs>
+  <title
+     id="title6">Asset 172</title>
+  <g
+     id="INSTRUMENTOS">
+    <g
+       id="baixo_eletrico_02">
+      <path
+         style="fill:#663156;stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         inkscape:connector-curvature="0"
+         id="path8"
+         d="m 61.6,189.48 c -7.56,-4.8 -10.74,-15.15 -0.68,-25.57 15.4,-16.9 -12.6,-33 -9.45,-21.26 0.88,7.62 -3.74,18.33 -11.74,13.16 -1.49,-41.57 -2.61,-63.87 -3.61,-114 a 12,12 0 0 1 4.75,-8.28 1.39,1.39 0 0 0 0.06,-2.18 C 38.39,29.15 37.71,25.8 37.75,22.01 51.93,17 34,-8.57 26.43,11.55 A 88,88 0 0 0 22.74,36 a 20.48,20.48 0 0 1 7.42,5.82 c -1.57,49.74 -1.87,70 -3.64,113.67 -4.29,1.31 -8.75,1.65 -10.64,-9.82 -2.16,-12.26 -13.44,-7.45 -12.45,1.25 0.73,5.65 3,10.67 11.61,19.84 4.79,5.51 1.12,13.2 -5,20.73 -17,21.11 18.7,35.05 43.76,34.11 24.2,0.27 29.77,-17.22 7.8,-32.12 z"
+         class="cls-1" />
+      <path
+         style="fill:#663156;stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         inkscape:connector-curvature="0"
+         id="path10"
+         d="m 17,35.83 0.28,-0.09 a 2.92,2.92 0 0 0 1,-5 l -0.22,-0.2 a 2.93,2.93 0 0 0 -4.81,1.59 l -0.05,0.28 a 2.92,2.92 0 0 0 3.8,3.42 z"
+         class="cls-1" />
+      <path
+         style="fill:#663156;stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         inkscape:connector-curvature="0"
+         id="path12"
+         d="m 18.91,26.88 0.27,-0.09 a 2.92,2.92 0 0 0 1,-5 L 20,21.64 a 2.92,2.92 0 0 0 -4.81,1.59 l -0.06,0.28 a 2.93,2.93 0 0 0 3.78,3.37 z"
+         class="cls-1" />
+      <path
+         style="fill:#663156;stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         inkscape:connector-curvature="0"
+         id="path14"
+         d="m 20.77,17.93 0.28,-0.09 a 2.93,2.93 0 0 0 1,-5 l -0.21,-0.19 a 2.92,2.92 0 0 0 -4.81,1.58 l -0.06,0.28 a 2.92,2.92 0 0 0 3.8,3.42 z"
+         class="cls-1" />
+      <path
+         style="fill:#663156;stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         inkscape:connector-curvature="0"
+         id="path16"
+         d="m 22.64,9 0.27,-0.09 a 2.92,2.92 0 0 0 1,-5 L 23.69,3.72 A 2.92,2.92 0 0 0 18.88,5.3 L 18.82,5.58 A 2.92,2.92 0 0 0 22.64,9 Z"
+         class="cls-1" />
+      <path
+         style="fill:#485f3a"
+         inkscape:connector-curvature="0"
+         d="m 53.84,221.61 c 24.12,0.26 29.73,-17.23 7.76,-32.13 -7.56,-4.8 -10.74,-15.15 -0.68,-25.57 15.4,-16.9 -12.6,-33 -9.45,-21.26 0.88,7.69 -3.82,18.54 -12,13 l -12.91,-0.19 c -4.31,1.33 -8.82,1.74 -10.72,-9.8 -2.16,-12.26 -13.44,-7.45 -12.45,1.25 0.73,5.65 3,10.67 11.61,19.84 4.79,5.51 1.12,13.2 -5,20.73 -16.92,21.13 18.78,35.07 43.84,34.13 z"
+         class="cls-2"
+         id="baixo_corpo" />
+      <path
+         style="fill:#3b0b32"
+         inkscape:connector-curvature="0"
+         d="m 28.23,170.14 c 3.11,1.6 6.48,2.69 9.8,2.15 a 2.6,2.6 0 0 0 2.19,-2.62 c -1.75,-51 -3,-72.44 -4.1,-127.84 h -6 c -1.7,53.81 -1.91,73.09 -4.11,124.86 a 4.3,4.3 0 0 0 2.22,3.45 z"
+         class="cls-3"
+         id="baixo_braco" />
+      <path
+         style="fill:#485f3a"
+         inkscape:connector-curvature="0"
+         d="M 30.16,41.83 A 20.48,20.48 0 0 0 22.74,36 88,88 0 0 1 26.43,11.54 C 34,-8.57 51.93,17 37.75,22 c 0,3.79 0.64,7.15 3.18,9.34 a 1.39,1.39 0 0 1 -0.06,2.18 12,12 0 0 0 -4.75,8.28 z"
+         class="cls-2"
+         id="baixo_mao" />
+      <path
+         style="fill:#663156"
+         inkscape:connector-curvature="0"
+         id="path21"
+         d="m 18.35,30.79 -0.22,-0.2 a 2.93,2.93 0 0 0 -4.81,1.59 l -0.05,0.28 A 2.92,2.92 0 0 0 17,35.83 l 0.28,-0.09 a 2.92,2.92 0 0 0 1.07,-4.95 z"
+         class="cls-4" />
+      <path
+         style="fill:#663156"
+         inkscape:connector-curvature="0"
+         id="path23"
+         d="M 20.21,21.83 20,21.64 a 2.92,2.92 0 0 0 -4.81,1.59 l -0.06,0.28 a 2.93,2.93 0 0 0 3.78,3.37 l 0.27,-0.09 a 2.92,2.92 0 0 0 1.03,-4.96 z"
+         class="cls-4" />
+      <path
+         style="fill:#663156"
+         inkscape:connector-curvature="0"
+         id="path25"
+         d="m 22.08,12.88 -0.21,-0.19 a 2.92,2.92 0 0 0 -4.81,1.58 L 17,14.55 a 2.92,2.92 0 0 0 3.77,3.38 l 0.28,-0.09 a 2.92,2.92 0 0 0 1.03,-4.96 z"
+         class="cls-4" />
+      <path
+         style="fill:#663156"
+         inkscape:connector-curvature="0"
+         id="path27"
+         d="M 24,3.93 23.78,3.74 A 2.92,2.92 0 0 0 18.97,5.32 L 18.91,5.6 A 2.92,2.92 0 0 0 22.64,9 L 22.91,8.91 A 2.92,2.92 0 0 0 24,3.93 Z"
+         class="cls-4" />
+    </g>
+    <rect
+       style="fill:none"
+       y="0"
+       x="0"
+       height="225"
+       width="78"
+       class="cls-5"
+       data-name="&lt;Slice&gt;"
+       id="_Slice_" />
+  </g>
+</svg>

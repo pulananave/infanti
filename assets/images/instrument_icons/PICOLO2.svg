@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 23 190"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="PICOLO2.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata34">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="779"
+     inkscape:window-height="480"
+     id="namedview32"
+     showgrid="false"
+     inkscape:zoom="1.2421053"
+     inkscape:cx="11.5"
+     inkscape:cy="95"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg30" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{stroke:#a62e3e;stroke-miterlimit:10;stroke-width:5px;}.cls-2{fill:#485f3a;}.cls-3{fill:#e4ce56;}.cls-4{fill:#c54e53;}.cls-5{fill:#390830;}.cls-6{fill:none;}</style>
+  </defs>
+  <title
+     id="title6">Asset 172</title>
+  <g
+     id="INSTRUMENTOS">
+    <g
+       id="picolo_02">
+      <path
+         style="stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         inkscape:connector-curvature="0"
+         id="path8"
+         d="m 3.86,10.48 v 66.84 a 1.8,1.8 0 0 0 0,2.75 v 99.22 a 7.91,7.91 0 1 0 15.82,0 V 80.07 a 1.8,1.8 0 0 0 0,-2.75 V 10.48 a 7.91,7.91 0 0 0 -15.82,0 z"
+         class="cls-1" />
+      <rect
+         style="fill:#485f3a"
+         id="rect10"
+         transform="rotate(-90,11.77,94.89)"
+         rx="7.9099998"
+         height="15.81"
+         width="184.62"
+         y="86.980003"
+         x="-80.540001"
+         class="cls-2" />
+      <rect
+         style="fill:#e4ce56"
+         id="rect12"
+         transform="rotate(-90,11.765,78.695)"
+         rx="1.8"
+         height="17.1"
+         width="3.6099999"
+         y="70.150002"
+         x="9.9700003"
+         class="cls-3" />
+      <ellipse
+         style="fill:#c54e53"
+         id="ellipse14"
+         ry="6.6199999"
+         rx="3.0999999"
+         cy="97.449997"
+         cx="7.71"
+         class="cls-4" />
+      <ellipse
+         style="fill:#390830"
+         id="ellipse16"
+         ry="6.6199999"
+         rx="3.0999999"
+         cy="29.719999"
+         cx="7.71"
+         class="cls-5" />
+      <ellipse
+         style="fill:#c54e53"
+         id="ellipse18"
+         ry="6.6199999"
+         rx="3.0999999"
+         cy="115.67"
+         cx="7.71"
+         class="cls-4" />
+      <ellipse
+         style="fill:#c54e53"
+         id="ellipse20"
+         ry="6.6199999"
+         rx="3.0999999"
+         cy="133.89"
+         cx="7.71"
+         class="cls-4" />
+      <ellipse
+         style="fill:#c54e53"
+         id="ellipse22"
+         ry="6.6199999"
+         rx="3.0999999"
+         cy="152.12"
+         cx="7.71"
+         class="cls-4" />
+      <ellipse
+         style="fill:#c54e53"
+         id="ellipse24"
+         ry="6.6199999"
+         rx="3.0999999"
+         cy="170.34"
+         cx="7.71"
+         class="cls-4" />
+    </g>
+    <rect
+       style="fill:none"
+       y="0"
+       x="0"
+       height="190"
+       width="23"
+       class="cls-6"
+       data-name="&lt;Slice&gt;"
+       id="_Slice_" />
+  </g>
+</svg>

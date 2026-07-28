@@ -1,0 +1,13 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://src/Character/Character.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Instrument/TeewongInstrument/TeewongInstrument.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/images/characters/Teewong/Icon/ICONE_TEEWONG.svg" type="Texture" id=3]
+[ext_resource path="res://assets/images/characters/Teewong/Icon/ICONE-TEEWONG-ATIVO.svg" type="Texture" id=4]
+
+[node name="Teewong" instance=ExtResource( 1 )]
+instrument_scene = ExtResource( 2 )
+
+[node name="Icon" parent="." index="3"]
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )

@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "dan_violao-0.png",
+			"size": {
+				"w": 1635,
+				"h": 1248
+			},
+			"sprites": [
+				{
+					"filename": "DAN_VIOLAO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 308,
+						"h": 310
+					},
+					"margin": {
+						"x": 82,
+						"y": 9,
+						"w": 158,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00002.png",
+					"region": {
+						"x": 328,
+						"y": 1,
+						"w": 313,
+						"h": 306
+					},
+					"margin": {
+						"x": 78,
+						"y": 13,
+						"w": 153,
+						"h": 13
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00004.png",
+					"region": {
+						"x": 655,
+						"y": 1,
+						"w": 322,
+						"h": 299
+					},
+					"margin": {
+						"x": 71,
+						"y": 20,
+						"w": 144,
+						"h": 20
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00006.png",
+					"region": {
+						"x": 982,
+						"y": 1,
+						"w": 322,
+						"h": 299
+					},
+					"margin": {
+						"x": 67,
+						"y": 20,
+						"w": 144,
+						"h": 20
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00008.png",
+					"region": {
+						"x": 1309,
+						"y": 1,
+						"w": 312,
+						"h": 306
+					},
+					"margin": {
+						"x": 69,
+						"y": 13,
+						"w": 154,
+						"h": 13
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00010.png",
+					"region": {
+						"x": 1,
+						"y": 313,
+						"w": 307,
+						"h": 310
+					},
+					"margin": {
+						"x": 70,
+						"y": 9,
+						"w": 159,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00012.png",
+					"region": {
+						"x": 328,
+						"y": 313,
+						"w": 312,
+						"h": 306
+					},
+					"margin": {
+						"x": 69,
+						"y": 13,
+						"w": 154,
+						"h": 13
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00014.png",
+					"region": {
+						"x": 655,
+						"y": 313,
+						"w": 322,
+						"h": 299
+					},
+					"margin": {
+						"x": 67,
+						"y": 20,
+						"w": 144,
+						"h": 20
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00016.png",
+					"region": {
+						"x": 982,
+						"y": 313,
+						"w": 322,
+						"h": 299
+					},
+					"margin": {
+						"x": 71,
+						"y": 20,
+						"w": 144,
+						"h": 20
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00018.png",
+					"region": {
+						"x": 1309,
+						"y": 313,
+						"w": 314,
+						"h": 306
+					},
+					"margin": {
+						"x": 77,
+						"y": 13,
+						"w": 152,
+						"h": 13
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00020.png",
+					"region": {
+						"x": 1,
+						"y": 625,
+						"w": 308,
+						"h": 310
+					},
+					"margin": {
+						"x": 82,
+						"y": 9,
+						"w": 158,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00022.png",
+					"region": {
+						"x": 328,
+						"y": 625,
+						"w": 314,
+						"h": 306
+					},
+					"margin": {
+						"x": 80,
+						"y": 13,
+						"w": 152,
+						"h": 13
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00024.png",
+					"region": {
+						"x": 655,
+						"y": 625,
+						"w": 322,
+						"h": 299
+					},
+					"margin": {
+						"x": 79,
+						"y": 20,
+						"w": 144,
+						"h": 20
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00026.png",
+					"region": {
+						"x": 982,
+						"y": 625,
+						"w": 325,
+						"h": 299
+					},
+					"margin": {
+						"x": 80,
+						"y": 20,
+						"w": 141,
+						"h": 20
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00028.png",
+					"region": {
+						"x": 1309,
+						"y": 625,
+						"w": 315,
+						"h": 306
+					},
+					"margin": {
+						"x": 88,
+						"y": 13,
+						"w": 151,
+						"h": 13
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00030.png",
+					"region": {
+						"x": 1,
+						"y": 937,
+						"w": 310,
+						"h": 310
+					},
+					"margin": {
+						"x": 93,
+						"y": 9,
+						"w": 156,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00032.png",
+					"region": {
+						"x": 328,
+						"y": 937,
+						"w": 315,
+						"h": 306
+					},
+					"margin": {
+						"x": 88,
+						"y": 13,
+						"w": 151,
+						"h": 13
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00034.png",
+					"region": {
+						"x": 655,
+						"y": 937,
+						"w": 325,
+						"h": 299
+					},
+					"margin": {
+						"x": 80,
+						"y": 20,
+						"w": 141,
+						"h": 20
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00036.png",
+					"region": {
+						"x": 982,
+						"y": 937,
+						"w": 322,
+						"h": 299
+					},
+					"margin": {
+						"x": 79,
+						"y": 20,
+						"w": 144,
+						"h": 20
+					}
+				},
+				{
+					"filename": "DAN_VIOLAO_00038.png",
+					"region": {
+						"x": 1309,
+						"y": 937,
+						"w": 314,
+						"h": 306
+					},
+					"margin": {
+						"x": 80,
+						"y": 13,
+						"w": 152,
+						"h": 13
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:511616692c0f27e6f27d6a68d6ab9f7d:64c3ebc378a2e8eb42d07fd40e3dcabb:2ec51ec379dba4a324d2c637dd62463a$"
+	}
+}

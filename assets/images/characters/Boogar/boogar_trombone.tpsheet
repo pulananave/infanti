@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "boogar_trombone-0.png",
+			"size": {
+				"w": 1675,
+				"h": 1044
+			},
+			"sprites": [
+				{
+					"filename": "BOOGAR_TROMBONE_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 309,
+						"h": 247
+					},
+					"margin": {
+						"x": 86,
+						"y": 33,
+						"w": 189,
+						"h": 33
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00002.png",
+					"region": {
+						"x": 336,
+						"y": 1,
+						"w": 306,
+						"h": 251
+					},
+					"margin": {
+						"x": 86,
+						"y": 29,
+						"w": 192,
+						"h": 29
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00004.png",
+					"region": {
+						"x": 671,
+						"y": 1,
+						"w": 300,
+						"h": 259
+					},
+					"margin": {
+						"x": 88,
+						"y": 21,
+						"w": 198,
+						"h": 21
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00006.png",
+					"region": {
+						"x": 1006,
+						"y": 1,
+						"w": 303,
+						"h": 257
+					},
+					"margin": {
+						"x": 86,
+						"y": 23,
+						"w": 195,
+						"h": 23
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00008.png",
+					"region": {
+						"x": 1341,
+						"y": 1,
+						"w": 322,
+						"h": 243
+					},
+					"margin": {
+						"x": 76,
+						"y": 37,
+						"w": 176,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00010.png",
+					"region": {
+						"x": 1,
+						"y": 262,
+						"w": 333,
+						"h": 233
+					},
+					"margin": {
+						"x": 70,
+						"y": 47,
+						"w": 165,
+						"h": 47
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00012.png",
+					"region": {
+						"x": 336,
+						"y": 262,
+						"w": 318,
+						"h": 243
+					},
+					"margin": {
+						"x": 80,
+						"y": 37,
+						"w": 180,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00014.png",
+					"region": {
+						"x": 671,
+						"y": 262,
+						"w": 297,
+						"h": 257
+					},
+					"margin": {
+						"x": 94,
+						"y": 23,
+						"w": 201,
+						"h": 23
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00016.png",
+					"region": {
+						"x": 1006,
+						"y": 262,
+						"w": 295,
+						"h": 259
+					},
+					"margin": {
+						"x": 96,
+						"y": 21,
+						"w": 203,
+						"h": 21
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00018.png",
+					"region": {
+						"x": 1341,
+						"y": 262,
+						"w": 304,
+						"h": 251
+					},
+					"margin": {
+						"x": 93,
+						"y": 29,
+						"w": 194,
+						"h": 29
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00020.png",
+					"region": {
+						"x": 1,
+						"y": 523,
+						"w": 309,
+						"h": 247
+					},
+					"margin": {
+						"x": 91,
+						"y": 33,
+						"w": 189,
+						"h": 33
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00022.png",
+					"region": {
+						"x": 336,
+						"y": 523,
+						"w": 306,
+						"h": 251
+					},
+					"margin": {
+						"x": 91,
+						"y": 29,
+						"w": 192,
+						"h": 29
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00024.png",
+					"region": {
+						"x": 671,
+						"y": 523,
+						"w": 300,
+						"h": 259
+					},
+					"margin": {
+						"x": 92,
+						"y": 21,
+						"w": 198,
+						"h": 21
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00026.png",
+					"region": {
+						"x": 1006,
+						"y": 523,
+						"w": 305,
+						"h": 257
+					},
+					"margin": {
+						"x": 88,
+						"y": 23,
+						"w": 193,
+						"h": 23
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00028.png",
+					"region": {
+						"x": 1341,
+						"y": 523,
+						"w": 322,
+						"h": 243
+					},
+					"margin": {
+						"x": 77,
+						"y": 37,
+						"w": 176,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00030.png",
+					"region": {
+						"x": 1,
+						"y": 784,
+						"w": 333,
+						"h": 233
+					},
+					"margin": {
+						"x": 70,
+						"y": 47,
+						"w": 165,
+						"h": 47
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00032.png",
+					"region": {
+						"x": 336,
+						"y": 784,
+						"w": 319,
+						"h": 243
+					},
+					"margin": {
+						"x": 79,
+						"y": 37,
+						"w": 179,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00034.png",
+					"region": {
+						"x": 671,
+						"y": 784,
+						"w": 297,
+						"h": 257
+					},
+					"margin": {
+						"x": 92,
+						"y": 23,
+						"w": 201,
+						"h": 23
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00036.png",
+					"region": {
+						"x": 1006,
+						"y": 784,
+						"w": 294,
+						"h": 259
+					},
+					"margin": {
+						"x": 94,
+						"y": 21,
+						"w": 204,
+						"h": 21
+					}
+				},
+				{
+					"filename": "BOOGAR_TROMBONE_00038.png",
+					"region": {
+						"x": 1341,
+						"y": 784,
+						"w": 303,
+						"h": 251
+					},
+					"margin": {
+						"x": 89,
+						"y": 29,
+						"w": 195,
+						"h": 29
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2c33376858b7abaf8fe0445b9b1996d3:58b1531a1cdd17931134f9084209ab4a:edc049e66a5ee7afa9a05d356d3ae257$"
+	}
+}

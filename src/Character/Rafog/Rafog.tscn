@@ -1,0 +1,13 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://src/Character/Character.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Instrument/RafogInstrument/RafogInstrument.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/images/characters/Rafog/Icon/ICONE_RAFOG_ATIVO.svg" type="Texture" id=3]
+[ext_resource path="res://assets/images/characters/Rafog/Icon/ICONE_RAFOG.svg" type="Texture" id=4]
+
+[node name="Rafog" instance=ExtResource( 1 )]
+instrument_scene = ExtResource( 2 )
+
+[node name="Icon" parent="." index="3"]
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 3 )

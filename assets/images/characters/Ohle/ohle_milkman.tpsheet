@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "ohle_milkman-0.png",
+			"size": {
+				"w": 1930,
+				"h": 334
+			},
+			"sprites": [
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 174,
+						"h": 311
+					},
+					"margin": {
+						"x": 18,
+						"y": 28,
+						"w": 47,
+						"h": 28
+					}
+				},
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00002.png",
+					"region": {
+						"x": 194,
+						"y": 1,
+						"w": 181,
+						"h": 320
+					},
+					"margin": {
+						"x": 12,
+						"y": 19,
+						"w": 40,
+						"h": 19
+					}
+				},
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00004.png",
+					"region": {
+						"x": 387,
+						"y": 1,
+						"w": 190,
+						"h": 332
+					},
+					"margin": {
+						"x": 3,
+						"y": 7,
+						"w": 31,
+						"h": 7
+					}
+				},
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00006.png",
+					"region": {
+						"x": 580,
+						"y": 1,
+						"w": 191,
+						"h": 330
+					},
+					"margin": {
+						"x": 3,
+						"y": 9,
+						"w": 30,
+						"h": 9
+					}
+				},
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00008.png",
+					"region": {
+						"x": 773,
+						"y": 1,
+						"w": 186,
+						"h": 306
+					},
+					"margin": {
+						"x": 10,
+						"y": 33,
+						"w": 35,
+						"h": 33
+					}
+				},
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00010.png",
+					"region": {
+						"x": 966,
+						"y": 1,
+						"w": 184,
+						"h": 289
+					},
+					"margin": {
+						"x": 13,
+						"y": 50,
+						"w": 37,
+						"h": 50
+					}
+				},
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00012.png",
+					"region": {
+						"x": 1159,
+						"y": 1,
+						"w": 185,
+						"h": 305
+					},
+					"margin": {
+						"x": 14,
+						"y": 34,
+						"w": 36,
+						"h": 34
+					}
+				},
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00014.png",
+					"region": {
+						"x": 1352,
+						"y": 1,
+						"w": 189,
+						"h": 330
+					},
+					"margin": {
+						"x": 15,
+						"y": 9,
+						"w": 32,
+						"h": 9
+					}
+				},
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00016.png",
+					"region": {
+						"x": 1545,
+						"y": 1,
+						"w": 188,
+						"h": 332
+					},
+					"margin": {
+						"x": 15,
+						"y": 7,
+						"w": 33,
+						"h": 7
+					}
+				},
+				{
+					"filename": "OHLE_RELOGIO_MALUCO_00018.png",
+					"region": {
+						"x": 1738,
+						"y": 1,
+						"w": 181,
+						"h": 318
+					},
+					"margin": {
+						"x": 16,
+						"y": 21,
+						"w": 40,
+						"h": 21
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bb86ddf5f4bc180a9a2b7ebcee0ce102:c07abb4a23d40bfae3bddf77cd7c30a5:e571197c82eb507f543f192e16778fc8$"
+	}
+}

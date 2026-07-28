@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 120.32 126.65"
+   version="1.1"
+   id="svg37"
+   sodipodi:docname="MARIMBA.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata41">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="779"
+     inkscape:window-height="480"
+     id="namedview39"
+     showgrid="false"
+     inkscape:zoom="1.8634031"
+     inkscape:cx="1.3965457"
+     inkscape:cy="62.251696"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg37" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{stroke:#a62e3e;stroke-miterlimit:10;stroke-width:5px;}.cls-2{fill:#390830;}.cls-3{fill:#c3543b;}.cls-4{fill:#a72e3e;}.cls-5{fill:#cf845d;}.cls-6{fill:#663156;}</style>
+  </defs>
+  <title
+     id="title6">BACKGROUNDAsset 72</title>
+  <g
+     id="INSTRUMENTOS">
+    <g
+       id="marimba">
+      <rect
+         style="stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         id="rect8"
+         rx="10"
+         height="82.449997"
+         width="112.64"
+         y="41.700001"
+         x="5.1799998"
+         class="cls-1" />
+      <rect
+         style="stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         id="rect10"
+         transform="rotate(-180,71.28,18.98)"
+         rx="5.8899999"
+         height="12.48"
+         width="92.760002"
+         y="12.74"
+         x="24.9"
+         class="cls-1" />
+      <circle
+         style="stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+         id="circle12"
+         r="16.48"
+         cy="18.98"
+         cx="18.98"
+         class="cls-1" />
+      <rect
+         style="fill:#390830"
+         id="rect14"
+         rx="10"
+         height="82.449997"
+         width="112.64"
+         y="41.700001"
+         x="5.1799998"
+         class="cls-2" />
+      <rect
+         style="fill:#c3543b"
+         id="rect16"
+         rx="5.2399998"
+         height="69.739998"
+         width="16.26"
+         y="46.98"
+         x="15.52"
+         class="cls-3" />
+      <rect
+         style="fill:#c3543b"
+         id="rect18"
+         rx="5.2399998"
+         height="66.25"
+         width="16.26"
+         y="50.48"
+         x="42.02"
+         class="cls-3" />
+      <rect
+         style="fill:#c3543b"
+         id="rect20"
+         rx="5.2399998"
+         height="62.75"
+         width="16.26"
+         y="53.970001"
+         x="68.519997"
+         class="cls-3" />
+      <rect
+         style="fill:#c3543b"
+         id="rect22"
+         rx="5.2399998"
+         height="59.259998"
+         width="16.26"
+         y="57.470001"
+         x="95.019997"
+         class="cls-3" />
+      <rect
+         style="fill:#a72e3e"
+         id="rect24"
+         rx="5"
+         height="35.360001"
+         width="16.26"
+         y="81.360001"
+         x="29.07"
+         class="cls-4" />
+      <rect
+         style="fill:#a72e3e"
+         id="rect26"
+         rx="5"
+         height="35.360001"
+         width="16.26"
+         y="81.360001"
+         x="54.619999"
+         class="cls-4" />
+      <rect
+         style="fill:#a72e3e"
+         id="rect28"
+         rx="5"
+         height="35.360001"
+         width="16.26"
+         y="81.360001"
+         x="80.169998"
+         class="cls-4" />
+      <rect
+         style="fill:#cf845d"
+         id="rect30"
+         transform="rotate(-180,71.28,18.98)"
+         rx="5.8899999"
+         height="12.48"
+         width="92.760002"
+         y="12.74"
+         x="24.9"
+         class="cls-5" />
+      <circle
+         style="fill:#663156"
+         id="circle32"
+         r="16.48"
+         cy="18.98"
+         cx="18.98"
+         class="cls-6" />
+    </g>
+  </g>
+</svg>

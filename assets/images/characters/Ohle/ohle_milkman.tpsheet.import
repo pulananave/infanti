@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/ohle_milkman.tpsheet-5cc6affc258ebd8d64277918cd9f164d.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00000.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00002.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00004.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00006.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00008.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00010.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00012.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00014.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00016.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00018.tres" ]
+
+source_file="res://assets/images/characters/Ohle/ohle_milkman.tpsheet"
+dest_files=[ "res://.import/ohle_milkman.tpsheet-5cc6affc258ebd8d64277918cd9f164d.res", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00000.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00002.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00004.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00006.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00008.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00010.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00012.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00014.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00016.tres", "res://assets/images/characters/Ohle/ohle_milkman.sprites/OHLE_RELOGIO_MALUCO_00018.tres" ]
+
+[params]
+

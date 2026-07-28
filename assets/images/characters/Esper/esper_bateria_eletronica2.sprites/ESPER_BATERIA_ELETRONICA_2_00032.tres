@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/images/characters/Esper/esper_bateria_eletronica2-0.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 1, 886, 302, 289 )
+margin = Rect2( 22, 5, 30, 8 )

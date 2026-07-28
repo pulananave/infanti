@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-edm-dub-loop.ogg-88fe3be4c408b85297f55335f5878db8.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-edm-dub-loop.ogg"
+dest_files=[ "res://.import/aranha-edm-dub-loop.ogg-88fe3be4c408b85297f55335f5878db8.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

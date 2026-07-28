@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-marcial-tuba.ogg-317c03cdf10d41e73275e9f04e9088aa.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-marcial-tuba.ogg"
+dest_files=[ "res://.import/aranha-marcial-tuba.ogg-317c03cdf10d41e73275e9f04e9088aa.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

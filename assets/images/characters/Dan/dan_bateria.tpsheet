@@ -1,0 +1,627 @@
+{
+	"textures": [
+		{
+			"image": "dan_bateria-0.png",
+			"size": {
+				"w": 1890,
+				"h": 1955
+			},
+			"sprites": [
+				{
+					"filename": "DAN_BATERIA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 312,
+						"h": 389
+					},
+					"margin": {
+						"x": 1,
+						"y": 0,
+						"w": 1,
+						"h": 0
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00002.png",
+					"region": {
+						"x": 316,
+						"y": 1,
+						"w": 313,
+						"h": 379
+					},
+					"margin": {
+						"x": 0,
+						"y": 10,
+						"w": 0,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00004.png",
+					"region": {
+						"x": 631,
+						"y": 1,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00006.png",
+					"region": {
+						"x": 946,
+						"y": 1,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00008.png",
+					"region": {
+						"x": 1261,
+						"y": 1,
+						"w": 301,
+						"h": 379
+					},
+					"margin": {
+						"x": 12,
+						"y": 10,
+						"w": 12,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00010.png",
+					"region": {
+						"x": 1576,
+						"y": 1,
+						"w": 292,
+						"h": 388
+					},
+					"margin": {
+						"x": 21,
+						"y": 0,
+						"w": 21,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00012.png",
+					"region": {
+						"x": 1,
+						"y": 392,
+						"w": 301,
+						"h": 379
+					},
+					"margin": {
+						"x": 12,
+						"y": 10,
+						"w": 12,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00014.png",
+					"region": {
+						"x": 316,
+						"y": 392,
+						"w": 313,
+						"h": 361
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 28
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00016.png",
+					"region": {
+						"x": 631,
+						"y": 392,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00056.png",
+					"region": {
+						"x": 631,
+						"y": 392,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00018.png",
+					"region": {
+						"x": 946,
+						"y": 392,
+						"w": 313,
+						"h": 379
+					},
+					"margin": {
+						"x": 0,
+						"y": 10,
+						"w": 0,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00020.png",
+					"region": {
+						"x": 1261,
+						"y": 392,
+						"w": 311,
+						"h": 389
+					},
+					"margin": {
+						"x": 1,
+						"y": 0,
+						"w": 2,
+						"h": 0
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00022.png",
+					"region": {
+						"x": 1576,
+						"y": 392,
+						"w": 313,
+						"h": 377
+					},
+					"margin": {
+						"x": 0,
+						"y": 11,
+						"w": 0,
+						"h": 12
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00024.png",
+					"region": {
+						"x": 1,
+						"y": 783,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00026.png",
+					"region": {
+						"x": 316,
+						"y": 783,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00028.png",
+					"region": {
+						"x": 631,
+						"y": 783,
+						"w": 300,
+						"h": 377
+					},
+					"margin": {
+						"x": 13,
+						"y": 11,
+						"w": 13,
+						"h": 12
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00030.png",
+					"region": {
+						"x": 946,
+						"y": 783,
+						"w": 291,
+						"h": 388
+					},
+					"margin": {
+						"x": 21,
+						"y": 0,
+						"w": 22,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00032.png",
+					"region": {
+						"x": 1261,
+						"y": 783,
+						"w": 301,
+						"h": 379
+					},
+					"margin": {
+						"x": 12,
+						"y": 10,
+						"w": 12,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00034.png",
+					"region": {
+						"x": 1576,
+						"y": 783,
+						"w": 313,
+						"h": 361
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 28
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00036.png",
+					"region": {
+						"x": 1,
+						"y": 1174,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00038.png",
+					"region": {
+						"x": 316,
+						"y": 1174,
+						"w": 313,
+						"h": 379
+					},
+					"margin": {
+						"x": 0,
+						"y": 10,
+						"w": 0,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00040.png",
+					"region": {
+						"x": 631,
+						"y": 1174,
+						"w": 312,
+						"h": 389
+					},
+					"margin": {
+						"x": 1,
+						"y": 0,
+						"w": 1,
+						"h": 0
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00042.png",
+					"region": {
+						"x": 946,
+						"y": 1174,
+						"w": 313,
+						"h": 378
+					},
+					"margin": {
+						"x": 0,
+						"y": 11,
+						"w": 0,
+						"h": 11
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00044.png",
+					"region": {
+						"x": 1261,
+						"y": 1174,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00046.png",
+					"region": {
+						"x": 1576,
+						"y": 1174,
+						"w": 313,
+						"h": 361
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 28
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00048.png",
+					"region": {
+						"x": 1,
+						"y": 1565,
+						"w": 301,
+						"h": 379
+					},
+					"margin": {
+						"x": 12,
+						"y": 10,
+						"w": 12,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00050.png",
+					"region": {
+						"x": 316,
+						"y": 1565,
+						"w": 292,
+						"h": 389
+					},
+					"margin": {
+						"x": 21,
+						"y": 0,
+						"w": 21,
+						"h": 0
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00052.png",
+					"region": {
+						"x": 631,
+						"y": 1565,
+						"w": 301,
+						"h": 379
+					},
+					"margin": {
+						"x": 12,
+						"y": 10,
+						"w": 12,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00054.png",
+					"region": {
+						"x": 946,
+						"y": 1565,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00058.png",
+					"region": {
+						"x": 1261,
+						"y": 1565,
+						"w": 313,
+						"h": 379
+					},
+					"margin": {
+						"x": 0,
+						"y": 10,
+						"w": 0,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00060.png",
+					"region": {
+						"x": 1576,
+						"y": 1565,
+						"w": 311,
+						"h": 388
+					},
+					"margin": {
+						"x": 1,
+						"y": 0,
+						"w": 2,
+						"h": 1
+					}
+				}
+			]
+		},
+		{
+			"image": "dan_bateria-1.png",
+			"size": {
+				"w": 945,
+				"h": 1173
+			},
+			"sprites": [
+				{
+					"filename": "DAN_BATERIA_00062.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 313,
+						"h": 378
+					},
+					"margin": {
+						"x": 0,
+						"y": 10,
+						"w": 0,
+						"h": 11
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00064.png",
+					"region": {
+						"x": 316,
+						"y": 1,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00066.png",
+					"region": {
+						"x": 631,
+						"y": 1,
+						"w": 313,
+						"h": 361
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 28
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00068.png",
+					"region": {
+						"x": 1,
+						"y": 392,
+						"w": 300,
+						"h": 378
+					},
+					"margin": {
+						"x": 13,
+						"y": 10,
+						"w": 13,
+						"h": 11
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00070.png",
+					"region": {
+						"x": 316,
+						"y": 392,
+						"w": 291,
+						"h": 388
+					},
+					"margin": {
+						"x": 21,
+						"y": 0,
+						"w": 22,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00072.png",
+					"region": {
+						"x": 631,
+						"y": 392,
+						"w": 301,
+						"h": 379
+					},
+					"margin": {
+						"x": 12,
+						"y": 10,
+						"w": 12,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00074.png",
+					"region": {
+						"x": 1,
+						"y": 783,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00076.png",
+					"region": {
+						"x": 316,
+						"y": 783,
+						"w": 313,
+						"h": 360
+					},
+					"margin": {
+						"x": 0,
+						"y": 28,
+						"w": 0,
+						"h": 29
+					}
+				},
+				{
+					"filename": "DAN_BATERIA_00078.png",
+					"region": {
+						"x": 631,
+						"y": 783,
+						"w": 313,
+						"h": 379
+					},
+					"margin": {
+						"x": 0,
+						"y": 10,
+						"w": 0,
+						"h": 10
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:38af8ebabc2b971bb1f3b7d81591113d:c4b451e323b09ebaa9d3aac9072ff2a3:a2c11dffeb4628f882aaaa3976511baf$"
+	}
+}

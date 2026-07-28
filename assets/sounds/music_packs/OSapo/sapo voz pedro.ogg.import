@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo voz pedro.ogg-5dfca3afcc486736ccec3de25e1111ff.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo voz pedro.ogg"
+dest_files=[ "res://.import/sapo voz pedro.ogg-5dfca3afcc486736ccec3de25e1111ff.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

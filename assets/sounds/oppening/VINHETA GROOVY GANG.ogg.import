@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/VINHETA GROOVY GANG.ogg-96f2976e11bdb64ac2fbfe52f8fafb14.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/oppening/VINHETA GROOVY GANG.ogg"
+dest_files=[ "res://.import/VINHETA GROOVY GANG.ogg-96f2976e11bdb64ac2fbfe52f8fafb14.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

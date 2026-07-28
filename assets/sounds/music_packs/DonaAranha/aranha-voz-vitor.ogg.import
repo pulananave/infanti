@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-voz-vitor.ogg-d37f9f3208905391540696060d44054a.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-voz-vitor.ogg"
+dest_files=[ "res://.import/aranha-voz-vitor.ogg-d37f9f3208905391540696060d44054a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,258 @@
+{
+	"textures": [
+		{
+			"image": "dan_caixa-0.png",
+			"size": {
+				"w": 1550,
+				"h": 960
+			},
+			"sprites": [
+				{
+					"filename": "DAN_CAIXA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 302,
+						"h": 310
+					},
+					"margin": {
+						"x": 82,
+						"y": 9,
+						"w": 164,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00002.png",
+					"region": {
+						"x": 311,
+						"y": 1,
+						"w": 300,
+						"h": 314
+					},
+					"margin": {
+						"x": 83,
+						"y": 5,
+						"w": 166,
+						"h": 5
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00004.png",
+					"region": {
+						"x": 621,
+						"y": 1,
+						"w": 296,
+						"h": 318
+					},
+					"margin": {
+						"x": 85,
+						"y": 1,
+						"w": 170,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00020.png",
+					"region": {
+						"x": 621,
+						"y": 1,
+						"w": 296,
+						"h": 318
+					},
+					"margin": {
+						"x": 85,
+						"y": 1,
+						"w": 170,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00006.png",
+					"region": {
+						"x": 931,
+						"y": 1,
+						"w": 302,
+						"h": 309
+					},
+					"margin": {
+						"x": 82,
+						"y": 10,
+						"w": 164,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00022.png",
+					"region": {
+						"x": 931,
+						"y": 1,
+						"w": 302,
+						"h": 309
+					},
+					"margin": {
+						"x": 82,
+						"y": 10,
+						"w": 164,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00008.png",
+					"region": {
+						"x": 1241,
+						"y": 1,
+						"w": 308,
+						"h": 300
+					},
+					"margin": {
+						"x": 79,
+						"y": 19,
+						"w": 158,
+						"h": 19
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00024.png",
+					"region": {
+						"x": 1241,
+						"y": 1,
+						"w": 308,
+						"h": 300
+					},
+					"margin": {
+						"x": 79,
+						"y": 19,
+						"w": 158,
+						"h": 19
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00010.png",
+					"region": {
+						"x": 1,
+						"y": 321,
+						"w": 302,
+						"h": 309
+					},
+					"margin": {
+						"x": 82,
+						"y": 10,
+						"w": 164,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00012.png",
+					"region": {
+						"x": 311,
+						"y": 321,
+						"w": 297,
+						"h": 318
+					},
+					"margin": {
+						"x": 84,
+						"y": 1,
+						"w": 169,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00014.png",
+					"region": {
+						"x": 621,
+						"y": 321,
+						"w": 300,
+						"h": 314
+					},
+					"margin": {
+						"x": 83,
+						"y": 5,
+						"w": 166,
+						"h": 5
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00016.png",
+					"region": {
+						"x": 931,
+						"y": 321,
+						"w": 302,
+						"h": 310
+					},
+					"margin": {
+						"x": 82,
+						"y": 9,
+						"w": 164,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00018.png",
+					"region": {
+						"x": 1241,
+						"y": 321,
+						"w": 300,
+						"h": 314
+					},
+					"margin": {
+						"x": 83,
+						"y": 5,
+						"w": 166,
+						"h": 5
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00026.png",
+					"region": {
+						"x": 1,
+						"y": 641,
+						"w": 302,
+						"h": 309
+					},
+					"margin": {
+						"x": 82,
+						"y": 10,
+						"w": 164,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00028.png",
+					"region": {
+						"x": 311,
+						"y": 641,
+						"w": 296,
+						"h": 318
+					},
+					"margin": {
+						"x": 85,
+						"y": 1,
+						"w": 170,
+						"h": 1
+					}
+				},
+				{
+					"filename": "DAN_CAIXA_00030.png",
+					"region": {
+						"x": 621,
+						"y": 641,
+						"w": 300,
+						"h": 314
+					},
+					"margin": {
+						"x": 83,
+						"y": 5,
+						"w": 166,
+						"h": 5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:14c9c7241e30c168bed3ec7553c67b29:81fb68341427ebd16c4e682f978c893e:70d74e8906f6b771ac696b4ef954bb85$"
+	}
+}

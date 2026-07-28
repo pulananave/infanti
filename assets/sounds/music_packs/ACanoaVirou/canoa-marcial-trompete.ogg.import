@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-marcial-trompete.ogg-588ce06c299e0f789fff0410dac8bb29.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-marcial-trompete.ogg"
+dest_files=[ "res://.import/canoa-marcial-trompete.ogg-588ce06c299e0f789fff0410dac8bb29.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

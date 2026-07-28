@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://src/Instrument/Instrument.gd" type="Script" id=1]
+[ext_resource path="res://src/Instrument/Icons.gd" type="Script" id=3]
+[ext_resource path="res://src/Instrument/Characters.gd" type="Script" id=4]
+
+[sub_resource type="Animation" id=1]
+resource_name = "playing"
+loop = true
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("Characters:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = false
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.25, 0.75, 1 ),
+"transitions": PoolRealArray( 2.54912, 0.34151, 2.21914, 2.21914 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1.025, 1 ), Vector2( 0.975, 1 ), Vector2( 1, 1 ) ]
+}
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 74, 73 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 176, 190 )
+
+[node name="Instrument" type="Area2D" groups=[
+"Instrument",
+]]
+script = ExtResource( 1 )
+color = Color( 0.278431, 0.352941, 0.952941, 1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "playing"
+anims/playing = SubResource( 1 )
+
+[node name="PrimaryAudio" type="AudioStreamPlayer" parent="."]
+
+[node name="SecondaryAudio" type="AudioStreamPlayer" parent="."]
+
+[node name="Icons" type="Node2D" parent="."]
+position = Vector2( 0, -82 )
+scale = Vector2( 0.7, 0.7 )
+script = ExtResource( 3 )
+
+[node name="Characters" type="Node2D" parent="."]
+script = ExtResource( 4 )
+
+[node name="IconCollision" type="CollisionShape2D" parent="."]
+modulate = Color( 0.968627, 1, 0, 1 )
+position = Vector2( 0, -82 )
+shape = SubResource( 2 )
+
+[node name="CharacterCollision" type="CollisionShape2D" parent="."]
+modulate = Color( 0.945098, 0, 1, 1 )
+position = Vector2( 0, -190 )
+shape = SubResource( 3 )
+disabled = true

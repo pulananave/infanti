@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-melo-violino.ogg-c543f13245db7802052345828c6480f7.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-melo-violino.ogg"
+dest_files=[ "res://.import/pintinho-melo-violino.ogg-c543f13245db7802052345828c6480f7.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

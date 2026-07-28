@@ -1,0 +1,55 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://assets/fonts/FiraMono-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://src/InGameTerminal/InGameTerminal.gd" type="Script" id=2]
+[ext_resource path="res://assets/fonts/FiraMono-Medium.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://assets/fonts/FiraMono-Bold.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.137255, 0.160784, 0.184314, 0.6 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 40
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 40
+font_data = ExtResource( 4 )
+
+[node name="InGameTerminal" type="Control"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -503.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -64.0
+custom_fonts/font = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -68.0
+custom_styles/normal = SubResource( 2 )
+custom_fonts/mono_font = SubResource( 1 )
+custom_fonts/italics_font = SubResource( 3 )
+custom_fonts/bold_font = SubResource( 4 )
+custom_fonts/normal_font = SubResource( 1 )
+scroll_following = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

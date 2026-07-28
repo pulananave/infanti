@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "ceval_bateria_pandeirola-0.png",
+			"size": {
+				"w": 1572,
+				"h": 1122
+			},
+			"sprites": [
+				{
+					"filename": "CEVAL_PANDEIROLA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 231,
+						"h": 338
+					},
+					"margin": {
+						"x": 9,
+						"y": 54,
+						"w": 29,
+						"h": 54
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00002.png",
+					"region": {
+						"x": 263,
+						"y": 1,
+						"w": 246,
+						"h": 344
+					},
+					"margin": {
+						"x": 3,
+						"y": 48,
+						"w": 14,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00038.png",
+					"region": {
+						"x": 263,
+						"y": 1,
+						"w": 246,
+						"h": 344
+					},
+					"margin": {
+						"x": 3,
+						"y": 48,
+						"w": 14,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00004.png",
+					"region": {
+						"x": 525,
+						"y": 1,
+						"w": 259,
+						"h": 347
+					},
+					"margin": {
+						"x": 0,
+						"y": 45,
+						"w": 1,
+						"h": 45
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00036.png",
+					"region": {
+						"x": 525,
+						"y": 1,
+						"w": 259,
+						"h": 347
+					},
+					"margin": {
+						"x": 0,
+						"y": 45,
+						"w": 1,
+						"h": 45
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00006.png",
+					"region": {
+						"x": 787,
+						"y": 1,
+						"w": 260,
+						"h": 350
+					},
+					"margin": {
+						"x": 0,
+						"y": 42,
+						"w": 0,
+						"h": 42
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00008.png",
+					"region": {
+						"x": 1049,
+						"y": 1,
+						"w": 248,
+						"h": 366
+					},
+					"margin": {
+						"x": 9,
+						"y": 26,
+						"w": 12,
+						"h": 26
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00010.png",
+					"region": {
+						"x": 1311,
+						"y": 1,
+						"w": 237,
+						"h": 372
+					},
+					"margin": {
+						"x": 16,
+						"y": 20,
+						"w": 23,
+						"h": 20
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00012.png",
+					"region": {
+						"x": 1,
+						"y": 375,
+						"w": 248,
+						"h": 366
+					},
+					"margin": {
+						"x": 9,
+						"y": 26,
+						"w": 12,
+						"h": 26
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00014.png",
+					"region": {
+						"x": 263,
+						"y": 375,
+						"w": 260,
+						"h": 350
+					},
+					"margin": {
+						"x": 0,
+						"y": 42,
+						"w": 0,
+						"h": 42
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00016.png",
+					"region": {
+						"x": 525,
+						"y": 375,
+						"w": 259,
+						"h": 347
+					},
+					"margin": {
+						"x": 0,
+						"y": 45,
+						"w": 1,
+						"h": 45
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00018.png",
+					"region": {
+						"x": 787,
+						"y": 375,
+						"w": 246,
+						"h": 344
+					},
+					"margin": {
+						"x": 3,
+						"y": 48,
+						"w": 14,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00020.png",
+					"region": {
+						"x": 1049,
+						"y": 375,
+						"w": 231,
+						"h": 338
+					},
+					"margin": {
+						"x": 9,
+						"y": 54,
+						"w": 29,
+						"h": 54
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00022.png",
+					"region": {
+						"x": 1311,
+						"y": 375,
+						"w": 247,
+						"h": 344
+					},
+					"margin": {
+						"x": 2,
+						"y": 48,
+						"w": 13,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00024.png",
+					"region": {
+						"x": 1,
+						"y": 749,
+						"w": 259,
+						"h": 347
+					},
+					"margin": {
+						"x": 0,
+						"y": 45,
+						"w": 1,
+						"h": 45
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00026.png",
+					"region": {
+						"x": 263,
+						"y": 749,
+						"w": 260,
+						"h": 350
+					},
+					"margin": {
+						"x": 0,
+						"y": 42,
+						"w": 0,
+						"h": 42
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00028.png",
+					"region": {
+						"x": 525,
+						"y": 749,
+						"w": 248,
+						"h": 366
+					},
+					"margin": {
+						"x": 9,
+						"y": 26,
+						"w": 12,
+						"h": 26
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00030.png",
+					"region": {
+						"x": 787,
+						"y": 749,
+						"w": 237,
+						"h": 372
+					},
+					"margin": {
+						"x": 16,
+						"y": 20,
+						"w": 23,
+						"h": 20
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00032.png",
+					"region": {
+						"x": 1049,
+						"y": 749,
+						"w": 248,
+						"h": 366
+					},
+					"margin": {
+						"x": 9,
+						"y": 26,
+						"w": 12,
+						"h": 26
+					}
+				},
+				{
+					"filename": "CEVAL_PANDEIROLA_00034.png",
+					"region": {
+						"x": 1311,
+						"y": 749,
+						"w": 260,
+						"h": 350
+					},
+					"margin": {
+						"x": 0,
+						"y": 42,
+						"w": 0,
+						"h": 42
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0a55436bb8d417b314a684b76c787b49:a7efa41677f79f5562df519a18bdae3b:da2cdd773e47db4cd9e401abbdd368e5$"
+	}
+}

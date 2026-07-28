@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-pop-rhodes.ogg-ff35c3c2194d122513813f38561b196b.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-pop-rhodes.ogg"
+dest_files=[ "res://.import/sapo-pop-rhodes.ogg-ff35c3c2194d122513813f38561b196b.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

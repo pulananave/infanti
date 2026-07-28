@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "boogar_synthbass-0.png",
+			"size": {
+				"w": 1795,
+				"h": 996
+			},
+			"sprites": [
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 342,
+						"h": 247
+					},
+					"margin": {
+						"x": 68,
+						"y": 33,
+						"w": 156,
+						"h": 33
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00020.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 342,
+						"h": 247
+					},
+					"margin": {
+						"x": 68,
+						"y": 33,
+						"w": 156,
+						"h": 33
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00002.png",
+					"region": {
+						"x": 360,
+						"y": 1,
+						"w": 337,
+						"h": 241
+					},
+					"margin": {
+						"x": 74,
+						"y": 39,
+						"w": 161,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00004.png",
+					"region": {
+						"x": 719,
+						"y": 1,
+						"w": 329,
+						"h": 231
+					},
+					"margin": {
+						"x": 84,
+						"y": 49,
+						"w": 169,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00006.png",
+					"region": {
+						"x": 1078,
+						"y": 1,
+						"w": 324,
+						"h": 231
+					},
+					"margin": {
+						"x": 86,
+						"y": 49,
+						"w": 174,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00008.png",
+					"region": {
+						"x": 1437,
+						"y": 1,
+						"w": 311,
+						"h": 241
+					},
+					"margin": {
+						"x": 89,
+						"y": 39,
+						"w": 187,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00010.png",
+					"region": {
+						"x": 1,
+						"y": 250,
+						"w": 304,
+						"h": 245
+					},
+					"margin": {
+						"x": 91,
+						"y": 35,
+						"w": 194,
+						"h": 35
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00012.png",
+					"region": {
+						"x": 360,
+						"y": 250,
+						"w": 311,
+						"h": 241
+					},
+					"margin": {
+						"x": 88,
+						"y": 39,
+						"w": 187,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00014.png",
+					"region": {
+						"x": 719,
+						"y": 250,
+						"w": 325,
+						"h": 231
+					},
+					"margin": {
+						"x": 84,
+						"y": 49,
+						"w": 173,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00016.png",
+					"region": {
+						"x": 1078,
+						"y": 250,
+						"w": 327,
+						"h": 231
+					},
+					"margin": {
+						"x": 83,
+						"y": 49,
+						"w": 171,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00018.png",
+					"region": {
+						"x": 1437,
+						"y": 250,
+						"w": 336,
+						"h": 241
+					},
+					"margin": {
+						"x": 74,
+						"y": 39,
+						"w": 162,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00022.png",
+					"region": {
+						"x": 1,
+						"y": 499,
+						"w": 347,
+						"h": 241
+					},
+					"margin": {
+						"x": 65,
+						"y": 39,
+						"w": 151,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00024.png",
+					"region": {
+						"x": 360,
+						"y": 499,
+						"w": 350,
+						"h": 231
+					},
+					"margin": {
+						"x": 65,
+						"y": 49,
+						"w": 148,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00026.png",
+					"region": {
+						"x": 719,
+						"y": 499,
+						"w": 346,
+						"h": 231
+					},
+					"margin": {
+						"x": 69,
+						"y": 49,
+						"w": 152,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00028.png",
+					"region": {
+						"x": 1078,
+						"y": 499,
+						"w": 324,
+						"h": 241
+					},
+					"margin": {
+						"x": 90,
+						"y": 39,
+						"w": 174,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00030.png",
+					"region": {
+						"x": 1437,
+						"y": 499,
+						"w": 310,
+						"h": 244
+					},
+					"margin": {
+						"x": 103,
+						"y": 36,
+						"w": 188,
+						"h": 36
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00032.png",
+					"region": {
+						"x": 1,
+						"y": 748,
+						"w": 326,
+						"h": 241
+					},
+					"margin": {
+						"x": 90,
+						"y": 39,
+						"w": 172,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00034.png",
+					"region": {
+						"x": 360,
+						"y": 748,
+						"w": 353,
+						"h": 231
+					},
+					"margin": {
+						"x": 67,
+						"y": 49,
+						"w": 145,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00036.png",
+					"region": {
+						"x": 719,
+						"y": 748,
+						"w": 357,
+						"h": 231
+					},
+					"margin": {
+						"x": 63,
+						"y": 49,
+						"w": 141,
+						"h": 49
+					}
+				},
+				{
+					"filename": "BOOGAR_SYNTH_BASS_00038.png",
+					"region": {
+						"x": 1078,
+						"y": 748,
+						"w": 348,
+						"h": 241
+					},
+					"margin": {
+						"x": 66,
+						"y": 39,
+						"w": 150,
+						"h": 39
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ef27950d5f73d81f825b661c59e2aae2:d2a3ed67f00779abd897cc29b4f7f74d:929093c13f2add72ff95b0294b846002$"
+	}
+}

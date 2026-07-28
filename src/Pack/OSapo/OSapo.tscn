@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/Pack/Pack.tscn" type="PackedScene" id=1]
+
+[node name="OSapo" instance=ExtResource( 1 )]
+pack_sounds_folder = "res://assets/sounds/music_packs/OSapo"
+music_bars = 54
+music_bpm = 138.0
+recording_repeats = 2

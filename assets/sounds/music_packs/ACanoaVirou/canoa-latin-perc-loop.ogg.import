@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-latin-perc-loop.ogg-0d34523755f8d28a84bd9175633c5ce2.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-latin-perc-loop.ogg"
+dest_files=[ "res://.import/canoa-latin-perc-loop.ogg-0d34523755f8d28a84bd9175633c5ce2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

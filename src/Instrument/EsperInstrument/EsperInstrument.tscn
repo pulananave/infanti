@@ -1,0 +1,92 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://src/Instrument/Instrument.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/images/characters/Esper/EsperAgogo.tres" type="SpriteFrames" id=2]
+[ext_resource path="res://assets/images/characters/Esper/EsperTrompete.tres" type="SpriteFrames" id=3]
+[ext_resource path="res://assets/images/characters/Esper/EsperBateriaEletronica.tres" type="SpriteFrames" id=4]
+[ext_resource path="res://assets/images/characters/Esper/EsperBateriaEletronica2.tres" type="SpriteFrames" id=5]
+[ext_resource path="res://assets/images/characters/Esper/EsperOrgao.tres" type="SpriteFrames" id=6]
+[ext_resource path="res://assets/images/characters/Esper/EsperRecoreco.tres" type="SpriteFrames" id=7]
+[ext_resource path="res://assets/images/instrument_icons/AGOGO.svg" type="Texture" id=8]
+[ext_resource path="res://assets/images/instrument_icons/BATERIA_ELETRONICA_3.svg" type="Texture" id=9]
+[ext_resource path="res://assets/images/instrument_icons/ORGAO.svg" type="Texture" id=10]
+[ext_resource path="res://assets/images/instrument_icons/RECORECO.svg" type="Texture" id=11]
+[ext_resource path="res://assets/images/instrument_icons/RHODES.svg" type="Texture" id=12]
+[ext_resource path="res://assets/images/instrument_icons/TROMPETE.svg" type="Texture" id=13]
+[ext_resource path="res://assets/images/instrument_icons/BATERIA_ELETRONICA2.svg" type="Texture" id=14]
+[ext_resource path="res://assets/images/characters/Esper/EsperRhodes.tres" type="SpriteFrames" id=15]
+[ext_resource path="res://assets/images/instrument_icons/MICROFONE.svg" type="Texture" id=16]
+[ext_resource path="res://assets/images/characters/Esper/EsperVoz.tres" type="SpriteFrames" id=17]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 127, 125 )
+
+[node name="EsperInstrument" instance=ExtResource( 1 )]
+
+[node name="Agogo" type="Sprite" parent="Icons" index="0"]
+texture = ExtResource( 8 )
+
+[node name="BateriaEletronica" type="Sprite" parent="Icons" index="1"]
+texture = ExtResource( 9 )
+
+[node name="BateriaEletronica2" type="Sprite" parent="Icons" index="2"]
+texture = ExtResource( 14 )
+
+[node name="Orgao" type="Sprite" parent="Icons" index="3"]
+texture = ExtResource( 10 )
+
+[node name="Recoreco" type="Sprite" parent="Icons" index="4"]
+texture = ExtResource( 11 )
+
+[node name="Rhodes" type="Sprite" parent="Icons" index="5"]
+texture = ExtResource( 12 )
+
+[node name="Trompete" type="Sprite" parent="Icons" index="6"]
+texture = ExtResource( 13 )
+
+[node name="Voz" type="Sprite" parent="Icons" index="7"]
+texture = ExtResource( 16 )
+
+[node name="Characters" parent="." index="4"]
+position = Vector2( 0, -173 )
+
+[node name="Agogo" parent="Characters" index="0" instance_placeholder="res://src/Instrument/CharacterAnimation.tscn"]
+position = Vector2( 0, 49 )
+frames = ExtResource( 2 )
+
+[node name="BateriaEletronica" parent="Characters" index="1" instance_placeholder="res://src/Instrument/CharacterAnimation.tscn"]
+position = Vector2( 0, 49 )
+frames = ExtResource( 4 )
+
+[node name="BateriaEletronica2" parent="Characters" index="2" instance_placeholder="res://src/Instrument/CharacterAnimation.tscn"]
+position = Vector2( 0, 49 )
+frames = ExtResource( 5 )
+
+[node name="Orgao" parent="Characters" index="3" instance_placeholder="res://src/Instrument/CharacterAnimation.tscn"]
+position = Vector2( 0, 49 )
+frames = ExtResource( 6 )
+animation_beats = 1
+
+[node name="Recoreco" parent="Characters" index="4" instance_placeholder="res://src/Instrument/CharacterAnimation.tscn"]
+position = Vector2( 0, 49 )
+frames = ExtResource( 7 )
+animation_beats = 1
+
+[node name="Rhodes" parent="Characters" index="5" instance_placeholder="res://src/Instrument/CharacterAnimation.tscn"]
+position = Vector2( 0, 49 )
+frames = ExtResource( 15 )
+animation_beats = 1
+
+[node name="Trompete" parent="Characters" index="6" instance_placeholder="res://src/Instrument/CharacterAnimation.tscn"]
+position = Vector2( 0, 49 )
+frames = ExtResource( 3 )
+animation_beats = 1
+
+[node name="Voz" parent="Characters" index="7" instance_placeholder="res://src/Instrument/CharacterAnimation.tscn"]
+position = Vector2( 0, 49 )
+frames = ExtResource( 17 )
+animation_beats = 1
+
+[node name="CharacterCollision" parent="." index="6"]
+position = Vector2( 0, -131 )
+shape = SubResource( 1 )

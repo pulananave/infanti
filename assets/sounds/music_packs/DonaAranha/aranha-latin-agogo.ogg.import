@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-latin-agogo.ogg-c92c54298446d584e5334e60554d7852.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-latin-agogo.ogg"
+dest_files=[ "res://.import/aranha-latin-agogo.ogg-c92c54298446d584e5334e60554d7852.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

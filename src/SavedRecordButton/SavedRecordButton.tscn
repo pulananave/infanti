@@ -1,0 +1,101 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/SavedRecordButton/SavedRecordButton.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 1, 1, 1, 1 )
+corner_radius_top_left = 350
+corner_radius_top_right = 88
+corner_radius_bottom_right = 102
+corner_radius_bottom_left = 109
+
+[node name="SavedRecordButton" type="Button"]
+margin_right = 246.0
+margin_bottom = 246.0
+rect_min_size = Vector2( 220, 220 )
+rect_pivot_offset = Vector2( 123, 123 )
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 1 )
+custom_styles/focus = SubResource( 1 )
+custom_styles/disabled = SubResource( 1 )
+custom_styles/normal = SubResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="YSort" type="YSort" parent="."]
+position = Vector2( 123, 97 )
+scale = Vector2( 0.25, 0.25 )
+
+[node name="Spot0" type="Node2D" parent="YSort"]
+position = Vector2( -27.5001, 145 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="YSort/Spot0"]
+position = Vector2( 0, -15 )
+
+[node name="Spot1" type="Node2D" parent="YSort"]
+position = Vector2( -252.5, -17.5001 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="YSort/Spot1"]
+position = Vector2( 0, -15 )
+
+[node name="Spot2" type="Node2D" parent="YSort"]
+position = Vector2( 267.5, 87.4998 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="YSort/Spot2"]
+position = Vector2( 0, -15 )
+
+[node name="Spot3" type="Node2D" parent="YSort"]
+position = Vector2( 37.4998, -74.9999 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="YSort/Spot3"]
+position = Vector2( 0, -15 )
+
+[node name="Spot4" type="Node2D" parent="YSort"]
+position = Vector2( -280, 217.5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="YSort/Spot4"]
+position = Vector2( 0, -15 )
+
+[node name="Spot5" type="Node2D" parent="YSort"]
+position = Vector2( 177.5, 297.5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="YSort/Spot5"]
+position = Vector2( 0, -15 )
+
+[node name="Spot6" type="Node2D" parent="YSort"]
+position = Vector2( -172.5, -215 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="YSort/Spot6"]
+position = Vector2( 0, -15 )
+
+[node name="Spot7" type="Node2D" parent="YSort"]
+position = Vector2( 302.5, -147.5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="YSort/Spot7"]
+position = Vector2( 0, -15 )

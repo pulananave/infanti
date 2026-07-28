@@ -1,0 +1,468 @@
+{
+	"textures": [
+		{
+			"image": "grompy_guitarra_frase-0.png",
+			"size": {
+				"w": 1608,
+				"h": 1475
+			},
+			"sprites": [
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 232,
+						"h": 272
+					},
+					"margin": {
+						"x": 36,
+						"y": 21,
+						"w": 59,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00002.png",
+					"region": {
+						"x": 269,
+						"y": 1,
+						"w": 251,
+						"h": 283
+					},
+					"margin": {
+						"x": 15,
+						"y": 10,
+						"w": 40,
+						"h": 10
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00004.png",
+					"region": {
+						"x": 537,
+						"y": 1,
+						"w": 266,
+						"h": 293
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 0
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00006.png",
+					"region": {
+						"x": 805,
+						"y": 1,
+						"w": 251,
+						"h": 273
+					},
+					"margin": {
+						"x": 8,
+						"y": 20,
+						"w": 40,
+						"h": 20
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00008.png",
+					"region": {
+						"x": 1073,
+						"y": 1,
+						"w": 232,
+						"h": 253
+					},
+					"margin": {
+						"x": 19,
+						"y": 40,
+						"w": 59,
+						"h": 40
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00010.png",
+					"region": {
+						"x": 1341,
+						"y": 1,
+						"w": 228,
+						"h": 273
+					},
+					"margin": {
+						"x": 17,
+						"y": 20,
+						"w": 63,
+						"h": 20
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00012.png",
+					"region": {
+						"x": 1,
+						"y": 296,
+						"w": 227,
+						"h": 293
+					},
+					"margin": {
+						"x": 12,
+						"y": 0,
+						"w": 64,
+						"h": 0
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00014.png",
+					"region": {
+						"x": 269,
+						"y": 296,
+						"w": 229,
+						"h": 273
+					},
+					"margin": {
+						"x": 16,
+						"y": 20,
+						"w": 62,
+						"h": 20
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00016.png",
+					"region": {
+						"x": 537,
+						"y": 296,
+						"w": 232,
+						"h": 253
+					},
+					"margin": {
+						"x": 19,
+						"y": 40,
+						"w": 59,
+						"h": 40
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00018.png",
+					"region": {
+						"x": 805,
+						"y": 296,
+						"w": 228,
+						"h": 273
+					},
+					"margin": {
+						"x": 17,
+						"y": 20,
+						"w": 63,
+						"h": 20
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00020.png",
+					"region": {
+						"x": 1073,
+						"y": 296,
+						"w": 228,
+						"h": 293
+					},
+					"margin": {
+						"x": 11,
+						"y": 0,
+						"w": 63,
+						"h": 0
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00022.png",
+					"region": {
+						"x": 1341,
+						"y": 296,
+						"w": 228,
+						"h": 273
+					},
+					"margin": {
+						"x": 17,
+						"y": 20,
+						"w": 63,
+						"h": 20
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00024.png",
+					"region": {
+						"x": 1,
+						"y": 591,
+						"w": 233,
+						"h": 253
+					},
+					"margin": {
+						"x": 18,
+						"y": 40,
+						"w": 58,
+						"h": 40
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00026.png",
+					"region": {
+						"x": 269,
+						"y": 591,
+						"w": 232,
+						"h": 255
+					},
+					"margin": {
+						"x": 19,
+						"y": 38,
+						"w": 59,
+						"h": 38
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00028.png",
+					"region": {
+						"x": 537,
+						"y": 591,
+						"w": 232,
+						"h": 257
+					},
+					"margin": {
+						"x": 19,
+						"y": 36,
+						"w": 59,
+						"h": 36
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00030.png",
+					"region": {
+						"x": 805,
+						"y": 591,
+						"w": 234,
+						"h": 277
+					},
+					"margin": {
+						"x": 32,
+						"y": 16,
+						"w": 57,
+						"h": 16
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00032.png",
+					"region": {
+						"x": 1073,
+						"y": 591,
+						"w": 231,
+						"h": 293
+					},
+					"margin": {
+						"x": 49,
+						"y": 0,
+						"w": 60,
+						"h": 0
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00034.png",
+					"region": {
+						"x": 1341,
+						"y": 591,
+						"w": 237,
+						"h": 274
+					},
+					"margin": {
+						"x": 49,
+						"y": 19,
+						"w": 54,
+						"h": 19
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00036.png",
+					"region": {
+						"x": 1,
+						"y": 886,
+						"w": 242,
+						"h": 254
+					},
+					"margin": {
+						"x": 49,
+						"y": 39,
+						"w": 49,
+						"h": 39
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00038.png",
+					"region": {
+						"x": 269,
+						"y": 886,
+						"w": 238,
+						"h": 274
+					},
+					"margin": {
+						"x": 49,
+						"y": 19,
+						"w": 53,
+						"h": 19
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00040.png",
+					"region": {
+						"x": 537,
+						"y": 886,
+						"w": 230,
+						"h": 293
+					},
+					"margin": {
+						"x": 50,
+						"y": 0,
+						"w": 61,
+						"h": 0
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00042.png",
+					"region": {
+						"x": 805,
+						"y": 886,
+						"w": 238,
+						"h": 274
+					},
+					"margin": {
+						"x": 49,
+						"y": 19,
+						"w": 53,
+						"h": 19
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00044.png",
+					"region": {
+						"x": 1073,
+						"y": 886,
+						"w": 242,
+						"h": 254
+					},
+					"margin": {
+						"x": 49,
+						"y": 39,
+						"w": 49,
+						"h": 39
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00046.png",
+					"region": {
+						"x": 1341,
+						"y": 886,
+						"w": 238,
+						"h": 274
+					},
+					"margin": {
+						"x": 49,
+						"y": 19,
+						"w": 53,
+						"h": 19
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00048.png",
+					"region": {
+						"x": 1,
+						"y": 1181,
+						"w": 230,
+						"h": 293
+					},
+					"margin": {
+						"x": 50,
+						"y": 0,
+						"w": 61,
+						"h": 0
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00050.png",
+					"region": {
+						"x": 269,
+						"y": 1181,
+						"w": 239,
+						"h": 274
+					},
+					"margin": {
+						"x": 48,
+						"y": 19,
+						"w": 52,
+						"h": 19
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00052.png",
+					"region": {
+						"x": 537,
+						"y": 1181,
+						"w": 242,
+						"h": 254
+					},
+					"margin": {
+						"x": 49,
+						"y": 39,
+						"w": 49,
+						"h": 39
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00054.png",
+					"region": {
+						"x": 805,
+						"y": 1181,
+						"w": 242,
+						"h": 256
+					},
+					"margin": {
+						"x": 49,
+						"y": 37,
+						"w": 49,
+						"h": 37
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00056.png",
+					"region": {
+						"x": 1073,
+						"y": 1181,
+						"w": 243,
+						"h": 258
+					},
+					"margin": {
+						"x": 48,
+						"y": 35,
+						"w": 48,
+						"h": 35
+					}
+				},
+				{
+					"filename": "GROMPY_GUITARRA_FRASE_00058.png",
+					"region": {
+						"x": 1341,
+						"y": 1181,
+						"w": 237,
+						"h": 266
+					},
+					"margin": {
+						"x": 43,
+						"y": 27,
+						"w": 54,
+						"h": 27
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:3fd3b8985ba83d6af4b0a85e1a3b0b79:d1fda39159281058d883cea3457f233e:ef5c9fbe03b978eea0d84e19a812828b$"
+	}
+}

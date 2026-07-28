@@ -1,0 +1,468 @@
+{
+	"textures": [
+		{
+			"image": "ohle_guitarra_rock-0.png",
+			"size": {
+				"w": 1524,
+				"h": 1705
+			},
+			"sprites": [
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 225,
+						"h": 313
+					},
+					"margin": {
+						"x": 36,
+						"y": 26,
+						"w": 89,
+						"h": 26
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00002.png",
+					"region": {
+						"x": 255,
+						"y": 1,
+						"w": 221,
+						"h": 327
+					},
+					"margin": {
+						"x": 28,
+						"y": 12,
+						"w": 93,
+						"h": 12
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00004.png",
+					"region": {
+						"x": 509,
+						"y": 1,
+						"w": 217,
+						"h": 339
+					},
+					"margin": {
+						"x": 19,
+						"y": 0,
+						"w": 97,
+						"h": 0
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00006.png",
+					"region": {
+						"x": 763,
+						"y": 1,
+						"w": 236,
+						"h": 320
+					},
+					"margin": {
+						"x": 8,
+						"y": 19,
+						"w": 78,
+						"h": 19
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00008.png",
+					"region": {
+						"x": 1017,
+						"y": 1,
+						"w": 252,
+						"h": 293
+					},
+					"margin": {
+						"x": 0,
+						"y": 46,
+						"w": 62,
+						"h": 46
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00010.png",
+					"region": {
+						"x": 1271,
+						"y": 1,
+						"w": 240,
+						"h": 311
+					},
+					"margin": {
+						"x": 5,
+						"y": 28,
+						"w": 74,
+						"h": 28
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00012.png",
+					"region": {
+						"x": 1,
+						"y": 342,
+						"w": 231,
+						"h": 326
+					},
+					"margin": {
+						"x": 7,
+						"y": 13,
+						"w": 83,
+						"h": 13
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00014.png",
+					"region": {
+						"x": 255,
+						"y": 342,
+						"w": 234,
+						"h": 320
+					},
+					"margin": {
+						"x": 6,
+						"y": 19,
+						"w": 80,
+						"h": 19
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00016.png",
+					"region": {
+						"x": 509,
+						"y": 342,
+						"w": 240,
+						"h": 308
+					},
+					"margin": {
+						"x": 4,
+						"y": 31,
+						"w": 74,
+						"h": 31
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00018.png",
+					"region": {
+						"x": 763,
+						"y": 342,
+						"w": 249,
+						"h": 296
+					},
+					"margin": {
+						"x": 0,
+						"y": 43,
+						"w": 65,
+						"h": 43
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00020.png",
+					"region": {
+						"x": 1017,
+						"y": 342,
+						"w": 251,
+						"h": 290
+					},
+					"margin": {
+						"x": 0,
+						"y": 49,
+						"w": 63,
+						"h": 49
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00022.png",
+					"region": {
+						"x": 1271,
+						"y": 342,
+						"w": 248,
+						"h": 299
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 66,
+						"h": 40
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00024.png",
+					"region": {
+						"x": 1,
+						"y": 683,
+						"w": 239,
+						"h": 311
+					},
+					"margin": {
+						"x": 4,
+						"y": 28,
+						"w": 75,
+						"h": 28
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00026.png",
+					"region": {
+						"x": 255,
+						"y": 683,
+						"w": 234,
+						"h": 321
+					},
+					"margin": {
+						"x": 6,
+						"y": 18,
+						"w": 80,
+						"h": 18
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00028.png",
+					"region": {
+						"x": 509,
+						"y": 683,
+						"w": 231,
+						"h": 326
+					},
+					"margin": {
+						"x": 7,
+						"y": 13,
+						"w": 83,
+						"h": 13
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00030.png",
+					"region": {
+						"x": 763,
+						"y": 683,
+						"w": 234,
+						"h": 320
+					},
+					"margin": {
+						"x": 6,
+						"y": 19,
+						"w": 80,
+						"h": 19
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00032.png",
+					"region": {
+						"x": 1017,
+						"y": 683,
+						"w": 240,
+						"h": 308
+					},
+					"margin": {
+						"x": 4,
+						"y": 31,
+						"w": 74,
+						"h": 31
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00034.png",
+					"region": {
+						"x": 1271,
+						"y": 683,
+						"w": 249,
+						"h": 296
+					},
+					"margin": {
+						"x": 0,
+						"y": 43,
+						"w": 65,
+						"h": 43
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00036.png",
+					"region": {
+						"x": 1,
+						"y": 1024,
+						"w": 251,
+						"h": 290
+					},
+					"margin": {
+						"x": 0,
+						"y": 49,
+						"w": 63,
+						"h": 49
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00038.png",
+					"region": {
+						"x": 255,
+						"y": 1024,
+						"w": 229,
+						"h": 314
+					},
+					"margin": {
+						"x": 14,
+						"y": 25,
+						"w": 85,
+						"h": 25
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00040.png",
+					"region": {
+						"x": 509,
+						"y": 1024,
+						"w": 208,
+						"h": 326
+					},
+					"margin": {
+						"x": 29,
+						"y": 13,
+						"w": 106,
+						"h": 13
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00042.png",
+					"region": {
+						"x": 763,
+						"y": 1024,
+						"w": 208,
+						"h": 326
+					},
+					"margin": {
+						"x": 29,
+						"y": 13,
+						"w": 106,
+						"h": 13
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00044.png",
+					"region": {
+						"x": 1017,
+						"y": 1024,
+						"w": 208,
+						"h": 326
+					},
+					"margin": {
+						"x": 29,
+						"y": 13,
+						"w": 106,
+						"h": 13
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00046.png",
+					"region": {
+						"x": 1271,
+						"y": 1024,
+						"w": 208,
+						"h": 326
+					},
+					"margin": {
+						"x": 29,
+						"y": 13,
+						"w": 106,
+						"h": 13
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00048.png",
+					"region": {
+						"x": 1,
+						"y": 1365,
+						"w": 208,
+						"h": 326
+					},
+					"margin": {
+						"x": 29,
+						"y": 13,
+						"w": 106,
+						"h": 13
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00050.png",
+					"region": {
+						"x": 255,
+						"y": 1365,
+						"w": 208,
+						"h": 326
+					},
+					"margin": {
+						"x": 29,
+						"y": 13,
+						"w": 106,
+						"h": 13
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00052.png",
+					"region": {
+						"x": 509,
+						"y": 1365,
+						"w": 208,
+						"h": 326
+					},
+					"margin": {
+						"x": 29,
+						"y": 13,
+						"w": 106,
+						"h": 13
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00054.png",
+					"region": {
+						"x": 763,
+						"y": 1365,
+						"w": 220,
+						"h": 328
+					},
+					"margin": {
+						"x": 32,
+						"y": 11,
+						"w": 94,
+						"h": 11
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00056.png",
+					"region": {
+						"x": 1017,
+						"y": 1365,
+						"w": 225,
+						"h": 313
+					},
+					"margin": {
+						"x": 36,
+						"y": 26,
+						"w": 89,
+						"h": 26
+					}
+				},
+				{
+					"filename": "OHLE_GUITARRA_ROCK_00058.png",
+					"region": {
+						"x": 1271,
+						"y": 1365,
+						"w": 225,
+						"h": 313
+					},
+					"margin": {
+						"x": 36,
+						"y": 26,
+						"w": 89,
+						"h": 26
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ee59472a9283b455161882614ea79bee:14f3d0bb4465ce0c8cb395f683e77fd4:6c0bb3695323cf7be685ef7549fbc74d$"
+	}
+}

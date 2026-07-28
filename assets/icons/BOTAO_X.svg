@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="BOTAO_X.svg"
+   id="svg26"
+   version="1.1"
+   viewBox="0 0 152 151">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Asset 13</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg26"
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:cy="72.923754"
+     inkscape:cx="-68.587166"
+     inkscape:zoom="2.2032698"
+     showgrid="false"
+     id="namedview28"
+     inkscape:window-height="1016"
+     inkscape:window-width="2560"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     inkscape:document-rotation="0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:pagecheckerboard="true" />
+  <defs
+     id="defs12">
+    <style
+       id="style10">.cls-1{fill:#efd753;}.cls-2{fill:none;}</style>
+  </defs>
+  <title
+     id="title14">Asset 13</title>
+  <path
+     style="fill:#ffffff;fill-opacity:1"
+     class="cls-1"
+     d="m 76.000688,150.52069 c -0.83,0 -1.66,0 -2.49,0 A 75.1,75.1 0 0 1 1.0006822,77.970691 75,75 0 0 1 78.450688,0.52069074 75.1,75.1 0 0 1 151.00068,73.070691 75,75 0 0 1 76.000688,150.52069 Z m 0,-140 a 65,65 0 0 0 -65.000005,67.130001 65,65 0 0 0 110.999997,43.869999 64.41,64.41 0 0 0 19,-48.089999 A 65.07,65.07 0 0 0 78.130688,10.52069 Z"
+     id="path16"
+     inkscape:connector-curvature="0" />
+  <path
+     class="cls-1"
+     d="m 0.70726967,61.307381 c 5.91672013,0 10.68000033,4.76328 10.68000033,10.68 v 69.579999 c 0,5.91672 -4.7632802,10.68 -10.68000033,10.68 -5.91672017,0 -10.68000027,-4.76328 -10.68000027,-10.68 V 71.987381 c 0,-5.91672 4.7632801,-10.68 10.68000027,-10.68 z"
+     style="fill:#fffdf5;fill-opacity:1"
+     transform="rotate(-45)"
+     id="rect19" />
+  <path
+     class="cls-1"
+     d="m -106.77296,-44.758636 c 5.91672,0 10.680003,4.76328 10.680003,10.68 v 69.580002 c 0,5.91672 -4.763283,10.68 -10.680003,10.68 -5.91672,0 -10.68,-4.76328 -10.68,-10.68 v -69.580002 c 0,-5.91672 4.76328,-10.68 10.68,-10.68 z"
+     style="fill:#ffffff;fill-opacity:1"
+     transform="rotate(-135)"
+     id="rect21" />
+  <path
+     class="cls-2"
+     d="M 0,0 H 152 V 151 H 0 Z"
+     style="fill:none"
+     id="_Slice_" />
+</svg>

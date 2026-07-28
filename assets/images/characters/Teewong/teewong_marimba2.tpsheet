@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "teewong_marimba2-0.png",
+			"size": {
+				"w": 1190,
+				"h": 650
+			},
+			"sprites": [
+				{
+					"filename": "TEEWONG_MARIMBA_2_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 218,
+						"h": 323
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TEEWONG_MARIMBA_2_00002.png",
+					"region": {
+						"x": 239,
+						"y": 1,
+						"w": 227,
+						"h": 316
+					},
+					"margin": {
+						"x": 0,
+						"y": 7,
+						"w": 19,
+						"h": 7
+					}
+				},
+				{
+					"filename": "TEEWONG_MARIMBA_2_00004.png",
+					"region": {
+						"x": 477,
+						"y": 1,
+						"w": 236,
+						"h": 305
+					},
+					"margin": {
+						"x": 4,
+						"y": 18,
+						"w": 10,
+						"h": 18
+					}
+				},
+				{
+					"filename": "TEEWONG_MARIMBA_2_00006.png",
+					"region": {
+						"x": 715,
+						"y": 1,
+						"w": 234,
+						"h": 305
+					},
+					"margin": {
+						"x": 8,
+						"y": 18,
+						"w": 12,
+						"h": 18
+					}
+				},
+				{
+					"filename": "TEEWONG_MARIMBA_2_00008.png",
+					"region": {
+						"x": 953,
+						"y": 1,
+						"w": 220,
+						"h": 316
+					},
+					"margin": {
+						"x": 22,
+						"y": 7,
+						"w": 26,
+						"h": 7
+					}
+				},
+				{
+					"filename": "TEEWONG_MARIMBA_2_00010.png",
+					"region": {
+						"x": 1,
+						"y": 326,
+						"w": 209,
+						"h": 323
+					},
+					"margin": {
+						"x": 31,
+						"y": 0,
+						"w": 37,
+						"h": 0
+					}
+				},
+				{
+					"filename": "TEEWONG_MARIMBA_2_00012.png",
+					"region": {
+						"x": 239,
+						"y": 326,
+						"w": 220,
+						"h": 316
+					},
+					"margin": {
+						"x": 21,
+						"y": 7,
+						"w": 26,
+						"h": 7
+					}
+				},
+				{
+					"filename": "TEEWONG_MARIMBA_2_00014.png",
+					"region": {
+						"x": 477,
+						"y": 326,
+						"w": 235,
+						"h": 305
+					},
+					"margin": {
+						"x": 7,
+						"y": 18,
+						"w": 11,
+						"h": 18
+					}
+				},
+				{
+					"filename": "TEEWONG_MARIMBA_2_00016.png",
+					"region": {
+						"x": 715,
+						"y": 326,
+						"w": 236,
+						"h": 305
+					},
+					"margin": {
+						"x": 4,
+						"y": 18,
+						"w": 10,
+						"h": 18
+					}
+				},
+				{
+					"filename": "TEEWONG_MARIMBA_2_00018.png",
+					"region": {
+						"x": 953,
+						"y": 326,
+						"w": 227,
+						"h": 316
+					},
+					"margin": {
+						"x": 0,
+						"y": 7,
+						"w": 19,
+						"h": 7
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:d39a78e212512efc4b3733ce8c093a46:f472004e49287ef6c951751516a5c5fb:fb51497008e018512939f44e5c33dec7$"
+	}
+}

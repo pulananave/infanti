@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/coelho-latin-marimba.ogg-85cf14e1e178088e412d19416a1de412.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/CoelhoDaPascoa/coelho-latin-marimba.ogg"
+dest_files=[ "res://.import/coelho-latin-marimba.ogg-85cf14e1e178088e412d19416a1de412.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

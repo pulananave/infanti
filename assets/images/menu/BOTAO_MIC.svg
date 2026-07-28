@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 320 1000"
+   version="1.1"
+   id="svg23"
+   sodipodi:docname="BOTAO_MIC.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   width="320"
+   height="1000">
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>BACKGROUNDAsset 23</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1016"
+     id="namedview25"
+     showgrid="false"
+     inkscape:zoom="0.87407407"
+     inkscape:cx="160"
+     inkscape:cy="497.71186"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg23"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#89c462;}.cls-2{fill:#a9e085;}.cls-3{fill:#e7e7e7;}</style>
+  </defs>
+  <title
+     id="title6">BACKGROUNDAsset 23</title>
+  <g
+     id="g824"
+     transform="scale(1,3.7037037)">
+    <rect
+       style="fill:#89c462"
+       y="0"
+       x="0"
+       height="270"
+       width="300"
+       class="cls-1"
+       id="botao_mic_sombra" />
+    <rect
+       style="fill:#a9e085"
+       y="0"
+       height="270"
+       width="300"
+       x="20"
+       class="cls-2"
+       data-name="botao_mic"
+       id="botao_mic-2" />
+  </g>
+  <rect
+     style="fill:#e7e7e7"
+     id="rect10"
+     rx="20.620001"
+     height="92.300003"
+     width="42.5"
+     y="425"
+     x="148.75"
+     class="cls-3" />
+  <path
+     style="fill:#e7e7e7"
+     inkscape:connector-curvature="0"
+     id="path12"
+     d="m 201.87,468.27 v 28.84 c 0,18 -14.27,32.69 -31.87,32.69 v 0 c -17.6,0 -31.88,-14.64 -31.88,-32.69 v -28.84 a 5.38,5.38 0 0 0 -5.31,-5.45 v 0 a 5.38,5.38 0 0 0 -5.31,5.45 v 28.84 c 0,24.07 19,43.59 42.5,43.59 v 0 c 23.47,0 42.5,-19.52 42.5,-43.59 v -28.84 a 5.38,5.38 0 0 0 -5.31,-5.45 v 0 a 5.38,5.38 0 0 0 -5.32,5.45 z"
+     class="cls-3" />
+  <rect
+     style="fill:#e7e7e7"
+     id="rect14"
+     rx="5.1599998"
+     height="43.59"
+     width="10.62"
+     y="531.41003"
+     x="164.69"
+     class="cls-3" />
+  <rect
+     style="fill:#e7e7e7"
+     id="rect16"
+     transform="rotate(90)"
+     rx="5.4499998"
+     height="42.5"
+     width="10.9"
+     y="-191.25"
+     x="564.09998"
+     class="cls-3" />
+</svg>

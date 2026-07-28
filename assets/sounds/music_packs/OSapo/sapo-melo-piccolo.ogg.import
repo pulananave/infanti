@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-melo-piccolo.ogg-caca603bed85d8603b7f402ae7d89975.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-melo-piccolo.ogg"
+dest_files=[ "res://.import/sapo-melo-piccolo.ogg-caca603bed85d8603b7f402ae7d89975.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

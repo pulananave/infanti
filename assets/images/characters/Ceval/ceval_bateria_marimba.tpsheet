@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "ceval_bateria_marimba-0.png",
+			"size": {
+				"w": 1340,
+				"h": 760
+			},
+			"sprites": [
+				{
+					"filename": "CEVAL_MARIMBA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 231,
+						"h": 342
+					},
+					"margin": {
+						"x": 16,
+						"y": 56,
+						"w": 37,
+						"h": 58
+					}
+				},
+				{
+					"filename": "CEVAL_MARIMBA_00002.png",
+					"region": {
+						"x": 269,
+						"y": 1,
+						"w": 245,
+						"h": 350
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 23,
+						"h": 50
+					}
+				},
+				{
+					"filename": "CEVAL_MARIMBA_00004.png",
+					"region": {
+						"x": 537,
+						"y": 1,
+						"w": 266,
+						"h": 358
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 2,
+						"h": 42
+					}
+				},
+				{
+					"filename": "CEVAL_MARIMBA_00006.png",
+					"region": {
+						"x": 805,
+						"y": 1,
+						"w": 266,
+						"h": 362
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 2,
+						"h": 38
+					}
+				},
+				{
+					"filename": "CEVAL_MARIMBA_00008.png",
+					"region": {
+						"x": 1073,
+						"y": 1,
+						"w": 247,
+						"h": 374
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 21,
+						"h": 26
+					}
+				},
+				{
+					"filename": "CEVAL_MARIMBA_00010.png",
+					"region": {
+						"x": 1,
+						"y": 381,
+						"w": 234,
+						"h": 378
+					},
+					"margin": {
+						"x": 23,
+						"y": 19,
+						"w": 34,
+						"h": 22
+					}
+				},
+				{
+					"filename": "CEVAL_MARIMBA_00012.png",
+					"region": {
+						"x": 269,
+						"y": 381,
+						"w": 247,
+						"h": 375
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 21,
+						"h": 25
+					}
+				},
+				{
+					"filename": "CEVAL_MARIMBA_00014.png",
+					"region": {
+						"x": 537,
+						"y": 381,
+						"w": 266,
+						"h": 362
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 2,
+						"h": 38
+					}
+				},
+				{
+					"filename": "CEVAL_MARIMBA_00016.png",
+					"region": {
+						"x": 805,
+						"y": 381,
+						"w": 266,
+						"h": 358
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 2,
+						"h": 42
+					}
+				},
+				{
+					"filename": "CEVAL_MARIMBA_00018.png",
+					"region": {
+						"x": 1073,
+						"y": 381,
+						"w": 245,
+						"h": 350
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 23,
+						"h": 50
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:e922c755154e36bd377c577554570220:73e3a789603bcdf9ec5cc922b8968a48:2e9658b52f2cd772557f145d64b8a067$"
+	}
+}

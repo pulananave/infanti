@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "grompy_voz-0.png",
+			"size": {
+				"w": 1095,
+				"h": 572
+			},
+			"sprites": [
+				{
+					"filename": "GROMPY_MICROFONE_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 208,
+						"h": 267
+					},
+					"margin": {
+						"x": 1,
+						"y": 19,
+						"w": 19,
+						"h": 19
+					}
+				},
+				{
+					"filename": "GROMPY_MICROFONE_00002.png",
+					"region": {
+						"x": 220,
+						"y": 1,
+						"w": 212,
+						"h": 273
+					},
+					"margin": {
+						"x": 0,
+						"y": 13,
+						"w": 15,
+						"h": 13
+					}
+				},
+				{
+					"filename": "GROMPY_MICROFONE_00004.png",
+					"region": {
+						"x": 439,
+						"y": 1,
+						"w": 214,
+						"h": 283
+					},
+					"margin": {
+						"x": 0,
+						"y": 3,
+						"w": 13,
+						"h": 3
+					}
+				},
+				{
+					"filename": "GROMPY_MICROFONE_00006.png",
+					"region": {
+						"x": 658,
+						"y": 1,
+						"w": 214,
+						"h": 282
+					},
+					"margin": {
+						"x": 0,
+						"y": 4,
+						"w": 13,
+						"h": 4
+					}
+				},
+				{
+					"filename": "GROMPY_MICROFONE_00008.png",
+					"region": {
+						"x": 877,
+						"y": 1,
+						"w": 212,
+						"h": 271
+					},
+					"margin": {
+						"x": 0,
+						"y": 15,
+						"w": 15,
+						"h": 15
+					}
+				},
+				{
+					"filename": "GROMPY_MICROFONE_00010.png",
+					"region": {
+						"x": 1,
+						"y": 287,
+						"w": 209,
+						"h": 263
+					},
+					"margin": {
+						"x": 0,
+						"y": 23,
+						"w": 18,
+						"h": 23
+					}
+				},
+				{
+					"filename": "GROMPY_MICROFONE_00012.png",
+					"region": {
+						"x": 220,
+						"y": 287,
+						"w": 214,
+						"h": 271
+					},
+					"margin": {
+						"x": 2,
+						"y": 15,
+						"w": 13,
+						"h": 15
+					}
+				},
+				{
+					"filename": "GROMPY_MICROFONE_00014.png",
+					"region": {
+						"x": 439,
+						"y": 287,
+						"w": 217,
+						"h": 283
+					},
+					"margin": {
+						"x": 9,
+						"y": 3,
+						"w": 10,
+						"h": 3
+					}
+				},
+				{
+					"filename": "GROMPY_MICROFONE_00016.png",
+					"region": {
+						"x": 658,
+						"y": 287,
+						"w": 217,
+						"h": 284
+					},
+					"margin": {
+						"x": 9,
+						"y": 2,
+						"w": 10,
+						"h": 2
+					}
+				},
+				{
+					"filename": "GROMPY_MICROFONE_00018.png",
+					"region": {
+						"x": 877,
+						"y": 287,
+						"w": 212,
+						"h": 273
+					},
+					"margin": {
+						"x": 4,
+						"y": 13,
+						"w": 15,
+						"h": 13
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ab52bd43e47a3f183c28a01a90d2cb5b:1f48d1fd503eb2e99c42c6ae3240c4f3:ec30961634e5962a14dc05804b4fad61$"
+	}
+}

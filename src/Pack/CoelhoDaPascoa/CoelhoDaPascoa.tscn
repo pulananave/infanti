@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/Pack/Pack.tscn" type="PackedScene" id=1]
+
+[node name="CoelhoDaPascoa" instance=ExtResource( 1 )]
+pack_sounds_folder = "res://assets/sounds/music_packs/CoelhoDaPascoa"

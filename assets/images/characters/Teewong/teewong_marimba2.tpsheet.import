@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/teewong_marimba2.tpsheet-3dbb6d6b4e84ce3b5036c5c63f9b4433.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00000.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00002.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00004.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00006.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00008.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00010.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00012.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00014.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00016.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00018.tres" ]
+
+source_file="res://assets/images/characters/Teewong/teewong_marimba2.tpsheet"
+dest_files=[ "res://.import/teewong_marimba2.tpsheet-3dbb6d6b4e84ce3b5036c5c63f9b4433.res", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00000.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00002.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00004.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00006.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00008.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00010.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00012.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00014.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00016.tres", "res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00018.tres" ]
+
+[params]
+

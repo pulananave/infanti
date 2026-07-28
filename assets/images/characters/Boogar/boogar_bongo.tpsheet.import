@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/boogar_bongo.tpsheet-9195e0098dcc34fc6423e54413ba4b32.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00000.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00016.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00002.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00004.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00020.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00006.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00022.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00008.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00024.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00010.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00012.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00028.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00014.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00018.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00026.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00030.tres" ]
+
+source_file="res://assets/images/characters/Boogar/boogar_bongo.tpsheet"
+dest_files=[ "res://.import/boogar_bongo.tpsheet-9195e0098dcc34fc6423e54413ba4b32.res", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00000.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00016.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00002.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00004.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00020.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00006.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00022.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00008.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00024.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00010.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00012.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00028.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00014.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00018.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00026.tres", "res://assets/images/characters/Boogar/boogar_bongo.sprites/BOOGAR_BONGO_00030.tres" ]
+
+[params]
+

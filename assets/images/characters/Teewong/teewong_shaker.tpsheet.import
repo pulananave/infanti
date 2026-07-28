@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/teewong_shaker.tpsheet-ff2356b61c782bf6a5b136c9ebd5f078.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00000.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00002.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00004.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00006.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00008.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00010.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00012.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00014.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00016.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00018.tres" ]
+
+source_file="res://assets/images/characters/Teewong/teewong_shaker.tpsheet"
+dest_files=[ "res://.import/teewong_shaker.tpsheet-ff2356b61c782bf6a5b136c9ebd5f078.res", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00000.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00002.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00004.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00006.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00008.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00010.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00012.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00014.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00016.tres", "res://assets/images/characters/Teewong/teewong_shaker.sprites/TEEWONG_SHAKER_00018.tres" ]
+
+[params]
+

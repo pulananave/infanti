@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-edm-baixo.ogg-dc1ae294bfa13087d546c3b9e009df2d.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-edm-baixo.ogg"
+dest_files=[ "res://.import/aranha-edm-baixo.ogg-dc1ae294bfa13087d546c3b9e009df2d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

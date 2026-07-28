@@ -1,0 +1,13 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://src/Character/Character.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/images/characters/Gobu/Icon/ICONE_GOBU.svg" type="Texture" id=2]
+[ext_resource path="res://src/Instrument/GobuInstrument/GobuInstrument.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/images/characters/Gobu/Icon/ICONE_GOBU_ATIVO.svg" type="Texture" id=4]
+
+[node name="Gobu" instance=ExtResource( 1 )]
+instrument_scene = ExtResource( 3 )
+
+[node name="Icon" parent="." index="3"]
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 4 )

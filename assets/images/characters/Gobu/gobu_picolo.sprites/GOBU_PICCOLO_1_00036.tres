@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/images/characters/Gobu/gobu_picolo-0.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 718, 847, 237, 263 )
+margin = Rect2( 85, 34, 204, 47 )

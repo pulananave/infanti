@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-melo-marimba.ogg-fe630ba5082a2d8264d59b1124b0f43a.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-melo-marimba.ogg"
+dest_files=[ "res://.import/pintinho-melo-marimba.ogg-fe630ba5082a2d8264d59b1124b0f43a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
