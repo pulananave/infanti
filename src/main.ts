@@ -132,7 +132,11 @@ async function showMainMenu(): Promise<void> {
 // ============================================================
 
 async function startStage(pack: PackConfig): Promise<void> {
-  await musicEngine.init();
+  try {
+    await musicEngine.init();
+  } catch (e) {
+    console.warn('AudioContext init failed, continuing without audio:', e);
+  }
   musicEngine.setBpm(pack.bpm);
   musicEngine.setBars(pack.bars);
 
@@ -176,19 +180,23 @@ async function startStage(pack: PackConfig): Promise<void> {
     display: flex; flex-direction: row; align-items: center; justify-content: center;
     background: #c0c0c0; padding: 8px 16px; gap: 16px;
     border-top: 2px solid #aaa; min-height: 100px; flex-shrink: 0;
-    overflow-x: auto;
+    overflow-x: auto; position: relative; z-index: 200;
   `});
 
   for (const charConfig of pack.characters) {
-    const charInstance = await createCharacter(charConfig, stageArea);
-    characters.push(charInstance);
-    shelf.appendChild(charInstance.element);
+    try {
+      const charInstance = await createCharacter(charConfig, stageArea);
+      characters.push(charInstance);
+      shelf.appendChild(charInstance.element);
+    } catch (e) {
+      console.warn(`Failed to create character ${charConfig.id}:`, e);
+    }
   }
 
-  // Timeline bar (above shelf)
+  // Timeline bar (top)
   const timeline = createTimeline();
-  stageLayout.appendChild(stageArea);
   stageLayout.appendChild(timeline);
+  stageLayout.appendChild(stageArea);
   stageLayout.appendChild(shelf);
   app.appendChild(stageLayout);
 
@@ -215,7 +223,11 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
 
   for (const instConfig of config.instruments) {
     const player = new SamplePlayer();
-    await player.load(instConfig.audio);
+    try {
+      await player.load(instConfig.audio);
+    } catch (e) {
+      console.warn(`Failed to load audio for ${instConfig.type}:`, e);
+    }
 
     const inst: InstrumentInstance = {
       id: `${config.id}_${instConfig.type}`,
@@ -282,7 +294,7 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
   charBtn.appendChild(charImg);
 
   const instrumentBox = el('div', { style: `
-    display: none; position: absolute; z-index: 100;
+    display: none; position: fixed; z-index: 9000;
     background: rgba(255,255,255,0.95); border-radius: 16px;
     padding: 10px; box-shadow: 0 8px 32px rgba(0,0,0,0.15);
     flex-direction: row; gap: 8px;
@@ -351,12 +363,14 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
       instrumentBox.style.display = 'none';
       charInstance.instrumentsVisible = false;
     } else {
-      // Position box above character (opens upward since shelf is at bottom)
+      // Position box above character (fixed positioning)
       const rect = charBtn.getBoundingClientRect();
       instrumentBox.style.display = 'flex';
-      instrumentBox.style.bottom = '90px';
-      instrumentBox.style.left = '50%';
+      instrumentBox.style.left = `${rect.left + rect.width / 2}px`;
+      instrumentBox.style.bottom = '';
       instrumentBox.style.transform = 'translateX(-50%)';
+      instrumentBox.style.top = `${rect.top - 10}px`;
+      instrumentBox.style.transform = 'translate(-50%, -100%)';
       charInstance.instrumentsVisible = true;
     }
   });
@@ -517,10 +531,9 @@ function applyPositionEffects(inst: InstrumentInstance): void {
 
 function createTimeline(): HTMLElement {
   const container = el('div', { style: `
-    position: absolute; bottom: 0; left: 0; right: 0;
-    height: 50px; background: rgba(0,0,0,0.1);
+    height: 40px; background: rgba(0,0,0,0.08);
     display: flex; align-items: center; padding: 0 15px; gap: 10px;
-    z-index: 50;
+    flex-shrink: 0; border-bottom: 1px solid rgba(0,0,0,0.1);
   `});
 
   const timeLabel = el('span', { style: 'font-size: 14px; color: #666; min-width: 60px; font-variant-numeric: tabular-nums;' }, '0:00');
