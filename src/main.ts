@@ -400,14 +400,15 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
     y: localY / rect.height,
   };
 
-  // Create stage representation
+  // Create stage representation (positioned with left/top as center point)
   const stageEl = el('div', {
     style: `
       position: absolute; width: 70px; height: 70px; border-radius: 50%;
       background: white; box-shadow: 0 4px 16px rgba(0,0,0,0.2);
       display: flex; align-items: center; justify-content: center;
       cursor: grab; z-index: 10;
-      left: ${localX - 35}px; top: ${localY - 35}px;
+      left: ${localX}px; top: ${localY}px;
+      margin-left: -35px; margin-top: -35px;
       transition: box-shadow 0.2s;
     `,
     'data-instrument-id': inst.id,
@@ -444,11 +445,11 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   inst.stageElement = stageEl;
   stageArea.appendChild(stageEl);
 
-  // Apply position effects
+  // Apply position effects (volume, pan, scale)
   applyPositionEffects(inst);
 
-  // Start playing
-  inst.player.play();
+  // Start playing synced to current music progress
+  inst.player.playSynced(musicEngine.time);
 
   instrumentsOnStage.push(inst);
   eventBus.emit(Events.INSTRUMENT_ADDED, inst);
@@ -502,21 +503,40 @@ function toggleMute(inst: InstrumentInstance): void {
 
 function applyPositionEffects(inst: InstrumentInstance): void {
   const pos = inst.normalizedPosition;
+  const stageArea = document.querySelector('.stage-area') as HTMLElement;
+  if (!stageArea) return;
 
-  // Volume: top = louder (minVolumeDb), bottom = softer (maxVolumeDb is actually louder)
-  // In original: Y goes from top (min) to bottom (max), mapping to min..max volume
-  const volumeDb = remap(pos.y, 0, 1, inst.config.maxVolumeDb, inst.config.minVolumeDb);
+  // Reference point: center-bottom of stage
+  const refX = 0.5;
+  const refY = 1.0;
+
+  // Distance from center-bottom (0 = at reference, 1 = farthest corner)
+  const dx = pos.x - refX;
+  const dy = pos.y - refY;
+  // Max possible distance (top-left or top-right corner from center-bottom)
+  const maxDist = Math.sqrt(refX * refX + 1.0);
+  const dist = Math.sqrt(dx * dx + dy * dy);
+  const normalizedDist = clamp(dist / maxDist, 0, 1);
+
+  // Volume: closer to center-bottom = louder, further = quieter
+  const minDb = inst.config.minVolumeDb; // e.g. -20
+  const maxDb = inst.config.maxVolumeDb; // e.g. 0
+  const volumeDb = remap(normalizedDist, 0, 1, maxDb, minDb);
   inst.player.setVolume(inst.muted ? -80 : volumeDb);
 
-  // Scale: instruments further away (edges) are smaller
-  const scaleX = remap(Math.abs(pos.x - 0.5), 0, 0.5, 1.0, 0.7);
-  const scaleY = remap(pos.y, 0, 1, 0.8, 1.0);
-  const scale = scaleX * scaleY;
+  // Pan: left side = -1, center = 0, right side = +1
+  const pan = remap(pos.x, 0, 1, -1, 1);
+  inst.player.setPan(inst.muted ? 0 : pan);
+
+  // Scale: closer = bigger, further = smaller
+  const scale = remap(normalizedDist, 0, 1, 1.2, 0.5);
 
   if (inst.stageElement) {
     const size = 70 * scale;
     inst.stageElement.style.width = `${size}px`;
     inst.stageElement.style.height = `${size}px`;
+    inst.stageElement.style.marginLeft = `${-size / 2}px`;
+    inst.stageElement.style.marginTop = `${-size / 2}px`;
     const img = inst.stageElement.querySelector('img') as HTMLElement;
     if (img) {
       img.style.width = `${size * 0.65}px`;
@@ -725,10 +745,25 @@ function setupPointerEvents(stageArea: HTMLElement): void {
     if (!dragSystem.hasDrag(e.pointerId)) return;
     e.preventDefault();
 
-    dragSystem.updateDrag(e.pointerId, e.clientX, e.clientY);
-
-    // Move drag copy
     const drag = dragSystem.getDrag(e.pointerId);
+
+    // If dragging an instrument already on stage, move its DOM element
+    if (drag && (drag.node as any)._onStageDrag) {
+      const inst = drag.node as unknown as InstrumentInstance;
+      const stageEl = inst.stageElement;
+      const area = (drag.node as any)._stageArea as HTMLElement;
+      if (stageEl && area) {
+        const rect = area.getBoundingClientRect();
+        const localX = clamp(e.clientX - rect.left, 0, rect.width);
+        const localY = clamp(e.clientY - rect.top, 0, rect.height);
+        stageEl.style.left = `${localX}px`;
+        stageEl.style.top = `${localY}px`;
+      }
+      return;
+    }
+
+    // Normal drag (from shelf) — move the floating copy
+    dragSystem.updateDrag(e.pointerId, e.clientX, e.clientY);
     if (drag && (drag.node as any)._dragCopy) {
       const copy = (drag.node as any)._dragCopy as HTMLElement;
       copy.style.left = `${e.clientX - 30}px`;
@@ -739,8 +774,32 @@ function setupPointerEvents(stageArea: HTMLElement): void {
   document.addEventListener('pointerup', (e) => {
     if (!dragSystem.hasDrag(e.pointerId)) return;
 
-    const drag = dragSystem.endDrag(e.pointerId);
+    const drag = dragSystem.getDrag(e.pointerId);
     if (!drag) return;
+
+    // If was dragging on stage — update position
+    if ((drag.node as any)._onStageDrag) {
+      const inst = drag.node as unknown as InstrumentInstance;
+      const area = (drag.node as any)._stageArea as HTMLElement;
+      if (area) {
+        const rect = area.getBoundingClientRect();
+        const localX = clamp(e.clientX - rect.left, 0, rect.width);
+        const localY = clamp(e.clientY - rect.top, 0, rect.height);
+        inst.stageX = localX;
+        inst.stageY = localY;
+        inst.normalizedPosition = {
+          x: localX / rect.width,
+          y: localY / rect.height,
+        };
+        applyPositionEffects(inst);
+        eventBus.emit(Events.INSTRUMENT_MOVED, inst);
+      }
+      dragSystem.endDrag(e.pointerId);
+      return;
+    }
+
+    // Normal drag end (from shelf)
+    dragSystem.endDrag(e.pointerId);
 
     // Remove drag copy
     if ((drag.node as any)._dragCopy) {
@@ -755,7 +814,7 @@ function setupPointerEvents(stageArea: HTMLElement): void {
     }
   });
 
-  // Move instruments already on stage
+  // Drag instruments already on stage
   stageArea.addEventListener('pointerdown', (e) => {
     const target = e.target as HTMLElement;
     const stageEl = target.closest('[data-instrument-id]') as HTMLElement;
@@ -766,21 +825,25 @@ function setupPointerEvents(stageArea: HTMLElement): void {
     if (!inst || !inst.onStage) return;
 
     e.preventDefault();
-    const rect = stageEl.getBoundingClientRect();
+    e.stopPropagation();
+
+    const rect = stageArea.getBoundingClientRect();
+    const offsetX = e.clientX - (rect.left + inst.stageX);
+    const offsetY = e.clientY - (rect.top + inst.stageY);
+
     dragSystem.startDrag(
       e.pointerId,
-      inst,
+      { ...inst, _onStageDrag: true, _stageArea: stageArea, _offsetX: offsetX, _offsetY: offsetY },
       'stage',
-      rect.left - e.clientX,
-      rect.top - e.clientY,
+      -offsetX,
+      -offsetY,
       e.clientX,
       e.clientY
     );
   });
 
-  // Update instrument position on drag within stage
+  // Record state on move during recording
   eventBus.on(Events.INSTRUMENT_MOVED, (inst: InstrumentInstance) => {
-    applyPositionEffects(inst);
     if (gameState.current === GameState.RECORDING) {
       saveRecordingState();
     }
@@ -788,7 +851,7 @@ function setupPointerEvents(stageArea: HTMLElement): void {
 }
 
 // ============================================================
-// MUSIC SYNC - keep instruments in sync with BPM
+// MUSIC SYNC
 // ============================================================
 
 eventBus.on(Events.MUSIC_BAR, (barNumber: number) => {
