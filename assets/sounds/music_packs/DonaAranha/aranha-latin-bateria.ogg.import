@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-latin-bateria.ogg-7c08c7ab06a0f84a15ace369c6a00641.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-latin-bateria.ogg"
+dest_files=[ "res://.import/aranha-latin-bateria.ogg-7c08c7ab06a0f84a15ace369c6a00641.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

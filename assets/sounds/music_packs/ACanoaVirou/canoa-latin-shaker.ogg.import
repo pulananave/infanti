@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-latin-shaker.ogg-3df1fd0bf73cdf36073b19db9842e9c2.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-latin-shaker.ogg"
+dest_files=[ "res://.import/canoa-latin-shaker.ogg-3df1fd0bf73cdf36073b19db9842e9c2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

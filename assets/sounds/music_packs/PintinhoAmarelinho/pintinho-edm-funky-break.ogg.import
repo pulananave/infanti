@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-edm-funky-break.ogg-16e141d5a5e1b7512a62599cb16e48ce.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-edm-funky-break.ogg"
+dest_files=[ "res://.import/pintinho-edm-funky-break.ogg-16e141d5a5e1b7512a62599cb16e48ce.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

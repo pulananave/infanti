@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 320 1000"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="BOTAO_BIBLIOTECA_.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   width="320"
+   height="1000">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Asset 198</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1016"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="0.43542435"
+     inkscape:cx="-890.79219"
+     inkscape:cy="436.96584"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#b5aabc;}.cls-2{fill:#9482a0;}.cls-3{fill:none;}</style>
+  </defs>
+  <title
+     id="title6">Asset 198</title>
+  <g
+     id="g835"
+     transform="scale(1,3.7037037)">
+    <rect
+       style="fill:#b5aabc"
+       y="0"
+       x="0"
+       id="rect8"
+       height="270"
+       width="300"
+       class="cls-1" />
+    <rect
+       style="fill:#9482a0"
+       y="0"
+       height="270"
+       width="300"
+       x="20"
+       class="cls-2"
+       id="botao_home" />
+  </g>
+  <path
+     class="cls-1"
+     d="M 221.79,462.02 H 177 v -4.11 a 19.2,19.2 0 0 0 -19.2,-19.2 H 132.21 A 19.19,19.19 0 0 0 113,457.91 v 83.18 a 19.19,19.19 0 0 0 19.2,19.2 h 89.58 a 19.19,19.19 0 0 0 19.2,-19.2 v -59.87 a 19.2,19.2 0 0 0 -19.19,-19.2 z m 4.21,28.92 h -75.77 a 11.84,11.84 0 0 0 -11.78,9.56 l -5.23,28.15 a 2.64,2.64 0 0 1 -5.23,-0.48 v -61.51 a 8.67,8.67 0 0 1 8.67,-8.67 h 17.83 a 0.84,0.84 0 0 1 0.27,0 8.66,8.66 0 0 1 7.86,8.63 v 8.06 h 54.73 c 10,0 8.63,11.45 8.66,16.22 z"
+     id="path11"
+     inkscape:connector-curvature="0"
+     style="fill:#b5aabc" />
+  <rect
+     id="_Slice_"
+     data-name="&lt;Slice&gt;"
+     class="cls-3"
+     width="320"
+     height="271"
+     x="0"
+     y="364.5"
+     style="fill:none" />
+</svg>

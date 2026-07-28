@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-marcial-bombo.ogg-9ca0471fc1f770c8754e5e65cb5bce50.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-marcial-bombo.ogg"
+dest_files=[ "res://.import/sapo-marcial-bombo.ogg-9ca0471fc1f770c8754e5e65cb5bce50.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

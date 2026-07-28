@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "grompy_guitarra_base-0.png",
+			"size": {
+				"w": 1120,
+				"h": 1100
+			},
+			"sprites": [
+				{
+					"filename": "GUITARRA_BASE_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 217,
+						"h": 272
+					},
+					"margin": {
+						"x": 50,
+						"y": 21,
+						"w": 68,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00002.png",
+					"region": {
+						"x": 225,
+						"y": 1,
+						"w": 217,
+						"h": 272
+					},
+					"margin": {
+						"x": 48,
+						"y": 21,
+						"w": 68,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00004.png",
+					"region": {
+						"x": 449,
+						"y": 1,
+						"w": 216,
+						"h": 272
+					},
+					"margin": {
+						"x": 46,
+						"y": 21,
+						"w": 69,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00006.png",
+					"region": {
+						"x": 673,
+						"y": 1,
+						"w": 217,
+						"h": 270
+					},
+					"margin": {
+						"x": 44,
+						"y": 23,
+						"w": 68,
+						"h": 23
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00008.png",
+					"region": {
+						"x": 897,
+						"y": 1,
+						"w": 212,
+						"h": 268
+					},
+					"margin": {
+						"x": 46,
+						"y": 25,
+						"w": 73,
+						"h": 25
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00010.png",
+					"region": {
+						"x": 1,
+						"y": 276,
+						"w": 211,
+						"h": 267
+					},
+					"margin": {
+						"x": 47,
+						"y": 26,
+						"w": 74,
+						"h": 26
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00012.png",
+					"region": {
+						"x": 225,
+						"y": 276,
+						"w": 212,
+						"h": 268
+					},
+					"margin": {
+						"x": 46,
+						"y": 25,
+						"w": 73,
+						"h": 25
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00014.png",
+					"region": {
+						"x": 449,
+						"y": 276,
+						"w": 218,
+						"h": 270
+					},
+					"margin": {
+						"x": 43,
+						"y": 23,
+						"w": 67,
+						"h": 23
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00016.png",
+					"region": {
+						"x": 673,
+						"y": 276,
+						"w": 216,
+						"h": 272
+					},
+					"margin": {
+						"x": 46,
+						"y": 21,
+						"w": 69,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00018.png",
+					"region": {
+						"x": 897,
+						"y": 276,
+						"w": 216,
+						"h": 272
+					},
+					"margin": {
+						"x": 49,
+						"y": 21,
+						"w": 69,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00020.png",
+					"region": {
+						"x": 1,
+						"y": 551,
+						"w": 218,
+						"h": 272
+					},
+					"margin": {
+						"x": 49,
+						"y": 21,
+						"w": 67,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00022.png",
+					"region": {
+						"x": 225,
+						"y": 551,
+						"w": 217,
+						"h": 273
+					},
+					"margin": {
+						"x": 50,
+						"y": 20,
+						"w": 68,
+						"h": 20
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00024.png",
+					"region": {
+						"x": 449,
+						"y": 551,
+						"w": 218,
+						"h": 272
+					},
+					"margin": {
+						"x": 49,
+						"y": 21,
+						"w": 67,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00026.png",
+					"region": {
+						"x": 673,
+						"y": 551,
+						"w": 219,
+						"h": 271
+					},
+					"margin": {
+						"x": 51,
+						"y": 22,
+						"w": 66,
+						"h": 22
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00028.png",
+					"region": {
+						"x": 897,
+						"y": 551,
+						"w": 222,
+						"h": 269
+					},
+					"margin": {
+						"x": 51,
+						"y": 24,
+						"w": 63,
+						"h": 24
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00030.png",
+					"region": {
+						"x": 1,
+						"y": 826,
+						"w": 222,
+						"h": 268
+					},
+					"margin": {
+						"x": 52,
+						"y": 25,
+						"w": 63,
+						"h": 25
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00032.png",
+					"region": {
+						"x": 225,
+						"y": 826,
+						"w": 221,
+						"h": 269
+					},
+					"margin": {
+						"x": 52,
+						"y": 24,
+						"w": 64,
+						"h": 24
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00034.png",
+					"region": {
+						"x": 449,
+						"y": 826,
+						"w": 219,
+						"h": 271
+					},
+					"margin": {
+						"x": 51,
+						"y": 22,
+						"w": 66,
+						"h": 22
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00036.png",
+					"region": {
+						"x": 673,
+						"y": 826,
+						"w": 217,
+						"h": 272
+					},
+					"margin": {
+						"x": 50,
+						"y": 21,
+						"w": 68,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GUITARRA_BASE_00038.png",
+					"region": {
+						"x": 897,
+						"y": 826,
+						"w": 217,
+						"h": 273
+					},
+					"margin": {
+						"x": 50,
+						"y": 20,
+						"w": 68,
+						"h": 20
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:8553c918235048215f153058fd3cfc51:43f246266f6003d0920629ce1520982d:bd0c4a345ba77ff47b8c4e8ff47622d3$"
+	}
+}

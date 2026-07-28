@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/coelho-melo-picolo.ogg-38a6ab4d00bfff40fcce81591d01e4f5.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/CoelhoDaPascoa/coelho-melo-picolo.ogg"
+dest_files=[ "res://.import/coelho-melo-picolo.ogg-38a6ab4d00bfff40fcce81591d01e4f5.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

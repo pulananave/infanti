@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "boogar_voz-0.png",
+			"size": {
+				"w": 1810,
+				"h": 522
+			},
+			"sprites": [
+				{
+					"filename": "BOOGAR_MICROFONE_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 342,
+						"h": 245
+					},
+					"margin": {
+						"x": 93,
+						"y": 35,
+						"w": 156,
+						"h": 35
+					}
+				},
+				{
+					"filename": "BOOGAR_MICROFONE_00002.png",
+					"region": {
+						"x": 363,
+						"y": 1,
+						"w": 347,
+						"h": 250
+					},
+					"margin": {
+						"x": 94,
+						"y": 30,
+						"w": 151,
+						"h": 30
+					}
+				},
+				{
+					"filename": "BOOGAR_MICROFONE_00004.png",
+					"region": {
+						"x": 725,
+						"y": 1,
+						"w": 358,
+						"h": 259
+					},
+					"margin": {
+						"x": 93,
+						"y": 21,
+						"w": 140,
+						"h": 21
+					}
+				},
+				{
+					"filename": "BOOGAR_MICROFONE_00006.png",
+					"region": {
+						"x": 1087,
+						"y": 1,
+						"w": 360,
+						"h": 258
+					},
+					"margin": {
+						"x": 92,
+						"y": 22,
+						"w": 138,
+						"h": 22
+					}
+				},
+				{
+					"filename": "BOOGAR_MICROFONE_00008.png",
+					"region": {
+						"x": 1449,
+						"y": 1,
+						"w": 360,
+						"h": 243
+					},
+					"margin": {
+						"x": 88,
+						"y": 37,
+						"w": 138,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_MICROFONE_00010.png",
+					"region": {
+						"x": 1,
+						"y": 262,
+						"w": 360,
+						"h": 234
+					},
+					"margin": {
+						"x": 84,
+						"y": 46,
+						"w": 138,
+						"h": 46
+					}
+				},
+				{
+					"filename": "BOOGAR_MICROFONE_00012.png",
+					"region": {
+						"x": 363,
+						"y": 262,
+						"w": 338,
+						"h": 243
+					},
+					"margin": {
+						"x": 95,
+						"y": 37,
+						"w": 160,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_MICROFONE_00014.png",
+					"region": {
+						"x": 725,
+						"y": 262,
+						"w": 306,
+						"h": 257
+					},
+					"margin": {
+						"x": 111,
+						"y": 23,
+						"w": 192,
+						"h": 23
+					}
+				},
+				{
+					"filename": "BOOGAR_MICROFONE_00016.png",
+					"region": {
+						"x": 1087,
+						"y": 262,
+						"w": 304,
+						"h": 258
+					},
+					"margin": {
+						"x": 112,
+						"y": 22,
+						"w": 194,
+						"h": 22
+					}
+				},
+				{
+					"filename": "BOOGAR_MICROFONE_00018.png",
+					"region": {
+						"x": 1449,
+						"y": 262,
+						"w": 327,
+						"h": 250
+					},
+					"margin": {
+						"x": 100,
+						"y": 30,
+						"w": 171,
+						"h": 30
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:5a675b47e0f8d34e617ee40c6235048f:880a09689820abc7de69a872ee20367e:c8eb72f62d331ac466e09fe7897089b4$"
+	}
+}

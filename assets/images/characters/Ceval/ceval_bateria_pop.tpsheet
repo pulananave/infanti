@@ -1,0 +1,627 @@
+{
+	"textures": [
+		{
+			"image": "ceval_bateria_pop-0.png",
+			"size": {
+				"w": 1883,
+				"h": 1960
+			},
+			"sprites": [
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 232,
+						"h": 353
+					},
+					"margin": {
+						"x": 15,
+						"y": 56,
+						"w": 36,
+						"h": 56
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00040.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 232,
+						"h": 353
+					},
+					"margin": {
+						"x": 15,
+						"y": 56,
+						"w": 36,
+						"h": 56
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00002.png",
+					"region": {
+						"x": 270,
+						"y": 1,
+						"w": 246,
+						"h": 361
+					},
+					"margin": {
+						"x": 6,
+						"y": 48,
+						"w": 22,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00004.png",
+					"region": {
+						"x": 539,
+						"y": 1,
+						"w": 266,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 2,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00006.png",
+					"region": {
+						"x": 808,
+						"y": 1,
+						"w": 266,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 2,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00008.png",
+					"region": {
+						"x": 1077,
+						"y": 1,
+						"w": 247,
+						"h": 386
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 21,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00010.png",
+					"region": {
+						"x": 1346,
+						"y": 1,
+						"w": 238,
+						"h": 390
+					},
+					"margin": {
+						"x": 20,
+						"y": 19,
+						"w": 30,
+						"h": 19
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00012.png",
+					"region": {
+						"x": 1615,
+						"y": 1,
+						"w": 248,
+						"h": 386
+					},
+					"margin": {
+						"x": 13,
+						"y": 23,
+						"w": 20,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00014.png",
+					"region": {
+						"x": 1,
+						"y": 393,
+						"w": 267,
+						"h": 373
+					},
+					"margin": {
+						"x": 0,
+						"y": 36,
+						"w": 1,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00016.png",
+					"region": {
+						"x": 270,
+						"y": 393,
+						"w": 266,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 2,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00018.png",
+					"region": {
+						"x": 539,
+						"y": 393,
+						"w": 245,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 23,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00020.png",
+					"region": {
+						"x": 808,
+						"y": 393,
+						"w": 232,
+						"h": 353
+					},
+					"margin": {
+						"x": 15,
+						"y": 56,
+						"w": 36,
+						"h": 56
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00022.png",
+					"region": {
+						"x": 1077,
+						"y": 393,
+						"w": 242,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 26,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00024.png",
+					"region": {
+						"x": 1346,
+						"y": 393,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00026.png",
+					"region": {
+						"x": 1615,
+						"y": 393,
+						"w": 261,
+						"h": 373
+					},
+					"margin": {
+						"x": 0,
+						"y": 36,
+						"w": 7,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00028.png",
+					"region": {
+						"x": 1,
+						"y": 785,
+						"w": 241,
+						"h": 386
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00030.png",
+					"region": {
+						"x": 270,
+						"y": 785,
+						"w": 227,
+						"h": 390
+					},
+					"margin": {
+						"x": 23,
+						"y": 19,
+						"w": 41,
+						"h": 19
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00032.png",
+					"region": {
+						"x": 539,
+						"y": 785,
+						"w": 242,
+						"h": 386
+					},
+					"margin": {
+						"x": 13,
+						"y": 23,
+						"w": 26,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00034.png",
+					"region": {
+						"x": 808,
+						"y": 785,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00036.png",
+					"region": {
+						"x": 1077,
+						"y": 785,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00038.png",
+					"region": {
+						"x": 1346,
+						"y": 785,
+						"w": 242,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 26,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00042.png",
+					"region": {
+						"x": 1615,
+						"y": 785,
+						"w": 242,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 26,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00044.png",
+					"region": {
+						"x": 1,
+						"y": 1177,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00046.png",
+					"region": {
+						"x": 270,
+						"y": 1177,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00048.png",
+					"region": {
+						"x": 539,
+						"y": 1177,
+						"w": 241,
+						"h": 386
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00050.png",
+					"region": {
+						"x": 808,
+						"y": 1177,
+						"w": 228,
+						"h": 390
+					},
+					"margin": {
+						"x": 22,
+						"y": 19,
+						"w": 40,
+						"h": 19
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00052.png",
+					"region": {
+						"x": 1077,
+						"y": 1177,
+						"w": 241,
+						"h": 386
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00054.png",
+					"region": {
+						"x": 1346,
+						"y": 1177,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00056.png",
+					"region": {
+						"x": 1615,
+						"y": 1177,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00058.png",
+					"region": {
+						"x": 1,
+						"y": 1569,
+						"w": 242,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 26,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00060.png",
+					"region": {
+						"x": 270,
+						"y": 1569,
+						"w": 232,
+						"h": 353
+					},
+					"margin": {
+						"x": 15,
+						"y": 56,
+						"w": 36,
+						"h": 56
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00062.png",
+					"region": {
+						"x": 539,
+						"y": 1569,
+						"w": 242,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 26,
+						"h": 48
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00064.png",
+					"region": {
+						"x": 808,
+						"y": 1569,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00066.png",
+					"region": {
+						"x": 1077,
+						"y": 1569,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00068.png",
+					"region": {
+						"x": 1346,
+						"y": 1569,
+						"w": 241,
+						"h": 386
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00070.png",
+					"region": {
+						"x": 1615,
+						"y": 1569,
+						"w": 227,
+						"h": 390
+					},
+					"margin": {
+						"x": 23,
+						"y": 19,
+						"w": 41,
+						"h": 19
+					}
+				}
+			]
+		},
+		{
+			"image": "ceval_bateria_pop-1.png",
+			"size": {
+				"w": 1076,
+				"h": 392
+			},
+			"sprites": [
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00072.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 241,
+						"h": 386
+					},
+					"margin": {
+						"x": 14,
+						"y": 23,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00074.png",
+					"region": {
+						"x": 270,
+						"y": 1,
+						"w": 260,
+						"h": 373
+					},
+					"margin": {
+						"x": 1,
+						"y": 36,
+						"w": 8,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00076.png",
+					"region": {
+						"x": 539,
+						"y": 1,
+						"w": 260,
+						"h": 369
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 8,
+						"h": 40
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ROXA_00078.png",
+					"region": {
+						"x": 808,
+						"y": 1,
+						"w": 242,
+						"h": 361
+					},
+					"margin": {
+						"x": 7,
+						"y": 48,
+						"w": 26,
+						"h": 48
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1d1a75349aca50e8fb3e1638f707e5f1:a8c44826fabdd29f9b14bd3742fe8167:e645e1e753ac74d18120afb1a27d6994$"
+	}
+}

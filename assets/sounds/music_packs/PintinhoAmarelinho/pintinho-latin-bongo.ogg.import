@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-latin-bongo.ogg-13c51d142ccccda5318edc3f9239899d.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-latin-bongo.ogg"
+dest_files=[ "res://.import/pintinho-latin-bongo.ogg-13c51d142ccccda5318edc3f9239899d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

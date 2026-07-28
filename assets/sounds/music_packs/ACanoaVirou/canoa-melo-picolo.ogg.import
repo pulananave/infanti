@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-melo-picolo.ogg-32939229e83108d801b080a2fb90994a.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-melo-picolo.ogg"
+dest_files=[ "res://.import/canoa-melo-picolo.ogg-32939229e83108d801b080a2fb90994a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

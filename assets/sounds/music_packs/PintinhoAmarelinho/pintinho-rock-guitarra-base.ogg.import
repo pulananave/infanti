@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-rock-guitarra-base.ogg-a87b3d354bbcc24e055337e44488003a.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-rock-guitarra-base.ogg"
+dest_files=[ "res://.import/pintinho-rock-guitarra-base.ogg-a87b3d354bbcc24e055337e44488003a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-edm-techno-loop.ogg-736773cd701bbd34d93b874423c6ef46.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-edm-techno-loop.ogg"
+dest_files=[ "res://.import/pintinho-edm-techno-loop.ogg-736773cd701bbd34d93b874423c6ef46.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "gobu_shaker-0.png",
+			"size": {
+				"w": 1125,
+				"h": 572
+			},
+			"sprites": [
+				{
+					"filename": "GOBU_SHAKER_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 219,
+						"h": 280
+					},
+					"margin": {
+						"x": 5,
+						"y": 16,
+						"w": 11,
+						"h": 16
+					}
+				},
+				{
+					"filename": "GOBU_SHAKER_00002.png",
+					"region": {
+						"x": 226,
+						"y": 1,
+						"w": 220,
+						"h": 283
+					},
+					"margin": {
+						"x": 6,
+						"y": 13,
+						"w": 10,
+						"h": 13
+					}
+				},
+				{
+					"filename": "GOBU_SHAKER_00004.png",
+					"region": {
+						"x": 451,
+						"y": 1,
+						"w": 222,
+						"h": 284
+					},
+					"margin": {
+						"x": 7,
+						"y": 12,
+						"w": 8,
+						"h": 12
+					}
+				},
+				{
+					"filename": "GOBU_SHAKER_00006.png",
+					"region": {
+						"x": 676,
+						"y": 1,
+						"w": 222,
+						"h": 283
+					},
+					"margin": {
+						"x": 7,
+						"y": 13,
+						"w": 8,
+						"h": 13
+					}
+				},
+				{
+					"filename": "GOBU_SHAKER_00008.png",
+					"region": {
+						"x": 901,
+						"y": 1,
+						"w": 216,
+						"h": 278
+					},
+					"margin": {
+						"x": 9,
+						"y": 18,
+						"w": 14,
+						"h": 18
+					}
+				},
+				{
+					"filename": "GOBU_SHAKER_00010.png",
+					"region": {
+						"x": 1,
+						"y": 287,
+						"w": 208,
+						"h": 270
+					},
+					"margin": {
+						"x": 11,
+						"y": 26,
+						"w": 22,
+						"h": 26
+					}
+				},
+				{
+					"filename": "GOBU_SHAKER_00012.png",
+					"region": {
+						"x": 226,
+						"y": 287,
+						"w": 216,
+						"h": 279
+					},
+					"margin": {
+						"x": 5,
+						"y": 17,
+						"w": 14,
+						"h": 17
+					}
+				},
+				{
+					"filename": "GOBU_SHAKER_00014.png",
+					"region": {
+						"x": 451,
+						"y": 287,
+						"w": 223,
+						"h": 282
+					},
+					"margin": {
+						"x": 0,
+						"y": 14,
+						"w": 7,
+						"h": 14
+					}
+				},
+				{
+					"filename": "GOBU_SHAKER_00016.png",
+					"region": {
+						"x": 676,
+						"y": 287,
+						"w": 223,
+						"h": 283
+					},
+					"margin": {
+						"x": 1,
+						"y": 13,
+						"w": 7,
+						"h": 13
+					}
+				},
+				{
+					"filename": "GOBU_SHAKER_00018.png",
+					"region": {
+						"x": 901,
+						"y": 287,
+						"w": 220,
+						"h": 282
+					},
+					"margin": {
+						"x": 4,
+						"y": 14,
+						"w": 10,
+						"h": 14
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:c577ef176bd7192b35592ad6975f78fc:e9f67a5ab4e714a5f1cd13f76a2d6640:21a5e339db5a4bd54e980200f588fbc6$"
+	}
+}

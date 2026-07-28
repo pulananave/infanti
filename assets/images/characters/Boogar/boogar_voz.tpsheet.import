@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/boogar_voz.tpsheet-ddbcf8bc2448210357fce4e30b37ab8d.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00000.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00002.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00004.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00006.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00008.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00010.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00012.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00014.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00016.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00018.tres" ]
+
+source_file="res://assets/images/characters/Boogar/boogar_voz.tpsheet"
+dest_files=[ "res://.import/boogar_voz.tpsheet-ddbcf8bc2448210357fce4e30b37ab8d.res", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00000.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00002.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00004.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00006.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00008.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00010.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00012.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00014.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00016.tres", "res://assets/images/characters/Boogar/boogar_voz.sprites/BOOGAR_MICROFONE_00018.tres" ]
+
+[params]
+

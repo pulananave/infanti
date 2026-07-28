@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-latin-baixo.ogg-ef6d099f9bc7a1333c63d2dffa4a9c5c.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-latin-baixo.ogg"
+dest_files=[ "res://.import/sapo-latin-baixo.ogg-ef6d099f9bc7a1333c63d2dffa4a9c5c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

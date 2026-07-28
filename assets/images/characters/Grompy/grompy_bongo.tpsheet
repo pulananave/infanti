@@ -1,0 +1,258 @@
+{
+	"textures": [
+		{
+			"image": "grompy_bongo-0.png",
+			"size": {
+				"w": 1075,
+				"h": 810
+			},
+			"sprites": [
+				{
+					"filename": "GROMPY_BONGO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 170,
+						"h": 261
+					},
+					"margin": {
+						"x": 67,
+						"y": 32,
+						"w": 115,
+						"h": 32
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00002.png",
+					"region": {
+						"x": 216,
+						"y": 1,
+						"w": 191,
+						"h": 263
+					},
+					"margin": {
+						"x": 67,
+						"y": 30,
+						"w": 94,
+						"h": 30
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00004.png",
+					"region": {
+						"x": 431,
+						"y": 1,
+						"w": 212,
+						"h": 264
+					},
+					"margin": {
+						"x": 67,
+						"y": 29,
+						"w": 73,
+						"h": 29
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00006.png",
+					"region": {
+						"x": 646,
+						"y": 1,
+						"w": 191,
+						"h": 262
+					},
+					"margin": {
+						"x": 67,
+						"y": 31,
+						"w": 94,
+						"h": 31
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00008.png",
+					"region": {
+						"x": 861,
+						"y": 1,
+						"w": 171,
+						"h": 260
+					},
+					"margin": {
+						"x": 67,
+						"y": 33,
+						"w": 114,
+						"h": 33
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00024.png",
+					"region": {
+						"x": 861,
+						"y": 1,
+						"w": 171,
+						"h": 260
+					},
+					"margin": {
+						"x": 67,
+						"y": 33,
+						"w": 114,
+						"h": 33
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00010.png",
+					"region": {
+						"x": 1,
+						"y": 271,
+						"w": 188,
+						"h": 264
+					},
+					"margin": {
+						"x": 67,
+						"y": 29,
+						"w": 97,
+						"h": 29
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00012.png",
+					"region": {
+						"x": 216,
+						"y": 271,
+						"w": 209,
+						"h": 268
+					},
+					"margin": {
+						"x": 65,
+						"y": 25,
+						"w": 76,
+						"h": 25
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00014.png",
+					"region": {
+						"x": 431,
+						"y": 271,
+						"w": 188,
+						"h": 265
+					},
+					"margin": {
+						"x": 67,
+						"y": 28,
+						"w": 97,
+						"h": 28
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00016.png",
+					"region": {
+						"x": 646,
+						"y": 271,
+						"w": 170,
+						"h": 262
+					},
+					"margin": {
+						"x": 67,
+						"y": 31,
+						"w": 115,
+						"h": 31
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00018.png",
+					"region": {
+						"x": 861,
+						"y": 271,
+						"w": 191,
+						"h": 263
+					},
+					"margin": {
+						"x": 67,
+						"y": 30,
+						"w": 94,
+						"h": 30
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00020.png",
+					"region": {
+						"x": 1,
+						"y": 541,
+						"w": 213,
+						"h": 264
+					},
+					"margin": {
+						"x": 66,
+						"y": 29,
+						"w": 72,
+						"h": 29
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00022.png",
+					"region": {
+						"x": 216,
+						"y": 541,
+						"w": 191,
+						"h": 262
+					},
+					"margin": {
+						"x": 67,
+						"y": 31,
+						"w": 94,
+						"h": 31
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00026.png",
+					"region": {
+						"x": 431,
+						"y": 541,
+						"w": 188,
+						"h": 264
+					},
+					"margin": {
+						"x": 67,
+						"y": 29,
+						"w": 97,
+						"h": 29
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00028.png",
+					"region": {
+						"x": 646,
+						"y": 541,
+						"w": 208,
+						"h": 268
+					},
+					"margin": {
+						"x": 66,
+						"y": 25,
+						"w": 77,
+						"h": 25
+					}
+				},
+				{
+					"filename": "GROMPY_BONGO_00030.png",
+					"region": {
+						"x": 861,
+						"y": 541,
+						"w": 188,
+						"h": 265
+					},
+					"margin": {
+						"x": 67,
+						"y": 28,
+						"w": 97,
+						"h": 28
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9ee3237c02e17608d09e89ca94a1245d:2ef105b5f719ede0bf4ea53d9bad0f77:3f1877481b8783dabde96fe1c3fceafa$"
+	}
+}

@@ -1,0 +1,258 @@
+{
+	"textures": [
+		{
+			"image": "rafog_conga-0.png",
+			"size": {
+				"w": 1673,
+				"h": 756
+			},
+			"sprites": [
+				{
+					"filename": "RAFOG_CONGA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 227,
+						"h": 366
+					},
+					"margin": {
+						"x": 76,
+						"y": 31,
+						"w": 163,
+						"h": 37
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00002.png",
+					"region": {
+						"x": 240,
+						"y": 1,
+						"w": 227,
+						"h": 372
+					},
+					"margin": {
+						"x": 78,
+						"y": 25,
+						"w": 163,
+						"h": 31
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00004.png",
+					"region": {
+						"x": 479,
+						"y": 1,
+						"w": 227,
+						"h": 375
+					},
+					"margin": {
+						"x": 80,
+						"y": 21,
+						"w": 163,
+						"h": 28
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00020.png",
+					"region": {
+						"x": 479,
+						"y": 1,
+						"w": 227,
+						"h": 375
+					},
+					"margin": {
+						"x": 80,
+						"y": 21,
+						"w": 163,
+						"h": 28
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00006.png",
+					"region": {
+						"x": 718,
+						"y": 1,
+						"w": 233,
+						"h": 369
+					},
+					"margin": {
+						"x": 75,
+						"y": 28,
+						"w": 157,
+						"h": 34
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00008.png",
+					"region": {
+						"x": 957,
+						"y": 1,
+						"w": 237,
+						"h": 359
+					},
+					"margin": {
+						"x": 72,
+						"y": 37,
+						"w": 153,
+						"h": 44
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00024.png",
+					"region": {
+						"x": 957,
+						"y": 1,
+						"w": 237,
+						"h": 359
+					},
+					"margin": {
+						"x": 72,
+						"y": 37,
+						"w": 153,
+						"h": 44
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00010.png",
+					"region": {
+						"x": 1196,
+						"y": 1,
+						"w": 237,
+						"h": 368
+					},
+					"margin": {
+						"x": 74,
+						"y": 28,
+						"w": 153,
+						"h": 35
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00012.png",
+					"region": {
+						"x": 1435,
+						"y": 1,
+						"w": 237,
+						"h": 375
+					},
+					"margin": {
+						"x": 76,
+						"y": 21,
+						"w": 153,
+						"h": 28
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00014.png",
+					"region": {
+						"x": 1,
+						"y": 379,
+						"w": 231,
+						"h": 371
+					},
+					"margin": {
+						"x": 76,
+						"y": 25,
+						"w": 159,
+						"h": 32
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00016.png",
+					"region": {
+						"x": 240,
+						"y": 379,
+						"w": 228,
+						"h": 366
+					},
+					"margin": {
+						"x": 75,
+						"y": 31,
+						"w": 162,
+						"h": 37
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00018.png",
+					"region": {
+						"x": 479,
+						"y": 379,
+						"w": 227,
+						"h": 371
+					},
+					"margin": {
+						"x": 78,
+						"y": 25,
+						"w": 163,
+						"h": 32
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00022.png",
+					"region": {
+						"x": 718,
+						"y": 379,
+						"w": 232,
+						"h": 368
+					},
+					"margin": {
+						"x": 76,
+						"y": 28,
+						"w": 158,
+						"h": 35
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00026.png",
+					"region": {
+						"x": 957,
+						"y": 379,
+						"w": 232,
+						"h": 368
+					},
+					"margin": {
+						"x": 73,
+						"y": 28,
+						"w": 158,
+						"h": 35
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00028.png",
+					"region": {
+						"x": 1196,
+						"y": 379,
+						"w": 229,
+						"h": 376
+					},
+					"margin": {
+						"x": 73,
+						"y": 21,
+						"w": 161,
+						"h": 27
+					}
+				},
+				{
+					"filename": "RAFOG_CONGA_00030.png",
+					"region": {
+						"x": 1435,
+						"y": 379,
+						"w": 227,
+						"h": 372
+					},
+					"margin": {
+						"x": 75,
+						"y": 25,
+						"w": 163,
+						"h": 31
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:859a1eb4d50f872880dd14d342584682:49daafb3f7d85614b9c9d755ed08d5ec:0b47b03f860f7763ce77601dedd7375d$"
+	}
+}

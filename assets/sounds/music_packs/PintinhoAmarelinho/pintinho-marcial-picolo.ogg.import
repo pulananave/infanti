@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-marcial-picolo.ogg-cd5af4088b1717a8056a5e3764706632.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-marcial-picolo.ogg"
+dest_files=[ "res://.import/pintinho-marcial-picolo.ogg-cd5af4088b1717a8056a5e3764706632.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

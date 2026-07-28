@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/esper_recoreco.tpsheet-61ca16790b5fb67625e921d4f6614352.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00000.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00002.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00004.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00006.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00008.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00010.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00012.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00014.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00016.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00018.tres" ]
+
+source_file="res://assets/images/characters/Esper/esper_recoreco.tpsheet"
+dest_files=[ "res://.import/esper_recoreco.tpsheet-61ca16790b5fb67625e921d4f6614352.res", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00000.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00002.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00004.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00006.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00008.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00010.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00012.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00014.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00016.tres", "res://assets/images/characters/Esper/esper_recoreco.sprites/ESPER_RECORECO_00018.tres" ]
+
+[params]
+

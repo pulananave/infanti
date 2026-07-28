@@ -1,0 +1,258 @@
+{
+	"textures": [
+		{
+			"image": "boogar_bongo-0.png",
+			"size": {
+				"w": 1576,
+				"h": 753
+			},
+			"sprites": [
+				{
+					"filename": "BOOGAR_BONGO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 285,
+						"h": 241
+					},
+					"margin": {
+						"x": 112,
+						"y": 38,
+						"w": 213,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00016.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 285,
+						"h": 241
+					},
+					"margin": {
+						"x": 112,
+						"y": 38,
+						"w": 213,
+						"h": 39
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00002.png",
+					"region": {
+						"x": 395,
+						"y": 1,
+						"w": 326,
+						"h": 244
+					},
+					"margin": {
+						"x": 116,
+						"y": 35,
+						"w": 172,
+						"h": 36
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00004.png",
+					"region": {
+						"x": 789,
+						"y": 1,
+						"w": 377,
+						"h": 249
+					},
+					"margin": {
+						"x": 119,
+						"y": 31,
+						"w": 121,
+						"h": 31
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00020.png",
+					"region": {
+						"x": 789,
+						"y": 1,
+						"w": 377,
+						"h": 249
+					},
+					"margin": {
+						"x": 119,
+						"y": 31,
+						"w": 121,
+						"h": 31
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00006.png",
+					"region": {
+						"x": 1183,
+						"y": 1,
+						"w": 330,
+						"h": 243
+					},
+					"margin": {
+						"x": 115,
+						"y": 37,
+						"w": 168,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00022.png",
+					"region": {
+						"x": 1183,
+						"y": 1,
+						"w": 330,
+						"h": 243
+					},
+					"margin": {
+						"x": 115,
+						"y": 37,
+						"w": 168,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00008.png",
+					"region": {
+						"x": 1,
+						"y": 252,
+						"w": 291,
+						"h": 237
+					},
+					"margin": {
+						"x": 110,
+						"y": 42,
+						"w": 207,
+						"h": 43
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00024.png",
+					"region": {
+						"x": 1,
+						"y": 252,
+						"w": 291,
+						"h": 237
+					},
+					"margin": {
+						"x": 110,
+						"y": 42,
+						"w": 207,
+						"h": 43
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00010.png",
+					"region": {
+						"x": 395,
+						"y": 252,
+						"w": 337,
+						"h": 243
+					},
+					"margin": {
+						"x": 107,
+						"y": 37,
+						"w": 161,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00012.png",
+					"region": {
+						"x": 789,
+						"y": 252,
+						"w": 392,
+						"h": 249
+					},
+					"margin": {
+						"x": 103,
+						"y": 31,
+						"w": 106,
+						"h": 31
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00028.png",
+					"region": {
+						"x": 789,
+						"y": 252,
+						"w": 392,
+						"h": 249
+					},
+					"margin": {
+						"x": 103,
+						"y": 31,
+						"w": 106,
+						"h": 31
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00014.png",
+					"region": {
+						"x": 1183,
+						"y": 252,
+						"w": 333,
+						"h": 245
+					},
+					"margin": {
+						"x": 109,
+						"y": 35,
+						"w": 165,
+						"h": 35
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00018.png",
+					"region": {
+						"x": 1,
+						"y": 503,
+						"w": 326,
+						"h": 245
+					},
+					"margin": {
+						"x": 116,
+						"y": 35,
+						"w": 172,
+						"h": 35
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00026.png",
+					"region": {
+						"x": 395,
+						"y": 503,
+						"w": 337,
+						"h": 243
+					},
+					"margin": {
+						"x": 107,
+						"y": 37,
+						"w": 161,
+						"h": 37
+					}
+				},
+				{
+					"filename": "BOOGAR_BONGO_00030.png",
+					"region": {
+						"x": 789,
+						"y": 503,
+						"w": 333,
+						"h": 245
+					},
+					"margin": {
+						"x": 109,
+						"y": 35,
+						"w": 165,
+						"h": 35
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:f878692f9dfa3071d6cfac85dcf126af:bc36a3bb79fd58ae24dc585c5c583070:ecf3a98b9d15a48fda1491d0d5db51be$"
+	}
+}

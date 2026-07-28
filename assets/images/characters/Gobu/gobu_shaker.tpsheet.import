@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/gobu_shaker.tpsheet-6e4cb4dc83c19bea8987acb2ea289378.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00000.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00002.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00004.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00006.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00008.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00010.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00012.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00014.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00016.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00018.tres" ]
+
+source_file="res://assets/images/characters/Gobu/gobu_shaker.tpsheet"
+dest_files=[ "res://.import/gobu_shaker.tpsheet-6e4cb4dc83c19bea8987acb2ea289378.res", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00000.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00002.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00004.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00006.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00008.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00010.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00012.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00014.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00016.tres", "res://assets/images/characters/Gobu/gobu_shaker.sprites/GOBU_SHAKER_00018.tres" ]
+
+[params]
+

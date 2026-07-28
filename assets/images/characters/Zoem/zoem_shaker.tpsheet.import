@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/zoem_shaker.tpsheet-f1680006d3553c0cd54c12aea391dd0f.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00000.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00002.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00004.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00006.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00008.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00010.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00012.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00014.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00016.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00018.tres" ]
+
+source_file="res://assets/images/characters/Zoem/zoem_shaker.tpsheet"
+dest_files=[ "res://.import/zoem_shaker.tpsheet-f1680006d3553c0cd54c12aea391dd0f.res", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00000.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00002.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00004.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00006.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00008.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00010.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00012.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00014.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00016.tres", "res://assets/images/characters/Zoem/zoem_shaker.sprites/ZOEM_SHAKER_00018.tres" ]
+
+[params]
+

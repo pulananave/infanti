@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "ohle_voz-0.png",
+			"size": {
+				"w": 1860,
+				"h": 334
+			},
+			"sprites": [
+				{
+					"filename": "OHLE_MICROFONE_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 157,
+						"h": 311
+					},
+					"margin": {
+						"x": 33,
+						"y": 28,
+						"w": 64,
+						"h": 28
+					}
+				},
+				{
+					"filename": "OHLE_MICROFONE_00002.png",
+					"region": {
+						"x": 187,
+						"y": 1,
+						"w": 159,
+						"h": 320
+					},
+					"margin": {
+						"x": 34,
+						"y": 19,
+						"w": 62,
+						"h": 19
+					}
+				},
+				{
+					"filename": "OHLE_MICROFONE_00004.png",
+					"region": {
+						"x": 373,
+						"y": 1,
+						"w": 158,
+						"h": 332
+					},
+					"margin": {
+						"x": 35,
+						"y": 7,
+						"w": 63,
+						"h": 7
+					}
+				},
+				{
+					"filename": "OHLE_MICROFONE_00006.png",
+					"region": {
+						"x": 559,
+						"y": 1,
+						"w": 159,
+						"h": 330
+					},
+					"margin": {
+						"x": 34,
+						"y": 9,
+						"w": 62,
+						"h": 9
+					}
+				},
+				{
+					"filename": "OHLE_MICROFONE_00008.png",
+					"region": {
+						"x": 745,
+						"y": 1,
+						"w": 173,
+						"h": 306
+					},
+					"margin": {
+						"x": 22,
+						"y": 33,
+						"w": 48,
+						"h": 33
+					}
+				},
+				{
+					"filename": "OHLE_MICROFONE_00010.png",
+					"region": {
+						"x": 931,
+						"y": 1,
+						"w": 184,
+						"h": 289
+					},
+					"margin": {
+						"x": 13,
+						"y": 50,
+						"w": 37,
+						"h": 50
+					}
+				},
+				{
+					"filename": "OHLE_MICROFONE_00012.png",
+					"region": {
+						"x": 1117,
+						"y": 1,
+						"w": 164,
+						"h": 305
+					},
+					"margin": {
+						"x": 25,
+						"y": 34,
+						"w": 57,
+						"h": 34
+					}
+				},
+				{
+					"filename": "OHLE_MICROFONE_00014.png",
+					"region": {
+						"x": 1303,
+						"y": 1,
+						"w": 134,
+						"h": 330
+					},
+					"margin": {
+						"x": 43,
+						"y": 9,
+						"w": 87,
+						"h": 9
+					}
+				},
+				{
+					"filename": "OHLE_MICROFONE_00016.png",
+					"region": {
+						"x": 1489,
+						"y": 1,
+						"w": 130,
+						"h": 332
+					},
+					"margin": {
+						"x": 46,
+						"y": 7,
+						"w": 91,
+						"h": 7
+					}
+				},
+				{
+					"filename": "OHLE_MICROFONE_00018.png",
+					"region": {
+						"x": 1675,
+						"y": 1,
+						"w": 146,
+						"h": 318
+					},
+					"margin": {
+						"x": 38,
+						"y": 21,
+						"w": 75,
+						"h": 21
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:e8a7d8ae4383e8da9d21fb3e2a74d51b:953891184c1e5b8a19af563c53810a2a:778c47af184437e93668f2ada973f5a0$"
+	}
+}

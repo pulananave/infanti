@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "boogar_recoreco-0.png",
+			"size": {
+				"w": 1720,
+				"h": 518
+			},
+			"sprites": [
+				{
+					"filename": "BOOGAR_RECORECO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 342,
+						"h": 232
+					},
+					"margin": {
+						"x": 78,
+						"y": 48,
+						"w": 156,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BOOGAR_RECORECO_00002.png",
+					"region": {
+						"x": 345,
+						"y": 1,
+						"w": 327,
+						"h": 242
+					},
+					"margin": {
+						"x": 81,
+						"y": 38,
+						"w": 171,
+						"h": 38
+					}
+				},
+				{
+					"filename": "BOOGAR_RECORECO_00004.png",
+					"region": {
+						"x": 689,
+						"y": 1,
+						"w": 304,
+						"h": 257
+					},
+					"margin": {
+						"x": 86,
+						"y": 23,
+						"w": 194,
+						"h": 23
+					}
+				},
+				{
+					"filename": "BOOGAR_RECORECO_00006.png",
+					"region": {
+						"x": 1033,
+						"y": 1,
+						"w": 305,
+						"h": 257
+					},
+					"margin": {
+						"x": 86,
+						"y": 23,
+						"w": 193,
+						"h": 23
+					}
+				},
+				{
+					"filename": "BOOGAR_RECORECO_00008.png",
+					"region": {
+						"x": 1377,
+						"y": 1,
+						"w": 330,
+						"h": 242
+					},
+					"margin": {
+						"x": 81,
+						"y": 38,
+						"w": 168,
+						"h": 38
+					}
+				},
+				{
+					"filename": "BOOGAR_RECORECO_00010.png",
+					"region": {
+						"x": 1,
+						"y": 260,
+						"w": 342,
+						"h": 232
+					},
+					"margin": {
+						"x": 78,
+						"y": 48,
+						"w": 156,
+						"h": 48
+					}
+				},
+				{
+					"filename": "BOOGAR_RECORECO_00012.png",
+					"region": {
+						"x": 345,
+						"y": 260,
+						"w": 327,
+						"h": 242
+					},
+					"margin": {
+						"x": 87,
+						"y": 38,
+						"w": 171,
+						"h": 38
+					}
+				},
+				{
+					"filename": "BOOGAR_RECORECO_00014.png",
+					"region": {
+						"x": 689,
+						"y": 260,
+						"w": 304,
+						"h": 256
+					},
+					"margin": {
+						"x": 102,
+						"y": 24,
+						"w": 194,
+						"h": 24
+					}
+				},
+				{
+					"filename": "BOOGAR_RECORECO_00016.png",
+					"region": {
+						"x": 1033,
+						"y": 260,
+						"w": 305,
+						"h": 256
+					},
+					"margin": {
+						"x": 102,
+						"y": 24,
+						"w": 193,
+						"h": 24
+					}
+				},
+				{
+					"filename": "BOOGAR_RECORECO_00018.png",
+					"region": {
+						"x": 1377,
+						"y": 260,
+						"w": 326,
+						"h": 242
+					},
+					"margin": {
+						"x": 88,
+						"y": 38,
+						"w": 172,
+						"h": 38
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:68b50f2f1fca539c5d03be2c500733fb:75aa194c92ea5397d5fd122bf70406c3:ac59380d4d6c470b00d71cd195eb5935$"
+	}
+}

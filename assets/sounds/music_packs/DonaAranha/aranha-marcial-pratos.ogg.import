@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-marcial-pratos.ogg-23342e202c63da4706bf8ca319241b91.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-marcial-pratos.ogg"
+dest_files=[ "res://.import/aranha-marcial-pratos.ogg-23342e202c63da4706bf8ca319241b91.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

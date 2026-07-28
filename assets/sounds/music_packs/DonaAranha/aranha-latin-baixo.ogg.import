@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-latin-baixo.ogg-58e28bcd848633d478f12d7edc32fa97.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-latin-baixo.ogg"
+dest_files=[ "res://.import/aranha-latin-baixo.ogg-58e28bcd848633d478f12d7edc32fa97.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

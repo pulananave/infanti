@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "grompy_trombone-0.png",
+			"size": {
+				"w": 2002,
+				"h": 586
+			},
+			"sprites": [
+				{
+					"filename": "GROMPY_TROMBONE_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 235,
+						"h": 272
+					},
+					"margin": {
+						"x": 44,
+						"y": 21,
+						"w": 50,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00020.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 235,
+						"h": 272
+					},
+					"margin": {
+						"x": 44,
+						"y": 21,
+						"w": 50,
+						"h": 21
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00002.png",
+					"region": {
+						"x": 287,
+						"y": 1,
+						"w": 241,
+						"h": 279
+					},
+					"margin": {
+						"x": 36,
+						"y": 14,
+						"w": 44,
+						"h": 14
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00004.png",
+					"region": {
+						"x": 573,
+						"y": 1,
+						"w": 253,
+						"h": 291
+					},
+					"margin": {
+						"x": 20,
+						"y": 2,
+						"w": 32,
+						"h": 2
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00006.png",
+					"region": {
+						"x": 859,
+						"y": 1,
+						"w": 259,
+						"h": 289
+					},
+					"margin": {
+						"x": 15,
+						"y": 4,
+						"w": 26,
+						"h": 4
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00008.png",
+					"region": {
+						"x": 1145,
+						"y": 1,
+						"w": 275,
+						"h": 267
+					},
+					"margin": {
+						"x": 5,
+						"y": 26,
+						"w": 10,
+						"h": 26
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00010.png",
+					"region": {
+						"x": 1431,
+						"y": 1,
+						"w": 284,
+						"h": 253
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 1,
+						"h": 40
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00030.png",
+					"region": {
+						"x": 1431,
+						"y": 1,
+						"w": 284,
+						"h": 253
+					},
+					"margin": {
+						"x": 0,
+						"y": 40,
+						"w": 1,
+						"h": 40
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00012.png",
+					"region": {
+						"x": 1717,
+						"y": 1,
+						"w": 262,
+						"h": 267
+					},
+					"margin": {
+						"x": 18,
+						"y": 26,
+						"w": 23,
+						"h": 26
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00032.png",
+					"region": {
+						"x": 1717,
+						"y": 1,
+						"w": 262,
+						"h": 267
+					},
+					"margin": {
+						"x": 18,
+						"y": 26,
+						"w": 23,
+						"h": 26
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00014.png",
+					"region": {
+						"x": 1,
+						"y": 294,
+						"w": 234,
+						"h": 289
+					},
+					"margin": {
+						"x": 43,
+						"y": 4,
+						"w": 51,
+						"h": 4
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00034.png",
+					"region": {
+						"x": 1,
+						"y": 294,
+						"w": 234,
+						"h": 289
+					},
+					"margin": {
+						"x": 43,
+						"y": 4,
+						"w": 51,
+						"h": 4
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00016.png",
+					"region": {
+						"x": 287,
+						"y": 294,
+						"w": 226,
+						"h": 291
+					},
+					"margin": {
+						"x": 49,
+						"y": 2,
+						"w": 59,
+						"h": 2
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00036.png",
+					"region": {
+						"x": 287,
+						"y": 294,
+						"w": 226,
+						"h": 291
+					},
+					"margin": {
+						"x": 49,
+						"y": 2,
+						"w": 59,
+						"h": 2
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00018.png",
+					"region": {
+						"x": 573,
+						"y": 294,
+						"w": 233,
+						"h": 279
+					},
+					"margin": {
+						"x": 45,
+						"y": 14,
+						"w": 52,
+						"h": 14
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00038.png",
+					"region": {
+						"x": 573,
+						"y": 294,
+						"w": 233,
+						"h": 279
+					},
+					"margin": {
+						"x": 45,
+						"y": 14,
+						"w": 52,
+						"h": 14
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00022.png",
+					"region": {
+						"x": 859,
+						"y": 294,
+						"w": 241,
+						"h": 279
+					},
+					"margin": {
+						"x": 36,
+						"y": 14,
+						"w": 44,
+						"h": 14
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00024.png",
+					"region": {
+						"x": 1145,
+						"y": 294,
+						"w": 252,
+						"h": 291
+					},
+					"margin": {
+						"x": 21,
+						"y": 2,
+						"w": 33,
+						"h": 2
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00026.png",
+					"region": {
+						"x": 1431,
+						"y": 294,
+						"w": 260,
+						"h": 289
+					},
+					"margin": {
+						"x": 14,
+						"y": 4,
+						"w": 25,
+						"h": 4
+					}
+				},
+				{
+					"filename": "GROMPY_TROMBONE_00028.png",
+					"region": {
+						"x": 1717,
+						"y": 294,
+						"w": 275,
+						"h": 267
+					},
+					"margin": {
+						"x": 5,
+						"y": 26,
+						"w": 10,
+						"h": 26
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:33d7704471e5880977598c48f78bb96c:8e7de3ef48e9ee2c4d2b2cca58c0b92c:d2ee1e11df84c7719296a61d89f7e76b$"
+	}
+}

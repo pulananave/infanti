@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "dan_baixo_acustico-0.png",
+			"size": {
+				"w": 1480,
+				"h": 1400
+			},
+			"sprites": [
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 291,
+						"h": 332
+					},
+					"margin": {
+						"x": 6,
+						"y": 18,
+						"w": 6,
+						"h": 18
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00002.png",
+					"region": {
+						"x": 297,
+						"y": 1,
+						"w": 293,
+						"h": 339
+					},
+					"margin": {
+						"x": 4,
+						"y": 11,
+						"w": 4,
+						"h": 11
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00004.png",
+					"region": {
+						"x": 593,
+						"y": 1,
+						"w": 290,
+						"h": 348
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 7,
+						"h": 2
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00006.png",
+					"region": {
+						"x": 889,
+						"y": 1,
+						"w": 289,
+						"h": 348
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 8,
+						"h": 2
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00008.png",
+					"region": {
+						"x": 1185,
+						"y": 1,
+						"w": 290,
+						"h": 340
+					},
+					"margin": {
+						"x": 0,
+						"y": 10,
+						"w": 7,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00010.png",
+					"region": {
+						"x": 1,
+						"y": 351,
+						"w": 293,
+						"h": 335
+					},
+					"margin": {
+						"x": 0,
+						"y": 15,
+						"w": 4,
+						"h": 15
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00012.png",
+					"region": {
+						"x": 297,
+						"y": 351,
+						"w": 294,
+						"h": 337
+					},
+					"margin": {
+						"x": 0,
+						"y": 13,
+						"w": 3,
+						"h": 13
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00014.png",
+					"region": {
+						"x": 593,
+						"y": 351,
+						"w": 289,
+						"h": 339
+					},
+					"margin": {
+						"x": 8,
+						"y": 11,
+						"w": 8,
+						"h": 11
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00016.png",
+					"region": {
+						"x": 889,
+						"y": 351,
+						"w": 287,
+						"h": 339
+					},
+					"margin": {
+						"x": 10,
+						"y": 11,
+						"w": 10,
+						"h": 11
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00018.png",
+					"region": {
+						"x": 1185,
+						"y": 351,
+						"w": 289,
+						"h": 335
+					},
+					"margin": {
+						"x": 8,
+						"y": 15,
+						"w": 8,
+						"h": 15
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00020.png",
+					"region": {
+						"x": 1,
+						"y": 701,
+						"w": 289,
+						"h": 332
+					},
+					"margin": {
+						"x": 8,
+						"y": 18,
+						"w": 8,
+						"h": 18
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00022.png",
+					"region": {
+						"x": 297,
+						"y": 701,
+						"w": 290,
+						"h": 339
+					},
+					"margin": {
+						"x": 5,
+						"y": 11,
+						"w": 7,
+						"h": 11
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00024.png",
+					"region": {
+						"x": 593,
+						"y": 701,
+						"w": 289,
+						"h": 348
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 8,
+						"h": 2
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00026.png",
+					"region": {
+						"x": 889,
+						"y": 701,
+						"w": 288,
+						"h": 348
+					},
+					"margin": {
+						"x": 0,
+						"y": 2,
+						"w": 9,
+						"h": 2
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00028.png",
+					"region": {
+						"x": 1185,
+						"y": 701,
+						"w": 290,
+						"h": 340
+					},
+					"margin": {
+						"x": 0,
+						"y": 10,
+						"w": 7,
+						"h": 10
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00030.png",
+					"region": {
+						"x": 1,
+						"y": 1051,
+						"w": 293,
+						"h": 334
+					},
+					"margin": {
+						"x": 0,
+						"y": 16,
+						"w": 4,
+						"h": 16
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00032.png",
+					"region": {
+						"x": 297,
+						"y": 1051,
+						"w": 294,
+						"h": 337
+					},
+					"margin": {
+						"x": 0,
+						"y": 13,
+						"w": 3,
+						"h": 13
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00034.png",
+					"region": {
+						"x": 593,
+						"y": 1051,
+						"w": 289,
+						"h": 339
+					},
+					"margin": {
+						"x": 8,
+						"y": 11,
+						"w": 8,
+						"h": 11
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00036.png",
+					"region": {
+						"x": 889,
+						"y": 1051,
+						"w": 288,
+						"h": 339
+					},
+					"margin": {
+						"x": 9,
+						"y": 11,
+						"w": 9,
+						"h": 11
+					}
+				},
+				{
+					"filename": "DAN_BAIXO_ACUSTICO_00038.png",
+					"region": {
+						"x": 1185,
+						"y": 1051,
+						"w": 289,
+						"h": 335
+					},
+					"margin": {
+						"x": 8,
+						"y": 15,
+						"w": 8,
+						"h": 15
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:d1f5a65f48f452a27fc2a3144bc45f17:a8a9786367965a6a0b1956c168d621e5:2ed7e2b6789330c669338ecfcfef0db7$"
+	}
+}

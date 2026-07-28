@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 320 1000"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="BOTAO_HOME_ATIVO.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   width="320"
+   height="1000">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>BACKGROUNDAsset 25</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1016"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="0.48224284"
+     inkscape:cx="-895.04099"
+     inkscape:cy="329.61551"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="BOTOES_LATERAL_DIREITA"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#80a198;}.cls-2{fill:#5f877a;}</style>
+  </defs>
+  <title
+     id="title6">BACKGROUNDAsset 25</title>
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     transform="translate(1.9073486e-6,390.31)">
+    <g
+       id="BOTOES_LATERAL_DIREITA">
+      <g
+         id="g827"
+         transform="translate(-1.9073486e-6,365)">
+        <rect
+           style="fill:#80a198;stroke-width:2.12353969"
+           y="-755.31"
+           x="0"
+           id="rect8"
+           height="1000"
+           width="299.99518"
+           class="cls-1" />
+        <rect
+           style="fill:#5f877a;stroke-width:2.12353969"
+           y="-755.31"
+           height="1000"
+           width="299.99518"
+           x="20.004826"
+           class="cls-2"
+           data-name="botao_home"
+           id="botao_home-2" />
+      </g>
+      <path
+         id="botao_home_icone"
+         class="cls-1"
+         d="m 156.09944,44.736181 -50.34861,44.13748 a 16.22013,16.220524 0 0 0 -5.74876,12.137809 v 61.48351 c 0,9.51162 8.82728,17.21361 19.65173,17.21361 h 11.0341 c 10.85756,0 19.66277,-7.72405 19.66277,-17.21361 v -25.21354 c 0,-9.51162 8.82729,-17.21362 19.65174,-17.21362 v 0 c 10.85756,0 19.66277,7.72406 19.66277,17.21362 v 25.19147 c 0,9.51163 8.82728,17.21362 19.65173,17.21362 h 11.03411 c 10.84652,0 19.65173,-7.72406 19.65173,-17.21362 V 100.9894 a 16.231164,16.231558 0 0 0 -5.7598,-12.137808 l -50.33757,-44.13748 a 21.648908,21.649434 0 0 0 -27.80594,0.02207 z"
+         inkscape:connector-curvature="0"
+         style="fill:#80a198;stroke-width:1.1034236" />
+    </g>
+  </g>
+</svg>

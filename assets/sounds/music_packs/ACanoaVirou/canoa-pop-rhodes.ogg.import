@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-pop-rhodes.ogg-d6b918f30a43f3d7bee8c3c533cd32c1.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-pop-rhodes.ogg"
+dest_files=[ "res://.import/canoa-pop-rhodes.ogg-d6b918f30a43f3d7bee8c3c533cd32c1.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,128 @@
+{
+  "id": "dona-aranha",
+  "name": "Dona Aranha",
+  "bpm": 114,
+  "bars": 16,
+  "loops": 2,
+  "cover": "assets/images/menu/main_menu/BOTAO_DONA_ARANHA.svg",
+  "characters": [
+    {
+      "id": "rafog",
+      "boxDirection": "right",
+      "instruments": [
+        {
+          "type": "bombo",
+          "name": "Bombo",
+          "icon": "assets/images/instrument_icons/BOMBO.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha-marcial-bombo.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "violao",
+          "name": "Violão",
+          "icon": "assets/images/instrument_icons/VIOLAO.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha-melo-viola.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "caixa",
+          "name": "Caixa",
+          "icon": "assets/images/instrument_icons/CAIXA.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha-marcial-caixa.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "violino",
+          "name": "Violino",
+          "icon": "assets/images/instrument_icons/VIOLINO.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha-melo-violino.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "zoem",
+      "boxDirection": "middle",
+      "instruments": [
+        {
+          "type": "microfone",
+          "name": "Voz Sarah",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha voz sarah.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "pandeirola",
+          "name": "Pandeirola",
+          "icon": "assets/images/instrument_icons/PANDEIROLA.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha-latin-conga.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "shaker",
+          "name": "Shaker",
+          "icon": "assets/images/instrument_icons/SHAKER.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha-marcial-caixa.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "teewong",
+      "boxDirection": "left",
+      "instruments": [
+        {
+          "type": "marimba",
+          "name": "Marimba",
+          "icon": "assets/images/instrument_icons/MARIMBA.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha-melo-marimba.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "sanfona",
+          "name": "Sanfona",
+          "icon": "assets/images/instrument_icons/SANFONA.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha-melo-sanfona.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "synth",
+          "name": "Synth",
+          "icon": "assets/images/instrument_icons/SYNTH.svg",
+          "audio": "assets/sounds/music_packs/DonaAranha/aranha-melo-synth.ogg",
+          "bars": 1,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/esper_rhodes.tpsheet-ea17851fa7aab81338c90af26646750b.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00000.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00002.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00004.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00006.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00008.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00010.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00012.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00014.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00016.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00018.tres" ]
+
+source_file="res://assets/images/characters/Esper/esper_rhodes.tpsheet"
+dest_files=[ "res://.import/esper_rhodes.tpsheet-ea17851fa7aab81338c90af26646750b.res", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00000.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00002.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00004.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00006.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00008.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00010.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00012.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00014.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00016.tres", "res://assets/images/characters/Esper/esper_rhodes.sprites/ESPER_PIANO_RHODES_00018.tres" ]
+
+[params]
+

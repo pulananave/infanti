@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-melo-picolo.ogg-9b7df0982db7dd5f026bdfffb17c14bf.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-melo-picolo.ogg"
+dest_files=[ "res://.import/aranha-melo-picolo.ogg-9b7df0982db7dd5f026bdfffb17c14bf.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

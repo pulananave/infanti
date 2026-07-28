@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 150 150"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="ICONE_INFO.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="779"
+     inkscape:window-height="480"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="1.5733333"
+     inkscape:cx="5.4025424"
+     inkscape:cy="73.728814"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg17" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#663156;}</style>
+  </defs>
+  <title
+     id="title6">Asset 2</title>
+  <g
+     id="icone_info">
+    <rect
+       style="fill:#663156"
+       id="rect8"
+       rx="10.68"
+       height="61.5"
+       width="21.360001"
+       y="58.970001"
+       x="64.32"
+       class="cls-1" />
+    <path
+       style="fill:#663156"
+       inkscape:connector-curvature="0"
+       id="path10"
+       d="m 75,50.89 v 0 A 10.68,10.68 0 0 1 64.32,40.21 v 0 A 10.68,10.68 0 0 1 75,29.53 v 0 a 10.68,10.68 0 0 1 10.68,10.68 v 0 A 10.68,10.68 0 0 1 75,50.89 Z"
+       class="cls-1" />
+    <g
+       id="botao_rec_icone">
+      <path
+         style="fill:#663156"
+         inkscape:connector-curvature="0"
+         id="path12"
+         d="m 75,150 c -0.83,0 -1.66,0 -2.49,0 A 75.1,75.1 0 0 1 0,77.45 75,75 0 0 1 77.45,0 75.1,75.1 0 0 1 150,72.55 75,75 0 0 1 75,150 Z M 75,10 A 65,65 0 0 0 10,77.13 65,65 0 0 0 121,121 64.41,64.41 0 0 0 140,72.91 65.07,65.07 0 0 0 77.13,10 Z"
+         class="cls-1" />
+    </g>
+  </g>
+</svg>

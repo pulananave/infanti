@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-rock-gtr-melodia.ogg-8ff8e1cd5a31b4844ab8f5254328d171.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-rock-gtr-melodia.ogg"
+dest_files=[ "res://.import/sapo-rock-gtr-melodia.ogg-8ff8e1cd5a31b4844ab8f5254328d171.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

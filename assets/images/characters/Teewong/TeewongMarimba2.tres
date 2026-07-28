@@ -1,0 +1,20 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=2]
+
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00008.tres" type="Texture" id=1]
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00000.tres" type="Texture" id=2]
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00010.tres" type="Texture" id=3]
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00004.tres" type="Texture" id=4]
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00016.tres" type="Texture" id=5]
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00012.tres" type="Texture" id=6]
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00018.tres" type="Texture" id=7]
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00002.tres" type="Texture" id=8]
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00006.tres" type="Texture" id=9]
+[ext_resource path="res://assets/images/characters/Teewong/teewong_marimba2.sprites/TEEWONG_MARIMBA_2_00014.tres" type="Texture" id=10]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 8 ), ExtResource( 4 ), ExtResource( 9 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]

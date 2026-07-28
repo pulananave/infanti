@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/rafog_caixa.tpsheet-2e07f1fd5e8b1553b99f622876ed38a2.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00000.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00002.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00004.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00020.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00006.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00022.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00008.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00024.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00010.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00026.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00012.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00028.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00014.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00016.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00018.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00030.tres" ]
+
+source_file="res://assets/images/characters/Rafog/rafog_caixa.tpsheet"
+dest_files=[ "res://.import/rafog_caixa.tpsheet-2e07f1fd5e8b1553b99f622876ed38a2.res", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00000.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00002.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00004.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00020.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00006.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00022.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00008.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00024.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00010.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00026.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00012.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00028.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00014.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00016.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00018.tres", "res://assets/images/characters/Rafog/rafog_caixa.sprites/RAFOG_CAIXA_00030.tres" ]
+
+[params]
+

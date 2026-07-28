@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 260 260"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="ICONE_INSTAGRAM.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="859"
+     inkscape:window-height="480"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="0.90769231"
+     inkscape:cx="130"
+     inkscape:cy="130"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg16" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#e7e7e7;}</style>
+  </defs>
+  <title
+     id="title6">Asset 202</title>
+  <g
+     data-name="Layer 30"
+     id="Layer_30">
+    <path
+       style="fill:#e7e7e7"
+       inkscape:connector-curvature="0"
+       id="path8"
+       d="M 130,260 C 58.32,260 0,201.68 0,130 0,58.32 58.32,0 130,0 c 71.68,0 130,58.32 130,130 0,71.68 -58.32,130 -130,130 z M 130,16.77 A 113.23,113.23 0 1 0 243.23,130 113.36,113.36 0 0 0 130,16.77 Z"
+       class="cls-1" />
+    <circle
+       style="fill:#e7e7e7"
+       id="circle10"
+       r="16.43"
+       cy="130"
+       cx="130"
+       class="cls-1" />
+    <path
+       style="fill:#e7e7e7"
+       inkscape:connector-curvature="0"
+       id="path12"
+       d="M 179.76,67.1 H 80.24 A 13.14,13.14 0 0 0 67.1,80.24 v 99.52 a 13.14,13.14 0 0 0 13.14,13.14 h 99.52 A 13.14,13.14 0 0 0 192.9,179.76 V 80.24 A 13.14,13.14 0 0 0 179.76,67.1 Z M 130,162.85 A 32.85,32.85 0 1 1 162.85,130 32.85,32.85 0 0 1 130,162.85 Z m 32.85,-57.49 a 8.22,8.22 0 1 1 8.22,-8.21 8.22,8.22 0 0 1 -8.22,8.21 z"
+       class="cls-1" />
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/rafog_conga.tpsheet-e753d686f4f3c536469ce563a0ad861c.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00000.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00002.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00004.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00020.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00006.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00008.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00024.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00010.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00012.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00014.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00016.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00018.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00022.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00026.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00028.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00030.tres" ]
+
+source_file="res://assets/images/characters/Rafog/rafog_conga.tpsheet"
+dest_files=[ "res://.import/rafog_conga.tpsheet-e753d686f4f3c536469ce563a0ad861c.res", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00000.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00002.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00004.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00020.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00006.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00008.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00024.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00010.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00012.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00014.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00016.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00018.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00022.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00026.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00028.tres", "res://assets/images/characters/Rafog/rafog_conga.sprites/RAFOG_CONGA_00030.tres" ]
+
+[params]
+

@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/dan_bombo.tpsheet-6c907c5aac786a7d899eef1df5fad465.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00000.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00002.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00004.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00006.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00008.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00010.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00012.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00014.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00016.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00018.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00020.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00022.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00024.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00026.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00028.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00030.tres" ]
+
+source_file="res://assets/images/characters/Dan/dan_bombo.tpsheet"
+dest_files=[ "res://.import/dan_bombo.tpsheet-6c907c5aac786a7d899eef1df5fad465.res", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00000.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00002.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00004.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00006.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00008.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00010.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00012.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00014.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00016.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00018.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00020.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00022.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00024.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00026.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00028.tres", "res://assets/images/characters/Dan/dan_bombo.sprites/DAN_BOMBO_00030.tres" ]
+
+[params]
+

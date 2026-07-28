@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-latin-violao.ogg-3356a744e75a7f0ba35aa8d83b44e95c.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-latin-violao.ogg"
+dest_files=[ "res://.import/sapo-latin-violao.ogg-3356a744e75a7f0ba35aa8d83b44e95c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

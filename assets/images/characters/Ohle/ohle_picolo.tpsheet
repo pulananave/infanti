@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "ohle_picolo-0.png",
+			"size": {
+				"w": 1025,
+				"h": 1284
+			},
+			"sprites": [
+				{
+					"filename": "OHLE_PICCOLO_1_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 164,
+						"h": 313
+					},
+					"margin": {
+						"x": 24,
+						"y": 26,
+						"w": 81,
+						"h": 26
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00020.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 164,
+						"h": 313
+					},
+					"margin": {
+						"x": 24,
+						"y": 26,
+						"w": 81,
+						"h": 26
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00002.png",
+					"region": {
+						"x": 206,
+						"y": 1,
+						"w": 167,
+						"h": 306
+					},
+					"margin": {
+						"x": 19,
+						"y": 33,
+						"w": 78,
+						"h": 33
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00004.png",
+					"region": {
+						"x": 411,
+						"y": 1,
+						"w": 172,
+						"h": 294
+					},
+					"margin": {
+						"x": 10,
+						"y": 45,
+						"w": 73,
+						"h": 45
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00006.png",
+					"region": {
+						"x": 616,
+						"y": 1,
+						"w": 166,
+						"h": 296
+					},
+					"margin": {
+						"x": 7,
+						"y": 43,
+						"w": 79,
+						"h": 43
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00008.png",
+					"region": {
+						"x": 821,
+						"y": 1,
+						"w": 161,
+						"h": 311
+					},
+					"margin": {
+						"x": 3,
+						"y": 28,
+						"w": 84,
+						"h": 28
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00010.png",
+					"region": {
+						"x": 1,
+						"y": 322,
+						"w": 156,
+						"h": 319
+					},
+					"margin": {
+						"x": 1,
+						"y": 20,
+						"w": 89,
+						"h": 20
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00012.png",
+					"region": {
+						"x": 206,
+						"y": 322,
+						"w": 165,
+						"h": 311
+					},
+					"margin": {
+						"x": 3,
+						"y": 28,
+						"w": 80,
+						"h": 28
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00014.png",
+					"region": {
+						"x": 411,
+						"y": 322,
+						"w": 178,
+						"h": 293
+					},
+					"margin": {
+						"x": 7,
+						"y": 46,
+						"w": 67,
+						"h": 46
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00016.png",
+					"region": {
+						"x": 616,
+						"y": 322,
+						"w": 180,
+						"h": 291
+					},
+					"margin": {
+						"x": 10,
+						"y": 48,
+						"w": 65,
+						"h": 48
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00018.png",
+					"region": {
+						"x": 821,
+						"y": 322,
+						"w": 169,
+						"h": 305
+					},
+					"margin": {
+						"x": 19,
+						"y": 34,
+						"w": 76,
+						"h": 34
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00022.png",
+					"region": {
+						"x": 1,
+						"y": 643,
+						"w": 166,
+						"h": 307
+					},
+					"margin": {
+						"x": 24,
+						"y": 32,
+						"w": 79,
+						"h": 32
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00024.png",
+					"region": {
+						"x": 206,
+						"y": 643,
+						"w": 170,
+						"h": 296
+					},
+					"margin": {
+						"x": 24,
+						"y": 43,
+						"w": 75,
+						"h": 43
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00026.png",
+					"region": {
+						"x": 411,
+						"y": 643,
+						"w": 176,
+						"h": 294
+					},
+					"margin": {
+						"x": 27,
+						"y": 45,
+						"w": 69,
+						"h": 45
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00028.png",
+					"region": {
+						"x": 616,
+						"y": 643,
+						"w": 195,
+						"h": 310
+					},
+					"margin": {
+						"x": 36,
+						"y": 29,
+						"w": 50,
+						"h": 29
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00030.png",
+					"region": {
+						"x": 821,
+						"y": 643,
+						"w": 203,
+						"h": 318
+					},
+					"margin": {
+						"x": 42,
+						"y": 21,
+						"w": 42,
+						"h": 21
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00032.png",
+					"region": {
+						"x": 1,
+						"y": 964,
+						"w": 198,
+						"h": 310
+					},
+					"margin": {
+						"x": 36,
+						"y": 29,
+						"w": 47,
+						"h": 29
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00034.png",
+					"region": {
+						"x": 206,
+						"y": 964,
+						"w": 184,
+						"h": 291
+					},
+					"margin": {
+						"x": 27,
+						"y": 48,
+						"w": 61,
+						"h": 48
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00036.png",
+					"region": {
+						"x": 411,
+						"y": 964,
+						"w": 176,
+						"h": 293
+					},
+					"margin": {
+						"x": 24,
+						"y": 46,
+						"w": 69,
+						"h": 46
+					}
+				},
+				{
+					"filename": "OHLE_PICCOLO_1_00038.png",
+					"region": {
+						"x": 616,
+						"y": 964,
+						"w": 168,
+						"h": 306
+					},
+					"margin": {
+						"x": 24,
+						"y": 33,
+						"w": 77,
+						"h": 33
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bca8c10800ef45324d006917e7f5b984:8578590ab2a69f16e44004ea0e1af3c3:26aea16f82e834aa87d5a5d88f5c6321$"
+	}
+}

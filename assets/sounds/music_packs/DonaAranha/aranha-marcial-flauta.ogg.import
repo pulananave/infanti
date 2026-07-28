@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-marcial-flauta.ogg-352a6b126bb6261dcc332c95dd492ffc.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-marcial-flauta.ogg"
+dest_files=[ "res://.import/aranha-marcial-flauta.ogg-352a6b126bb6261dcc332c95dd492ffc.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

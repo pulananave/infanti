@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-pop-bateria.ogg-beb60be1aa48f4910399d87f8daef34d.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-pop-bateria.ogg"
+dest_files=[ "res://.import/canoa-pop-bateria.ogg-beb60be1aa48f4910399d87f8daef34d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

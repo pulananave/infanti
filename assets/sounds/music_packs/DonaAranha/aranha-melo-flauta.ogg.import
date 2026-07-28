@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-melo-flauta.ogg-2f57392192584a8a08f3644fd9eb24bc.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-melo-flauta.ogg"
+dest_files=[ "res://.import/aranha-melo-flauta.ogg-2f57392192584a8a08f3644fd9eb24bc.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

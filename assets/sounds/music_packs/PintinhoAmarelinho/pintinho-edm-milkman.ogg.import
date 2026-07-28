@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-edm-milkman.ogg-2e4bfb7145bb016ec396f99bc7640bea.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-edm-milkman.ogg"
+dest_files=[ "res://.import/pintinho-edm-milkman.ogg-2e4bfb7145bb016ec396f99bc7640bea.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

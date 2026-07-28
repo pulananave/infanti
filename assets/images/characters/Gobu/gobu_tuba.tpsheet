@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "gobu_tuba-0.png",
+			"size": {
+				"w": 2015,
+				"h": 1696
+			},
+			"sprites": [
+				{
+					"filename": "GOBU_TUBA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 401,
+						"h": 422
+					},
+					"margin": {
+						"x": 61,
+						"y": 0,
+						"w": 61,
+						"h": 0
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00002.png",
+					"region": {
+						"x": 404,
+						"y": 1,
+						"w": 401,
+						"h": 396
+					},
+					"margin": {
+						"x": 55,
+						"y": 26,
+						"w": 61,
+						"h": 26
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00004.png",
+					"region": {
+						"x": 807,
+						"y": 1,
+						"w": 401,
+						"h": 368
+					},
+					"margin": {
+						"x": 46,
+						"y": 54,
+						"w": 61,
+						"h": 54
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00006.png",
+					"region": {
+						"x": 1210,
+						"y": 1,
+						"w": 395,
+						"h": 364
+					},
+					"margin": {
+						"x": 44,
+						"y": 58,
+						"w": 67,
+						"h": 58
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00008.png",
+					"region": {
+						"x": 1613,
+						"y": 1,
+						"w": 374,
+						"h": 380
+					},
+					"margin": {
+						"x": 44,
+						"y": 42,
+						"w": 88,
+						"h": 42
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00010.png",
+					"region": {
+						"x": 1,
+						"y": 425,
+						"w": 360,
+						"h": 389
+					},
+					"margin": {
+						"x": 44,
+						"y": 33,
+						"w": 102,
+						"h": 33
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00030.png",
+					"region": {
+						"x": 1,
+						"y": 425,
+						"w": 360,
+						"h": 389
+					},
+					"margin": {
+						"x": 44,
+						"y": 33,
+						"w": 102,
+						"h": 33
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00012.png",
+					"region": {
+						"x": 404,
+						"y": 425,
+						"w": 374,
+						"h": 380
+					},
+					"margin": {
+						"x": 44,
+						"y": 42,
+						"w": 88,
+						"h": 42
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00014.png",
+					"region": {
+						"x": 807,
+						"y": 425,
+						"w": 395,
+						"h": 364
+					},
+					"margin": {
+						"x": 44,
+						"y": 58,
+						"w": 67,
+						"h": 58
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00016.png",
+					"region": {
+						"x": 1210,
+						"y": 425,
+						"w": 401,
+						"h": 368
+					},
+					"margin": {
+						"x": 46,
+						"y": 54,
+						"w": 61,
+						"h": 54
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00018.png",
+					"region": {
+						"x": 1613,
+						"y": 425,
+						"w": 401,
+						"h": 396
+					},
+					"margin": {
+						"x": 55,
+						"y": 26,
+						"w": 61,
+						"h": 26
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00020.png",
+					"region": {
+						"x": 1,
+						"y": 849,
+						"w": 401,
+						"h": 422
+					},
+					"margin": {
+						"x": 61,
+						"y": 0,
+						"w": 61,
+						"h": 0
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00022.png",
+					"region": {
+						"x": 404,
+						"y": 849,
+						"w": 401,
+						"h": 396
+					},
+					"margin": {
+						"x": 55,
+						"y": 26,
+						"w": 61,
+						"h": 26
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00024.png",
+					"region": {
+						"x": 807,
+						"y": 849,
+						"w": 401,
+						"h": 368
+					},
+					"margin": {
+						"x": 46,
+						"y": 54,
+						"w": 61,
+						"h": 54
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00026.png",
+					"region": {
+						"x": 1210,
+						"y": 849,
+						"w": 395,
+						"h": 364
+					},
+					"margin": {
+						"x": 44,
+						"y": 58,
+						"w": 67,
+						"h": 58
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00028.png",
+					"region": {
+						"x": 1613,
+						"y": 849,
+						"w": 374,
+						"h": 380
+					},
+					"margin": {
+						"x": 44,
+						"y": 42,
+						"w": 88,
+						"h": 42
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00032.png",
+					"region": {
+						"x": 1,
+						"y": 1273,
+						"w": 374,
+						"h": 380
+					},
+					"margin": {
+						"x": 44,
+						"y": 42,
+						"w": 88,
+						"h": 42
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00034.png",
+					"region": {
+						"x": 404,
+						"y": 1273,
+						"w": 395,
+						"h": 364
+					},
+					"margin": {
+						"x": 44,
+						"y": 58,
+						"w": 67,
+						"h": 58
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00036.png",
+					"region": {
+						"x": 807,
+						"y": 1273,
+						"w": 401,
+						"h": 368
+					},
+					"margin": {
+						"x": 46,
+						"y": 54,
+						"w": 61,
+						"h": 54
+					}
+				},
+				{
+					"filename": "GOBU_TUBA_00038.png",
+					"region": {
+						"x": 1210,
+						"y": 1273,
+						"w": 401,
+						"h": 396
+					},
+					"margin": {
+						"x": 55,
+						"y": 26,
+						"w": 61,
+						"h": 26
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0ebe9c0f3caad44bbfb610427b257645:3aaf66d98067a61e8bb9ec4152b5da32:3daeb5ce0196a89889f010608e67b6a7$"
+	}
+}

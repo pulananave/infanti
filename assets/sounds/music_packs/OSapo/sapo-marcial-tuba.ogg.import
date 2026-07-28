@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-marcial-tuba.ogg-c95cf5bd18260a9e44c7b9ae319a8f90.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-marcial-tuba.ogg"
+dest_files=[ "res://.import/sapo-marcial-tuba.ogg-c95cf5bd18260a9e44c7b9ae319a8f90.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

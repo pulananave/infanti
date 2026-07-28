@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=2]
+
+[ext_resource path="res://assets/images/characters/Gobu/gobu_baixo_rock-0.png" type="Texture" id=1]
+
+[resource]
+flags = 7
+atlas = ExtResource( 1 )
+region = Rect2( 693, 853, 344, 263 )
+margin = Rect2( 97, 35, 97, 47 )

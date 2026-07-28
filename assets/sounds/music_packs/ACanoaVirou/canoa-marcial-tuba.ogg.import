@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-marcial-tuba.ogg-9a5361171ba1e3246c933b2705f95fb9.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-marcial-tuba.ogg"
+dest_files=[ "res://.import/canoa-marcial-tuba.ogg-9a5361171ba1e3246c933b2705f95fb9.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

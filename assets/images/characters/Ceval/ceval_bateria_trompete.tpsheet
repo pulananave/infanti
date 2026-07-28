@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "ceval_bateria_trompete-0.png",
+			"size": {
+				"w": 1160,
+				"h": 784
+			},
+			"sprites": [
+				{
+					"filename": "CEVAL_TROMPETE_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 181,
+						"h": 353
+					},
+					"margin": {
+						"x": 45,
+						"y": 39,
+						"w": 79,
+						"h": 39
+					}
+				},
+				{
+					"filename": "CEVAL_TROMPETE_00002.png",
+					"region": {
+						"x": 233,
+						"y": 1,
+						"w": 171,
+						"h": 325
+					},
+					"margin": {
+						"x": 55,
+						"y": 67,
+						"w": 89,
+						"h": 67
+					}
+				},
+				{
+					"filename": "CEVAL_TROMPETE_00004.png",
+					"region": {
+						"x": 465,
+						"y": 1,
+						"w": 170,
+						"h": 317
+					},
+					"margin": {
+						"x": 55,
+						"y": 75,
+						"w": 90,
+						"h": 75
+					}
+				},
+				{
+					"filename": "CEVAL_TROMPETE_00006.png",
+					"region": {
+						"x": 697,
+						"y": 1,
+						"w": 169,
+						"h": 317
+					},
+					"margin": {
+						"x": 55,
+						"y": 75,
+						"w": 91,
+						"h": 75
+					}
+				},
+				{
+					"filename": "CEVAL_TROMPETE_00008.png",
+					"region": {
+						"x": 929,
+						"y": 1,
+						"w": 167,
+						"h": 314
+					},
+					"margin": {
+						"x": 58,
+						"y": 78,
+						"w": 93,
+						"h": 78
+					}
+				},
+				{
+					"filename": "CEVAL_TROMPETE_00010.png",
+					"region": {
+						"x": 1,
+						"y": 393,
+						"w": 168,
+						"h": 390
+					},
+					"margin": {
+						"x": 50,
+						"y": 2,
+						"w": 92,
+						"h": 2
+					}
+				},
+				{
+					"filename": "CEVAL_TROMPETE_00012.png",
+					"region": {
+						"x": 233,
+						"y": 393,
+						"w": 191,
+						"h": 345
+					},
+					"margin": {
+						"x": 32,
+						"y": 47,
+						"w": 69,
+						"h": 47
+					}
+				},
+				{
+					"filename": "CEVAL_TROMPETE_00014.png",
+					"region": {
+						"x": 465,
+						"y": 393,
+						"w": 230,
+						"h": 271
+					},
+					"margin": {
+						"x": 1,
+						"y": 121,
+						"w": 30,
+						"h": 121
+					}
+				},
+				{
+					"filename": "CEVAL_TROMPETE_00016.png",
+					"region": {
+						"x": 697,
+						"y": 393,
+						"w": 219,
+						"h": 270
+					},
+					"margin": {
+						"x": 13,
+						"y": 122,
+						"w": 41,
+						"h": 122
+					}
+				},
+				{
+					"filename": "CEVAL_TROMPETE_00018.png",
+					"region": {
+						"x": 929,
+						"y": 393,
+						"w": 180,
+						"h": 336
+					},
+					"margin": {
+						"x": 49,
+						"y": 56,
+						"w": 80,
+						"h": 56
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:488148208589ddedc076aab376fff68e:ff49bf600470fb1beb287500341e8b9d:378e7f2932450aa8a5ce006503646edc$"
+	}
+}

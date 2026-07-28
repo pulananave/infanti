@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-melo-trumpete.ogg-fc52dcf7f6423d09e115114326def31f.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-melo-trumpete.ogg"
+dest_files=[ "res://.import/pintinho-melo-trumpete.ogg-fc52dcf7f6423d09e115114326def31f.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

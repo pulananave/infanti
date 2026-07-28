@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 261 261"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="ICONE_YOUTUBE.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="859"
+     inkscape:window-height="480"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="0.90421456"
+     inkscape:cx="130.5"
+     inkscape:cy="130.5"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg15" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#e7e7e7;}.cls-2{fill:none;}</style>
+  </defs>
+  <title
+     id="title6">Asset 203</title>
+  <g
+     data-name="Layer 30"
+     id="Layer_30">
+    <path
+       style="fill:#e7e7e7"
+       inkscape:connector-curvature="0"
+       id="path8"
+       d="M 186.23,79.49 H 75.56 A 16.77,16.77 0 0 0 58.79,96.26 v 67.84 a 16.77,16.77 0 0 0 16.77,16.77 H 186.23 A 16.77,16.77 0 0 0 203,164.1 V 96.26 A 16.77,16.77 0 0 0 186.23,79.49 Z M 149.31,136 118.39,151.53 a 6.52,6.52 0 0 1 -9.44,-5.82 l -0.06,-30.94 a 6.52,6.52 0 0 1 9.43,-5.85 l 31,15.42 A 6.52,6.52 0 0 1 149.31,136 Z"
+       class="cls-1" />
+    <path
+       style="fill:#e7e7e7"
+       inkscape:connector-curvature="0"
+       id="path10"
+       d="m 130.9,260.18 a 130,130 0 0 1 0,-260 c 71.68,0 130,58.32 130,130 0,71.68 -58.32,130 -130,130 z M 130.9,17 A 113.23,113.23 0 1 0 244.12,130.18 113.36,113.36 0 0 0 130.9,17 Z"
+       class="cls-1" />
+    <rect
+       style="fill:none"
+       y="0"
+       x="0"
+       height="261"
+       width="261"
+       class="cls-2"
+       data-name="&lt;Slice&gt;"
+       id="_Slice_" />
+  </g>
+</svg>

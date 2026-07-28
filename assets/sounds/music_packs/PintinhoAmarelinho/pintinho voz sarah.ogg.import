@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho voz sarah.ogg-9661494548da4a79b30f074702ab43d0.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho voz sarah.ogg"
+dest_files=[ "res://.import/pintinho voz sarah.ogg-9661494548da4a79b30f074702ab43d0.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

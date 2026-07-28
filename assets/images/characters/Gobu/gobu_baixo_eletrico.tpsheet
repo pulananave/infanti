@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "gobu_baixo_eletrico-0.png",
+			"size": {
+				"w": 1735,
+				"h": 1136
+			},
+			"sprites": [
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 319,
+						"h": 282
+					},
+					"margin": {
+						"x": 101,
+						"y": 16,
+						"w": 122,
+						"h": 28
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00002.png",
+					"region": {
+						"x": 348,
+						"y": 1,
+						"w": 325,
+						"h": 275
+					},
+					"margin": {
+						"x": 98,
+						"y": 22,
+						"w": 116,
+						"h": 35
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00004.png",
+					"region": {
+						"x": 695,
+						"y": 1,
+						"w": 334,
+						"h": 266
+					},
+					"margin": {
+						"x": 91,
+						"y": 32,
+						"w": 107,
+						"h": 44
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00006.png",
+					"region": {
+						"x": 1042,
+						"y": 1,
+						"w": 329,
+						"h": 265
+					},
+					"margin": {
+						"x": 91,
+						"y": 33,
+						"w": 112,
+						"h": 45
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00008.png",
+					"region": {
+						"x": 1389,
+						"y": 1,
+						"w": 315,
+						"h": 275
+					},
+					"margin": {
+						"x": 94,
+						"y": 23,
+						"w": 126,
+						"h": 35
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00010.png",
+					"region": {
+						"x": 1,
+						"y": 285,
+						"w": 305,
+						"h": 278
+					},
+					"margin": {
+						"x": 97,
+						"y": 20,
+						"w": 136,
+						"h": 32
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00012.png",
+					"region": {
+						"x": 348,
+						"y": 285,
+						"w": 314,
+						"h": 275
+					},
+					"margin": {
+						"x": 95,
+						"y": 23,
+						"w": 127,
+						"h": 35
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00014.png",
+					"region": {
+						"x": 695,
+						"y": 285,
+						"w": 329,
+						"h": 264
+					},
+					"margin": {
+						"x": 91,
+						"y": 34,
+						"w": 112,
+						"h": 46
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00016.png",
+					"region": {
+						"x": 1042,
+						"y": 285,
+						"w": 333,
+						"h": 264
+					},
+					"margin": {
+						"x": 92,
+						"y": 34,
+						"w": 108,
+						"h": 46
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00018.png",
+					"region": {
+						"x": 1389,
+						"y": 285,
+						"w": 325,
+						"h": 275
+					},
+					"margin": {
+						"x": 98,
+						"y": 23,
+						"w": 116,
+						"h": 35
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00020.png",
+					"region": {
+						"x": 1,
+						"y": 569,
+						"w": 318,
+						"h": 282
+					},
+					"margin": {
+						"x": 102,
+						"y": 16,
+						"w": 123,
+						"h": 28
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00022.png",
+					"region": {
+						"x": 348,
+						"y": 569,
+						"w": 327,
+						"h": 276
+					},
+					"margin": {
+						"x": 99,
+						"y": 22,
+						"w": 114,
+						"h": 34
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00024.png",
+					"region": {
+						"x": 695,
+						"y": 569,
+						"w": 342,
+						"h": 268
+					},
+					"margin": {
+						"x": 96,
+						"y": 30,
+						"w": 99,
+						"h": 42
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00026.png",
+					"region": {
+						"x": 1042,
+						"y": 569,
+						"w": 344,
+						"h": 266
+					},
+					"margin": {
+						"x": 97,
+						"y": 31,
+						"w": 97,
+						"h": 44
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00028.png",
+					"region": {
+						"x": 1389,
+						"y": 569,
+						"w": 339,
+						"h": 275
+					},
+					"margin": {
+						"x": 100,
+						"y": 23,
+						"w": 102,
+						"h": 35
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00030.png",
+					"region": {
+						"x": 1,
+						"y": 853,
+						"w": 335,
+						"h": 279
+					},
+					"margin": {
+						"x": 101,
+						"y": 19,
+						"w": 106,
+						"h": 31
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00032.png",
+					"region": {
+						"x": 348,
+						"y": 853,
+						"w": 339,
+						"h": 275
+					},
+					"margin": {
+						"x": 100,
+						"y": 23,
+						"w": 102,
+						"h": 35
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00034.png",
+					"region": {
+						"x": 695,
+						"y": 853,
+						"w": 345,
+						"h": 263
+					},
+					"margin": {
+						"x": 96,
+						"y": 35,
+						"w": 96,
+						"h": 47
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00036.png",
+					"region": {
+						"x": 1042,
+						"y": 853,
+						"w": 342,
+						"h": 265
+					},
+					"margin": {
+						"x": 96,
+						"y": 33,
+						"w": 99,
+						"h": 45
+					}
+				},
+				{
+					"filename": "GOBU_BAIXO_ELETRICO_00038.png",
+					"region": {
+						"x": 1389,
+						"y": 853,
+						"w": 326,
+						"h": 275
+					},
+					"margin": {
+						"x": 100,
+						"y": 23,
+						"w": 115,
+						"h": 35
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:27655182ae8d968cc27e70507cbe2cd5:d9fc7c023f967080a40a088b40a45f32:1bf3d9d21c2cf0df23c50afaf430ffcc$"
+	}
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 84.38 170.03"
+   version="1.1"
+   id="svg37"
+   sodipodi:docname="VIOLINO.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata41">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="779"
+     inkscape:window-height="480"
+     id="namedview39"
+     showgrid="false"
+     inkscape:zoom="1.3879904"
+     inkscape:cx="42.189999"
+     inkscape:cy="85.014999"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg37" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1,.cls-2{stroke:#a62e3e;stroke-miterlimit:10;stroke-width:5px;}.cls-2{fill:none;}.cls-3{fill:#cd5539;}.cls-4{fill:#663156;}.cls-5{fill:#ff9898;}.cls-6{fill:#f99;}.cls-7{fill:#cf5539;}</style>
+  </defs>
+  <title
+     id="title6">BACKGROUNDAsset 58</title>
+  <path
+     style="stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path8"
+     d="m 45.2,144.25 3,22.71 a 6.85,6.85 0 0 0 5.47,0 l 3.05,-22.71 a 42.29,42.29 0 0 0 -11.52,0 z"
+     class="cls-1" />
+  <path
+     style="stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path10"
+     d="m 48,32.05 -2.8,61.56 a 21.06,21.06 0 0 0 11.57,0 L 54,32.05 h 0.18 L 58.7,17.27 54.84,2.5 h -7.71 l -3.86,14.77 4.54,14.78 z"
+     class="cls-1" />
+  <path
+     style="stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path12"
+     d="M 57,124.05 H 44.94 a 2.92,2.92 0 1 0 0,5.83 H 57 a 2.92,2.92 0 1 0 0,-5.83 z"
+     class="cls-1" />
+  <path
+     style="stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path14"
+     d="m 5.46,50.07 h -3 V 159.32 H 8.77 V 50.07 Z M 7.29,157.59 H 5.46 V 51.79 h 1.83 z"
+     class="cls-1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path16"
+     d="m 81.87,119.44 c 0,0.07 0,0.15 0,0.23 0,27.68 -10.3,39.65 -30.19,39.65 -19.89,0 -31.59,-12 -31.59,-39.65 v -0.23 a 13.42,13.42 0 0 0 3.65,0.53 c 8.32,0 13.75,-3.2 13.75,-12.72 0,-9.09 -5.06,-12.88 -13.29,-13.51 5.17,-17.13 4,-34.67 27.48,-34.67 22.78,0 22.4,17.55 27.62,34.67 -8.21,0.66 -13.42,4.44 -13.42,13.51 0,9.52 4,12.72 12.33,12.72 a 13.42,13.42 0 0 0 3.66,-0.53 z" />
+  <path
+     style="fill:none;stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path18"
+     d="M 78.22,120 C 69.9,120 65.89,116.8 65.89,107.28 65.89,98.21 71.1,94.43 79.31,93.77 74.09,76.65 74.47,59.1 51.69,59.1 28.18,59.1 29.38,76.64 24.21,93.77 32.44,94.4 37.5,98.19 37.5,107.28 37.5,116.8 32.07,120 23.75,120 a 13.42,13.42 0 0 1 -3.65,-0.53 v 0.23 c 0,27.68 11.71,39.65 31.59,39.65 19.88,0 30.19,-12 30.19,-39.65 0,-0.08 0,-0.16 0,-0.23 A 13.42,13.42 0 0 1 78.22,120 Z"
+     class="cls-2" />
+  <path
+     style="fill:#cd5539"
+     inkscape:connector-curvature="0"
+     id="path20"
+     d="m 81.87,119.44 c 0,0.07 0,0.15 0,0.23 0,27.68 -10.3,39.65 -30.19,39.65 -19.89,0 -31.59,-12 -31.59,-39.65 v -0.23 a 13.42,13.42 0 0 0 3.65,0.53 c 8.32,0 13.75,-3.2 13.75,-12.72 0,-9.09 -5.06,-12.88 -13.29,-13.51 5.17,-17.13 4,-34.67 27.48,-34.67 22.78,0 22.4,17.55 27.62,34.67 -8.21,0.66 -13.42,4.44 -13.42,13.51 0,9.52 4,12.72 12.33,12.72 a 13.42,13.42 0 0 0 3.66,-0.53 z"
+     class="cls-3" />
+  <path
+     style="fill:#663156"
+     inkscape:connector-curvature="0"
+     id="path22"
+     d="m 56.77,93.61 a 21.06,21.06 0 0 1 -11.57,0 L 48,31.48 h 6 z"
+     class="cls-4" />
+  <path
+     style="fill:#663156"
+     inkscape:connector-curvature="0"
+     id="path24"
+     d="m 45.2,144.25 a 42.29,42.29 0 0 1 11.57,0 L 53.72,167 a 6.85,6.85 0 0 1 -5.47,0 z"
+     class="cls-4" />
+  <polygon
+     style="fill:#cd5539"
+     id="polygon26"
+     points="54.84,2.5 47.13,2.5 43.27,17.27 47.81,32.05 54.16,32.05 58.7,17.27 "
+     class="cls-3" />
+  <rect
+     style="fill:#ff9898"
+     id="rect28"
+     rx="2.9100001"
+     height="5.8299999"
+     width="17.92"
+     y="124.05"
+     x="42.02"
+     class="cls-5" />
+  <rect
+     style="fill:#ff9999"
+     id="rect30"
+     height="109.24"
+     width="1.48"
+     y="50.07"
+     x="7.29"
+     class="cls-6" />
+  <polygon
+     style="fill:#cf5539"
+     id="polygon32"
+     points="2.71,159.32 5.46,159.32 8.77,159.32 8.77,157.59 5.46,157.59 5.46,51.79 8.77,51.79 8.77,50.07 5.46,50.07 2.71,50.07 2.5,50.07 2.5,159.32 "
+     class="cls-7" />
+</svg>

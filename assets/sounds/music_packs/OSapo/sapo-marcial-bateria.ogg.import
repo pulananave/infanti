@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-marcial-bateria.ogg-f25c492914780f5aa79438676b4aa3df.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-marcial-bateria.ogg"
+dest_files=[ "res://.import/sapo-marcial-bateria.ogg-f25c492914780f5aa79438676b4aa3df.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

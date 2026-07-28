@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "teewong_shaker-0.png",
+			"size": {
+				"w": 1240,
+				"h": 508
+			},
+			"sprites": [
+				{
+					"filename": "TEEWONG_SHAKER_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 246,
+						"h": 228
+					},
+					"margin": {
+						"x": 0,
+						"y": 26,
+						"w": 0,
+						"h": 26
+					}
+				},
+				{
+					"filename": "TEEWONG_SHAKER_00002.png",
+					"region": {
+						"x": 249,
+						"y": 1,
+						"w": 236,
+						"h": 238
+					},
+					"margin": {
+						"x": 3,
+						"y": 16,
+						"w": 10,
+						"h": 16
+					}
+				},
+				{
+					"filename": "TEEWONG_SHAKER_00004.png",
+					"region": {
+						"x": 497,
+						"y": 1,
+						"w": 218,
+						"h": 251
+					},
+					"margin": {
+						"x": 8,
+						"y": 3,
+						"w": 28,
+						"h": 3
+					}
+				},
+				{
+					"filename": "TEEWONG_SHAKER_00006.png",
+					"region": {
+						"x": 745,
+						"y": 1,
+						"w": 218,
+						"h": 252
+					},
+					"margin": {
+						"x": 8,
+						"y": 2,
+						"w": 28,
+						"h": 2
+					}
+				},
+				{
+					"filename": "TEEWONG_SHAKER_00008.png",
+					"region": {
+						"x": 993,
+						"y": 1,
+						"w": 236,
+						"h": 239
+					},
+					"margin": {
+						"x": 3,
+						"y": 15,
+						"w": 10,
+						"h": 15
+					}
+				},
+				{
+					"filename": "TEEWONG_SHAKER_00010.png",
+					"region": {
+						"x": 1,
+						"y": 255,
+						"w": 246,
+						"h": 231
+					},
+					"margin": {
+						"x": 0,
+						"y": 23,
+						"w": 0,
+						"h": 23
+					}
+				},
+				{
+					"filename": "TEEWONG_SHAKER_00012.png",
+					"region": {
+						"x": 249,
+						"y": 255,
+						"w": 235,
+						"h": 238
+					},
+					"margin": {
+						"x": 9,
+						"y": 16,
+						"w": 11,
+						"h": 16
+					}
+				},
+				{
+					"filename": "TEEWONG_SHAKER_00014.png",
+					"region": {
+						"x": 497,
+						"y": 255,
+						"w": 217,
+						"h": 250
+					},
+					"margin": {
+						"x": 23,
+						"y": 4,
+						"w": 29,
+						"h": 4
+					}
+				},
+				{
+					"filename": "TEEWONG_SHAKER_00016.png",
+					"region": {
+						"x": 745,
+						"y": 255,
+						"w": 216,
+						"h": 250
+					},
+					"margin": {
+						"x": 23,
+						"y": 4,
+						"w": 30,
+						"h": 4
+					}
+				},
+				{
+					"filename": "TEEWONG_SHAKER_00018.png",
+					"region": {
+						"x": 993,
+						"y": 255,
+						"w": 235,
+						"h": 237
+					},
+					"margin": {
+						"x": 9,
+						"y": 17,
+						"w": 11,
+						"h": 17
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a32a9c5501f28322106ea2f531a2679c:50ae147dd5a1b8b108f1d5c14014628a:4296b5912413ff0c9536c1e24eab04ab$"
+	}
+}

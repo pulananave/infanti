@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-pop-bateria.ogg-cae1717097911d6e85f2da0a1b6ecca7.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-pop-bateria.ogg"
+dest_files=[ "res://.import/aranha-pop-bateria.ogg-cae1717097911d6e85f2da0a1b6ecca7.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/esper_orgao.tpsheet-a2c106197a1934c0ea0d6494b5a3dc3a.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00000.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00002.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00004.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00006.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00008.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00010.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00012.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00014.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00016.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00018.tres" ]
+
+source_file="res://assets/images/characters/Esper/esper_orgao.tpsheet"
+dest_files=[ "res://.import/esper_orgao.tpsheet-a2c106197a1934c0ea0d6494b5a3dc3a.res", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00000.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00002.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00004.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00006.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00008.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00010.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00012.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00014.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00016.tres", "res://assets/images/characters/Esper/esper_orgao.sprites/ESPER_ORGAO_00018.tres" ]
+
+[params]
+

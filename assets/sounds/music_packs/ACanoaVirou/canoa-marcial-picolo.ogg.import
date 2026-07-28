@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-marcial-picolo.ogg-ca750c8e9da6133a0b8fa128a9ef6f35.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-marcial-picolo.ogg"
+dest_files=[ "res://.import/canoa-marcial-picolo.ogg-ca750c8e9da6133a0b8fa128a9ef6f35.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

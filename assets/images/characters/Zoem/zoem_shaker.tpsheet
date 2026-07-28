@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "zoem_shaker.png",
+			"size": {
+				"w": 1790,
+				"h": 277
+			},
+			"sprites": [
+				{
+					"filename": "ZOEM_SHAKER_00000.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 165,
+						"h": 270
+					},
+					"margin": {
+						"x": 161,
+						"y": 179,
+						"w": 347,
+						"h": 242
+					}
+				},
+				{
+					"filename": "ZOEM_SHAKER_00002.png",
+					"region": {
+						"x": 179,
+						"y": 0,
+						"w": 163,
+						"h": 273
+					},
+					"margin": {
+						"x": 162,
+						"y": 176,
+						"w": 349,
+						"h": 239
+					}
+				},
+				{
+					"filename": "ZOEM_SHAKER_00004.png",
+					"region": {
+						"x": 358,
+						"y": 0,
+						"w": 158,
+						"h": 277
+					},
+					"margin": {
+						"x": 164,
+						"y": 172,
+						"w": 354,
+						"h": 235
+					}
+				},
+				{
+					"filename": "ZOEM_SHAKER_00006.png",
+					"region": {
+						"x": 537,
+						"y": 0,
+						"w": 158,
+						"h": 276
+					},
+					"margin": {
+						"x": 164,
+						"y": 173,
+						"w": 354,
+						"h": 236
+					}
+				},
+				{
+					"filename": "ZOEM_SHAKER_00008.png",
+					"region": {
+						"x": 716,
+						"y": 0,
+						"w": 162,
+						"h": 268
+					},
+					"margin": {
+						"x": 163,
+						"y": 181,
+						"w": 350,
+						"h": 244
+					}
+				},
+				{
+					"filename": "ZOEM_SHAKER_00010.png",
+					"region": {
+						"x": 895,
+						"y": 0,
+						"w": 162,
+						"h": 262
+					},
+					"margin": {
+						"x": 164,
+						"y": 187,
+						"w": 350,
+						"h": 250
+					}
+				},
+				{
+					"filename": "ZOEM_SHAKER_00012.png",
+					"region": {
+						"x": 1074,
+						"y": 0,
+						"w": 171,
+						"h": 266
+					},
+					"margin": {
+						"x": 156,
+						"y": 183,
+						"w": 341,
+						"h": 246
+					}
+				},
+				{
+					"filename": "ZOEM_SHAKER_00014.png",
+					"region": {
+						"x": 1253,
+						"y": 0,
+						"w": 179,
+						"h": 269
+					},
+					"margin": {
+						"x": 149,
+						"y": 180,
+						"w": 333,
+						"h": 243
+					}
+				},
+				{
+					"filename": "ZOEM_SHAKER_00016.png",
+					"region": {
+						"x": 1432,
+						"y": 0,
+						"w": 179,
+						"h": 271
+					},
+					"margin": {
+						"x": 149,
+						"y": 178,
+						"w": 333,
+						"h": 241
+					}
+				},
+				{
+					"filename": "ZOEM_SHAKER_00018.png",
+					"region": {
+						"x": 1611,
+						"y": 0,
+						"w": 171,
+						"h": 270
+					},
+					"margin": {
+						"x": 155,
+						"y": 179,
+						"w": 341,
+						"h": 242
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:906ebb2a379b59a61bc35473671494bc:5afffe6f97638459a128b0eb1d22ec16:72a0103119c62b32d61508c660777e5f$"
+	}
+}

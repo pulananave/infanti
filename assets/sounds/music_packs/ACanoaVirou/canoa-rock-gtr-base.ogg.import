@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-rock-gtr-base.ogg-51688cc5f809a25c4f608b322d602d18.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-rock-gtr-base.ogg"
+dest_files=[ "res://.import/canoa-rock-gtr-base.ogg-51688cc5f809a25c4f608b322d602d18.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

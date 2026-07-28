@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/coelho-pop-baixo.ogg-c759831ee52654d82c04677cfdac9c3d.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/CoelhoDaPascoa/coelho-pop-baixo.ogg"
+dest_files=[ "res://.import/coelho-pop-baixo.ogg-c759831ee52654d82c04677cfdac9c3d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

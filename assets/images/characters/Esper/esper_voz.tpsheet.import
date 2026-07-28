@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/esper_voz.tpsheet-6b0abeaa08e7847d75068b329d0e22e4.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00000.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00002.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00004.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00006.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00008.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00010.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00012.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00014.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00016.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00018.tres" ]
+
+source_file="res://assets/images/characters/Esper/esper_voz.tpsheet"
+dest_files=[ "res://.import/esper_voz.tpsheet-6b0abeaa08e7847d75068b329d0e22e4.res", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00000.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00002.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00004.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00006.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00008.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00010.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00012.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00014.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00016.tres", "res://assets/images/characters/Esper/esper_voz.sprites/ESPER_MICROFONE_00018.tres" ]
+
+[params]
+

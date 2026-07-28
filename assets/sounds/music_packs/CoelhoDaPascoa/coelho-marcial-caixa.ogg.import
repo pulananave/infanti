@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/coelho-marcial-caixa.ogg-98d3170b18b88b62ac05a5f618346df9.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/CoelhoDaPascoa/coelho-marcial-caixa.ogg"
+dest_files=[ "res://.import/coelho-marcial-caixa.ogg-98d3170b18b88b62ac05a5f618346df9.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

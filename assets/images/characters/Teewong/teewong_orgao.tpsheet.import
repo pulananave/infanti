@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/teewong_orgao.tpsheet-06f59187042f92cb53def84c3707251b.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00000.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00002.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00004.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00006.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00008.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00010.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00012.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00014.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00016.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00018.tres" ]
+
+source_file="res://assets/images/characters/Teewong/teewong_orgao.tpsheet"
+dest_files=[ "res://.import/teewong_orgao.tpsheet-06f59187042f92cb53def84c3707251b.res", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00000.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00002.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00004.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00006.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00008.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00010.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00012.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00014.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00016.tres", "res://assets/images/characters/Teewong/teewong_orgao.sprites/TEEWONG_ORGAO_00018.tres" ]
+
+[params]
+

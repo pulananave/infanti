@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "esper_bateria_eletronica-0.png",
+			"size": {
+				"w": 1540,
+				"h": 1180
+			},
+			"sprites": [
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 306,
+						"h": 292
+					},
+					"margin": {
+						"x": 3,
+						"y": 1,
+						"w": 26,
+						"h": 5
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00020.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 306,
+						"h": 292
+					},
+					"margin": {
+						"x": 3,
+						"y": 1,
+						"w": 26,
+						"h": 5
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00002.png",
+					"region": {
+						"x": 309,
+						"y": 1,
+						"w": 302,
+						"h": 288
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 30,
+						"h": 9
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00004.png",
+					"region": {
+						"x": 617,
+						"y": 1,
+						"w": 295,
+						"h": 282
+					},
+					"margin": {
+						"x": 17,
+						"y": 11,
+						"w": 37,
+						"h": 15
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00006.png",
+					"region": {
+						"x": 925,
+						"y": 1,
+						"w": 297,
+						"h": 283
+					},
+					"margin": {
+						"x": 19,
+						"y": 11,
+						"w": 35,
+						"h": 14
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00008.png",
+					"region": {
+						"x": 1233,
+						"y": 1,
+						"w": 302,
+						"h": 289
+					},
+					"margin": {
+						"x": 22,
+						"y": 5,
+						"w": 30,
+						"h": 8
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00010.png",
+					"region": {
+						"x": 1,
+						"y": 296,
+						"w": 305,
+						"h": 293
+					},
+					"margin": {
+						"x": 24,
+						"y": 1,
+						"w": 27,
+						"h": 4
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00012.png",
+					"region": {
+						"x": 309,
+						"y": 296,
+						"w": 302,
+						"h": 289
+					},
+					"margin": {
+						"x": 22,
+						"y": 5,
+						"w": 30,
+						"h": 8
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00014.png",
+					"region": {
+						"x": 617,
+						"y": 296,
+						"w": 297,
+						"h": 283
+					},
+					"margin": {
+						"x": 19,
+						"y": 11,
+						"w": 35,
+						"h": 14
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00016.png",
+					"region": {
+						"x": 925,
+						"y": 296,
+						"w": 297,
+						"h": 282
+					},
+					"margin": {
+						"x": 16,
+						"y": 11,
+						"w": 35,
+						"h": 15
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00018.png",
+					"region": {
+						"x": 1233,
+						"y": 296,
+						"w": 304,
+						"h": 289
+					},
+					"margin": {
+						"x": 7,
+						"y": 5,
+						"w": 28,
+						"h": 8
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00022.png",
+					"region": {
+						"x": 1,
+						"y": 591,
+						"w": 303,
+						"h": 288
+					},
+					"margin": {
+						"x": 7,
+						"y": 5,
+						"w": 29,
+						"h": 9
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00024.png",
+					"region": {
+						"x": 309,
+						"y": 591,
+						"w": 295,
+						"h": 282
+					},
+					"margin": {
+						"x": 17,
+						"y": 11,
+						"w": 37,
+						"h": 15
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00026.png",
+					"region": {
+						"x": 617,
+						"y": 591,
+						"w": 297,
+						"h": 283
+					},
+					"margin": {
+						"x": 19,
+						"y": 11,
+						"w": 35,
+						"h": 14
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00028.png",
+					"region": {
+						"x": 925,
+						"y": 591,
+						"w": 302,
+						"h": 288
+					},
+					"margin": {
+						"x": 22,
+						"y": 5,
+						"w": 30,
+						"h": 9
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00030.png",
+					"region": {
+						"x": 1233,
+						"y": 591,
+						"w": 305,
+						"h": 293
+					},
+					"margin": {
+						"x": 24,
+						"y": 1,
+						"w": 27,
+						"h": 4
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00032.png",
+					"region": {
+						"x": 1,
+						"y": 886,
+						"w": 302,
+						"h": 288
+					},
+					"margin": {
+						"x": 22,
+						"y": 5,
+						"w": 30,
+						"h": 9
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00034.png",
+					"region": {
+						"x": 309,
+						"y": 886,
+						"w": 297,
+						"h": 282
+					},
+					"margin": {
+						"x": 19,
+						"y": 11,
+						"w": 35,
+						"h": 15
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00036.png",
+					"region": {
+						"x": 617,
+						"y": 886,
+						"w": 297,
+						"h": 282
+					},
+					"margin": {
+						"x": 16,
+						"y": 11,
+						"w": 35,
+						"h": 15
+					}
+				},
+				{
+					"filename": "ESPER_BATERIA_ELETRONICA_00038.png",
+					"region": {
+						"x": 925,
+						"y": 886,
+						"w": 303,
+						"h": 288
+					},
+					"margin": {
+						"x": 8,
+						"y": 5,
+						"w": 29,
+						"h": 9
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9cd9592a2b7e95a9fd0aeeb13151d04e:6f8fd8b02d9c8caad5901993658d3594:03afddb6ce771500f2425921eec562fc$"
+	}
+}

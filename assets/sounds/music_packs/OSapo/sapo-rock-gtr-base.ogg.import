@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sapo-rock-gtr-base.ogg-04ecade6385edea8547a1ecbb0893f94.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/OSapo/sapo-rock-gtr-base.ogg"
+dest_files=[ "res://.import/sapo-rock-gtr-base.ogg-04ecade6385edea8547a1ecbb0893f94.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,258 @@
+{
+	"textures": [
+		{
+			"image": "dan_bombo-0.png",
+			"size": {
+				"w": 1632,
+				"h": 1284
+			},
+			"sprites": [
+				{
+					"filename": "DAN_BOMBO_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 303,
+						"h": 310
+					},
+					"margin": {
+						"x": 81,
+						"y": 9,
+						"w": 163,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00002.png",
+					"region": {
+						"x": 409,
+						"y": 1,
+						"w": 346,
+						"h": 314
+					},
+					"margin": {
+						"x": 41,
+						"y": 5,
+						"w": 120,
+						"h": 5
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00004.png",
+					"region": {
+						"x": 817,
+						"y": 1,
+						"w": 331,
+						"h": 319
+					},
+					"margin": {
+						"x": 55,
+						"y": 0,
+						"w": 135,
+						"h": 0
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00006.png",
+					"region": {
+						"x": 1225,
+						"y": 1,
+						"w": 406,
+						"h": 312
+					},
+					"margin": {
+						"x": 26,
+						"y": 7,
+						"w": 60,
+						"h": 7
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00008.png",
+					"region": {
+						"x": 1,
+						"y": 322,
+						"w": 352,
+						"h": 305
+					},
+					"margin": {
+						"x": 79,
+						"y": 14,
+						"w": 114,
+						"h": 14
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00010.png",
+					"region": {
+						"x": 409,
+						"y": 322,
+						"w": 360,
+						"h": 312
+					},
+					"margin": {
+						"x": 75,
+						"y": 7,
+						"w": 106,
+						"h": 7
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00012.png",
+					"region": {
+						"x": 817,
+						"y": 322,
+						"w": 297,
+						"h": 319
+					},
+					"margin": {
+						"x": 80,
+						"y": 0,
+						"w": 169,
+						"h": 0
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00014.png",
+					"region": {
+						"x": 1225,
+						"y": 322,
+						"w": 299,
+						"h": 314
+					},
+					"margin": {
+						"x": 81,
+						"y": 5,
+						"w": 167,
+						"h": 5
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00016.png",
+					"region": {
+						"x": 1,
+						"y": 643,
+						"w": 302,
+						"h": 310
+					},
+					"margin": {
+						"x": 82,
+						"y": 9,
+						"w": 164,
+						"h": 9
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00018.png",
+					"region": {
+						"x": 409,
+						"y": 643,
+						"w": 346,
+						"h": 314
+					},
+					"margin": {
+						"x": 41,
+						"y": 5,
+						"w": 120,
+						"h": 5
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00020.png",
+					"region": {
+						"x": 817,
+						"y": 643,
+						"w": 331,
+						"h": 319
+					},
+					"margin": {
+						"x": 55,
+						"y": 0,
+						"w": 135,
+						"h": 0
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00022.png",
+					"region": {
+						"x": 1225,
+						"y": 643,
+						"w": 406,
+						"h": 312
+					},
+					"margin": {
+						"x": 26,
+						"y": 7,
+						"w": 60,
+						"h": 7
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00024.png",
+					"region": {
+						"x": 1,
+						"y": 964,
+						"w": 353,
+						"h": 305
+					},
+					"margin": {
+						"x": 78,
+						"y": 14,
+						"w": 113,
+						"h": 14
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00026.png",
+					"region": {
+						"x": 409,
+						"y": 964,
+						"w": 360,
+						"h": 312
+					},
+					"margin": {
+						"x": 75,
+						"y": 7,
+						"w": 106,
+						"h": 7
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00028.png",
+					"region": {
+						"x": 817,
+						"y": 964,
+						"w": 297,
+						"h": 319
+					},
+					"margin": {
+						"x": 80,
+						"y": 0,
+						"w": 169,
+						"h": 0
+					}
+				},
+				{
+					"filename": "DAN_BOMBO_00030.png",
+					"region": {
+						"x": 1225,
+						"y": 964,
+						"w": 299,
+						"h": 314
+					},
+					"margin": {
+						"x": 81,
+						"y": 5,
+						"w": 167,
+						"h": 5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0b717bb67cdc823b2ca1f83843998469:34dac34c059fe3ab2062d9a80ceb14e2:2219d8c640fd23a7dca9eb7bd5929dab$"
+	}
+}

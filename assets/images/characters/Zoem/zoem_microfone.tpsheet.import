@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/zoem_microfone.tpsheet-06c8c0521da64c1e51fe820a16a7a3a1.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00000.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00002.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00004.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00006.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00008.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00010.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00012.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00014.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00016.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00018.tres" ]
+
+source_file="res://assets/images/characters/Zoem/zoem_microfone.tpsheet"
+dest_files=[ "res://.import/zoem_microfone.tpsheet-06c8c0521da64c1e51fe820a16a7a3a1.res", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00000.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00002.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00004.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00006.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00008.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00010.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00012.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00014.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00016.tres", "res://assets/images/characters/Zoem/zoem_microfone.sprites/ZOEM_MICROFONE_00018.tres" ]
+
+[params]
+

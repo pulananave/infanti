@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "ceval_bateria_eletronica-0.png",
+			"size": {
+				"w": 1960,
+				"h": 802
+			},
+			"sprites": [
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00000.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 194,
+						"h": 364
+					},
+					"margin": {
+						"x": 43,
+						"y": 35,
+						"w": 74,
+						"h": 36
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00002.png",
+					"region": {
+						"x": 197,
+						"y": 1,
+						"w": 182,
+						"h": 370
+					},
+					"margin": {
+						"x": 43,
+						"y": 29,
+						"w": 86,
+						"h": 30
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00004.png",
+					"region": {
+						"x": 393,
+						"y": 1,
+						"w": 182,
+						"h": 374
+					},
+					"margin": {
+						"x": 43,
+						"y": 26,
+						"w": 86,
+						"h": 26
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00006.png",
+					"region": {
+						"x": 589,
+						"y": 1,
+						"w": 182,
+						"h": 376
+					},
+					"margin": {
+						"x": 43,
+						"y": 23,
+						"w": 86,
+						"h": 24
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00008.png",
+					"region": {
+						"x": 785,
+						"y": 1,
+						"w": 182,
+						"h": 392
+					},
+					"margin": {
+						"x": 43,
+						"y": 7,
+						"w": 86,
+						"h": 8
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00010.png",
+					"region": {
+						"x": 981,
+						"y": 1,
+						"w": 182,
+						"h": 399
+					},
+					"margin": {
+						"x": 43,
+						"y": 1,
+						"w": 86,
+						"h": 1
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00012.png",
+					"region": {
+						"x": 1177,
+						"y": 1,
+						"w": 182,
+						"h": 393
+					},
+					"margin": {
+						"x": 43,
+						"y": 7,
+						"w": 86,
+						"h": 7
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00014.png",
+					"region": {
+						"x": 1373,
+						"y": 1,
+						"w": 182,
+						"h": 376
+					},
+					"margin": {
+						"x": 43,
+						"y": 23,
+						"w": 86,
+						"h": 24
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00016.png",
+					"region": {
+						"x": 1569,
+						"y": 1,
+						"w": 182,
+						"h": 373
+					},
+					"margin": {
+						"x": 43,
+						"y": 26,
+						"w": 86,
+						"h": 27
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00018.png",
+					"region": {
+						"x": 1765,
+						"y": 1,
+						"w": 182,
+						"h": 371
+					},
+					"margin": {
+						"x": 43,
+						"y": 29,
+						"w": 86,
+						"h": 29
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00020.png",
+					"region": {
+						"x": 1,
+						"y": 402,
+						"w": 194,
+						"h": 365
+					},
+					"margin": {
+						"x": 43,
+						"y": 35,
+						"w": 74,
+						"h": 35
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00022.png",
+					"region": {
+						"x": 197,
+						"y": 402,
+						"w": 182,
+						"h": 371
+					},
+					"margin": {
+						"x": 43,
+						"y": 29,
+						"w": 86,
+						"h": 29
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00024.png",
+					"region": {
+						"x": 393,
+						"y": 402,
+						"w": 182,
+						"h": 373
+					},
+					"margin": {
+						"x": 43,
+						"y": 26,
+						"w": 86,
+						"h": 27
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00026.png",
+					"region": {
+						"x": 589,
+						"y": 402,
+						"w": 182,
+						"h": 376
+					},
+					"margin": {
+						"x": 43,
+						"y": 23,
+						"w": 86,
+						"h": 24
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00028.png",
+					"region": {
+						"x": 785,
+						"y": 402,
+						"w": 183,
+						"h": 393
+					},
+					"margin": {
+						"x": 42,
+						"y": 7,
+						"w": 85,
+						"h": 7
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00030.png",
+					"region": {
+						"x": 981,
+						"y": 402,
+						"w": 182,
+						"h": 398
+					},
+					"margin": {
+						"x": 43,
+						"y": 1,
+						"w": 86,
+						"h": 2
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00032.png",
+					"region": {
+						"x": 1177,
+						"y": 402,
+						"w": 182,
+						"h": 392
+					},
+					"margin": {
+						"x": 43,
+						"y": 7,
+						"w": 86,
+						"h": 8
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00034.png",
+					"region": {
+						"x": 1373,
+						"y": 402,
+						"w": 183,
+						"h": 376
+					},
+					"margin": {
+						"x": 42,
+						"y": 23,
+						"w": 85,
+						"h": 24
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00036.png",
+					"region": {
+						"x": 1569,
+						"y": 402,
+						"w": 182,
+						"h": 373
+					},
+					"margin": {
+						"x": 43,
+						"y": 26,
+						"w": 86,
+						"h": 27
+					}
+				},
+				{
+					"filename": "CEVAL_BATERIA_ELETRONICA_00038.png",
+					"region": {
+						"x": 1765,
+						"y": 402,
+						"w": 183,
+						"h": 371
+					},
+					"margin": {
+						"x": 42,
+						"y": 29,
+						"w": 85,
+						"h": 29
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b4383ad46e1b4cedcdeef2338ac36a67:1a0158484879aaa25bbf8c6bcd947904:b48f1979209fc47c299fee26ee28ea76$"
+	}
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 105 105"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="ICONE_MONSTRO04.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata35">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="779"
+     inkscape:window-height="480"
+     id="namedview33"
+     showgrid="false"
+     inkscape:zoom="2.247619"
+     inkscape:cx="3.7817797"
+     inkscape:cy="52.5"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg31" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1,.cls-4{fill:#663156;}.cls-1{opacity:0.2;}.cls-2{fill:#ff8e12;}.cls-3{fill:#ff4d4d;}.cls-5{fill:none;stroke:#cf5539;stroke-linecap:round;stroke-miterlimit:10;stroke-width:2px;}.cls-6{fill:#4d2b68;}</style>
+  </defs>
+  <title
+     id="title6">BACKGROUNDAsset 36</title>
+  <rect
+     class="cls-1"
+     x="5"
+     y="5"
+     width="100"
+     height="100"
+     rx="15"
+     id="rect8"
+     style="opacity:0.2;fill:#663156" />
+  <rect
+     class="cls-2"
+     width="100"
+     height="100"
+     rx="15"
+     id="rect10"
+     x="0"
+     y="0"
+     style="fill:#ff8e12" />
+  <path
+     id="labio_c"
+     class="cls-3"
+     d="M 50,41.72 C 34.93,41.72 25.55,51 21.18,62.6 35.51,53.48 63.93,53.43 78.82,62.6 74.45,51 65.71,41.72 50,41.72 Z"
+     inkscape:connector-curvature="0"
+     style="fill:#ff4d4d" />
+  <path
+     id="labio_b"
+     class="cls-3"
+     d="m 50,55.33 c -16.67,0.31 -21.13,3.16 -28.77,7.27 0,15.26 6.1,19.69 22.66,13.6 3,-1.11 9.52,-1 12.32,0 16.54,6.13 22.66,1.66 22.66,-13.6 C 71.18,58.49 66.63,55.64 50,55.33 Z"
+     inkscape:connector-curvature="0"
+     style="fill:#ff4d4d" />
+  <path
+     style="fill:#663156"
+     inkscape:connector-curvature="0"
+     id="path14"
+     d="m 77.56,63.16 c -16.83,-9.17 -39,-9.17 -55.2,0 L 21.73,62.05 C 38.29,52.67 61,52.67 78.17,62 Z"
+     class="cls-4" />
+  <ellipse
+     id="olho_d"
+     class="cls-4"
+     cx="47.07"
+     cy="35.66"
+     rx="1.1799999"
+     ry="1.73"
+     style="fill:#663156" />
+  <ellipse
+     id="olho_e"
+     class="cls-4"
+     cx="53.02"
+     cy="35.66"
+     rx="1.1799999"
+     ry="1.73"
+     style="fill:#663156" />
+  <path
+     class="cls-2"
+     d="m 1.71,25.15 q -0.86,0 -1.71,0.06 v 56.68 c 0.57,0 1.14,0 1.71,0 15.36,0 27.8,-12.71 27.8,-28.39 0,-15.68 -12.44,-28.35 -27.8,-28.35 z"
+     id="path19"
+     inkscape:connector-curvature="0"
+     style="fill:#ff8e12" />
+  <path
+     id="bochecha_d_linha"
+     class="cls-5"
+     d="m 14.54,78.61 a 28.48,28.48 0 0 0 14.72,-25.06 28.79,28.79 0 0 0 -3.62,-14"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#cf5539;stroke-width:2px;stroke-linecap:round;stroke-miterlimit:10" />
+  <path
+     class="cls-2"
+     d="M 100,81.89 V 25.21 q -0.85,-0.06 -1.71,-0.06 c -15.36,0 -27.8,12.71 -27.8,28.4 0,15.69 12.44,28.39 27.8,28.39 0.57,0 1.14,-0.02 1.71,-0.05 z"
+     id="path22"
+     inkscape:connector-curvature="0"
+     style="fill:#ff8e12" />
+  <path
+     id="bochecha_e_linha"
+     class="cls-5"
+     d="M 85.2,78.61 A 28.79,28.79 0 0 1 74.11,39.52"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#cf5539;stroke-width:2px;stroke-linecap:round;stroke-miterlimit:10" />
+  <path
+     id="sobrancelha_d"
+     class="cls-6"
+     d="m 31.27,34.79 a 31.42,31.42 0 0 1 10.09,-2.62 c 3.19,-0.26 4.39,-3.52 3.68,-6.26 l -1.19,-4.58 c -1.87,-6.77 -21.93,-1.88 -20,5.19 L 25,31.11 c 0.72,2.73 3.81,4.89 6.27,3.68 z"
+     inkscape:connector-curvature="0"
+     style="fill:#4d2b68" />
+  <path
+     id="sobrancelha_e"
+     class="cls-6"
+     d="m 68.61,34.44 a 30.57,30.57 0 0 0 -9.9,-2.57 C 55.58,31.61 54.4,28.41 55.1,25.72 l 1.17,-4.49 c 1.83,-6.64 21.51,-1.84 19.65,5.1 l -1.17,4.49 C 74.06,33.51 71,35.6 68.61,34.44 Z"
+     inkscape:connector-curvature="0"
+     style="fill:#4d2b68" />
+</svg>

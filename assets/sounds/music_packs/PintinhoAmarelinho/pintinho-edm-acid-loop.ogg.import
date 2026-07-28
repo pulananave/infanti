@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-edm-acid-loop.ogg-fbf2ef32fbdca20b7767c3e3f89d1cb6.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-edm-acid-loop.ogg"
+dest_files=[ "res://.import/pintinho-edm-acid-loop.ogg-fbf2ef32fbdca20b7767c3e3f89d1cb6.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

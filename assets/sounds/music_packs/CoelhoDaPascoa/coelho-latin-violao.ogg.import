@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/coelho-latin-violao.ogg-631860309e6e5c86f0ed1a9b6eac5107.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/CoelhoDaPascoa/coelho-latin-violao.ogg"
+dest_files=[ "res://.import/coelho-latin-violao.ogg-631860309e6e5c86f0ed1a9b6eac5107.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

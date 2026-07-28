@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pintinho-rock-baixo.ogg-e61bc0e3c469aba9a38613a43ed7b518.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/PintinhoAmarelinho/pintinho-rock-baixo.ogg"
+dest_files=[ "res://.import/pintinho-rock-baixo.ogg-e61bc0e3c469aba9a38613a43ed7b518.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

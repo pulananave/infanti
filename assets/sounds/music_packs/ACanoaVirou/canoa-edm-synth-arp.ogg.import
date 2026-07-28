@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/canoa-edm-synth-arp.ogg-2e7f0d0af382807d44871ad16b298cff.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/ACanoaVirou/canoa-edm-synth-arp.ogg"
+dest_files=[ "res://.import/canoa-edm-synth-arp.ogg-2e7f0d0af382807d44871ad16b298cff.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

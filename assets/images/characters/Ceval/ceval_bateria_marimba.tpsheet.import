@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/ceval_bateria_marimba.tpsheet-74a1bf23aad155a6de78bb735d928b5e.res"
+
+[deps]
+
+files=[ "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00000.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00002.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00004.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00006.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00008.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00010.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00012.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00014.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00016.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00018.tres" ]
+
+source_file="res://assets/images/characters/Ceval/ceval_bateria_marimba.tpsheet"
+dest_files=[ "res://.import/ceval_bateria_marimba.tpsheet-74a1bf23aad155a6de78bb735d928b5e.res", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00000.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00002.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00004.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00006.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00008.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00010.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00012.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00014.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00016.tres", "res://assets/images/characters/Ceval/ceval_bateria_marimba.sprites/CEVAL_MARIMBA_00018.tres" ]
+
+[params]
+

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/aranha-marcial-trombone.ogg-adfff0346ae80df64e89ebc2bf4d6e97.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/music_packs/DonaAranha/aranha-marcial-trombone.ogg"
+dest_files=[ "res://.import/aranha-marcial-trombone.ogg-adfff0346ae80df64e89ebc2bf4d6e97.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

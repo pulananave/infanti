@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 163.95 89.79"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="TROMPETE.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="779"
+     inkscape:window-height="480"
+     id="namedview29"
+     showgrid="false"
+     inkscape:zoom="1.8243743"
+     inkscape:cx="68.730079"
+     inkscape:cy="47.115582"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg27" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{stroke:#a62e3e;stroke-miterlimit:10;stroke-width:5px;}.cls-2{fill:#efd753;}.cls-3{fill:#cf5539;}</style>
+  </defs>
+  <title
+     id="title6">BACKGROUNDAsset 61</title>
+  <path
+     style="stroke:#a62e3e;stroke-width:5px;stroke-miterlimit:10"
+     inkscape:connector-curvature="0"
+     id="path8"
+     d="m 150.18,4 -26.94,21.46 -20.52,0.22 V 20.5 a 5.4,5.4 0 0 0 -10.79,0 v 5.3 l -7.06,0.08 V 20.5 a 5.39,5.39 0 0 0 -5.4,-5.39 v 0 A 5.39,5.39 0 0 0 74.08,20.5 V 26 l -6.1,0.06 V 20.5 a 5.39,5.39 0 0 0 -5.4,-5.39 v 0 a 5.39,5.39 0 0 0 -5.39,5.39 v 5.68 l -35.5,0.39 V 25.84 A 6.68,6.68 0 0 0 15,19.17 H 9.18 A 6.68,6.68 0 0 0 2.5,25.84 V 42 a 6.68,6.68 0 0 0 6.68,6.67 H 15 A 6.68,6.68 0 0 0 21.69,42 v -0.73 l 16.67,0.18 a 23.36,23.36 0 0 0 -2.23,10 v 0 a 23.49,23.49 0 0 0 21.06,23.3 v 7.15 a 5.39,5.39 0 0 0 5.39,5.39 v 0 A 5.39,5.39 0 0 0 68,81.9 v -7 h 6.1 v 7 a 5.39,5.39 0 0 0 5.39,5.39 v 0 a 5.39,5.39 0 0 0 5.4,-5.39 v -7 h 7.06 v 7 a 5.4,5.4 0 0 0 10.79,0 v -7.27 a 23.49,23.49 0 0 0 20.1,-23.24 v 0 a 23.3,23.3 0 0 0 -1.63,-8.58 l 29,23.06 a 7,7 0 0 0 11.27,-5.43 v -51 A 7,7 0 0 0 150.18,4 Z M 46.47,51.39 v 0 a 16.36,16.36 0 0 1 3.31,-9.86 l 7.41,0.08 V 66.78 A 16.43,16.43 0 0 1 46.47,51.39 Z M 68,67.83 V 41.72 l 6.1,0.07 v 26 z m 16.89,0 V 41.91 l 7.06,0.08 v 25.84 z m 27.6,-16.44 a 16.43,16.43 0 0 1 -9.75,15 V 42.11 l 6.93,0.07 a 16.38,16.38 0 0 1 2.82,9.21 z"
+     class="cls-1" />
+  <path
+     style="fill:#efd753"
+     inkscape:connector-curvature="0"
+     id="path10"
+     d="m 111.31,35 38.87,30.92 a 7,7 0 0 0 11.27,-5.43 v -51 A 7,7 0 0 0 150.18,4 Z"
+     class="cls-2" />
+  <polygon
+     style="fill:#efd753"
+     id="polygon12"
+     points="150.73,25.16 8.22,26.72 8.22,41.07 150.73,42.63 "
+     class="cls-2" />
+  <rect
+     style="fill:#cf5539"
+     id="rect14"
+     rx="6.6799998"
+     height="29.459999"
+     width="19.190001"
+     y="19.17"
+     x="2.5"
+     class="cls-3" />
+  <rect
+     style="fill:#efd753"
+     id="rect16"
+     rx="5.3899999"
+     height="72.190002"
+     width="10.79"
+     y="15.11"
+     x="57.189999"
+     class="cls-2" />
+  <rect
+     style="fill:#efd753"
+     id="rect18"
+     rx="5.3899999"
+     height="72.190002"
+     width="10.79"
+     y="15.11"
+     x="74.080002"
+     class="cls-2" />
+  <rect
+     style="fill:#efd753"
+     id="rect20"
+     rx="5.3899999"
+     height="72.190002"
+     width="10.79"
+     y="15.11"
+     x="91.93"
+     class="cls-2" />
+  <path
+     style="fill:#efd753"
+     inkscape:connector-curvature="0"
+     id="path22"
+     d="M 99.33,27.9 H 59.62 A 23.49,23.49 0 0 0 36.13,51.39 v 0 a 23.49,23.49 0 0 0 23.49,23.48 h 39.71 a 23.49,23.49 0 0 0 23.49,-23.48 v 0 A 23.49,23.49 0 0 0 99.33,27.9 Z m 13.14,23.49 A 16.44,16.44 0 0 1 96,67.83 H 62.92 A 16.45,16.45 0 0 1 46.47,51.39 v 0 A 16.45,16.45 0 0 1 62.92,35 H 96 a 16.44,16.44 0 0 1 16.44,16.44 z"
+     class="cls-2" />
+</svg>
