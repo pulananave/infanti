@@ -17,7 +17,6 @@ export async function loadAudio(url: string): Promise<AudioBuffer> {
 }
 
 export class SamplePlayer {
-  private sources: AudioBufferSourceNode[] = [];
   private gainNode: GainNode;
   private panNode: StereoPannerNode;
   private _buffer: AudioBuffer | null = null;
@@ -25,8 +24,9 @@ export class SamplePlayer {
   private _volume: number = 1.0;
   private _pan: number = 0;
   private _muted: boolean = false;
-  private _bars: number = 1; // how many bars this sample covers
+  private _instrumentBars: number = 1;
   private _onBarHandler: ((barNumber: number) => void) | null = null;
+  private _activeSources: AudioBufferSourceNode[] = [];
 
   constructor() {
     const ctx = musicEngine.getContext();
@@ -45,82 +45,86 @@ export class SamplePlayer {
   }
 
   /**
-   * Start playing synced to the music.
-   * The sample triggers on bar boundaries: bar % instrumentBars === 0
-   * On first call, plays immediately at the correct offset within the buffer.
+   * Start playing synced to bar boundaries.
+   * - Plays immediately at the correct offset within the current cycle
+   * - Re-triggers at bar boundaries (bar % instrumentBars === 0)
+   * - Previous sources are NOT stopped — they play out naturally (audio tail)
    */
-  playSynced(musicBarDuration: number, instrumentBars: number): void {
+  playSynced(barDuration: number, instrumentBars: number): void {
     if (!this._buffer) return;
-    this.stop();
+    this._removeBarListener();
 
-    this._bars = instrumentBars;
+    this._instrumentBars = instrumentBars;
 
     const musicTime = musicEngine.time;
-    const currentBarFloat = musicTime / musicBarDuration;
-    const currentBar = Math.floor(currentBarFloat);
+    const bufferDur = this._buffer.duration;
 
-    // Which trigger cycle are we in?
-    const cycleLength = instrumentBars * musicBarDuration; // duration in seconds of one cycle
-    const timeIntoCycle = musicTime % cycleLength;
+    // Cycle length in seconds
+    const cycleSeconds = instrumentBars * barDuration;
 
-    // Play the sample at the correct offset
-    this._playBuffer(timeIntoCycle);
+    // Where in the cycle are we?
+    const timeIntoCycle = musicTime % cycleSeconds;
 
-    // Listen for future bar events to re-trigger
+    // Cap offset to buffer duration (sample might be shorter than cycle)
+    const offset = Math.min(timeIntoCycle, bufferDur - 0.01);
+    this._triggerBuffer(offset);
+
+    // Register bar listener for re-triggering
     this._onBarHandler = (barNumber: number) => {
       if (barNumber % instrumentBars === 0) {
-        this._playBuffer(0);
+        this._triggerBuffer(0);
       }
     };
     eventBus.on(Events.MUSIC_BAR, this._onBarHandler);
   }
 
-  /**
-   * Play immediately (no sync). Used for instant feedback.
-   */
   play(): void {
     if (!this._buffer) return;
-    this.stop();
-    this._playBuffer(0);
-    this._isPlaying = true;
+    this._removeBarListener();
+    this._triggerBuffer(0);
   }
 
   /**
-   * Internal: stop any current source and play buffer at offset.
+   * Trigger a fresh playback. Does NOT stop previous sources —
+   * they play out naturally so audio tails aren't cut.
+   * Old sources are cleaned up after they finish.
    */
-  private _playBuffer(offset: number): void {
+  private _triggerBuffer(offset: number): void {
     if (!this._buffer) return;
-
-    // Stop previous sources
-    for (const src of this.sources) {
-      try { src.stop(); } catch {}
-      src.disconnect();
-    }
-    this.sources = [];
 
     const ctx = musicEngine.getContext();
     const source = ctx.createBufferSource();
     source.buffer = this._buffer;
-    source.loop = false; // NEVER loop — we trigger programmatically
+    source.loop = false;
     source.connect(this.panNode);
     source.start(0, offset);
-    this.sources.push(source);
+
+    this._activeSources.push(source);
     this._isPlaying = true;
+
+    // Clean up this source when it ends
+    source.onended = () => {
+      source.disconnect();
+      this._activeSources = this._activeSources.filter(s => s !== source);
+    };
   }
 
   stop(): void {
-    for (const src of this.sources) {
+    // Stop and disconnect ALL active sources
+    for (const src of this._activeSources) {
       try { src.stop(); } catch {}
       src.disconnect();
     }
-    this.sources = [];
+    this._activeSources = [];
+    this._removeBarListener();
+    this._isPlaying = false;
+  }
 
+  private _removeBarListener(): void {
     if (this._onBarHandler) {
       eventBus.off(Events.MUSIC_BAR, this._onBarHandler);
       this._onBarHandler = null;
     }
-
-    this._isPlaying = false;
   }
 
   setVolume(db: number): void {

@@ -422,25 +422,23 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   img.onerror = () => { img.style.display = 'none'; };
   stageEl.appendChild(img);
 
-  // Mute button
+  // Mute button (visible, click to toggle)
   const muteBtn = el('div', { style: `
-    position: absolute; top: -5px; right: -5px; width: 22px; height: 22px;
-    border-radius: 50%; background: #ff4444; color: white;
-    display: none; align-items: center; justify-content: center;
-    font-size: 12px; cursor: pointer;
-  ` }, '🔇');
-  stageEl.appendChild(muteBtn);
-
-  // Double tap to mute
-  let lastTap = 0;
-  stageEl.addEventListener('pointerdown', (e) => {
-    const now = Date.now();
-    if (now - lastTap < 300) {
-      e.stopPropagation();
-      toggleMute(inst);
-    }
-    lastTap = now;
+    position: absolute; top: -8px; right: -8px; width: 24px; height: 24px;
+    border-radius: 50%; background: #666; color: white;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; cursor: pointer; z-index: 20;
+    opacity: 0.6; transition: opacity 0.2s;
+  ` }, '🔊');
+  muteBtn.addEventListener('pointerdown', (e) => {
+    e.stopPropagation(); // prevent drag
+    e.preventDefault();
+    toggleMute(inst);
+    muteBtn.textContent = inst.muted ? '🔇' : '🔊';
+    muteBtn.style.background = inst.muted ? '#ff4444' : '#666';
+    muteBtn.style.opacity = '1';
   });
+  stageEl.appendChild(muteBtn);
 
   inst.stageElement = stageEl;
   stageArea.appendChild(stageEl);
@@ -490,8 +488,6 @@ function toggleMute(inst: InstrumentInstance): void {
   inst.player.setMuted(inst.muted);
 
   if (inst.stageElement) {
-    const muteBtn = inst.stageElement.querySelector('div') as HTMLElement;
-    if (muteBtn) muteBtn.style.display = inst.muted ? 'flex' : 'none';
     inst.stageElement.style.opacity = inst.muted ? '0.5' : '1';
   }
 
