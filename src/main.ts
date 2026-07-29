@@ -729,7 +729,25 @@ function createTimeline(): HTMLElement {
   function seekFromPointer(e: PointerEvent, bar: HTMLElement) {
     const rect = bar.getBoundingClientRect();
     const ratio = clamp((e.clientX - rect.left) / rect.width, 0, 1);
-    musicEngine.seek(ratio * musicEngine.duration);
+    const newTime = ratio * musicEngine.duration;
+
+    // Stop all instruments and music
+    musicEngine.stop();
+    for (const inst of instrumentsOnStage) {
+      inst.player.stop();
+    }
+
+    // Seek to new position
+    musicEngine.seek(newTime);
+
+    // Restart music and re-trigger all instruments at new position
+    musicEngine.play(newTime);
+    const barDuration = 240 / (currentPack?.bpm ?? 120);
+    for (const inst of instrumentsOnStage) {
+      if (!inst.muted) {
+        inst.player.playSynced(barDuration, inst.config.bars);
+      }
+    }
   }
 
   // Update on tick
