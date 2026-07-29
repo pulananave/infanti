@@ -46,6 +46,8 @@ export class SpriteAnimation {
   constructor(width: number = 70, height: number = 70) {
     this._displayW = width;
     this._displayH = height;
+    this._fps = 12;
+    this._frameInterval = 1000 / 12;
     this.canvas = document.createElement('canvas');
     this.canvas.width = width;
     this.canvas.height = height;
