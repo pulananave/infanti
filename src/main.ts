@@ -200,13 +200,22 @@ async function startStage(pack: PackConfig): Promise<void> {
     overflow-x: auto; position: relative; z-index: 200;
   `});
 
-  // Close all popups when mouse leaves shelf
+  // Close all popups when mouse leaves shelf (with 1s delay)
+  let shelfLeaveTimeout: ReturnType<typeof setTimeout> | null = null;
   shelf.addEventListener('pointerleave', () => {
-    for (const c of characters) {
-      if (c.instrumentsVisible) {
-        c.instrumentBox.style.display = 'none';
-        c.instrumentsVisible = false;
+    shelfLeaveTimeout = setTimeout(() => {
+      for (const c of characters) {
+        if (c.instrumentsVisible) {
+          c.instrumentBox.style.display = 'none';
+          c.instrumentsVisible = false;
+        }
       }
+    }, 1000);
+  });
+  shelf.addEventListener('pointerenter', () => {
+    if (shelfLeaveTimeout) {
+      clearTimeout(shelfLeaveTimeout);
+      shelfLeaveTimeout = null;
     }
   });
 
