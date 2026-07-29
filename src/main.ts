@@ -506,8 +506,6 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   if (inst.config.sprite) {
     const anim = new SpriteAnimation();
     anim.load(inst.config.sprite).then(() => {
-      const charScale = CHAR_SCALES[inst.characterId] ?? 1.0;
-      anim.setScale(charScale);
       anim.setFps(12);
       anim.play();
     }).catch(() => {
@@ -688,12 +686,13 @@ function applyPositionEffects(inst: InstrumentInstance): void {
   const pan = remap(pos.x, 0, 1, -1, 1);
   inst.player.setPan(inst.muted ? 0 : pan);
 
-  // Scale: top (pos.y=0) = 2x, bottom (pos.y=1) = 1x
-  const scale = remap(pos.y, 0, 1, 2.0, 1.0);
+  // Scale: top = max (charScale * 2x), bottom = 1x
+  const charScale = CHAR_SCALES[inst.characterId] ?? 1.0;
+  const maxScale = charScale * 2.0;
+  const scale = remap(pos.y, 0, 1, maxScale, 1.0);
 
   if (inst.stageElement) {
-    const s = clamp(scale, 0.5, 3.0);
-    inst.stageElement.style.transform = `scale(${s})`;
+    inst.stageElement.style.transform = `scale(${scale})`;
     inst.stageElement.style.transformOrigin = 'center bottom';
   }
 }

@@ -1,8 +1,6 @@
 /**
  * SpriteAnimation — renders TexturePacker spritesheets with fixed frame dimensions.
- *
- * All frames are rendered at a single fixed size (based on the largest frame),
- * preventing distortion between frames of different dimensions.
+ * All frames render at the same size (largest frame), pivot at bottom-center.
  */
 
 interface SpriteFrame {
@@ -36,11 +34,8 @@ export class SpriteAnimation {
   private _rafId: number = 0;
   private _lastFrameTime: number = 0;
   private _frameInterval: number = 1000 / 12;
-  // Fixed render dimensions (based on largest frame in the sheet)
   private _fixedW: number = 0;
   private _fixedH: number = 0;
-  // Display scale multiplier (per-character)
-  private _scale: number = 1.0;
 
   constructor() {
     this.canvas = document.createElement('canvas');
@@ -49,9 +44,6 @@ export class SpriteAnimation {
     this.ctx = this.canvas.getContext('2d')!;
   }
 
-  /**
-   * Load a .tpsheet file and its associated PNG.
-   */
   async load(tpsheetPath: string): Promise<void> {
     const resp = await fetch(tpsheetPath);
     const data: TPSheetData = await resp.json();
@@ -65,7 +57,6 @@ export class SpriteAnimation {
     const basePath = tpsheetPath.substring(0, tpsheetPath.lastIndexOf('/') + 1);
     const pngPath = basePath + tex.image;
 
-    // Extract frames
     this.frames = tex.sprites.map(s => ({
       filename: s.filename,
       x: s.region.x,
@@ -74,14 +65,12 @@ export class SpriteAnimation {
       h: s.region.h,
     }));
 
-    // Calculate fixed dimensions from the largest frame
+    // Fixed dimensions from largest frame
     this._fixedW = Math.max(...this.frames.map(f => f.w));
     this._fixedH = Math.max(...this.frames.map(f => f.h));
+    this.canvas.width = this._fixedW;
+    this.canvas.height = this._fixedH;
 
-    // Set canvas size
-    this._updateCanvasSize();
-
-    // Load image
     this.image = new Image();
     this.image.crossOrigin = 'anonymous';
     await new Promise<void>((resolve, reject) => {
@@ -90,60 +79,23 @@ export class SpriteAnimation {
       this.image!.src = pngPath;
     });
 
-    // Draw first frame
     this.drawFrame(0);
   }
 
-  /**
-   * Set per-character scale multiplier.
-   */
-  setScale(scale: number): void {
-    this._scale = scale;
-    this._updateCanvasSize();
-    if (this.frames.length > 0) {
-      this.drawFrame(this._currentFrame);
-    }
-  }
-
-  getScale(): number {
-    return this._scale;
-  }
-
-  private _updateCanvasSize(): void {
-    this.canvas.width = Math.round(this._fixedW * this._scale);
-    this.canvas.height = Math.round(this._fixedH * this._scale);
-    this.canvas.style.width = `${this.canvas.width}px`;
-    this.canvas.style.height = `${this.canvas.height}px`;
-  }
-
-  /**
-   * Set animation speed based on BPM.
-   */
   setBpm(bpm: number, beats: number = 2): void {
     const frameCount = this.frames.length || 1;
     this._fps = (bpm * frameCount) / (beats * 120);
     this._frameInterval = 1000 / this._fps;
   }
 
-  /**
-   * Set raw FPS (overrides BPM calculation).
-   */
   setFps(fps: number): void {
     this._fps = fps;
     this._frameInterval = 1000 / fps;
   }
 
-  get currentFrame(): number {
-    return this._currentFrame;
-  }
-
-  get totalFrames(): number {
-    return this.frames.length;
-  }
-
-  get isPlaying(): boolean {
-    return this._playing;
-  }
+  get currentFrame(): number { return this._currentFrame; }
+  get totalFrames(): number { return this.frames.length; }
+  get isPlaying(): boolean { return this._playing; }
 
   play(): void {
     if (this._playing || this.frames.length === 0) return;
@@ -167,41 +119,23 @@ export class SpriteAnimation {
     this.drawFrame(this._currentFrame);
   }
 
-  syncToTime(musicTime: number, bpm: number, beats: number = 2): void {
-    const frameCount = this.frames.length;
-    const cycleDuration = (beats * 120) / bpm;
-    const timeInCycle = musicTime % cycleDuration;
-    const fps = (bpm * frameCount) / (beats * 120);
-    const frame = Math.floor(timeInCycle * fps) % frameCount;
-    this.drawFrame(frame);
-    this._currentFrame = frame;
-  }
-
   /**
-   * Draw frame with fixed dimensions and pivot at bottom-center.
-   * All frames use the same _fixedW/_fixedH as the destination size,
-   * preserving consistent proportions across frames.
+   * Draw frame: fixed destination size, pivot at bottom-center.
    */
   private drawFrame(index: number): void {
     if (!this.image || this.frames.length === 0) return;
 
     const frame = this.frames[index];
-    const cw = this.canvas.width;
-    const ch = this.canvas.height;
-    this.ctx.clearRect(0, 0, cw, ch);
-
-    // Fixed destination size = fixed dimensions * scale
-    const dw = this._fixedW * this._scale;
-    const dh = this._fixedH * this._scale;
+    this.ctx.clearRect(0, 0, this._fixedW, this._fixedH);
 
     // Center horizontally, anchor at bottom
-    const dx = (cw - dw) / 2;
-    const dy = ch - dh;
+    const dx = (this._fixedW - frame.w) / 2;
+    const dy = this._fixedH - frame.h;
 
     this.ctx.drawImage(
       this.image,
-      frame.x, frame.y, frame.w, frame.h,  // source (variable size)
-      dx, dy, dw, dh                         // dest (fixed size)
+      frame.x, frame.y, frame.w, frame.h,
+      dx, dy, frame.w, frame.h
     );
   }
 
