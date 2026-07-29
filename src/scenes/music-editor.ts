@@ -1,4 +1,5 @@
 import type { PackConfig, CharacterConfig, InstrumentConfig } from '@/core/types';
+import { openInstrumentEditor } from '@/scenes/instrument-preview';
 
 /**
  * Music Editor — full CRUD for packs, characters, instruments.
@@ -165,29 +166,56 @@ function editPack(pack: PackConfig | null, overlay: HTMLElement, refresh: () => 
 
 function instrumentRow(char: CharacterConfig, index: number, refresh: () => void): HTMLElement {
   const inst = char.instruments[index];
-  const row = el('div', { style: `
-    background: #1a1a3e; border-radius: 8px; padding: 10px;
-    display: grid; grid-template-columns: 1fr 1fr; gap: 6px;
-    border: 1px solid #333;
+
+  const card = el('div', { style: `
+    background: #1a1a3e; border-radius: 10px; padding: 12px;
+    display: flex; gap: 12px; align-items: center;
+    border: 1px solid #333; cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
   `});
 
-  row.appendChild(fieldRow('Tipo', inst.type, v => inst.type = v));
-  row.appendChild(fieldRow('Nome', inst.name, v => inst.name = v));
-  row.appendChild(fieldRow('Ícone (URL)', inst.icon, v => inst.icon = v));
-  row.appendChild(fieldRow('Sprite (tpsheet)', inst.sprite || '', v => inst.sprite = v || undefined));
-  row.appendChild(fieldRow('Áudio (URL)', inst.audio, v => inst.audio = v));
-  row.appendChild(fieldRow('Compassos', String(inst.bars), v => inst.bars = Number(v), false, 'number'));
-  row.appendChild(fieldRow('Volume Min (dB)', String(inst.minVolumeDb), v => inst.minVolumeDb = Number(v), false, 'number'));
-  row.appendChild(fieldRow('Volume Max (dB)', String(inst.maxVolumeDb), v => inst.maxVolumeDb = Number(v), false, 'number'));
+  // Icon/thumbnail
+  const thumb = el('div', { style: `
+    width: 56px; height: 56px; border-radius: 8px;
+    background: #0f3460; display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; overflow: hidden;
+  `});
+  if (inst.icon) {
+    const img = el('img', { src: inst.icon, style: 'width:40px;height:40px;object-fit:contain;' });
+    img.onerror = () => { img.style.display = 'none'; };
+    thumb.appendChild(img);
+  } else {
+    thumb.appendChild(el('span', { style: 'font-size:24px;' }, '🎵'));
+  }
+  card.appendChild(thumb);
 
-  const delRow = el('div', { style: 'grid-column:1/-1;text-align:right;' });
-  delRow.appendChild(mkBtn('🗑️ Remover', '#e53935', () => {
+  // Info
+  const info = el('div', { style: 'flex:1;min-width:0;' });
+  info.appendChild(el('div', { style: 'font-weight:bold;font-size:14px;color:#f5e642;' }, inst.name || inst.type || 'Sem nome'));
+  info.appendChild(el('div', { style: 'font-size:11px;color:#aaa;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;' },
+    `${inst.type} · ${inst.bars} compass · ${inst.audio ? '🔊' : '🔇'}`));
+  if (inst.sprite) info.appendChild(el('div', { style: 'font-size:10px;color:#6a6;' }, '🎬 spritesheet'));
+  card.appendChild(info);
+
+  // Actions
+  const actions = el('div', { style: 'display:flex;flex-direction:column;gap:4px;flex-shrink:0;' });
+  actions.appendChild(mkBtn('👁️ Preview', '#2196f3', () => {
+    openInstrumentEditor(inst, char.id, (updated) => {
+      char.instruments[index] = updated;
+      refresh();
+    });
+  }));
+  actions.appendChild(mkBtn('🗑️', '#e53935', () => {
     char.instruments.splice(index, 1);
     refresh();
   }));
-  row.appendChild(delRow);
+  card.appendChild(actions);
 
-  return row;
+  // Hover
+  card.addEventListener('pointerenter', () => { card.style.borderColor = '#f5e642'; card.style.background = '#1f2a50'; });
+  card.addEventListener('pointerleave', () => { card.style.borderColor = '#333'; card.style.background = '#1a1a3e'; });
+
+  return card;
 }
 
 // ============================================================
