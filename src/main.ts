@@ -15,7 +15,7 @@ import { remap, clamp } from '@/utils/math';
 // ============================================================
 
 interface InstrumentInstance {
-  id: string; // "rafog_bombo"
+  id: string;
   config: InstrumentConfig;
   characterId: string;
   player: SamplePlayer;
@@ -27,6 +27,7 @@ interface InstrumentInstance {
   normalizedPosition: { x: number; y: number };
   stageX: number;
   stageY: number;
+  audioLoaded: boolean;
 }
 
 interface CharacterInstance {
@@ -229,11 +230,8 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
 
   for (const instConfig of config.instruments) {
     const player = new SamplePlayer();
-    try {
-      await player.load(instConfig.audio);
-    } catch (e) {
-      console.warn(`Failed to load audio for ${instConfig.type}:`, e);
-    }
+    // Audio loads lazily when instrument is first placed on stage
+    let audioLoaded = false;
 
     const inst: InstrumentInstance = {
       id: `${config.id}_${instConfig.type}`,
@@ -248,6 +246,7 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
       normalizedPosition: { x: 0.5, y: 0.5 },
       stageX: 0,
       stageY: 0,
+      audioLoaded: false,
     };
 
     // Create instrument icon element
@@ -471,9 +470,18 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   // Apply position effects (volume, pan, scale)
   applyPositionEffects(inst);
 
-  // Start playing synced to bar boundaries
+  // Load audio if not loaded yet, then play
   const barDuration = 240 / (currentPack?.bpm ?? 120);
-  inst.player.playSynced(barDuration, inst.config.bars);
+  if (!(inst as any).audioLoaded) {
+    inst.player.load(inst.config.audio).then(() => {
+      (inst as any).audioLoaded = true;
+      inst.player.playSynced(barDuration, inst.config.bars);
+    }).catch((e: any) => {
+      console.warn(`Audio load failed for ${inst.config.name}:`, e);
+    });
+  } else {
+    inst.player.playSynced(barDuration, inst.config.bars);
+  }
 
   // Disable shelf button visually
   if (inst.shelfBtn) {
