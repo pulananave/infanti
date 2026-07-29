@@ -697,8 +697,8 @@ function applyPositionEffects(inst: InstrumentInstance): void {
   const pan = remap(pos.x, 0, 1, -1, 1);
   inst.player.setPan(inst.muted ? 0 : pan);
 
-  // Scale: closer to bottom = bigger, further = smaller
-  const scale = remap(normalizedDist, 0, 1, 2.0, 0.4);
+  // Scale: bottom of zone = 2x, top of zone (middle) = 1x
+  const scale = remap(pos.y, 0, 1, 1.0, 2.0);
 
   if (inst.stageElement) {
     const size = 70 * scale;
