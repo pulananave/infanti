@@ -463,15 +463,17 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   if (!stageArea) return;
 
   const rect = stageArea.getBoundingClientRect();
+  const minY = rect.height * 0.10;
+  const maxY = rect.height * 0.45;
   const localX = clamp(globalX - rect.left, 0, rect.width);
-  const localY = clamp(globalY - rect.top, 0, rect.height);
+  const localY = clamp(globalY - rect.top, minY, maxY);
 
   inst.onStage = true;
   inst.stageX = localX;
   inst.stageY = localY;
   inst.normalizedPosition = {
     x: localX / rect.width,
-    y: localY / rect.height,
+    y: (localY - minY) / (maxY - minY),
   };
 
   // Create stage representation (positioned with left/top as center point)
@@ -550,14 +552,16 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
 
     const onMove = (ev: PointerEvent) => {
       const r = stageArea.getBoundingClientRect();
+      const minY = r.height * 0.10; // 10% from top
+      const maxY = r.height * 0.45; // 45% from top
       const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
-      const y = clamp(ev.clientY - r.top - offsetY, 0, r.height);
+      const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
       stageEl.style.left = `${x}px`;
       stageEl.style.top = `${y}px`;
       // Update position effects in real-time during drag
       inst.stageX = x;
       inst.stageY = y;
-      inst.normalizedPosition = { x: x / r.width, y: y / r.height };
+      inst.normalizedPosition = { x: x / r.width, y: (y - minY) / (maxY - minY) };
       applyPositionEffects(inst);
     };
 
@@ -566,11 +570,13 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
       document.removeEventListener('pointerup', onUp);
 
       const r = stageArea.getBoundingClientRect();
+      const minY = r.height * 0.10;
+      const maxY = r.height * 0.45;
       const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
-      const y = clamp(ev.clientY - r.top - offsetY, 0, r.height);
+      const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
       inst.stageX = x;
       inst.stageY = y;
-      inst.normalizedPosition = { x: x / r.width, y: y / r.height };
+      inst.normalizedPosition = { x: x / r.width, y: (y - minY) / (maxY - minY) };
       applyPositionEffects(inst);
       eventBus.emit(Events.INSTRUMENT_MOVED, inst);
     };
@@ -694,8 +700,8 @@ function applyPositionEffects(inst: InstrumentInstance): void {
   const pan = remap(pos.x, 0, 1, -1, 1);
   inst.player.setPan(inst.muted ? 0 : pan);
 
-  // Scale: closer = bigger, further = smaller
-  const scale = remap(normalizedDist, 0, 1, 1.2, 0.5);
+  // Scale: closer to bottom = bigger, further = smaller
+  const scale = remap(normalizedDist, 0, 1, 2.0, 0.4);
 
   if (inst.stageElement) {
     const size = 70 * scale;
