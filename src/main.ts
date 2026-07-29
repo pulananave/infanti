@@ -501,6 +501,43 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   });
   stageEl.appendChild(muteBtn);
 
+  // Direct drag handler on the stage element
+  stageEl.addEventListener('pointerdown', (e) => {
+    // Ignore if clicking mute button
+    if ((e.target as HTMLElement).closest('[data-mute-btn]')) return;
+    e.preventDefault();
+    e.stopPropagation();
+
+    const areaRect = stageArea.getBoundingClientRect();
+    const offsetX = e.clientX - areaRect.left - inst.stageX;
+    const offsetY = e.clientY - areaRect.top - inst.stageY;
+
+    const onMove = (ev: PointerEvent) => {
+      const r = stageArea.getBoundingClientRect();
+      const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
+      const y = clamp(ev.clientY - r.top - offsetY, 0, r.height);
+      stageEl.style.left = `${x}px`;
+      stageEl.style.top = `${y}px`;
+    };
+
+    const onUp = (ev: PointerEvent) => {
+      document.removeEventListener('pointermove', onMove);
+      document.removeEventListener('pointerup', onUp);
+
+      const r = stageArea.getBoundingClientRect();
+      const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
+      const y = clamp(ev.clientY - r.top - offsetY, 0, r.height);
+      inst.stageX = x;
+      inst.stageY = y;
+      inst.normalizedPosition = { x: x / r.width, y: y / r.height };
+      applyPositionEffects(inst);
+      eventBus.emit(Events.INSTRUMENT_MOVED, inst);
+    };
+
+    document.addEventListener('pointermove', onMove);
+    document.addEventListener('pointerup', onUp);
+  });
+
   inst.stageElement = stageEl;
   stageArea.appendChild(stageEl);
 
@@ -868,63 +905,6 @@ function setupPointerEvents(stageArea: HTMLElement): void {
         e.clientY >= rect.top && e.clientY <= rect.bottom) {
       placeOnStage(drag.node as InstrumentInstance, e.clientX, e.clientY);
     }
-  });
-
-  // Drag instruments already on stage — direct handler
-  let stageDrag: { inst: InstrumentInstance; el: HTMLElement; offsetX: number; offsetY: number } | null = null;
-
-  stageArea.addEventListener('pointerdown', (e) => {
-    const target = e.target as HTMLElement;
-    const stageEl = target.closest('[data-instrument-id]') as HTMLElement;
-    if (!stageEl) return;
-
-    const instId = stageEl.getAttribute('data-instrument-id');
-    const inst = allInstruments.get(instId!);
-    if (!inst || !inst.onStage || !inst.stageElement) return;
-
-    // Don't start drag if clicking mute button
-    if ((target as HTMLElement).closest('[data-mute-btn]')) return;
-
-    e.preventDefault();
-    e.stopPropagation();
-
-    const rect = stageArea.getBoundingClientRect();
-    stageDrag = {
-      inst,
-      el: inst.stageElement,
-      offsetX: e.clientX - rect.left - inst.stageX,
-      offsetY: e.clientY - rect.top - inst.stageY,
-    };
-  });
-
-  document.addEventListener('pointermove', (e) => {
-    if (!stageDrag) return;
-    e.preventDefault();
-
-    const rect = stageArea.getBoundingClientRect();
-    const localX = clamp(e.clientX - rect.left - stageDrag.offsetX, 0, rect.width);
-    const localY = clamp(e.clientY - rect.top - stageDrag.offsetY, 0, rect.height);
-    stageDrag.el.style.left = `${localX}px`;
-    stageDrag.el.style.top = `${localY}px`;
-  });
-
-  document.addEventListener('pointerup', (e) => {
-    if (!stageDrag) return;
-
-    const rect = stageArea.getBoundingClientRect();
-    const localX = clamp(e.clientX - rect.left - stageDrag.offsetX, 0, rect.width);
-    const localY = clamp(e.clientY - rect.top - stageDrag.offsetY, 0, rect.height);
-
-    stageDrag.inst.stageX = localX;
-    stageDrag.inst.stageY = localY;
-    stageDrag.inst.normalizedPosition = {
-      x: localX / rect.width,
-      y: localY / rect.height,
-    };
-    applyPositionEffects(stageDrag.inst);
-    eventBus.emit(Events.INSTRUMENT_MOVED, stageDrag.inst);
-
-    stageDrag = null;
   });
 
   // Record state on move during recording
