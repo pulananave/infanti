@@ -671,10 +671,8 @@ function toggleMute(inst: InstrumentInstance): void {
 function applyPositionEffects(inst: InstrumentInstance): void {
   const pos = inst.normalizedPosition;
 
-  // Volume: bottom (pos.y=1) = louder, top (pos.y=0) = quieter
-  const minDb = inst.config.minVolumeDb; // e.g. -20
-  const maxDb = inst.config.maxVolumeDb; // e.g. 0
-  const volumeDb = remap(pos.y, 0, 1, minDb, maxDb);
+  // Volume: bottom (pos.y=1) = 100% (0dB), top (pos.y=0) = 20% (-14dB)
+  const volumeDb = remap(pos.y, 0, 1, -14, 0);
   inst.player.setVolume(inst.muted ? -80 : volumeDb);
 
   // Pan: left side = -1, center = 0, right side = +1
