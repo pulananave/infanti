@@ -32,6 +32,8 @@ interface InstrumentInstance {
   stageX: number;
   stageY: number;
   audioLoaded: boolean;
+  pivotX: number; // 0-100
+  pivotY: number; // 0-100
 }
 
 interface CharacterInstance {
@@ -301,6 +303,8 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
       stageX: 0,
       stageY: 0,
       audioLoaded: false,
+      pivotX: instConfig.pivotX ?? 50,
+      pivotY: instConfig.pivotY ?? 100,
     };
 
     // Create instrument icon element
@@ -696,9 +700,9 @@ function applyPositionEffects(inst: InstrumentInstance): void {
   const scale = remap(pos.y, 0, 1, 2.0, 1.0);
 
   if (inst.stageElement) {
-    // Scale from feet (bottom), keep feet at drop position
+    // Scale from pivot point, keep pivot at drop position
     inst.stageElement.style.transform = `translateX(-50%) scale(${scale})`;
-    inst.stageElement.style.transformOrigin = 'center bottom';
+    inst.stageElement.style.transformOrigin = `${inst.pivotX}% ${inst.pivotY}%`;
   }
 }
 

@@ -14,8 +14,8 @@ export function openInstrumentEditor(
   const data: InstrumentConfig = { ...inst };
   let currentAnim: SpriteAnimation | null = null;
   let audioEl: HTMLAudioElement | null = null;
-  let pivotX = 50;
-  let pivotY = 100;
+  let pivotX = data.pivotX ?? 50;
+  let pivotY = data.pivotY ?? 100;
 
   const overlay = el('div', { style: `
     position: fixed; inset: 0; z-index: 100001;
@@ -36,8 +36,8 @@ export function openInstrumentEditor(
 
   const headerBtns = el('div', { style: 'display:flex;gap:10px;' });
   headerBtns.appendChild(mkBtn('💾 Salvar', '#4caf50', () => {
-    data._pivotX = pivotX;
-    data._pivotY = pivotY;
+    data.pivotX = pivotX;
+    data.pivotY = pivotY;
     onUpdate(data);
     cleanup();
     overlay.remove();
@@ -177,8 +177,8 @@ export function openInstrumentEditor(
     width:100%;background:#0a0a2e;border:1px solid #444;border-radius:4px;
     padding:6px 8px;color:#eee;font-size:12px;margin-bottom:6px;
   ` }) as HTMLInputElement;
-  pivotXInput.type = 'range'; pivotXInput.min = '0'; pivotXInput.max = '100'; pivotXInput.value = '50';
-  const pivotXLabel = el('div', { style: 'color:#aaa;font-size:11px;margin-bottom:4px;' }, `X: 50%`);
+  pivotXInput.type = 'range'; pivotXInput.min = '0'; pivotXInput.max = '100'; pivotXInput.value = String(pivotX);
+  const pivotXLabel = el('div', { style: 'color:#aaa;font-size:11px;margin-bottom:4px;' }, `X: ${pivotX}%`);
   pivotXInput.addEventListener('input', () => {
     pivotX = Number(pivotXInput.value);
     pivotXLabel.textContent = `X: ${pivotX}%`;
@@ -191,8 +191,8 @@ export function openInstrumentEditor(
     width:100%;background:#0a0a2e;border:1px solid #444;border-radius:4px;
     padding:6px 8px;color:#eee;font-size:12px;margin-bottom:6px;
   ` }) as HTMLInputElement;
-  pivotYInput.type = 'range'; pivotYInput.min = '0'; pivotYInput.max = '100'; pivotYInput.value = '100';
-  const pivotYLabel = el('div', { style: 'color:#aaa;font-size:11px;margin-bottom:4px;' }, `Y: 100%`);
+  pivotYInput.type = 'range'; pivotYInput.min = '0'; pivotYInput.max = '100'; pivotYInput.value = String(pivotY);
+  const pivotYLabel = el('div', { style: 'color:#aaa;font-size:11px;margin-bottom:4px;' }, `Y: ${pivotY}%`);
   pivotYInput.addEventListener('input', () => {
     pivotY = Number(pivotYInput.value);
     pivotYLabel.textContent = `Y: ${pivotY}%`;

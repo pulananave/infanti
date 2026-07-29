@@ -2,12 +2,14 @@ export interface InstrumentConfig {
   type: string;
   name: string;
   icon: string;
-  sprite?: string; // path to .tpsheet for animation on stage
+  sprite?: string;
   audio: string;
   bars: number;
   minVolumeDb: number;
   maxVolumeDb: number;
   useLimit: number;
+  pivotX?: number; // 0-100, default 50
+  pivotY?: number; // 0-100, default 100
 }
 
 export interface CharacterConfig {
