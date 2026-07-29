@@ -476,14 +476,14 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
     y: 1 - (localY - minY) / (maxY - minY),
   };
 
-  // Create stage representation (positioned with left/top as center point)
+  // Create stage representation (pivot at bottom-center)
   const stageEl = el('div', {
     style: `
-      position: absolute; width: 70px; height: 70px;
-      display: flex; align-items: center; justify-content: center;
+      position: absolute; width: 70px; height: 140px;
+      display: flex; align-items: flex-end; justify-content: center;
       cursor: grab; z-index: 10;
       left: ${localX}px; top: ${localY}px;
-      margin-left: -35px; margin-top: -35px;
+      margin-left: -35px; margin-top: -140px;
     `,
     'data-instrument-id': inst.id,
   });
@@ -683,21 +683,9 @@ function applyPositionEffects(inst: InstrumentInstance): void {
   const scale = remap(pos.y, 0, 1, 1.0, 2.0);
 
   if (inst.stageElement) {
-    const size = 70 * scale;
-    inst.stageElement.style.width = `${size}px`;
-    inst.stageElement.style.height = `${size}px`;
-    inst.stageElement.style.marginLeft = `${-size / 2}px`;
-    inst.stageElement.style.marginTop = `${-size / 2}px`;
-    const img = inst.stageElement.querySelector('img') as HTMLElement;
-    if (img) {
-      img.style.width = `${size * 0.65}px`;
-      img.style.height = `${size * 0.65}px`;
-    }
-    const canvas = inst.stageElement.querySelector('canvas') as HTMLCanvasElement;
-    if (canvas) {
-      canvas.style.width = `${size}px`;
-      canvas.style.height = `${size}px`;
-    }
+    const s = clamp(scale, 0.5, 3.0);
+    inst.stageElement.style.transform = `scale(${s})`;
+    inst.stageElement.style.transformOrigin = 'center bottom';
   }
 }
 

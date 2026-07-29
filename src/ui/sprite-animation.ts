@@ -164,7 +164,7 @@ export class SpriteAnimation {
   }
 
   /**
-   * Draw a specific frame onto the canvas.
+   * Draw a specific frame onto the canvas with pivot at bottom-center.
    */
   private drawFrame(index: number): void {
     if (!this.image || this.frames.length === 0) return;
@@ -172,15 +172,12 @@ export class SpriteAnimation {
     const frame = this.frames[index];
     this.ctx.clearRect(0, 0, this._displayW, this._displayH);
 
-    // Scale frame to fit display size while preserving aspect ratio
-    const scale = Math.min(
-      this._displayW / frame.w,
-      this._displayH / frame.h
-    );
+    // Scale frame to fit display width, preserve aspect ratio
+    const scale = this._displayW / frame.w;
     const dw = frame.w * scale;
     const dh = frame.h * scale;
-    const dx = (this._displayW - dw) / 2;
-    const dy = (this._displayH - dh) / 2;
+    const dx = 0;
+    const dy = this._displayH - dh; // pivot at bottom
 
     this.ctx.drawImage(
       this.image,
