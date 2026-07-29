@@ -10,6 +10,7 @@ import { recordingStorage } from '@/recording/storage';
 import { loadPack } from '@/packs/pack-loader';
 import { remap, clamp } from '@/utils/math';
 import { SpriteAnimation } from '@/ui/sprite-animation';
+import { openEditor } from '@/scenes/music-editor';
 
 
 // ============================================================
@@ -129,12 +130,31 @@ async function showMainMenu(): Promise<void> {
   }
 
   menu.appendChild(packsContainer);
+
+  // Editor button
+  const editorBtn = el('button', { style: `
+    position: absolute; top: 16px; right: 16px;
+    background: rgba(255,255,255,0.2); border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 12px; color: white; padding: 10px 20px;
+    font-size: 16px; font-weight: bold; cursor: pointer;
+    font-family: inherit; backdrop-filter: blur(5px);
+    transition: background 0.2s;
+  ` }, '⚙️ Editor');
+  editorBtn.addEventListener('click', () => openEditorFromMenu());
+  editorBtn.addEventListener('pointerenter', () => { editorBtn.style.background = 'rgba(255,255,255,0.4)'; });
+  editorBtn.addEventListener('pointerleave', () => { editorBtn.style.background = 'rgba(255,255,255,0.2)'; });
+  menu.appendChild(editorBtn);
+
   app.appendChild(menu);
 }
 
 // ============================================================
 // STAGE
 // ============================================================
+
+function openEditorFromMenu(): void {
+  openEditor(() => showMainMenu());
+}
 
 async function startStage(pack: PackConfig): Promise<void> {
   try {
