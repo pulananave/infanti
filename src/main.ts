@@ -477,14 +477,14 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
     y: 1 - (localY - minY) / (maxY - minY),
   };
 
-  // Create stage representation (pivot at bottom, z-index by Y)
+  // Create stage representation (feet at drop point)
   const stageEl = el('div', {
     style: `
-      position: absolute; width: 70px;
+      position: absolute;
       display: flex; align-items: flex-end; justify-content: center;
       cursor: grab; z-index: ${Math.round(localY)};
       left: ${localX}px; top: ${localY}px;
-      margin-left: -35px; margin-top: -70px;
+      transform: translateX(-50%);
     `,
     'data-instrument-id': inst.id,
   });
@@ -677,7 +677,8 @@ function applyPositionEffects(inst: InstrumentInstance): void {
   const scale = remap(pos.y, 0, 1, 2.0, 1.0);
 
   if (inst.stageElement) {
-    inst.stageElement.style.transform = `scale(${scale})`;
+    // Scale from feet (bottom), keep feet at drop position
+    inst.stageElement.style.transform = `translateX(-50%) scale(${scale})`;
     inst.stageElement.style.transformOrigin = 'center bottom';
   }
 }
