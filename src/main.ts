@@ -20,6 +20,7 @@ interface InstrumentInstance {
   characterId: string;
   player: SamplePlayer;
   element: HTMLElement;
+  shelfBtn: HTMLElement | null;
   onStage: boolean;
   muted: boolean;
   stageElement: HTMLElement | null;
@@ -235,6 +236,7 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
       characterId: config.id,
       player,
       element: null as any,
+      shelfBtn: null,
       onStage: false,
       muted: false,
       stageElement: null,
@@ -317,10 +319,16 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
     instBtn.appendChild(img);
     instBtn.appendChild(el('span', { style: 'pointer-events: none; text-align: center; max-width: 55px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;' }, inst.config.name));
 
+    // Store shelf button reference
+    inst.shelfBtn = instBtn;
+
     // Drag start on pointerdown
     instBtn.addEventListener('pointerdown', (e) => {
       e.preventDefault();
       e.stopPropagation();
+
+      // Don't allow drag if already on stage
+      if (inst.onStage) return;
 
       // Create a floating copy for dragging
       const dragCopy = el('div', { style: `
@@ -450,6 +458,14 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   const barDuration = 240 / (currentPack?.bpm ?? 120);
   inst.player.playSynced(barDuration, inst.config.bars);
 
+  // Disable shelf button visually
+  if (inst.shelfBtn) {
+    inst.shelfBtn.style.opacity = '0.35';
+    inst.shelfBtn.style.filter = 'grayscale(1)';
+    inst.shelfBtn.style.cursor = 'not-allowed';
+    inst.shelfBtn.style.pointerEvents = 'none';
+  }
+
   instrumentsOnStage.push(inst);
   eventBus.emit(Events.INSTRUMENT_ADDED, inst);
 
@@ -470,6 +486,14 @@ function removeFromStage(inst: InstrumentInstance): void {
   if (inst.stageElement) {
     inst.stageElement.remove();
     inst.stageElement = null;
+  }
+
+  // Re-enable shelf button
+  if (inst.shelfBtn) {
+    inst.shelfBtn.style.opacity = '1';
+    inst.shelfBtn.style.filter = 'none';
+    inst.shelfBtn.style.cursor = 'grab';
+    inst.shelfBtn.style.pointerEvents = 'auto';
   }
 
   instrumentsOnStage = instrumentsOnStage.filter(i => i.id !== inst.id);
