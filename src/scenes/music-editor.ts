@@ -1,5 +1,6 @@
 import type { PackConfig, CharacterConfig, InstrumentConfig } from '@/core/types';
 import { openInstrumentEditor } from '@/scenes/instrument-preview';
+import { pushFiles, fileToBase64, getGithubToken, setGithubToken, initGithubFromUrl } from '@/core/github-api';
 
 /**
  * Music Editor — full CRUD for packs, characters, instruments.
@@ -258,6 +259,65 @@ async function savePackData(data: PackConfig): Promise<void> {
   if (!ids.includes(data.id)) {
     ids.push(data.id);
     localStorage.setItem(PACK_REGISTRY_KEY, JSON.stringify(ids));
+  }
+
+  // Push to GitHub
+  initGithubFromUrl();
+  const token = getGithubToken();
+  if (!token) {
+    // Ask for token
+    const input = prompt('Token GitHub para salvar no repositório:');
+    if (input) {
+      setGithubToken(input.trim());
+    } else {
+      alert('Salvo apenas localmente. Configure o token para salvar no GitHub.');
+      return;
+    }
+  }
+
+  try {
+    const files: Array<{ path: string; content: string; binary?: boolean }> = [];
+
+    // Pack JSON
+    const cleanData = { ...data };
+    delete (cleanData as any)._files;
+    files.push({
+      path: `public/packs/${data.id}.json`,
+      content: JSON.stringify(cleanData, null, 2),
+    });
+
+    // Collect files from instrument previews
+    for (const char of data.characters) {
+      for (const inst of char.instruments) {
+        if ((inst as any)._files) {
+          for (const [key, file] of Object.entries((inst as any)._files as Record<string, File>)) {
+            const base64 = await fileToBase64(file);
+            // Determine path based on file type
+            let filePath = '';
+            if (key === 'audio') {
+              filePath = `public/assets/sounds/music_packs/${data.id}/${file.name}`;
+            } else if (key === 'icon') {
+              filePath = `public/assets/images/instrument_icons/${file.name}`;
+            } else if (key === 'sprite') {
+              filePath = `public/assets/images/characters/${char.id}/${file.name}`;
+            }
+            if (filePath) {
+              files.push({ path: filePath, content: base64, binary: true });
+            }
+          }
+        }
+      }
+    }
+
+    const commitSha = await pushFiles(
+      `feat: update pack "${data.name}" via editor\n\nUpdated ${files.length} file(s) from the music editor.`,
+      files
+    );
+
+    alert(`✅ Salvo no GitHub! Commit: ${commitSha.substring(0, 7)}\nDeploy automático em andamento no Vercel.`);
+  } catch (e: any) {
+    console.error('GitHub push failed:', e);
+    alert(`⚠️ Salvo localmente, mas falhou ao enviar pro GitHub: ${e.message}`);
   }
 }
 
