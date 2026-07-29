@@ -671,16 +671,16 @@ function toggleMute(inst: InstrumentInstance): void {
 function applyPositionEffects(inst: InstrumentInstance): void {
   const pos = inst.normalizedPosition;
 
-  // Volume: bottom (pos.y=1) = 100% (0dB), top (pos.y=0) = 20% (-14dB)
-  const volumeDb = remap(pos.y, 0, 1, -14, 0);
+  // Volume: top (pos.y=0) = 100% (0dB), bottom (pos.y=1) = 20% (-14dB)
+  const volumeDb = remap(pos.y, 0, 1, 0, -14);
   inst.player.setVolume(inst.muted ? -80 : volumeDb);
 
   // Pan: left side = -1, center = 0, right side = +1
   const pan = remap(pos.x, 0, 1, -1, 1);
   inst.player.setPan(inst.muted ? 0 : pan);
 
-  // Scale: bottom of zone (pos.y=1) = 2x, top of zone (pos.y=0) = 1x
-  const scale = remap(pos.y, 0, 1, 1.0, 2.0);
+  // Scale: top (pos.y=0) = 2x, bottom (pos.y=1) = 1x
+  const scale = remap(pos.y, 0, 1, 2.0, 1.0);
 
   if (inst.stageElement) {
     const s = clamp(scale, 0.5, 3.0);
