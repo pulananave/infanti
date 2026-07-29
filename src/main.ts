@@ -150,14 +150,18 @@ async function startStage(pack: PackConfig): Promise<void> {
 
   const stageLayout = el('div', { style: `
     display: flex; flex-direction: column;
-    width: 100%; height: 100%; background: #e6e6e6;
+    width: 100%; height: 100%; background: #e8e8e8;
     font-family: 'Nunito', sans-serif;
   `});
 
-  // Stage area (top, fills remaining space)
+  // Stage area fills remaining space, with sidebar on the right
+  const stageRow = el('div', { style: `
+    display: flex; flex-direction: row; flex: 1; min-height: 0;
+  `});
+
   const stageArea = el('div', { class: 'stage-area', style: `
     flex: 1; position: relative; overflow: hidden;
-    background: linear-gradient(180deg, #f0f0f0 0%, #ddd 100%);
+    background: #e8e8e8;
   `});
 
   // Make stage a drop target
@@ -172,15 +176,16 @@ async function startStage(pack: PackConfig): Promise<void> {
   };
   dragSystem.registerDropTarget(stageTarget);
 
-  // Control buttons (top-right of stage, stays in place)
-  const controls = createControlButtons(pack, stageArea);
-  stageArea.appendChild(controls);
+  // Sidebar (right) — vertical colored blocks
+  const sidebar = createSidebar(pack);
+  stageRow.appendChild(stageArea);
+  stageRow.appendChild(sidebar);
 
-  // Character shelf (bottom)
+  // Character shelf (bottom) — square colored buttons
   const shelf = el('div', { style: `
     display: flex; flex-direction: row; align-items: center; justify-content: center;
-    background: #c0c0c0; padding: 8px 16px; gap: 16px;
-    border-top: 2px solid #aaa; min-height: 100px; flex-shrink: 0;
+    background: #d8d8d8; padding: 6px 10px; gap: 6px;
+    min-height: 80px; flex-shrink: 0;
     overflow-x: auto; position: relative; z-index: 200;
   `});
 
@@ -194,10 +199,10 @@ async function startStage(pack: PackConfig): Promise<void> {
     }
   }
 
-  // Timeline bar (top)
+  // Timeline bar (top) — teal capsule
   const timeline = createTimeline();
   stageLayout.appendChild(timeline);
-  stageLayout.appendChild(stageArea);
+  stageLayout.appendChild(stageRow);
   stageLayout.appendChild(shelf);
   app.appendChild(stageLayout);
 
@@ -271,29 +276,39 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
     allInstruments.set(inst.id, inst);
   }
 
-  // Character button with monster icon
+  // Character button — square with colored background, monster icon
   const charBtn = el('div', { style: `
-    width: 80px; height: 80px; border-radius: 50%;
-    background: #475af3; color: white;
+    width: 60px; height: 60px; border-radius: 8px;
+    background: #888; color: white;
     display: flex; align-items: center; justify-content: center;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(71,90,243,0.4);
-    transition: transform 0.2s;
-    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    transition: transform 0.15s, box-shadow 0.15s;
+    overflow: hidden; flex-shrink: 0;
   ` });
 
   const charImg = el('img', {
     src: config.icon,
-    style: 'width: 70px; height: 70px; object-fit: contain; pointer-events: none;',
+    style: 'width: 52px; height: 52px; object-fit: contain; pointer-events: none;',
     draggable: 'false',
   });
   charImg.onerror = () => {
     charImg.style.display = 'none';
     charBtn.textContent = config.id.charAt(0).toUpperCase();
-    charBtn.style.fontSize = '24px';
+    charBtn.style.fontSize = '20px';
     charBtn.style.fontWeight = 'bold';
   };
   charBtn.appendChild(charImg);
+
+  // Hover effect
+  charBtn.addEventListener('pointerenter', () => {
+    charBtn.style.transform = 'scale(1.08)';
+    charBtn.style.boxShadow = '0 4px 12px rgba(0,0,0,0.35)';
+  });
+  charBtn.addEventListener('pointerleave', () => {
+    charBtn.style.transform = 'scale(1)';
+    charBtn.style.boxShadow = '0 2px 6px rgba(0,0,0,0.25)';
+  });
 
   const instrumentBox = el('div', { style: `
     display: none; position: fixed; z-index: 9000;
@@ -572,26 +587,31 @@ function applyPositionEffects(inst: InstrumentInstance): void {
 
 function createTimeline(): HTMLElement {
   const container = el('div', { style: `
-    height: 40px; background: rgba(0,0,0,0.08);
-    display: flex; align-items: center; padding: 0 15px; gap: 10px;
-    flex-shrink: 0; border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 8px 12px 4px 12px; background: #e8e8e8;
+    display: flex; flex-direction: column; gap: 4px;
+    flex-shrink: 0;
   `});
 
-  const timeLabel = el('span', { style: 'font-size: 14px; color: #666; min-width: 60px; font-variant-numeric: tabular-nums;' }, '0:00');
-
   const barContainer = el('div', { style: `
-    flex: 1; height: 20px; background: rgba(0,0,0,0.1); border-radius: 10px;
+    width: 100%; height: 18px; background: #80c4b8;
+    border-radius: 9px; border: 3px solid #3d2b5a;
     overflow: hidden; cursor: pointer; position: relative;
   `});
 
   const fill = el('div', { style: `
-    height: 100%; background: #475af3; border-radius: 10px;
+    height: 100%; background: #5a9e92; border-radius: 6px;
     width: 0%; transition: none;
   `});
   barContainer.appendChild(fill);
 
-  container.appendChild(timeLabel);
+  const timeLabel = el('span', { style: `
+    font-size: 12px; color: #3d8b7a; min-width: 50px;
+    font-variant-numeric: tabular-nums; text-align: right;
+    align-self: flex-end;
+  `}, '0:00');
+
   container.appendChild(barContainer);
+  container.appendChild(timeLabel);
 
   // Seek on click/drag
   let seeking = false;
@@ -625,53 +645,60 @@ function createTimeline(): HTMLElement {
 }
 
 // ============================================================
-// CONTROL BUTTONS
+// SIDEBAR (right) — vertical colored blocks
 // ============================================================
 
-function createControlButtons(pack: PackConfig, stageArea: HTMLElement): HTMLElement {
+function createSidebar(pack: PackConfig): HTMLElement {
   const container = el('div', { style: `
-    position: absolute; top: 10px; right: 10px;
-    display: flex; gap: 10px; z-index: 50;
+    width: 56px; display: flex; flex-direction: column;
+    flex-shrink: 0; gap: 0;
   `});
 
-  // Home button
-  const homeBtn = createButton('🏠', () => {
+  // Home — teal
+  const homeBtn = createSidebarBtn('#4db6ac', '🏠', () => {
     musicEngine.stop();
     clearStage();
     showMainMenu();
   });
 
-  // Record button
-  const recBtn = createButton('🔴', () => {
+  // Record — pink
+  const recBtn = createSidebarBtn('#e57399', '⏺', () => {
     if (gameState.current === GameState.RECORDING) {
       stopRecording();
     } else if (gameState.current === GameState.FREE) {
       startRecording();
     }
   });
-  recBtn.style.background = '#ff4444';
 
-  // Clear button
-  const clearBtn = createButton('🗑️', () => {
+  // Library — purple
+  const libBtn = createSidebarBtn('#b39ddb', '📂', () => {
+    // TODO: open recordings library
+  });
+
+  // Reset — yellow
+  const resetBtn = createSidebarBtn('#ffd54f', '🔄', () => {
     clearStage();
   });
 
   container.appendChild(homeBtn);
   container.appendChild(recBtn);
-  container.appendChild(clearBtn);
+  container.appendChild(libBtn);
+  container.appendChild(resetBtn);
 
   return container;
 }
 
-function createButton(emoji: string, onClick: () => void): HTMLElement {
+function createSidebarBtn(color: string, icon: string, onClick: () => void): HTMLElement {
   const btn = el('button', { style: `
-    width: 50px; height: 50px; border-radius: 50%;
-    border: none; background: rgba(0,0,0,0.2);
-    font-size: 24px; cursor: pointer;
+    width: 56px; height: 56px; border: none;
+    background: ${color}; cursor: pointer;
     display: flex; align-items: center; justify-content: center;
-    transition: background 0.2s;
-  ` }, emoji);
+    font-size: 22px; color: white;
+    transition: opacity 0.2s;
+  ` }, icon);
   btn.addEventListener('click', onClick);
+  btn.addEventListener('pointerenter', () => { btn.style.opacity = '0.8'; });
+  btn.addEventListener('pointerleave', () => { btn.style.opacity = '1'; });
   return btn;
 }
 
