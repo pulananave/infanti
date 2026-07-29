@@ -464,7 +464,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
 
   const rect = stageArea.getBoundingClientRect();
   const minY = rect.height * 0.55; // 45% from bottom
-  const maxY = rect.height * 0.90; // 10% from bottom
+  const maxY = rect.height * 0.80; // 20% from bottom
   const localX = clamp(globalX - rect.left, 0, rect.width);
   const localY = clamp(globalY - rect.top, minY, maxY);
 
@@ -479,13 +479,11 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   // Create stage representation (positioned with left/top as center point)
   const stageEl = el('div', {
     style: `
-      position: absolute; width: 70px; height: 70px; border-radius: 50%;
-      background: white; box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+      position: absolute; width: 70px; height: 70px;
       display: flex; align-items: center; justify-content: center;
       cursor: grab; z-index: 10;
       left: ${localX}px; top: ${localY}px;
       margin-left: -35px; margin-top: -35px;
-      transition: box-shadow 0.2s; overflow: hidden;
     `,
     'data-instrument-id': inst.id,
   });
@@ -551,7 +549,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
     const onMove = (ev: PointerEvent) => {
       const r = stageArea.getBoundingClientRect();
       const minY = r.height * 0.55; // 45% from bottom
-      const maxY = r.height * 0.90; // 10% from bottom
+      const maxY = r.height * 0.80; // 20% from bottom
       const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
       const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
       stageEl.style.left = `${x}px`;
