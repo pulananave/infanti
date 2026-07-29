@@ -438,12 +438,11 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
       instrumentBox.style.display = 'none';
       charInstance.instrumentsVisible = false;
     } else {
-      // Position box above character (fixed positioning)
+      // Position box above character (attached to body to avoid stacking context)
+      document.body.appendChild(instrumentBox);
       const rect = charBtn.getBoundingClientRect();
       instrumentBox.style.display = 'flex';
       instrumentBox.style.left = `${rect.left + rect.width / 2}px`;
-      instrumentBox.style.bottom = '';
-      instrumentBox.style.transform = 'translateX(-50%)';
       instrumentBox.style.top = `${rect.top - 10}px`;
       instrumentBox.style.transform = 'translate(-50%, -100%)';
       charInstance.instrumentsVisible = true;
