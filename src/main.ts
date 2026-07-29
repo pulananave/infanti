@@ -538,6 +538,10 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
     if (now - lastClickTime < 350) {
       toggleMute(inst);
       stageEl.style.opacity = inst.muted ? '0.5' : '1';
+      if (inst.spriteAnim) {
+        if (inst.muted) inst.spriteAnim.stop();
+        else inst.spriteAnim.play();
+      }
       lastClickTime = 0;
       return;
     }
