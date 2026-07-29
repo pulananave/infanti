@@ -162,7 +162,8 @@ async function startStage(pack: PackConfig): Promise<void> {
 
   const stageArea = el('div', { class: 'stage-area', style: `
     flex: 1; position: relative; overflow: hidden;
-    background: #e8e8e8;
+    background: url('assets/images/stage-bg.jpg') center/cover no-repeat;
+    background-color: #e8e8e8;
   `});
 
   // Close all open instrument boxes when clicking on stage
