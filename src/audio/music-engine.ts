@@ -29,8 +29,9 @@ export class MusicEngine {
   }
 
   async init(): Promise<void> {
-    if (this.ctx) return;
-    this.ctx = new AudioContext();
+    if (!this.ctx) {
+      this.ctx = new AudioContext();
+    }
     if (this.ctx.state === 'suspended') {
       await this.ctx.resume();
     }

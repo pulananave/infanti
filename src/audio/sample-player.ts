@@ -8,12 +8,23 @@ export async function loadAudio(url: string): Promise<AudioBuffer> {
     return audioBufferCache.get(url)!;
   }
 
-  const ctx = musicEngine.getContext();
   const response = await fetch(url);
   const arrayBuffer = await response.arrayBuffer();
-  const audioBuffer = await ctx.decodeAudioData(arrayBuffer);
-  audioBufferCache.set(url, audioBuffer);
-  return audioBuffer;
+
+  // Try decoding with a fresh OfflineAudioContext, retry once on failure
+  let audioBuffer: AudioBuffer | null = null;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const ctx = new OfflineAudioContext(1, 1, 44100);
+      audioBuffer = await ctx.decodeAudioData(arrayBuffer.slice(0));
+      break;
+    } catch (e) {
+      if (attempt === 1) throw e;
+    }
+  }
+
+  audioBufferCache.set(url, audioBuffer!);
+  return audioBuffer!;
 }
 
 export class SamplePlayer {
@@ -93,6 +104,11 @@ export class SamplePlayer {
     if (!this._buffer) return;
 
     const ctx = musicEngine.getContext();
+    // Resume context if suspended (mobile browsers)
+    if (ctx.state === 'suspended') {
+      ctx.resume();
+    }
+
     const source = ctx.createBufferSource();
     source.buffer = this._buffer;
     source.loop = false;
