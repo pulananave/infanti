@@ -2,6 +2,7 @@ export interface InstrumentConfig {
   type: string;
   name: string;
   icon: string;
+  sprite?: string; // path to .tpsheet for animation on stage
   audio: string;
   bars: number;
   minVolumeDb: number;

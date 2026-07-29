@@ -9,6 +9,7 @@ import type { Recording, StateSnapshot, InstrumentState } from '@/recording/reco
 import { recordingStorage } from '@/recording/storage';
 import { loadPack } from '@/packs/pack-loader';
 import { remap, clamp } from '@/utils/math';
+import { SpriteAnimation } from '@/ui/sprite-animation';
 
 // ============================================================
 // APP STATE
@@ -24,6 +25,7 @@ interface InstrumentInstance {
   onStage: boolean;
   muted: boolean;
   stageElement: HTMLElement | null;
+  spriteAnim: SpriteAnimation | null;
   normalizedPosition: { x: number; y: number };
   stageX: number;
   stageY: number;
@@ -273,6 +275,7 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
       onStage: false,
       muted: false,
       stageElement: null,
+      spriteAnim: null,
       normalizedPosition: { x: 0.5, y: 0.5 },
       stageX: 0,
       stageY: 0,
@@ -480,18 +483,39 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
       cursor: grab; z-index: 10;
       left: ${localX}px; top: ${localY}px;
       margin-left: -35px; margin-top: -35px;
-      transition: box-shadow 0.2s;
+      transition: box-shadow 0.2s; overflow: hidden;
     `,
     'data-instrument-id': inst.id,
   });
 
-  const img = el('img', {
-    src: inst.config.icon,
-    style: 'width: 45px; height: 45px; object-fit: contain; pointer-events: none;',
-    draggable: 'false',
-  });
-  img.onerror = () => { img.style.display = 'none'; };
-  stageEl.appendChild(img);
+  // Use sprite animation if available, otherwise static icon
+  if (inst.config.sprite) {
+    const anim = new SpriteAnimation(70, 70);
+    anim.load(inst.config.sprite).then(() => {
+      const bpm = currentPack?.bpm ?? 120;
+      const beats = Math.max(inst.config.bars, 2);
+      anim.setBpm(bpm, beats);
+      anim.play();
+    }).catch(() => {
+      // Fallback to static icon
+      const fallbackImg = el('img', {
+        src: inst.config.icon,
+        style: 'width: 45px; height: 45px; object-fit: contain; pointer-events: none;',
+        draggable: 'false',
+      });
+      stageEl.appendChild(fallbackImg);
+    });
+    stageEl.appendChild(anim.canvas);
+    inst.spriteAnim = anim;
+  } else {
+    const img = el('img', {
+      src: inst.config.icon,
+      style: 'width: 45px; height: 45px; object-fit: contain; pointer-events: none;',
+      draggable: 'false',
+    });
+    img.onerror = () => { img.style.display = 'none'; };
+    stageEl.appendChild(img);
+  }
 
   // Mute button (visible, click to toggle)
   const muteBtn = el('div', {
@@ -599,6 +623,11 @@ function removeFromStage(inst: InstrumentInstance): void {
   inst.onStage = false;
   inst.player.stop();
 
+  if (inst.spriteAnim) {
+    inst.spriteAnim.stop();
+    inst.spriteAnim = null;
+  }
+
   if (inst.stageElement) {
     inst.stageElement.remove();
     inst.stageElement = null;
@@ -678,6 +707,11 @@ function applyPositionEffects(inst: InstrumentInstance): void {
     if (img) {
       img.style.width = `${size * 0.65}px`;
       img.style.height = `${size * 0.65}px`;
+    }
+    const canvas = inst.stageElement.querySelector('canvas') as HTMLCanvasElement;
+    if (canvas) {
+      canvas.style.width = `${size}px`;
+      canvas.style.height = `${size}px`;
     }
   }
 }

@@ -20,7 +20,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Boogar/boogar_pratos.tpsheet"
         },
         {
           "type": "trombone",
@@ -30,7 +31,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Boogar/boogar_trombone.tpsheet"
         },
         {
           "type": "sanfona",
@@ -40,7 +42,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Boogar/boogar_sanfona.tpsheet"
         },
         {
           "type": "synth-bass",
@@ -98,7 +101,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ceval/ceval_bateria_pop.tpsheet"
         },
         {
           "type": "bateria-rock",
@@ -108,7 +112,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ceval/ceval_bateria_rock.tpsheet"
         }
       ]
     },
@@ -126,7 +131,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Dan/dan_violao.tpsheet"
         },
         {
           "type": "perc-loop",
@@ -146,7 +152,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Dan/dan_caixa.tpsheet"
         }
       ]
     },
@@ -164,7 +171,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Esper/esper_agogo.tpsheet"
         },
         {
           "type": "trompete",
@@ -174,7 +182,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Esper/esper_trompete.tpsheet"
         },
         {
           "type": "rhodes",
@@ -184,7 +193,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Esper/esper_rhodes.tpsheet"
         },
         {
           "type": "sarah---cantora",
@@ -212,7 +222,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Gobu/gobu_synth.tpsheet"
         },
         {
           "type": "baixo-rock",
@@ -222,7 +233,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Gobu/gobu_baixo_rock.tpsheet"
         }
       ]
     },
@@ -240,7 +252,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Grompy/grompy_guitarra_base.tpsheet"
         }
       ]
     },
@@ -258,7 +271,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ohle/ohle_picolo.tpsheet"
         },
         {
           "type": "tuba",
@@ -268,7 +282,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ohle/ohle_tuba.tpsheet"
         },
         {
           "type": "violino",
@@ -278,7 +293,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ohle/ohle_violino.tpsheet"
         },
         {
           "type": "picolo-2",
@@ -288,7 +304,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ohle/ohle_picolo.tpsheet"
         },
         {
           "type": "guitarra-rock",
@@ -298,7 +315,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ohle/ohle_guitarra_rock.tpsheet"
         },
         {
           "type": "pedro---cantor",
@@ -326,7 +344,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Rafog/rafog_milkyman.tpsheet"
         },
         {
           "type": "synth-arp",
@@ -346,7 +365,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Rafog/rafog_bombo.tpsheet"
         }
       ]
     },
@@ -364,7 +384,8 @@
           "bars": 4,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Teewong/teewong_shaker.tpsheet"
         },
         {
           "type": "marimba",
@@ -374,7 +395,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Teewong/teewong_marimba.tpsheet"
         },
         {
           "type": "rhodes",
@@ -384,7 +406,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Teewong/teewong_rhodes.tpsheet"
         },
         {
           "type": "orgao",
@@ -394,7 +417,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Teewong/teewong_orgao.tpsheet"
         },
         {
           "type": "rodrigo-loli---cantor",
@@ -422,7 +446,8 @@
           "bars": 2,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Zoem/zoem_pandeirola.tpsheet"
         },
         {
           "type": "vitor---cantor",

@@ -30,7 +30,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Boogar/boogar_trombone.tpsheet"
         },
         {
           "type": "sanfona",
@@ -40,7 +41,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Boogar/boogar_sanfona.tpsheet"
         },
         {
           "type": "synth-bass",
@@ -68,7 +70,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ceval/ceval_bateria_pop.tpsheet"
         },
         {
           "type": "bateria-rock",
@@ -78,7 +81,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ceval/ceval_bateria_rock.tpsheet"
         },
         {
           "type": "marimba",
@@ -88,7 +92,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ceval/ceval_bateria_marimba.tpsheet"
         }
       ]
     },
@@ -106,7 +111,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Dan/dan_baixo_rock.tpsheet"
         },
         {
           "type": "baixo-acustico",
@@ -116,7 +122,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Dan/dan_baixo_acustico.tpsheet"
         }
       ]
     },
@@ -154,7 +161,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Esper/esper_trompete.tpsheet"
         }
       ]
     },
@@ -172,7 +180,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Gobu/gobu_tuba.tpsheet"
         },
         {
           "type": "picolo",
@@ -182,7 +191,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Gobu/gobu_picolo.tpsheet"
         },
         {
           "type": "baixo-rock",
@@ -192,7 +202,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Gobu/gobu_baixo_rock.tpsheet"
         }
       ]
     },
@@ -210,7 +221,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Grompy/grompy_guitarra_base.tpsheet"
         }
       ]
     },
@@ -238,7 +250,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ohle/ohle_guitarra_frase.tpsheet"
         },
         {
           "type": "guitarra-rock",
@@ -248,7 +261,8 @@
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ohle/ohle_guitarra_rock.tpsheet"
         },
         {
           "type": "picolo-2",
@@ -258,7 +272,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Ohle/ohle_picolo.tpsheet"
         }
       ]
     },
@@ -276,7 +291,8 @@
           "bars": 1,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Rafog/rafog_bombo.tpsheet"
         },
         {
           "type": "caixa",
@@ -286,7 +302,8 @@
           "bars": 1,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Rafog/rafog_caixa.tpsheet"
         },
         {
           "type": "conga",
@@ -296,7 +313,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Rafog/rafog_conga.tpsheet"
         },
         {
           "type": "violao",
@@ -306,7 +324,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Rafog/rafog_violao.tpsheet"
         },
         {
           "type": "violino",
@@ -316,7 +335,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Rafog/rafog_violino.tpsheet"
         }
       ]
     },
@@ -344,7 +364,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Teewong/teewong_rhodes.tpsheet"
         },
         {
           "type": "marimba",
@@ -354,7 +375,8 @@
           "bars": 10,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Teewong/teewong_marimba.tpsheet"
         }
       ]
     },
@@ -372,7 +394,8 @@
           "bars": 2,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
-          "useLimit": 0
+          "useLimit": 0,
+          "sprite": "assets/images/characters/Zoem/zoem_shaker.tpsheet"
         },
         {
           "type": "vitor---cantor",
