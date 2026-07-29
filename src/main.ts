@@ -463,7 +463,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   if (!stageArea) return;
 
   const rect = stageArea.getBoundingClientRect();
-  const minY = rect.height * 0.55; // 45% from bottom
+  const minY = rect.height * 0.60; // 45% from bottom
   const maxY = rect.height * 0.80; // 20% from bottom
   const localX = clamp(globalX - rect.left, 0, rect.width);
   const localY = clamp(globalY - rect.top, minY, maxY);
@@ -548,7 +548,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
 
     const onMove = (ev: PointerEvent) => {
       const r = stageArea.getBoundingClientRect();
-      const minY = r.height * 0.55; // 45% from bottom
+      const minY = r.height * 0.60; // 45% from bottom
       const maxY = r.height * 0.80; // 20% from bottom
       const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
       const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
@@ -565,7 +565,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
       document.removeEventListener('pointerup', onUp);
 
       const r = stageArea.getBoundingClientRect();
-      const minY = r.height * 0.55;
+      const minY = r.height * 0.60;
       const maxY = r.height * 0.90;
       const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
       const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
