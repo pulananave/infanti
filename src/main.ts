@@ -448,8 +448,9 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   // Apply position effects (volume, pan, scale)
   applyPositionEffects(inst);
 
-  // Start playing synced to current music progress
-  inst.player.playSynced(musicEngine.time);
+  // Start playing synced to bar boundaries
+  const barDuration = 240 / (currentPack?.bpm ?? 120);
+  inst.player.playSynced(barDuration, inst.config.bars);
 
   instrumentsOnStage.push(inst);
   eventBus.emit(Events.INSTRUMENT_ADDED, inst);
@@ -851,17 +852,8 @@ function setupPointerEvents(stageArea: HTMLElement): void {
 }
 
 // ============================================================
-// MUSIC SYNC
+// MUSIC SYNC — handled per-instrument by SamplePlayer.playSynced()
 // ============================================================
-
-eventBus.on(Events.MUSIC_BAR, (barNumber: number) => {
-  // Ensure all stage instruments are playing in sync
-  for (const inst of instrumentsOnStage) {
-    if (!inst.muted && !inst.player.isPlaying) {
-      inst.player.play();
-    }
-  }
-});
 
 // ============================================================
 // INIT

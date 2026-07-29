@@ -1,4 +1,5 @@
 import { musicEngine } from './music-engine';
+import { eventBus, Events } from '@/core/event-bus';
 
 const audioBufferCache: Map<string, AudioBuffer> = new Map();
 
@@ -16,14 +17,16 @@ export async function loadAudio(url: string): Promise<AudioBuffer> {
 }
 
 export class SamplePlayer {
-  private source: AudioBufferSourceNode | null = null;
+  private sources: AudioBufferSourceNode[] = [];
   private gainNode: GainNode;
   private panNode: StereoPannerNode;
   private _buffer: AudioBuffer | null = null;
   private _isPlaying: boolean = false;
   private _volume: number = 1.0;
-  private _pan: number = 0; // -1 (left) to 1 (right)
+  private _pan: number = 0;
   private _muted: boolean = false;
+  private _bars: number = 1; // how many bars this sample covers
+  private _onBarHandler: ((barNumber: number) => void) | null = null;
 
   constructor() {
     const ctx = musicEngine.getContext();
@@ -42,53 +45,81 @@ export class SamplePlayer {
   }
 
   /**
-   * Play the sample synced to the current music progress.
-   * The sample loops to fill the total music duration.
-   * offset = where in the music we are (in seconds).
+   * Start playing synced to the music.
+   * The sample triggers on bar boundaries: bar % instrumentBars === 0
+   * On first call, plays immediately at the correct offset within the buffer.
    */
-  playSynced(musicOffset: number): void {
+  playSynced(musicBarDuration: number, instrumentBars: number): void {
     if (!this._buffer) return;
     this.stop();
 
-    const ctx = musicEngine.getContext();
-    const bufferDuration = this._buffer.duration;
+    this._bars = instrumentBars;
 
-    // Where within the looped sample we should start
-    // If the buffer is 4s and music is at 10s, we start at 10 % 4 = 2s into the buffer
-    const offsetInBuffer = bufferDuration > 0
-      ? musicOffset % bufferDuration
-      : 0;
+    const musicTime = musicEngine.time;
+    const currentBarFloat = musicTime / musicBarDuration;
+    const currentBar = Math.floor(currentBarFloat);
 
-    this.source = ctx.createBufferSource();
-    this.source.buffer = this._buffer;
-    this.source.loop = true;
-    this.source.connect(this.panNode);
-    this.source.start(0, offsetInBuffer);
+    // Which trigger cycle are we in?
+    const cycleLength = instrumentBars * musicBarDuration; // duration in seconds of one cycle
+    const timeIntoCycle = musicTime % cycleLength;
+
+    // Play the sample at the correct offset
+    this._playBuffer(timeIntoCycle);
+
+    // Listen for future bar events to re-trigger
+    this._onBarHandler = (barNumber: number) => {
+      if (barNumber % instrumentBars === 0) {
+        this._playBuffer(0);
+      }
+    };
+    eventBus.on(Events.MUSIC_BAR, this._onBarHandler);
+  }
+
+  /**
+   * Play immediately (no sync). Used for instant feedback.
+   */
+  play(): void {
+    if (!this._buffer) return;
+    this.stop();
+    this._playBuffer(0);
     this._isPlaying = true;
   }
 
   /**
-   * Play without syncing (for immediate effects).
+   * Internal: stop any current source and play buffer at offset.
    */
-  play(offset: number = 0): void {
+  private _playBuffer(offset: number): void {
     if (!this._buffer) return;
-    this.stop();
+
+    // Stop previous sources
+    for (const src of this.sources) {
+      try { src.stop(); } catch {}
+      src.disconnect();
+    }
+    this.sources = [];
 
     const ctx = musicEngine.getContext();
-    this.source = ctx.createBufferSource();
-    this.source.buffer = this._buffer;
-    this.source.loop = true;
-    this.source.connect(this.panNode);
-    this.source.start(0, offset);
+    const source = ctx.createBufferSource();
+    source.buffer = this._buffer;
+    source.loop = false; // NEVER loop — we trigger programmatically
+    source.connect(this.panNode);
+    source.start(0, offset);
+    this.sources.push(source);
     this._isPlaying = true;
   }
 
   stop(): void {
-    if (this.source) {
-      try { this.source.stop(); } catch {}
-      this.source.disconnect();
-      this.source = null;
+    for (const src of this.sources) {
+      try { src.stop(); } catch {}
+      src.disconnect();
     }
+    this.sources = [];
+
+    if (this._onBarHandler) {
+      eventBus.off(Events.MUSIC_BAR, this._onBarHandler);
+      this._onBarHandler = null;
+    }
+
     this._isPlaying = false;
   }
 
@@ -112,11 +143,8 @@ export class SamplePlayer {
     return this._muted;
   }
 
-  /**
-   * Set stereo pan: -1 = full left, 0 = center, 1 = full right
-   */
   setPan(pan: number): void {
-    this._pan = clamp(pan, -1, 1);
+    this._pan = Math.max(-1, Math.min(1, pan));
     this.panNode.pan.value = this._pan;
   }
 
@@ -124,15 +152,7 @@ export class SamplePlayer {
     return this._pan;
   }
 
-  getOutputNode(): GainNode {
-    return this.gainNode;
-  }
-
   getBuffer(): AudioBuffer | null {
     return this._buffer;
   }
-}
-
-function clamp(v: number, min: number, max: number): number {
-  return Math.max(min, Math.min(max, v));
 }
