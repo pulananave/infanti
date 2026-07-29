@@ -165,6 +165,16 @@ async function startStage(pack: PackConfig): Promise<void> {
     background: #e8e8e8;
   `});
 
+  // Close all open instrument boxes when clicking on stage
+  stageArea.addEventListener('pointerdown', () => {
+    for (const c of characters) {
+      if (c.instrumentsVisible) {
+        c.instrumentBox.style.display = 'none';
+        c.instrumentsVisible = false;
+      }
+    }
+  });
+
   // Make stage a drop target
   const stageTarget = {
     acceptsDrop: (drag: any) => true,
@@ -380,6 +390,14 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
   // Toggle instrument box
   charBtn.addEventListener('click', () => {
     if (gameState.current === GameState.PLAYING) return;
+
+    // Close all other open instrument boxes
+    for (const c of characters) {
+      if (c !== charInstance && c.instrumentsVisible) {
+        c.instrumentBox.style.display = 'none';
+        c.instrumentsVisible = false;
+      }
+    }
 
     if (charInstance.instrumentsVisible) {
       instrumentBox.style.display = 'none';
