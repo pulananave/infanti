@@ -11,6 +11,20 @@ import { loadPack } from '@/packs/pack-loader';
 import { remap, clamp } from '@/utils/math';
 import { SpriteAnimation } from '@/ui/sprite-animation';
 
+// Per-character animation scale multiplier
+const CHAR_SCALES: Record<string, number> = {
+  boogar: 2.0,
+  dan: 2.0,
+  grompy: 1.0,
+  ohle: 1.0,
+  zoem: 0.7,
+  rafog: 2.0,
+  gobu: 1.0,
+  esper: 1.5,
+  teewong: 1.2,
+  ceval: 1.2,
+};
+
 // ============================================================
 // APP STATE
 // ============================================================
@@ -490,9 +504,11 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
 
   // Use sprite animation if available, otherwise static icon
   if (inst.config.sprite) {
-    const anim = new SpriteAnimation(70, 200);
+    const anim = new SpriteAnimation();
     anim.load(inst.config.sprite).then(() => {
-      anim.setFps(12); // Animations were made at 12fps
+      const charScale = CHAR_SCALES[inst.characterId] ?? 1.0;
+      anim.setScale(charScale);
+      anim.setFps(12);
       anim.play();
     }).catch(() => {
       // Fallback to static icon

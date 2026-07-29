@@ -1,12 +1,8 @@
 /**
- * SpriteAnimation — renders TexturePacker spritesheets with BPM-synced animation.
+ * SpriteAnimation — renders TexturePacker spritesheets with fixed frame dimensions.
  *
- * Usage:
- *   const anim = new SpriteAnimation();
- *   await anim.load('assets/images/characters/Rafog/rafog_bombo.tpsheet');
- *   anim.setBpm(114, 2); // bpm, beats per animation cycle
- *   container.appendChild(anim.canvas);
- *   anim.play();
+ * All frames are rendered at a single fixed size (based on the largest frame),
+ * preventing distortion between frames of different dimensions.
  */
 
 interface SpriteFrame {
@@ -40,17 +36,14 @@ export class SpriteAnimation {
   private _rafId: number = 0;
   private _lastFrameTime: number = 0;
   private _frameInterval: number = 1000 / 12;
-  private _displayW: number = 70;
-  private _displayH: number = 70;
+  // Fixed render dimensions (based on largest frame in the sheet)
+  private _fixedW: number = 0;
+  private _fixedH: number = 0;
+  // Display scale multiplier (per-character)
+  private _scale: number = 1.0;
 
-  constructor(width: number = 70, height: number = 70) {
-    this._displayW = width;
-    this._displayH = height;
-    this._fps = 12;
-    this._frameInterval = 1000 / 12;
+  constructor() {
     this.canvas = document.createElement('canvas');
-    this.canvas.width = width;
-    this.canvas.height = height;
     this.canvas.style.pointerEvents = 'none';
     this.canvas.style.display = 'block';
     this.ctx = this.canvas.getContext('2d')!;
@@ -58,7 +51,6 @@ export class SpriteAnimation {
 
   /**
    * Load a .tpsheet file and its associated PNG.
-   * The PNG path is derived from the tpsheet path.
    */
   async load(tpsheetPath: string): Promise<void> {
     const resp = await fetch(tpsheetPath);
@@ -82,6 +74,13 @@ export class SpriteAnimation {
       h: s.region.h,
     }));
 
+    // Calculate fixed dimensions from the largest frame
+    this._fixedW = Math.max(...this.frames.map(f => f.w));
+    this._fixedH = Math.max(...this.frames.map(f => f.h));
+
+    // Set canvas size
+    this._updateCanvasSize();
+
     // Load image
     this.image = new Image();
     this.image.crossOrigin = 'anonymous';
@@ -96,8 +95,29 @@ export class SpriteAnimation {
   }
 
   /**
+   * Set per-character scale multiplier.
+   */
+  setScale(scale: number): void {
+    this._scale = scale;
+    this._updateCanvasSize();
+    if (this.frames.length > 0) {
+      this.drawFrame(this._currentFrame);
+    }
+  }
+
+  getScale(): number {
+    return this._scale;
+  }
+
+  private _updateCanvasSize(): void {
+    this.canvas.width = Math.round(this._fixedW * this._scale);
+    this.canvas.height = Math.round(this._fixedH * this._scale);
+    this.canvas.style.width = `${this.canvas.width}px`;
+    this.canvas.style.height = `${this.canvas.height}px`;
+  }
+
+  /**
    * Set animation speed based on BPM.
-   * bpm = music BPM, beats = how many beats one animation cycle covers.
    */
   setBpm(bpm: number, beats: number = 2): void {
     const frameCount = this.frames.length || 1;
@@ -142,20 +162,14 @@ export class SpriteAnimation {
     cancelAnimationFrame(this._rafId);
   }
 
-  /**
-   * Go to a specific frame and draw it.
-   */
   goToFrame(index: number): void {
     this._currentFrame = index % this.frames.length;
     this.drawFrame(this._currentFrame);
   }
 
-  /**
-   * Sync animation to a music time position.
-   */
   syncToTime(musicTime: number, bpm: number, beats: number = 2): void {
     const frameCount = this.frames.length;
-    const cycleDuration = (beats * 120) / bpm; // seconds per animation cycle
+    const cycleDuration = (beats * 120) / bpm;
     const timeInCycle = musicTime % cycleDuration;
     const fps = (bpm * frameCount) / (beats * 120);
     const frame = Math.floor(timeInCycle * fps) % frameCount;
@@ -164,25 +178,30 @@ export class SpriteAnimation {
   }
 
   /**
-   * Draw a specific frame onto the canvas with pivot at bottom-center.
+   * Draw frame with fixed dimensions and pivot at bottom-center.
+   * All frames use the same _fixedW/_fixedH as the destination size,
+   * preserving consistent proportions across frames.
    */
   private drawFrame(index: number): void {
     if (!this.image || this.frames.length === 0) return;
 
     const frame = this.frames[index];
-    this.ctx.clearRect(0, 0, this._displayW, this._displayH);
+    const cw = this.canvas.width;
+    const ch = this.canvas.height;
+    this.ctx.clearRect(0, 0, cw, ch);
 
-    // Scale frame to fit display width, preserve aspect ratio
-    const scale = this._displayW / frame.w;
-    const dw = frame.w * scale;
-    const dh = frame.h * scale;
-    const dx = 0;
-    const dy = this._displayH - dh; // pivot at bottom
+    // Fixed destination size = fixed dimensions * scale
+    const dw = this._fixedW * this._scale;
+    const dh = this._fixedH * this._scale;
+
+    // Center horizontally, anchor at bottom
+    const dx = (cw - dw) / 2;
+    const dy = ch - dh;
 
     this.ctx.drawImage(
       this.image,
-      frame.x, frame.y, frame.w, frame.h,
-      dx, dy, dw, dh
+      frame.x, frame.y, frame.w, frame.h,  // source (variable size)
+      dx, dy, dw, dh                         // dest (fixed size)
     );
   }
 
@@ -204,24 +223,4 @@ export class SpriteAnimation {
     this.image = null;
     this.frames = [];
   }
-}
-
-/**
- * Cache for loaded sprite animations to avoid re-fetching.
- */
-const spriteCache: Map<string, SpriteAnimation> = new Map();
-
-export async function getSpriteAnimation(
-  tpsheetPath: string,
-  displaySize: number = 70
-): Promise<SpriteAnimation> {
-  const key = `${tpsheetPath}:${displaySize}`;
-  if (spriteCache.has(key)) {
-    return spriteCache.get(key)!;
-  }
-
-  const anim = new SpriteAnimation(displaySize, displaySize);
-  await anim.load(tpsheetPath);
-  spriteCache.set(key, anim);
-  return anim;
 }
