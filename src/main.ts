@@ -672,32 +672,18 @@ function toggleMute(inst: InstrumentInstance): void {
 
 function applyPositionEffects(inst: InstrumentInstance): void {
   const pos = inst.normalizedPosition;
-  const stageArea = document.querySelector('.stage-area') as HTMLElement;
-  if (!stageArea) return;
 
-  // Reference point: center-bottom of stage
-  const refX = 0.5;
-  const refY = 1.0;
-
-  // Distance from center-bottom (0 = at reference, 1 = farthest corner)
-  const dx = pos.x - refX;
-  const dy = pos.y - refY;
-  // Max possible distance (top-left or top-right corner from center-bottom)
-  const maxDist = Math.sqrt(refX * refX + 1.0);
-  const dist = Math.sqrt(dx * dx + dy * dy);
-  const normalizedDist = clamp(dist / maxDist, 0, 1);
-
-  // Volume: closer to center-bottom = louder, further = quieter
+  // Volume: bottom (pos.y=1) = louder, top (pos.y=0) = quieter
   const minDb = inst.config.minVolumeDb; // e.g. -20
   const maxDb = inst.config.maxVolumeDb; // e.g. 0
-  const volumeDb = remap(normalizedDist, 0, 1, maxDb, minDb);
+  const volumeDb = remap(pos.y, 0, 1, minDb, maxDb);
   inst.player.setVolume(inst.muted ? -80 : volumeDb);
 
   // Pan: left side = -1, center = 0, right side = +1
   const pan = remap(pos.x, 0, 1, -1, 1);
   inst.player.setPan(inst.muted ? 0 : pan);
 
-  // Scale: bottom of zone = 2x, top of zone (middle) = 1x
+  // Scale: bottom of zone (pos.y=1) = 2x, top of zone (pos.y=0) = 1x
   const scale = remap(pos.y, 0, 1, 1.0, 2.0);
 
   if (inst.stageElement) {
