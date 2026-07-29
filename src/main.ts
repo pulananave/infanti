@@ -476,21 +476,21 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
     y: 1 - (localY - minY) / (maxY - minY),
   };
 
-  // Create stage representation (pivot at bottom-center)
+  // Create stage representation (pivot at bottom, z-index by Y)
   const stageEl = el('div', {
     style: `
-      position: absolute; width: 70px; height: 140px;
+      position: absolute; width: 70px;
       display: flex; align-items: flex-end; justify-content: center;
-      cursor: grab; z-index: 10;
+      cursor: grab; z-index: ${Math.round(localY)};
       left: ${localX}px; top: ${localY}px;
-      margin-left: -35px; margin-top: -140px;
+      margin-left: -35px; margin-top: -70px;
     `,
     'data-instrument-id': inst.id,
   });
 
   // Use sprite animation if available, otherwise static icon
   if (inst.config.sprite) {
-    const anim = new SpriteAnimation(70, 70);
+    const anim = new SpriteAnimation(70, 200);
     anim.load(inst.config.sprite).then(() => {
       anim.setFps(12); // Animations were made at 12fps
       anim.play();
@@ -515,30 +515,17 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
     stageEl.appendChild(img);
   }
 
-  // Mute button (visible, click to toggle)
-  const muteBtn = el('div', {
-    'data-mute-btn': 'true',
-    style: `
-    position: absolute; top: -8px; right: -8px; width: 24px; height: 24px;
-    border-radius: 50%; background: #666; color: white;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 12px; cursor: pointer; z-index: 20;
-    opacity: 0.6; transition: opacity 0.2s;
-  ` }, '🔊');
-  muteBtn.addEventListener('pointerdown', (e) => {
-    e.stopPropagation(); // prevent drag
-    e.preventDefault();
-    toggleMute(inst);
-    muteBtn.textContent = inst.muted ? '🔇' : '🔊';
-    muteBtn.style.background = inst.muted ? '#ff4444' : '#666';
-    muteBtn.style.opacity = '1';
-  });
-  stageEl.appendChild(muteBtn);
-
-  // Direct drag handler on the stage element
+  // Double-click to mute, single click to drag
+  let lastClickTime = 0;
   stageEl.addEventListener('pointerdown', (e) => {
-    // Ignore if clicking mute button
-    if ((e.target as HTMLElement).closest('[data-mute-btn]')) return;
+    const now = Date.now();
+    if (now - lastClickTime < 350) {
+      toggleMute(inst);
+      stageEl.style.opacity = inst.muted ? '0.5' : '1';
+      lastClickTime = 0;
+      return;
+    }
+    lastClickTime = now;
     e.preventDefault();
     e.stopPropagation();
 
@@ -554,6 +541,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
       const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
       stageEl.style.left = `${x}px`;
       stageEl.style.top = `${y}px`;
+      stageEl.style.zIndex = `${Math.round(y)}`;
       inst.stageX = x;
       inst.stageY = y;
       inst.normalizedPosition = { x: x / r.width, y: 1 - (y - minY) / (maxY - minY) };
@@ -571,6 +559,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
       const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
       inst.stageX = x;
       inst.stageY = y;
+      stageEl.style.zIndex = `${Math.round(y)}`;
       inst.normalizedPosition = { x: x / r.width, y: 1 - (y - minY) / (maxY - minY) };
       applyPositionEffects(inst);
       eventBus.emit(Events.INSTRUMENT_MOVED, inst);
