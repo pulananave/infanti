@@ -1,0 +1,430 @@
+{
+  "id": "pintinho",
+  "name": "Pintinho Amarelinho",
+  "bpm": 148,
+  "bars": 16,
+  "loops": 2,
+  "cover": "assets/images/menu/main_menu/BOTAO_PINTINHO_AMARELINHO.svg",
+  "characters": [
+    {
+      "id": "boogar",
+      "icon": "assets/images/characters/Boogar/Icon/ICONE_BOOGAR.svg",
+      "iconActive": "assets/images/characters/Boogar/Icon/ICONE_BOOGAR_ATIVO.svg",
+      "boxDirection": "right",
+      "instruments": [
+        {
+          "type": "kaio---cantor",
+          "name": "Kaio - Cantor",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-voz-kaio.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "reco-reco",
+          "name": "Reco-Reco",
+          "icon": "assets/images/instrument_icons/RECORECO.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-latin-reco-reco.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "sanfona",
+          "name": "Sanfona",
+          "icon": "assets/images/instrument_icons/SANFONA.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-melo-sanfona.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "synth-bass",
+          "name": "Synth BASS",
+          "icon": "assets/images/instrument_icons/SYNTH_BASS.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-melo-synth-bass.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "ceval",
+      "icon": "assets/images/characters/Ceval/Icon/ICONE_CEVAL.svg",
+      "iconActive": "assets/images/characters/Ceval/Icon/ICONE_CEVAL_ATIVO.svg",
+      "boxDirection": "middle",
+      "instruments": [
+        {
+          "type": "funky-break",
+          "name": "Funky Break",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-edm-funky-break.ogg",
+          "bars": 8,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "bateria-rock",
+          "name": "Bateria Rock",
+          "icon": "assets/images/instrument_icons/BATERIA_ELETRONICA2.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-rock-bateria.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "bateria-latin",
+          "name": "Bateria Latin",
+          "icon": "assets/images/instrument_icons/BATERIA_LATIN.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-latin-bateria.ogg",
+          "bars": 4,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "dan",
+      "icon": "assets/images/characters/Dan/Icon/ICONE_DAN.svg",
+      "iconActive": "assets/images/characters/Dan/Icon/ICONE_DAN_ATIVO.svg",
+      "boxDirection": "left",
+      "instruments": [
+        {
+          "type": "bongo",
+          "name": "Bongo",
+          "icon": "assets/images/instrument_icons/BONGO.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-latin-bongo.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "bateria-pop",
+          "name": "Bateria Pop",
+          "icon": "assets/images/instrument_icons/BATERIA_POP.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-pop-bateria.ogg",
+          "bars": 4,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "esper",
+      "icon": "assets/images/characters/Esper/Icon/ICONE_MONSTRO04.svg",
+      "iconActive": "assets/images/characters/Esper/Icon/ICONE_MONSTRO04_ATIVO.svg",
+      "boxDirection": "right",
+      "instruments": [
+        {
+          "type": "sarah---cantora",
+          "name": "Sarah - Cantora",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho voz sarah.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "house-loop",
+          "name": "House Loop",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-edm-house-loop.ogg",
+          "bars": 2,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "tecnho-loop",
+          "name": "Tecnho Loop",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-edm-techno-loop.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "rhodes",
+          "name": "Rhodes",
+          "icon": "assets/images/instrument_icons/RHODES.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-pop-rhodes.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "trompete",
+          "name": "Trompete",
+          "icon": "assets/images/instrument_icons/TROMPETE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-melo-trompete.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "gobu",
+      "icon": "assets/images/characters/Gobu/Icon/ICONE_GOBU.svg",
+      "iconActive": "assets/images/characters/Gobu/Icon/ICONE_GOBU_ATIVO.svg",
+      "boxDirection": "middle",
+      "instruments": [
+        {
+          "type": "tuba",
+          "name": "Tuba",
+          "icon": "assets/images/instrument_icons/TUBA.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-marcial-tuba.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "baixo-rock",
+          "name": "Baixo Rock",
+          "icon": "assets/images/instrument_icons/BAIXO_ROCK.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-rock-baixo.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "electro/acid",
+          "name": "Electro/Acid",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-edm-acid-loop.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "baixo-rock",
+          "name": "Baixo Rock",
+          "icon": "assets/images/instrument_icons/BAIXO_ROCK.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-pop-baixo.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "grompy",
+      "icon": "assets/images/characters/Grompy/Icon/ICONE_GROMPY.svg",
+      "iconActive": "assets/images/characters/Grompy/Icon/ICONE_GROMPY_ATIVO.svg",
+      "boxDirection": "left",
+      "instruments": [
+        {
+          "type": "trombone",
+          "name": "Trombone",
+          "icon": "assets/images/instrument_icons/TROMBONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-marcial-trombone.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "guitarra-rock",
+          "name": "Guitarra Rock",
+          "icon": "assets/images/instrument_icons/GUITARRA_ROCK.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-rock-gtr-melodia.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "ohle",
+      "icon": "assets/images/characters/Ohle/Icon/ICONE_OHLE.svg",
+      "iconActive": "assets/images/characters/Ohle/Icon/ICONE_OHLE_ATIVO.svg",
+      "boxDirection": "right",
+      "instruments": [
+        {
+          "type": "pedro---cantor",
+          "name": "Pedro - Cantor",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho voz pedro.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "violino",
+          "name": "Violino",
+          "icon": "assets/images/instrument_icons/VIOLINO.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-melo-violino.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "guitarra-rock",
+          "name": "Guitarra Rock",
+          "icon": "assets/images/instrument_icons/GUITARRA_ROCK.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-rock-gtr-melodia.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "picolo",
+          "name": "Picolo",
+          "icon": "assets/images/instrument_icons/PICOLO.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-marcial-picolo.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "picolo-2",
+          "name": "Picolo 2",
+          "icon": "assets/images/instrument_icons/PICOLO2.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-melo-picolo.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "synth-arp",
+          "name": "Synth Arp",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-edm-synth-arp.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "rafog",
+      "icon": "assets/images/characters/Rafog/Icon/ICONE_RAFOG.svg",
+      "iconActive": "assets/images/characters/Rafog/Icon/ICONE_RAFOG_ATIVO.svg",
+      "boxDirection": "middle",
+      "instruments": [
+        {
+          "type": "milkyman-clock",
+          "name": "Milkyman Clock",
+          "icon": "assets/images/instrument_icons/RELOGIO.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-edm-milkyman-clock.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "conga",
+          "name": "Conga",
+          "icon": "assets/images/instrument_icons/CONGA.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-latin-conga.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "violao",
+          "name": "Violão",
+          "icon": "assets/images/instrument_icons/VIOLAO.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-latin-violao.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "baixo-synth",
+          "name": "Baixo Synth",
+          "icon": "assets/images/instrument_icons/SYNTH_BASS.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-edm-synth-bass.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "teewong",
+      "icon": "assets/images/characters/Teewong/Icon/ICONE_TEEWONG.svg",
+      "iconActive": "assets/images/characters/Teewong/Icon/ICONE-TEEWONG-ATIVO.svg",
+      "boxDirection": "left",
+      "instruments": [
+        {
+          "type": "marimba",
+          "name": "Marimba",
+          "icon": "assets/images/instrument_icons/MARIMBA.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-melo-marimba.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "shaker",
+          "name": "Shaker",
+          "icon": "assets/images/instrument_icons/SHAKER.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-latin-shaker.ogg",
+          "bars": 4,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "rodrigo-loli---cantor",
+          "name": "Rodrigo Loli - Cantor",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho voz loli.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    },
+    {
+      "id": "zoem",
+      "icon": "assets/images/characters/Zoem/Icon/ICONE_ZOEM.svg",
+      "iconActive": "assets/images/characters/Zoem/Icon/ICONE_ZOEM_ATIVO.svg",
+      "boxDirection": "right",
+      "instruments": [
+        {
+          "type": "vitor---cantor",
+          "name": "Vitor - Cantor",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/pintinho/pintinho-voz-vitor.ogg",
+          "bars": 16,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        }
+      ]
+    }
+  ]
+}

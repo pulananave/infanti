@@ -1,10 +1,10 @@
 {
-  "id": "dona-aranha",
-  "name": "Dona Aranha",
-  "bpm": 114,
-  "bars": 16,
+  "id": "canoa",
+  "name": "A Canoa Virou",
+  "bpm": 118,
+  "bars": 20,
   "loops": 2,
-  "cover": "assets/images/menu/main_menu/BOTAO_DONA_ARANHA.svg",
+  "cover": "assets/images/menu/main_menu/BOTAO_CANOA_VIROU.svg",
   "characters": [
     {
       "id": "boogar",
@@ -16,8 +16,8 @@
           "type": "pratos",
           "name": "Pratos",
           "icon": "assets/images/instrument_icons/PRATOS.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-marcial-pratos.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-marcial-pratos.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -26,18 +26,8 @@
           "type": "trombone",
           "name": "Trombone",
           "icon": "assets/images/instrument_icons/TROMBONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-marcial-trombone.ogg",
-          "bars": 8,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "kaio---cantor",
-          "name": "Kaio - Cantor",
-          "icon": "assets/images/instrument_icons/MICROFONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-voz-kaio.ogg",
-          "bars": 16,
+          "audio": "assets/sounds/music_packs/canoa/canoa-marcial-trombone.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -46,8 +36,8 @@
           "type": "sanfona",
           "name": "Sanfona",
           "icon": "assets/images/instrument_icons/SANFONA.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-melo-sanfona.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-melo-sanfona.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -56,8 +46,18 @@
           "type": "synth-bass",
           "name": "Synth BASS",
           "icon": "assets/images/instrument_icons/SYNTH_BASS.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-melo-synth-bass.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-melo-synth-bass.ogg",
+          "bars": 20,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "kaio---cantor",
+          "name": "Kaio - Cantor",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-voz-kaio.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -71,11 +71,31 @@
       "boxDirection": "middle",
       "instruments": [
         {
+          "type": "dub-loop",
+          "name": "Dub Loop",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-edm-dub-loop.ogg",
+          "bars": 20,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "clave",
+          "name": "Clave",
+          "icon": "assets/images/instrument_icons/RECORECO.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-marcial-clave.ogg",
+          "bars": 20,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
           "type": "bateria-pop",
           "name": "Bateria Pop",
           "icon": "assets/images/instrument_icons/BATERIA_POP.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-pop-bateria.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-pop-bateria.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -84,18 +104,8 @@
           "type": "bateria-rock",
           "name": "Bateria Rock",
           "icon": "assets/images/instrument_icons/BATERIA_ELETRONICA2.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-rock-bateria.ogg",
-          "bars": 16,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "electro/acid",
-          "name": "Electro/Acid",
-          "icon": "assets/images/instrument_icons/MICROFONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-edm-acid-loop.ogg",
-          "bars": 1,
+          "audio": "assets/sounds/music_packs/canoa/canoa-rock-bateria.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -109,21 +119,21 @@
       "boxDirection": "left",
       "instruments": [
         {
-          "type": "bateria",
-          "name": "Bateria",
-          "icon": "assets/images/instrument_icons/BATERIA.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-latin-bateria.ogg",
-          "bars": 4,
+          "type": "violao",
+          "name": "Violão",
+          "icon": "assets/images/instrument_icons/VIOLAO.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-latin-violao.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
         },
         {
-          "type": "violao",
-          "name": "Violão",
-          "icon": "assets/images/instrument_icons/VIOLAO.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-latin-violao.ogg",
-          "bars": 8,
+          "type": "perc-loop",
+          "name": "Perc Loop",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-latin-perc-loop.ogg",
+          "bars": 4,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -132,18 +142,8 @@
           "type": "caixa",
           "name": "Caixa",
           "icon": "assets/images/instrument_icons/CAIXA.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-marcial-caixa.ogg",
-          "bars": 8,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "baixo",
-          "name": "Baixo",
-          "icon": "assets/images/instrument_icons/BAIXO_ELETRICO.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-pop-baixo.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-marcial-caixa.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -160,8 +160,8 @@
           "type": "agogo",
           "name": "Agogo",
           "icon": "assets/images/instrument_icons/AGOGO.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-latin-agogo.ogg",
-          "bars": 2,
+          "audio": "assets/sounds/music_packs/canoa/canoa-latin-agogo.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -170,8 +170,18 @@
           "type": "trompete",
           "name": "Trompete",
           "icon": "assets/images/instrument_icons/TROMPETE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-marcial-trompete.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-marcial-trompete.ogg",
+          "bars": 20,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "rhodes",
+          "name": "Rhodes",
+          "icon": "assets/images/instrument_icons/RHODES.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-pop-rhodes.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -180,18 +190,8 @@
           "type": "sarah---cantora",
           "name": "Sarah - Cantora",
           "icon": "assets/images/instrument_icons/MICROFONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha voz sarah.ogg",
+          "audio": "assets/sounds/music_packs/canoa/canoa voz sarah.ogg",
           "bars": 20,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "house-loop",
-          "name": "House Loop",
-          "icon": "assets/images/instrument_icons/MICROFONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-edm-house-loop.ogg",
-          "bars": 2,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -205,21 +205,11 @@
       "boxDirection": "middle",
       "instruments": [
         {
-          "type": "tuba",
-          "name": "Tuba",
-          "icon": "assets/images/instrument_icons/TUBA.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-marcial-tuba.ogg",
-          "bars": 8,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
           "type": "baixo-synth",
           "name": "Baixo Synth",
           "icon": "assets/images/instrument_icons/SYNTH_BASS.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-edm-bass-synth.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-edm-bass-synth.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -228,8 +218,18 @@
           "type": "baixo-rock",
           "name": "Baixo Rock",
           "icon": "assets/images/instrument_icons/BAIXO_ROCK.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-rock-baixo.ogg",
-          "bars": 16,
+          "audio": "assets/sounds/music_packs/canoa/canoa-pop-baixo.ogg",
+          "bars": 20,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "baixo-rock",
+          "name": "Baixo Rock",
+          "icon": "assets/images/instrument_icons/BAIXO_ROCK.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-rock-baixo.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -246,18 +246,8 @@
           "type": "guitarra-base",
           "name": "Guitarra Base",
           "icon": "assets/images/instrument_icons/GUITARRA_BASE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-pop-gtr-base.ogg",
-          "bars": 8,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "guitarra-rock",
-          "name": "Guitarra Rock",
-          "icon": "assets/images/instrument_icons/GUITARRA_ROCK.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-rock-gtr-melodia.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-rock-gtr-base.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -271,31 +261,31 @@
       "boxDirection": "right",
       "instruments": [
         {
-          "type": "guitarra-frase",
-          "name": "Guitarra Frase",
-          "icon": "assets/images/instrument_icons/GUITARRA_FRASE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-pop-gtr-frase.ogg",
-          "bars": 8,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "guitarra-rock",
-          "name": "Guitarra Rock",
-          "icon": "assets/images/instrument_icons/GUITARRA_ROCK.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-rock-gtr-melodia.ogg",
-          "bars": 16,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
           "type": "picolo",
           "name": "Picolo",
           "icon": "assets/images/instrument_icons/PICOLO.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-marcial-picolo.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-marcial-picolo.ogg",
+          "bars": 20,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "tuba",
+          "name": "Tuba",
+          "icon": "assets/images/instrument_icons/TUBA.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-marcial-tuba.ogg",
+          "bars": 20,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "violino",
+          "name": "Violino",
+          "icon": "assets/images/instrument_icons/VIOLINO.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-melo-violino.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -304,8 +294,18 @@
           "type": "picolo-2",
           "name": "Picolo 2",
           "icon": "assets/images/instrument_icons/PICOLO2.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-melo-picolo.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-melo-picolo.ogg",
+          "bars": 20,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "guitarra-rock",
+          "name": "Guitarra Rock",
+          "icon": "assets/images/instrument_icons/GUITARRA_ROCK.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-rock-gtr-melodia.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -314,18 +314,8 @@
           "type": "pedro---cantor",
           "name": "Pedro - Cantor",
           "icon": "assets/images/instrument_icons/MICROFONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha voz pedro.ogg",
+          "audio": "assets/sounds/music_packs/canoa/canoa voz pedro.ogg",
           "bars": 20,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "dub-loop",
-          "name": "Dub Loop",
-          "icon": "assets/images/instrument_icons/MICROFONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-edm-dub-loop.ogg",
-          "bars": 2,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -342,28 +332,18 @@
           "type": "milkyman-clock",
           "name": "Milkyman Clock",
           "icon": "assets/images/instrument_icons/RELOGIO.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-edm-milkyman-clock.ogg",
-          "bars": 2,
+          "audio": "assets/sounds/music_packs/canoa/canoa-edm-milkyman-clock.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
         },
         {
-          "type": "baixo-acustico",
-          "name": "Baixo Acustico",
-          "icon": "assets/images/instrument_icons/BAIXO-ACUSTICO.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-latin-baixo.ogg",
-          "bars": 8,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "conga",
-          "name": "Conga",
-          "icon": "assets/images/instrument_icons/CONGA.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-latin-conga.ogg",
-          "bars": 2,
+          "type": "synth-arp",
+          "name": "Synth Arp",
+          "icon": "assets/images/instrument_icons/MICROFONE.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-edm-synth-arp.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -372,18 +352,8 @@
           "type": "bombo",
           "name": "Bombo",
           "icon": "assets/images/instrument_icons/BOMBO.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-marcial-bombo.ogg",
-          "bars": 8,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "violino",
-          "name": "Violino",
-          "icon": "assets/images/instrument_icons/VIOLINO.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-melo-violino.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-marcial-bombo.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -397,31 +367,21 @@
       "boxDirection": "left",
       "instruments": [
         {
+          "type": "shaker",
+          "name": "Shaker",
+          "icon": "assets/images/instrument_icons/SHAKER.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-latin-shaker.ogg",
+          "bars": 4,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
           "type": "marimba",
           "name": "Marimba",
           "icon": "assets/images/instrument_icons/MARIMBA.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-latin-marimba.ogg",
-          "bars": 8,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "marimba-2",
-          "name": "Marimba 2",
-          "icon": "assets/images/instrument_icons/MARIMBA_2.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-melo-marimba-2.ogg",
-          "bars": 8,
-          "minVolumeDb": -20,
-          "maxVolumeDb": 0,
-          "useLimit": 0
-        },
-        {
-          "type": "piano",
-          "name": "Piano",
-          "icon": "assets/images/instrument_icons/GUITARRA_BASE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-pop-piano.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-melo-marimba.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -430,8 +390,18 @@
           "type": "rhodes",
           "name": "Rhodes",
           "icon": "assets/images/instrument_icons/RHODES.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-pop-rhodes.ogg",
-          "bars": 8,
+          "audio": "assets/sounds/music_packs/canoa/canoa-pop-rhodes.ogg",
+          "bars": 20,
+          "minVolumeDb": -20,
+          "maxVolumeDb": 0,
+          "useLimit": 0
+        },
+        {
+          "type": "orgao",
+          "name": "Orgão",
+          "icon": "assets/images/instrument_icons/ORGAO.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-pop-orgao.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -440,7 +410,7 @@
           "type": "rodrigo-loli---cantor",
           "name": "Rodrigo Loli - Cantor",
           "icon": "assets/images/instrument_icons/MICROFONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha voz loli.ogg",
+          "audio": "assets/sounds/music_packs/canoa/canoa voz loli.ogg",
           "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
@@ -455,11 +425,11 @@
       "boxDirection": "right",
       "instruments": [
         {
-          "type": "perc-loop",
-          "name": "Perc Loop",
-          "icon": "assets/images/instrument_icons/MICROFONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-latin-perc-loop.ogg",
-          "bars": 4,
+          "type": "pandeirola",
+          "name": "Pandeirola",
+          "icon": "assets/images/instrument_icons/PANDEIROLA.svg",
+          "audio": "assets/sounds/music_packs/canoa/canoa-latin-pandeirola.ogg",
+          "bars": 2,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
@@ -468,8 +438,8 @@
           "type": "vitor---cantor",
           "name": "Vitor - Cantor",
           "icon": "assets/images/instrument_icons/MICROFONE.svg",
-          "audio": "assets/sounds/music_packs/dona-aranha/aranha-voz-vitor.ogg",
-          "bars": 16,
+          "audio": "assets/sounds/music_packs/canoa/canoa-voz-vitor.ogg",
+          "bars": 20,
           "minVolumeDb": -20,
           "maxVolumeDb": 0,
           "useLimit": 0
