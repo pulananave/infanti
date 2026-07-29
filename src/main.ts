@@ -887,7 +887,6 @@ function setupPointerEvents(stageArea: HTMLElement): void {
 
     e.preventDefault();
     e.stopPropagation();
-    (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
 
     const rect = stageArea.getBoundingClientRect();
     stageDrag = {
