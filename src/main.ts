@@ -446,7 +446,9 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   stageEl.appendChild(img);
 
   // Mute button (visible, click to toggle)
-  const muteBtn = el('div', { style: `
+  const muteBtn = el('div', {
+    'data-mute-btn': 'true',
+    style: `
     position: absolute; top: -8px; right: -8px; width: 24px; height: 24px;
     border-radius: 50%; background: #666; color: white;
     display: flex; align-items: center; justify-content: center;
@@ -789,29 +791,13 @@ function getElapsedTime(): number {
 // ============================================================
 
 function setupPointerEvents(stageArea: HTMLElement): void {
+  // Drag from shelf (floating copy follows pointer)
   document.addEventListener('pointermove', (e) => {
     if (!dragSystem.hasDrag(e.pointerId)) return;
     e.preventDefault();
 
-    const drag = dragSystem.getDrag(e.pointerId);
-
-    // If dragging an instrument already on stage, move its DOM element
-    if (drag && (drag.node as any)._onStageDrag) {
-      const inst = drag.node as unknown as InstrumentInstance;
-      const stageEl = inst.stageElement;
-      const area = (drag.node as any)._stageArea as HTMLElement;
-      if (stageEl && area) {
-        const rect = area.getBoundingClientRect();
-        const localX = clamp(e.clientX - rect.left, 0, rect.width);
-        const localY = clamp(e.clientY - rect.top, 0, rect.height);
-        stageEl.style.left = `${localX}px`;
-        stageEl.style.top = `${localY}px`;
-      }
-      return;
-    }
-
-    // Normal drag (from shelf) — move the floating copy
     dragSystem.updateDrag(e.pointerId, e.clientX, e.clientY);
+    const drag = dragSystem.getDrag(e.pointerId);
     if (drag && (drag.node as any)._dragCopy) {
       const copy = (drag.node as any)._dragCopy as HTMLElement;
       copy.style.left = `${e.clientX - 30}px`;
@@ -819,35 +805,12 @@ function setupPointerEvents(stageArea: HTMLElement): void {
     }
   });
 
+  // Drop from shelf onto stage
   document.addEventListener('pointerup', (e) => {
     if (!dragSystem.hasDrag(e.pointerId)) return;
 
-    const drag = dragSystem.getDrag(e.pointerId);
+    const drag = dragSystem.endDrag(e.pointerId);
     if (!drag) return;
-
-    // If was dragging on stage — update position
-    if ((drag.node as any)._onStageDrag) {
-      const inst = drag.node as unknown as InstrumentInstance;
-      const area = (drag.node as any)._stageArea as HTMLElement;
-      if (area) {
-        const rect = area.getBoundingClientRect();
-        const localX = clamp(e.clientX - rect.left, 0, rect.width);
-        const localY = clamp(e.clientY - rect.top, 0, rect.height);
-        inst.stageX = localX;
-        inst.stageY = localY;
-        inst.normalizedPosition = {
-          x: localX / rect.width,
-          y: localY / rect.height,
-        };
-        applyPositionEffects(inst);
-        eventBus.emit(Events.INSTRUMENT_MOVED, inst);
-      }
-      dragSystem.endDrag(e.pointerId);
-      return;
-    }
-
-    // Normal drag end (from shelf)
-    dragSystem.endDrag(e.pointerId);
 
     // Remove drag copy
     if ((drag.node as any)._dragCopy) {
@@ -862,7 +825,9 @@ function setupPointerEvents(stageArea: HTMLElement): void {
     }
   });
 
-  // Drag instruments already on stage
+  // Drag instruments already on stage — direct handler
+  let stageDrag: { inst: InstrumentInstance; el: HTMLElement; offsetX: number; offsetY: number } | null = null;
+
   stageArea.addEventListener('pointerdown', (e) => {
     const target = e.target as HTMLElement;
     const stageEl = target.closest('[data-instrument-id]') as HTMLElement;
@@ -870,24 +835,52 @@ function setupPointerEvents(stageArea: HTMLElement): void {
 
     const instId = stageEl.getAttribute('data-instrument-id');
     const inst = allInstruments.get(instId!);
-    if (!inst || !inst.onStage) return;
+    if (!inst || !inst.onStage || !inst.stageElement) return;
+
+    // Don't start drag if clicking mute button
+    if ((target as HTMLElement).closest('[data-mute-btn]')) return;
 
     e.preventDefault();
     e.stopPropagation();
+    (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
 
     const rect = stageArea.getBoundingClientRect();
-    const offsetX = e.clientX - (rect.left + inst.stageX);
-    const offsetY = e.clientY - (rect.top + inst.stageY);
+    stageDrag = {
+      inst,
+      el: inst.stageElement,
+      offsetX: e.clientX - rect.left - inst.stageX,
+      offsetY: e.clientY - rect.top - inst.stageY,
+    };
+  });
 
-    dragSystem.startDrag(
-      e.pointerId,
-      { ...inst, _onStageDrag: true, _stageArea: stageArea, _offsetX: offsetX, _offsetY: offsetY },
-      'stage',
-      -offsetX,
-      -offsetY,
-      e.clientX,
-      e.clientY
-    );
+  document.addEventListener('pointermove', (e) => {
+    if (!stageDrag) return;
+    e.preventDefault();
+
+    const rect = stageArea.getBoundingClientRect();
+    const localX = clamp(e.clientX - rect.left - stageDrag.offsetX, 0, rect.width);
+    const localY = clamp(e.clientY - rect.top - stageDrag.offsetY, 0, rect.height);
+    stageDrag.el.style.left = `${localX}px`;
+    stageDrag.el.style.top = `${localY}px`;
+  });
+
+  document.addEventListener('pointerup', (e) => {
+    if (!stageDrag) return;
+
+    const rect = stageArea.getBoundingClientRect();
+    const localX = clamp(e.clientX - rect.left - stageDrag.offsetX, 0, rect.width);
+    const localY = clamp(e.clientY - rect.top - stageDrag.offsetY, 0, rect.height);
+
+    stageDrag.inst.stageX = localX;
+    stageDrag.inst.stageY = localY;
+    stageDrag.inst.normalizedPosition = {
+      x: localX / rect.width,
+      y: localY / rect.height,
+    };
+    applyPositionEffects(stageDrag.inst);
+    eventBus.emit(Events.INSTRUMENT_MOVED, stageDrag.inst);
+
+    stageDrag = null;
   });
 
   // Record state on move during recording
