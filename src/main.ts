@@ -340,27 +340,38 @@ async function createCharacter(config: CharacterConfig, stageArea: HTMLElement):
 
   const instrumentBox = el('div', { style: `
     display: none; position: fixed; z-index: 9000;
-    background: rgba(255,255,255,0.95); border-radius: 16px;
-    padding: 10px; box-shadow: 0 8px 32px rgba(0,0,0,0.15);
-    flex-direction: row; gap: 8px;
+    background: #f5e642; border-radius: 14px;
+    padding: 8px 12px;
+    flex-direction: row; gap: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
   ` });
+
+  // Speech bubble tail (triangle pointing down)
+  const tail = el('div', { style: `
+    position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%);
+    width: 0; height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #f5e642;
+  ` });
+  instrumentBox.appendChild(tail);
 
   for (const inst of instruments) {
     const instBtn = el('div', { style: `
-      width: 60px; height: 60px; border-radius: 50%;
-      background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      width: 56px; height: 56px;
       cursor: grab; display: flex; align-items: center; justify-content: center;
-      flex-direction: column; gap: 2px; font-size: 9px; color: #333;
+      flex-direction: column; gap: 1px; font-size: 8px; color: #555;
+      border-radius: 6px;
     `});
 
     const img = el('img', {
       src: inst.config.icon,
-      style: 'width: 32px; height: 32px; object-fit: contain; pointer-events: none;',
+      style: 'width: 36px; height: 36px; object-fit: contain; pointer-events: none;',
       draggable: 'false',
     });
     img.onerror = () => { img.style.display = 'none'; };
     instBtn.appendChild(img);
-    instBtn.appendChild(el('span', { style: 'pointer-events: none; text-align: center; max-width: 55px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;' }, inst.config.name));
+    instBtn.appendChild(el('span', { style: 'pointer-events: none; text-align: center; max-width: 50px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600;' }, inst.config.name));
 
     // Store shelf button reference
     inst.shelfBtn = instBtn;
@@ -518,6 +529,11 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
       const y = clamp(ev.clientY - r.top - offsetY, 0, r.height);
       stageEl.style.left = `${x}px`;
       stageEl.style.top = `${y}px`;
+      // Update position effects in real-time during drag
+      inst.stageX = x;
+      inst.stageY = y;
+      inst.normalizedPosition = { x: x / r.width, y: y / r.height };
+      applyPositionEffects(inst);
     };
 
     const onUp = (ev: PointerEvent) => {
