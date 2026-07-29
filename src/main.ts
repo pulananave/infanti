@@ -11,19 +11,6 @@ import { loadPack } from '@/packs/pack-loader';
 import { remap, clamp } from '@/utils/math';
 import { SpriteAnimation } from '@/ui/sprite-animation';
 
-// Per-character animation scale multiplier
-const CHAR_SCALES: Record<string, number> = {
-  boogar: 2.0,
-  dan: 2.0,
-  grompy: 1.0,
-  ohle: 1.0,
-  zoem: 0.7,
-  rafog: 2.0,
-  gobu: 1.0,
-  esper: 1.5,
-  teewong: 1.2,
-  ceval: 1.2,
-};
 
 // ============================================================
 // APP STATE
@@ -686,10 +673,8 @@ function applyPositionEffects(inst: InstrumentInstance): void {
   const pan = remap(pos.x, 0, 1, -1, 1);
   inst.player.setPan(inst.muted ? 0 : pan);
 
-  // Scale: top = max (charScale * 2x), bottom = 1x
-  const charScale = CHAR_SCALES[inst.characterId] ?? 1.0;
-  const maxScale = charScale * 2.0;
-  const scale = remap(pos.y, 0, 1, maxScale, 1.0);
+  // Scale: top (pos.y=0) = 2x, bottom (pos.y=1) = 1x
+  const scale = remap(pos.y, 0, 1, 2.0, 1.0);
 
   if (inst.stageElement) {
     inst.stageElement.style.transform = `scale(${scale})`;
