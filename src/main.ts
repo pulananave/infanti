@@ -200,6 +200,16 @@ async function startStage(pack: PackConfig): Promise<void> {
     overflow-x: auto; position: relative; z-index: 200;
   `});
 
+  // Close all popups when mouse leaves shelf
+  shelf.addEventListener('pointerleave', () => {
+    for (const c of characters) {
+      if (c.instrumentsVisible) {
+        c.instrumentBox.style.display = 'none';
+        c.instrumentsVisible = false;
+      }
+    }
+  });
+
   for (const charConfig of pack.characters) {
     try {
       const charInstance = await createCharacter(charConfig, stageArea);
