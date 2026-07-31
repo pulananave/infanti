@@ -487,7 +487,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   if (!stageArea) return;
 
   const rect = stageArea.getBoundingClientRect();
-  const minY = rect.height * 0.60; // 45% from bottom
+  const minY = rect.height * 0.40; // 45% from bottom
   const maxY = rect.height * 0.80; // 20% from bottom
   const localX = clamp(globalX - rect.left, 0, rect.width);
   const localY = clamp(globalY - rect.top, minY, maxY);
@@ -563,7 +563,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
 
     const onMove = (ev: PointerEvent) => {
       const r = stageArea.getBoundingClientRect();
-      const minY = r.height * 0.60; // 45% from bottom
+      const minY = r.height * 0.40; // 45% from bottom
       const maxY = r.height * 0.80; // 20% from bottom
       const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
       const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
@@ -581,7 +581,7 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
       document.removeEventListener('pointerup', onUp);
 
       const r = stageArea.getBoundingClientRect();
-      const minY = r.height * 0.60;
+      const minY = r.height * 0.40;
       const maxY = r.height * 0.90;
       const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
       const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
@@ -696,8 +696,8 @@ function applyPositionEffects(inst: InstrumentInstance): void {
   const pan = remap(pos.x, 0, 1, -1, 1);
   inst.player.setPan(inst.muted ? 0 : pan);
 
-  // Scale: top (pos.y=0) = 2x, bottom (pos.y=1) = 1x
-  const scale = remap(pos.y, 0, 1, 2.0, 1.0);
+  // Scale: top (pos.y=0) = 1x, bottom (pos.y=1) = 0.5x (half of original max)
+  const scale = remap(pos.y, 0, 1, 1.0, 0.5);
 
   if (inst.stageElement) {
     // Scale from pivot point, keep pivot at drop position
