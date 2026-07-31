@@ -487,26 +487,27 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
   if (!stageArea) return;
 
   const rect = stageArea.getBoundingClientRect();
-  const minY = rect.height * 0.40; // 45% from bottom
-  const maxY = rect.height * 0.80; // 20% from bottom
-  const localX = clamp(globalX - rect.left, 0, rect.width);
-  const localY = clamp(globalY - rect.top, minY, maxY);
+  const minY = 0.40; // 40% from top
+  const maxY = 0.80; // 80% from top
+  const pctX = clamp((globalX - rect.left) / rect.width, 0, 1);
+  const pctY = clamp((globalY - rect.top) / rect.height, minY, maxY);
 
   inst.onStage = true;
-  inst.stageX = localX;
-  inst.stageY = localY;
+  inst.stageX = pctX; // 0-1 relative to background
+  inst.stageY = pctY; // 0-1 relative to background
   inst.normalizedPosition = {
-    x: localX / rect.width,
-    y: 1 - (localY - minY) / (maxY - minY),
+    x: pctX,
+    y: 1 - (pctY - minY) / (maxY - minY),
   };
 
-  // Create stage representation (feet at drop point)
+  // Create stage representation (feet at drop point, positioned by %)
+  const zIndex = Math.round(pctY * 1000);
   const stageEl = el('div', {
     style: `
       position: absolute;
       display: flex; align-items: flex-end; justify-content: center;
-      cursor: grab; z-index: ${Math.round(localY)};
-      left: ${localX}px; top: ${localY}px;
+      cursor: grab; z-index: ${zIndex};
+      left: ${pctX * 100}%; top: ${pctY * 100}%;
       transform: translateX(-50%);
     `,
     'data-instrument-id': inst.id,
@@ -558,21 +559,23 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
     e.stopPropagation();
 
     const areaRect = stageArea.getBoundingClientRect();
-    const offsetX = e.clientX - areaRect.left - inst.stageX;
-    const offsetY = e.clientY - areaRect.top - inst.stageY;
+    // Offset in pixels from pointer to the element's position
+    const offsetPxX = e.clientX - (areaRect.left + inst.stageX * areaRect.width);
+    const offsetPxY = e.clientY - (areaRect.top + inst.stageY * areaRect.height);
+
+    const minY = 0.40;
+    const maxY = 0.80;
 
     const onMove = (ev: PointerEvent) => {
       const r = stageArea.getBoundingClientRect();
-      const minY = r.height * 0.40; // 45% from bottom
-      const maxY = r.height * 0.80; // 20% from bottom
-      const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
-      const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
-      stageEl.style.left = `${x}px`;
-      stageEl.style.top = `${y}px`;
-      stageEl.style.zIndex = `${Math.round(y)}`;
-      inst.stageX = x;
-      inst.stageY = y;
-      inst.normalizedPosition = { x: x / r.width, y: 1 - (y - minY) / (maxY - minY) };
+      const pctX = clamp((ev.clientX - r.left - offsetPxX) / r.width, 0, 1);
+      const pctY = clamp((ev.clientY - r.top - offsetPxY) / r.height, minY, maxY);
+      stageEl.style.left = `${pctX * 100}%`;
+      stageEl.style.top = `${pctY * 100}%`;
+      stageEl.style.zIndex = `${Math.round(pctY * 1000)}`;
+      inst.stageX = pctX;
+      inst.stageY = pctY;
+      inst.normalizedPosition = { x: pctX, y: 1 - (pctY - minY) / (maxY - minY) };
       applyPositionEffects(inst);
     };
 
@@ -581,14 +584,14 @@ function placeOnStage(inst: InstrumentInstance, globalX: number, globalY: number
       document.removeEventListener('pointerup', onUp);
 
       const r = stageArea.getBoundingClientRect();
-      const minY = r.height * 0.40;
-      const maxY = r.height * 0.90;
-      const x = clamp(ev.clientX - r.left - offsetX, 0, r.width);
-      const y = clamp(ev.clientY - r.top - offsetY, minY, maxY);
-      inst.stageX = x;
-      inst.stageY = y;
-      stageEl.style.zIndex = `${Math.round(y)}`;
-      inst.normalizedPosition = { x: x / r.width, y: 1 - (y - minY) / (maxY - minY) };
+      const pctX = clamp((ev.clientX - r.left - offsetPxX) / r.width, 0, 1);
+      const pctY = clamp((ev.clientY - r.top - offsetPxY) / r.height, minY, maxY);
+      inst.stageX = pctX;
+      inst.stageY = pctY;
+      stageEl.style.left = `${pctX * 100}%`;
+      stageEl.style.top = `${pctY * 100}%`;
+      stageEl.style.zIndex = `${Math.round(pctY * 1000)}`;
+      inst.normalizedPosition = { x: pctX, y: 1 - (pctY - minY) / (maxY - minY) };
       applyPositionEffects(inst);
       eventBus.emit(Events.INSTRUMENT_MOVED, inst);
     };
